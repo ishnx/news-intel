@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="">
+  <title>Deep System Explainer — World Intelligence</title>
+  <style>
+    :root {
+      --bg: #070809;
+      --surface: #0f1117;
+      --surface2: #161b26;
+      --surface3: #1e2433;
+      --border: rgba(255,255,255,0.07);
+      --border2: rgba(255,255,255,0.12);
+      --text: #e2e8f0;
+      --text2: #94a3b8;
+      --text3: #475569;
+      --text4: #2d3748;
+      --accent: #6366f1;
+      --accent2: #818cf8;
+      --green: #4ade80;
+      --yellow: #fbbf24;
+      --orange: #fb923c;
+      --red: #f87171;
+      --cyan: #22d3ee;
+      --pink: #f472b6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+
+    /* ── NAV ── */
+    nav { position: sticky; top: 0; z-index: 200; background: rgba(7,8,9,0.92); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border); padding: 12px 28px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .nav-brand { font-size: 13px; font-weight: 700; color: var(--text2); letter-spacing: -0.2px; }
+    .nav-links { display: flex; gap: 20px; flex-wrap: wrap; }
+    .nav-links a { font-size: 12px; color: var(--text3); text-decoration: none; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text2); }
+
+    /* ── HERO ── */
+    .hero { max-width: 1000px; margin: 0 auto; padding: 72px 32px 48px; }
+    .hero-label { display: inline-block; background: rgba(99,102,241,0.12); border: 1px solid rgba(99,102,241,0.25); color: var(--accent2); font-size: 11px; letter-spacing: 1.8px; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; margin-bottom: 20px; }
+    .hero h1 { font-size: clamp(28px, 4.5vw, 46px); font-weight: 800; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 16px; }
+    .hero h1 span { background: linear-gradient(120deg, var(--accent2), var(--cyan)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-sub { font-size: 16px; color: var(--text2); max-width: 620px; margin-bottom: 40px; }
+
+    /* ── STAT BAR ── */
+    .stat-bar { display: flex; gap: 0; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-bottom: 48px; flex-wrap: wrap; }
+    .stat-cell { flex: 1; min-width: 130px; padding: 16px 20px; border-right: 1px solid var(--border); }
+    .stat-cell:last-child { border-right: none; }
+    .stat-num { font-size: 22px; font-weight: 800; color: var(--text); letter-spacing: -0.5px; }
+    .stat-num .unit { font-size: 13px; font-weight: 400; color: var(--text3); margin-left: 3px; }
+    .stat-label { font-size: 11px; color: var(--text3); margin-top: 2px; letter-spacing: 0.3px; }
+
+    /* ── API KEY GATE ── */
+    #api-gate { background: var(--surface); border: 1px solid var(--border2); border-radius: 16px; padding: 32px; max-width: 560px; margin: 0 auto 48px; text-align: center; }
+    #api-gate h3 { font-size: 18px; margin-bottom: 8px; }
+    #api-gate p { font-size: 13px; color: var(--text2); margin-bottom: 20px; }
+    .gate-input-row { display: flex; gap: 8px; max-width: 400px; margin: 0 auto; }
+    .gate-input { flex: 1; background: var(--surface2); border: 1px solid var(--border2); color: var(--text); border-radius: 8px; padding: 10px 14px; font-size: 13px; }
+    .gate-input:focus { outline: none; border-color: var(--accent); }
+    .gate-btn { background: var(--accent); color: white; border: none; border-radius: 8px; padding: 10px 18px; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+    .gate-btn:hover { background: var(--accent2); }
+    .gate-note { font-size: 11px; color: var(--text3); margin-top: 10px; }
+
+    /* ── SECTION WRAPPER ── */
+    .section { max-width: 1000px; margin: 0 auto 72px; padding: 0 32px; }
+    .section-eyebrow { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+    .section h2 { font-size: 26px; font-weight: 700; margin-bottom: 10px; letter-spacing: -0.3px; }
+    .section .section-sub { font-size: 15px; color: var(--text2); margin-bottom: 28px; }
+
+    /* ── DEEP QUESTIONS GRID ── */
+    .dq-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); gap: 20px; }
+    @media (max-width: 600px) { .dq-grid { grid-template-columns: 1fr; } }
+    .dq-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; transition: border-color 0.2s; }
+    .dq-card:hover { border-color: var(--border2); }
+    .dq-card-header { padding: 18px 20px 14px; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; gap: 12px; cursor: pointer; user-select: none; }
+    .dq-icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+    .dq-title { font-size: 14px; font-weight: 700; line-height: 1.3; }
+    .dq-subtitle { font-size: 12px; color: var(--text3); margin-top: 3px; line-height: 1.4; }
+    .dq-status { margin-left: auto; font-size: 11px; flex-shrink: 0; padding: 3px 8px; border-radius: 10px; font-weight: 500; }
+    .dq-status.loading { background: rgba(251,191,36,0.12); color: var(--yellow); }
+    .dq-status.done { background: rgba(74,222,128,0.12); color: var(--green); }
+    .dq-status.idle { background: var(--surface2); color: var(--text3); }
+    .dq-body { padding: 18px 20px; min-height: 60px; font-size: 13px; color: var(--text2); line-height: 1.8; display: none; }
+    .dq-body.open { display: block; }
+    .dq-thinking { display: flex; gap: 4px; align-items: center; padding: 8px 0; }
+    .dq-thinking span { width: 5px; height: 5px; background: var(--accent); border-radius: 50%; animation: bounce 1.1s infinite; }
+    .dq-thinking span:nth-child(2) { animation-delay: 0.18s; }
+    .dq-thinking span:nth-child(3) { animation-delay: 0.36s; }
+    @keyframes bounce { 0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)} }
+    .dq-cursor { display: inline-block; width: 2px; height: 14px; background: var(--accent); animation: blink 0.9s infinite; vertical-align: text-bottom; margin-left: 1px; }
+    @keyframes blink { 0%,49%{opacity:1}50%,100%{opacity:0} }
+
+    /* ── RENDERED MARKDOWN ── */
+    .md h2 { font-size: 16px; font-weight: 700; color: var(--text); margin: 20px 0 8px; letter-spacing: -0.2px; }
+    .md h3 { font-size: 14px; font-weight: 700; color: var(--accent2); margin: 16px 0 6px; }
+    .md p { margin-bottom: 12px; }
+    .md ul, .md ol { margin: 8px 0 12px 18px; }
+    .md li { margin-bottom: 4px; }
+    .md code { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 11.5px; background: rgba(99,102,241,0.1); border: 1px solid rgba(99,102,241,0.15); color: var(--accent2); padding: 1px 5px; border-radius: 4px; }
+    .md pre { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; margin: 12px 0; overflow-x: auto; }
+    .md pre code { background: none; border: none; color: var(--text2); padding: 0; font-size: 12px; }
+    .md blockquote { border-left: 3px solid var(--accent); padding: 8px 14px; background: rgba(99,102,241,0.05); border-radius: 0 6px 6px 0; margin: 12px 0; color: var(--text2); font-size: 13px; }
+    .md strong { color: var(--text); }
+    .md .num { color: var(--yellow); font-weight: 700; font-variant-numeric: tabular-nums; }
+    .md .file { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 11px; color: var(--cyan); }
+    .md .fn { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 11px; color: var(--pink); }
+    .md hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+
+    /* ── STATIC DIAGRAM ── */
+    .chain-diagram { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 28px; margin-bottom: 24px; overflow-x: auto; }
+    .chain-diagram h3 { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 20px; letter-spacing: 0.3px; }
+    .chain-row { display: flex; align-items: stretch; gap: 0; margin-bottom: 8px; }
+    .chain-node { background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; min-width: 160px; }
+    .chain-node-step { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 3px; }
+    .chain-node-name { font-size: 13px; font-weight: 700; }
+    .chain-node-file { font-family: 'SF Mono', monospace; font-size: 10px; color: var(--cyan); margin-top: 3px; }
+    .chain-node-stat { font-size: 10px; color: var(--text3); margin-top: 4px; }
+    .chain-arrow { display: flex; align-items: center; color: var(--text4); font-size: 16px; padding: 0 8px; flex-shrink: 0; }
+    .chain-arrow-v { display: flex; justify-content: center; color: var(--text4); padding: 4px 0; margin-bottom: 8px; }
+    .chain-transform { display: flex; align-items: center; background: rgba(99,102,241,0.06); border: 1px dashed rgba(99,102,241,0.2); border-radius: 8px; padding: 8px 12px; font-size: 11px; color: var(--text3); gap: 8px; min-width: 0; flex: 1; }
+    .chain-transform-icon { font-size: 14px; flex-shrink: 0; }
+
+    /* ── DATA STRUCTURE VIEWER ── */
+    .ds-tabs { display: flex; gap: 4px; margin-bottom: 0; border-bottom: 1px solid var(--border); padding: 0 4px; }
+    .ds-tab { font-size: 12px; color: var(--text3); padding: 8px 14px; cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.15s; white-space: nowrap; }
+    .ds-tab.active { color: var(--accent2); border-bottom-color: var(--accent); }
+    .ds-tab:hover:not(.active) { color: var(--text2); }
+    .ds-content { display: none; padding: 16px; background: var(--surface2); border-radius: 0 0 12px 12px; }
+    .ds-content.active { display: block; }
+    .ds-json { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 11.5px; line-height: 1.7; color: var(--text2); white-space: pre; overflow-x: auto; }
+    .json-key { color: var(--cyan); }
+    .json-str { color: var(--green); }
+    .json-num { color: var(--yellow); }
+    .json-bool { color: var(--orange); }
+    .json-comment { color: var(--text3); font-style: italic; }
+
+    /* ── FILE DEPENDENCY ── */
+    .dep-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+    .dep-file { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+    .dep-file-name { font-family: 'SF Mono', monospace; font-size: 11px; color: var(--cyan); margin-bottom: 6px; }
+    .dep-file-desc { font-size: 12px; color: var(--text2); margin-bottom: 8px; line-height: 1.4; }
+    .dep-arrows { font-size: 11px; color: var(--text3); }
+    .dep-arrows span { color: var(--text2); }
+
+    /* ── SCORING VISUAL ── */
+    .score-formula { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 24px; margin-bottom: 20px; }
+    .formula-line { font-family: 'SF Mono', monospace; font-size: 13px; color: var(--text2); margin-bottom: 8px; line-height: 1.6; }
+    .formula-line .f-var { color: var(--accent2); }
+    .formula-line .f-op { color: var(--yellow); }
+    .formula-line .f-num { color: var(--green); }
+    .formula-line .f-comment { color: var(--text3); font-size: 11px; }
+    .weight-bars { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; }
+    .weight-row { display: flex; align-items: center; gap: 10px; }
+    .weight-label { font-size: 12px; color: var(--text2); width: 160px; flex-shrink: 0; }
+    .weight-bar-track { flex: 1; height: 6px; background: var(--surface2); border-radius: 3px; overflow: hidden; }
+    .weight-bar-fill { height: 100%; border-radius: 3px; background: var(--accent); }
+    .weight-val { font-size: 12px; color: var(--yellow); font-family: monospace; width: 36px; text-align: right; flex-shrink: 0; }
+
+    /* ── CUSTOM QUESTION ── */
+    #custom-q-box { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 28px; }
+    .cq-label { font-size: 14px; font-weight: 600; margin-bottom: 12px; }
+    .cq-suggestions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .cq-sug { font-size: 12px; background: var(--surface2); border: 1px solid var(--border); color: var(--text2); border-radius: 20px; padding: 5px 12px; cursor: pointer; transition: all 0.15s; }
+    .cq-sug:hover { border-color: var(--accent); color: var(--text); }
+    .cq-input-row { display: flex; gap: 8px; }
+    .cq-input { flex: 1; background: var(--surface2); border: 1px solid var(--border); color: var(--text); border-radius: 10px; padding: 11px 16px; font-size: 14px; font-family: inherit; }
+    .cq-input:focus { outline: none; border-color: var(--accent); }
+    .cq-send { background: var(--accent); color: white; border: none; border-radius: 10px; padding: 11px 20px; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+    .cq-send:hover { background: var(--accent2); }
+    #cq-answer { margin-top: 20px; padding: 20px; background: var(--surface2); border-radius: 10px; border: 1px solid var(--border); display: none; font-size: 13px; color: var(--text2); line-height: 1.8; }
+    #cq-answer.open { display: block; }
+
+    /* ── DIVIDER ── */
+    .divider { max-width: 1000px; margin: 0 auto 72px; padding: 0 32px; }
+    .divider hr { border: none; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-brand">🌐 World Intelligence — Deep Explainer</span>
+  <div class="nav-links">
+    <a href="#pipeline">Pipeline</a>
+    <a href="#data-chain">Data Chain</a>
+    <a href="#memory">Memory</a>
+    <a href="#scoring">Scoring</a>
+    <a href="#ask">Ask Claude</a>
+    <a href="index.html">Reports →</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-label">System Deep Dive</div>
+  <h1>Everything you want to know,<br><span>explained by the system itself</span></h1>
+  <p class="hero-sub">Every question below is answered live by Claude using a complete embedded knowledge base of this codebase — file paths, data structures, exact line counts, real numbers. No hand-written copy.</p>
+
+  <div class="stat-bar">
+    <div class="stat-cell">
+      <div class="stat-num">7 <span class="unit">scripts</span></div>
+      <div class="stat-label">in the pipeline chain</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-num">60+ <span class="unit">feeds</span></div>
+      <div class="stat-label">RSS sources ingested</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-num">100–300 <span class="unit">arts</span></div>
+      <div class="stat-label">fetched per run, 5 analyzed</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-num">20 <span class="unit">sections</span></div>
+      <div class="stat-label">per intelligence report</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-num">~150 <span class="unit">KB</span></div>
+      <div class="stat-label">per HTML report generated</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-num">$0.06–0.18</div>
+      <div class="stat-label">Claude API cost per story</div>
+    </div>
+  </div>
+</div>
+
+<!-- API KEY GATE -->
+<div class="section" id="api-gate-section">
+  <div id="api-gate" style="display:none">
+    <h3>Add your Anthropic key to generate deep explanations</h3>
+    <p>The questions below are answered live by Claude using the full system knowledge base. Your key stays in your browser.</p>
+    <div class="gate-input-row">
+      <input type="password" class="gate-input" id="gate-key-input" placeholder="sk-ant-...">
+      <button class="gate-btn" onclick="saveGateKey()">Activate</button>
+    </div>
+    <p class="gate-note">Stored in localStorage only. Never sent anywhere except Anthropic's API.</p>
+  </div>
+</div>
+
+<!-- DEEP QUESTIONS -->
+<div class="section" id="pipeline">
+  <div class="section-eyebrow">AI-Generated Deep Dives</div>
+  <h2>Every question answered with exact technical detail</h2>
+  <p class="section-sub">Click any card to generate a real-time explanation from Claude. Each answer uses the actual file paths, function names, and data structures from this codebase.</p>
+  <div class="dq-grid" id="dq-grid"></div>
+</div>
+
+<!-- DATA CHAIN DIAGRAM -->
+<div class="section" id="data-chain">
+  <div class="section-eyebrow">Data Transformation Chain</div>
+  <h2>How a URL in feeds.yaml becomes a 150KB intelligence report</h2>
+  <p class="section-sub">Every transformation step, with the exact file that does it and the data structure that comes out.</p>
+
+  <div class="chain-diagram">
+    <h3>Pipeline Input → Output at each step</h3>
+
+    <div class="chain-row">
+      <div class="chain-node" style="border-color:rgba(99,102,241,0.3)">
+        <div class="chain-node-step">Step 0 · Config</div>
+        <div class="chain-node-name">feeds.yaml</div>
+        <div class="chain-node-file">config/feeds.yaml</div>
+        <div class="chain-node-stat">60+ RSS feed URLs</div>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-transform">
+        <span class="chain-transform-icon">📡</span>
+        <span>feedparser.parse(url) — Python fetches each RSS feed over HTTP, parses XML/Atom entries</span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-node" style="border-color:rgba(34,211,238,0.3)">
+        <div class="chain-node-step">Step 1 · fetch_news.py</div>
+        <div class="chain-node-name">articles.json</div>
+        <div class="chain-node-file">staging/raw/YYYY-MM-DD/</div>
+        <div class="chain-node-stat">100–300 articles · 15 fields each</div>
+      </div>
+    </div>
+    <div class="chain-arrow-v">↓</div>
+
+    <div class="chain-row">
+      <div class="chain-node" style="border-color:rgba(251,191,36,0.3)">
+        <div class="chain-node-step">Step 1 output</div>
+        <div class="chain-node-name">articles.json</div>
+        <div class="chain-node-file">100–300 items</div>
+        <div class="chain-node-stat">intelligence_score: 0 (not yet ranked)</div>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-transform">
+        <span class="chain-transform-icon">🎯</span>
+        <span>score_article() — 5-factor scoring formula applied to every article</span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-node" style="border-color:rgba(251,191,36,0.3)">
+        <div class="chain-node-step">Step 2 · rank_news.py</div>
+        <div class="chain-node-name">top_stories.json</div>
+        <div class="chain-node-file">staging/ranked/YYYY-MM-DD/</div>
+        <div class="chain-node-stat">5 stories · sorted by score</div>
+      </div>
+    </div>
+    <div class="chain-arrow-v">↓</div>
+
+    <div class="chain-row">
+      <div class="chain-node" style="border-color:rgba(74,222,128,0.3)">
+        <div class="chain-node-step">Step 2 output</div>
+        <div class="chain-node-name">top_stories.json</div>
+        <div class="chain-node-file">5 ranked stories</div>
+        <div class="chain-node-stat">+ memory context loaded from memory/</div>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-transform">
+        <span class="chain-transform-icon">🤖</span>
+        <span>Claude API — story + ~12,000 chars of context → 4,000–6,000 tokens output</span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-node" style="border-color:rgba(74,222,128,0.3)">
+        <div class="chain-node-step">Step 3 · analyze_story.py</div>
+        <div class="chain-node-name">structured_data.json</div>
+        <div class="chain-node-file">reports/YYYY/MM/DD/slug/</div>
+        <div class="chain-node-stat">20-section JSON · ~8–15KB</div>
+      </div>
+    </div>
+    <div class="chain-arrow-v">↓</div>
+
+    <div class="chain-row">
+      <div class="chain-node" style="border-color:rgba(244,114,182,0.3)">
+        <div class="chain-node-step">Step 3 output</div>
+        <div class="chain-node-name">structured_data.json</div>
+        <div class="chain-node-file">20 structured fields</div>
+        <div class="chain-node-stat">+ REPORT_CSS + REPORT_JS embedded</div>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-transform">
+        <span class="chain-transform-icon">🎨</span>
+        <span>build_html_report() — Python f-string template assembles full HTML doc</span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-node" style="border-color:rgba(244,114,182,0.3)">
+        <div class="chain-node-step">Step 4 · generate_report.py</div>
+        <div class="chain-node-name">index.html</div>
+        <div class="chain-node-file">reports/YYYY/MM/DD/slug/</div>
+        <div class="chain-node-stat">~150KB · self-contained · with chatbot</div>
+      </div>
+    </div>
+    <div class="chain-arrow-v">↓</div>
+
+    <div class="chain-row">
+      <div class="chain-node" style="border-color:rgba(167,139,250,0.3)">
+        <div class="chain-node-step">Step 5 · update_memory.py</div>
+        <div class="chain-node-name">memory/ updated</div>
+        <div class="chain-node-file">6 memory files + world_model/</div>
+        <div class="chain-node-stat">new facts, theses, patterns, questions</div>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-transform">
+        <span class="chain-transform-icon">🗂️</span>
+        <span>build_indexes.py — scans all reports/, writes index.html + reports/index.html</span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="chain-node" style="border-color:rgba(251,113,133,0.3)">
+        <div class="chain-node-step">Step 6 · GitHub Actions</div>
+        <div class="chain-node-name">git commit + push</div>
+        <div class="chain-node-file">→ github.io deployed</div>
+        <div class="chain-node-stat">~30s GitHub Pages build time</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DATA STRUCTURES -->
+<div class="section">
+  <div class="section-eyebrow">What Each File Actually Contains</div>
+  <h2>The exact data structures passing through the pipeline</h2>
+  <p class="section-sub">Real field names, real types, real sizes. Annotated.</p>
+
+  <div class="chain-diagram" style="padding:0">
+    <div class="ds-tabs" id="ds-tabs">
+      <div class="ds-tab active" onclick="showDS('article')">articles.json</div>
+      <div class="ds-tab" onclick="showDS('ranked')">top_stories.json</div>
+      <div class="ds-tab" onclick="showDS('analysis')">structured_data.json</div>
+      <div class="ds-tab" onclick="showDS('memory')">memory_updates</div>
+    </div>
+    <div class="ds-content active" id="ds-article">
+      <div class="ds-json"><span class="json-comment">// One article out of 100–300. Output of fetch_news.py step 1.</span>
+{
+  <span class="json-key">"id"</span>: <span class="json-str">"a3f1b8c2d4e5f6a7"</span>,          <span class="json-comment">// MD5 of URL, first 16 chars</span>
+  <span class="json-key">"title"</span>: <span class="json-str">"OpenAI raises $40B at $340B valuation"</span>,
+  <span class="json-key">"url"</span>: <span class="json-str">"https://techcrunch.com/..."</span>,
+  <span class="json-key">"summary"</span>: <span class="json-str">"3000 chars max, HTML-stripped..."</span>,
+  <span class="json-key">"published_at"</span>: <span class="json-str">"2026-05-24T06:00:00+00:00"</span>,
+  <span class="json-key">"source_name"</span>: <span class="json-str">"TechCrunch"</span>,
+  <span class="json-key">"source_url"</span>: <span class="json-str">"https://techcrunch.com/feed"</span>,
+  <span class="json-key">"category"</span>: <span class="json-str">"technology"</span>,
+  <span class="json-key">"source_weight"</span>: <span class="json-num">0.85</span>,               <span class="json-comment">// trust field from feeds.yaml</span>
+  <span class="json-key">"category_weight"</span>: <span class="json-num">1.0</span>,             <span class="json-comment">// from feed group weight</span>
+  <span class="json-key">"fetched_at"</span>: <span class="json-str">"2026-05-24T06:00:45+00:00"</span>,
+  <span class="json-key">"intelligence_score"</span>: <span class="json-num">0</span>,             <span class="json-comment">// filled by rank_news.py</span>
+  <span class="json-key">"rank"</span>: <span class="json-num">0</span>                                <span class="json-comment">// filled by rank_news.py</span>
+}</div>
+    </div>
+    <div class="ds-content" id="ds-ranked">
+      <div class="ds-json"><span class="json-comment">// top_stories.json — 5 articles that will be sent to Claude.</span>
+<span class="json-comment">// Same fields as articles.json, with scores filled in.</span>
+{
+  <span class="json-key">"metadata"</span>: {
+    <span class="json-key">"ranked_at"</span>: <span class="json-str">"2026-05-24T06:01:30Z"</span>,
+    <span class="json-key">"total_articles_scored"</span>: <span class="json-num">187</span>,
+    <span class="json-key">"top_n"</span>: <span class="json-num">5</span>
+  },
+  <span class="json-key">"top_stories"</span>: [
+    {
+      <span class="json-comment">// ...all article fields, plus:</span>
+      <span class="json-key">"intelligence_score"</span>: <span class="json-num">18.7</span>,          <span class="json-comment">// final computed score</span>
+      <span class="json-key">"rank"</span>: <span class="json-num">1</span>,
+      <span class="json-key">"score_breakdown"</span>: {
+        <span class="json-key">"topic_score"</span>: <span class="json-num">3.24</span>,             <span class="json-comment">// 1.8(AI) + 1.4(china) keyword hits</span>
+        <span class="json-key">"source_multiplier"</span>: <span class="json-num">0.85</span>,
+        <span class="json-key">"entity_bonus"</span>: <span class="json-num">3.0</span>,              <span class="json-comment">// priority-1 entity match</span>
+        <span class="json-key">"keyword_bonus"</span>: <span class="json-num">2.0</span>,             <span class="json-comment">// tier-1 keyword: "breakthrough"</span>
+        <span class="json-key">"recency_multiplier"</span>: <span class="json-num">1.05</span>,
+        <span class="json-key">"novelty_multiplier"</span>: <span class="json-num">0.9</span>
+      }
+    }
+  ]
+}</div>
+    </div>
+    <div class="ds-content" id="ds-analysis">
+      <div class="ds-json"><span class="json-comment">// structured_data.json — Claude's output, ~8–15KB. The core artifact.</span>
+{
+  <span class="json-key">"metadata"</span>: { <span class="json-comment">/* title, url, source, dates, score, slug */</span> },
+  <span class="json-key">"analysis"</span>: {
+    <span class="json-key">"executive_summary"</span>: <span class="json-str">"string"</span>,
+    <span class="json-key">"why_this_matters"</span>: <span class="json-str">"string (markdown)"</span>,
+    <span class="json-key">"strategic_incentives"</span>: [{ <span class="json-key">"actor"</span>: <span class="json-str">"..."</span>, <span class="json-key">"incentive"</span>: <span class="json-str">"..."</span>, <span class="json-key">"action"</span>: <span class="json-str">"..."</span> }],
+    <span class="json-key">"key_players"</span>: [{ <span class="json-key">"name"</span>: <span class="json-str">"..."</span>, <span class="json-key">"role"</span>: <span class="json-str">"..."</span>, <span class="json-key">"position"</span>: <span class="json-str">"..."</span> }],
+    <span class="json-key">"financial_implications"</span>: <span class="json-str">"string (markdown)"</span>,
+    <span class="json-key">"geopolitical_implications"</span>: <span class="json-str">"string (markdown)"</span>,
+    <span class="json-key">"historical_analogies"</span>: [{ <span class="json-key">"period"</span>: <span class="json-str">"..."</span>, <span class="json-key">"analogy"</span>: <span class="json-str">"..."</span>, <span class="json-key">"lesson"</span>: <span class="json-str">"..."</span> }],
+    <span class="json-key">"industry_impact"</span>: <span class="json-str">"string"</span>,
+    <span class="json-key">"india_implications"</span>: <span class="json-str">"string"</span>,
+    <span class="json-key">"second_order_effects"</span>: [<span class="json-str">"effect 1"</span>, <span class="json-str">"effect 2"</span>],
+    <span class="json-key">"contrarian_perspectives"</span>: [{ <span class="json-key">"view"</span>: <span class="json-str">"..."</span>, <span class="json-key">"reasoning"</span>: <span class="json-str">"..."</span> }],
+    <span class="json-key">"future_scenarios"</span>: {
+      <span class="json-key">"bull"</span>: { <span class="json-key">"description"</span>: <span class="json-str">"..."</span>, <span class="json-key">"probability"</span>: <span class="json-str">"30%"</span> },
+      <span class="json-key">"base"</span>: { <span class="json-key">"description"</span>: <span class="json-str">"..."</span>, <span class="json-key">"probability"</span>: <span class="json-str">"50%"</span> },
+      <span class="json-key">"bear"</span>: { <span class="json-key">"description"</span>: <span class="json-str">"..."</span>, <span class="json-key">"probability"</span>: <span class="json-str">"20%"</span> }
+    },
+    <span class="json-key">"important_unknowns"</span>: [<span class="json-str">"question 1"</span>, <span class="json-str">"question 2"</span>],
+    <span class="json-key">"connection_to_world_model"</span>: <span class="json-str">"string"</span>,
+    <span class="json-key">"key_entities"</span>: [{ <span class="json-key">"name"</span>: <span class="json-str">"..."</span>, <span class="json-key">"type"</span>: <span class="json-str">"company|person|country|technology"</span> }],
+    <span class="json-key">"long_term_implications"</span>: <span class="json-str">"string"</span>,
+    <span class="json-key">"meta_patterns"</span>: [<span class="json-str">"pattern 1"</span>],
+    <span class="json-key">"followup_questions"</span>: [<span class="json-str">"question 1"</span>],
+    <span class="json-key">"intelligence_tags"</span>: [<span class="json-str">"tag"</span>],
+    <span class="json-key">"confidence_level"</span>: <span class="json-str">"high|medium|low"</span>,
+    <span class="json-key">"memory_updates"</span>: {                <span class="json-comment">// consumed by update_memory.py</span>
+      <span class="json-key">"new_insights"</span>: [<span class="json-str">"fact..."</span>],
+      <span class="json-key">"thesis_updates"</span>: [{ <span class="json-key">"thesis"</span>: <span class="json-str">"..."</span>, <span class="json-key">"action"</span>: <span class="json-str">"strengthen|weaken|new|close"</span>, <span class="json-key">"update"</span>: <span class="json-str">"..."</span> }],
+      <span class="json-key">"pattern_updates"</span>: [{ <span class="json-key">"pattern"</span>: <span class="json-str">"..."</span>, <span class="json-key">"observation"</span>: <span class="json-str">"..."</span> }],
+      <span class="json-key">"new_questions"</span>: [<span class="json-str">"?"</span>],
+      <span class="json-key">"entity_updates"</span>: [{ <span class="json-key">"entity"</span>: <span class="json-str">"..."</span>, <span class="json-key">"update"</span>: <span class="json-str">"..."</span> }]
+    }
+  }
+}</div>
+    </div>
+    <div class="ds-content" id="ds-memory">
+      <div class="ds-json"><span class="json-comment">// memory/master_memory.md — append-only log of discovered facts</span>
+<span class="json-str"># Master Memory</span>
+
+<span class="json-comment">- **2026-05-24** [tsmc-arizona-fab]: TSMC confirmed 2nm production in Arizona fab by Q3 2027.</span>
+<span class="json-comment">- **2026-05-24** [openai-microsoft]: OpenAI's new $40B raise values it above Goldman Sachs.</span>
+<span class="json-comment">- **2026-05-23** [india-semiconductor]: India approved PLI scheme expansion for chip packaging.</span>
+
+<span class="json-comment">// memory/active_theses.md — tracked beliefs with evidence log</span>
+<span class="json-str">## AI Concentrating Power in Few Hands</span>
+<span class="json-str">**Status:** Active | **Opened:** 2026-01-10</span>
+<span class="json-str">**Conviction:** High</span>
+
+<span class="json-str">### Evidence Log</span>
+<span class="json-comment">#### 2026-05-24 — STRENGTHEN [openai-40b-raise]</span>
+<span class="json-comment">OpenAI now has more capital than most sovereign wealth funds of mid-sized nations.</span>
+
+<span class="json-comment">// world_model/companies/openai.md — entity file</span>
+<span class="json-str"># OpenAI</span>
+<span class="json-str">**Type:** company</span>
+<span class="json-str">**First Tracked:** 2026-01-10</span>
+
+<span class="json-str">## Timeline of Developments</span>
+<span class="json-str">### 2026-05-24</span>
+<span class="json-comment">Raised $40B at $340B valuation, largest AI fundraise in history.</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- SCORING -->
+<div class="section" id="scoring">
+  <div class="section-eyebrow">The Scoring Algorithm</div>
+  <h2>How 187 articles become 5 stories</h2>
+  <p class="section-sub">Every article gets a numeric intelligence score. The top 5 go to Claude. Here's the exact math.</p>
+
+  <div class="score-formula">
+    <div class="formula-line"><span class="f-var">final_score</span> <span class="f-op">=</span> ( <span class="f-var">topic_score</span> <span class="f-op">×</span> <span class="f-var">source_multiplier</span> <span class="f-op">×</span> <span class="f-var">category_weight</span> <span class="f-op">+</span> <span class="f-var">entity_bonus</span> <span class="f-op">+</span> <span class="f-var">keyword_bonus</span> ) <span class="f-op">×</span> <span class="f-var">recency</span> <span class="f-op">×</span> <span class="f-var">novelty</span></div>
+    <div style="margin-top: 16px; font-size: 12px; color: var(--text3); display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px;">
+      <div><code style="color:var(--cyan);font-size:11px">source_multiplier</code> = trust value from feeds.yaml (0.0 – 1.0)</div>
+      <div><code style="color:var(--cyan);font-size:11px">entity_bonus</code> = +3 priority-1 · +1.5 priority-2 (entity_priorities.json)</div>
+      <div><code style="color:var(--cyan);font-size:11px">keyword_bonus</code> = +2 tier-1 · +1 tier-2 · −2 noise words</div>
+      <div><code style="color:var(--cyan);font-size:11px">recency</code> = 0.85 if >18h old · 1.0 normal · 1.1 if <2h old</div>
+      <div><code style="color:var(--cyan);font-size:11px">novelty</code> = 0.3 – 1.0 · penalises similarity to recent analyzed titles</div>
+      <div><code style="color:var(--cyan);font-size:11px">category_weight</code> = per feed group in feeds.yaml</div>
+    </div>
+
+    <div class="weight-bars" style="margin-top: 24px;">
+      <div style="font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px;">Topic weights — keyword multipliers (from topic_weights.json)</div>
+      <div class="weight-row"><span class="weight-label">artificial_intelligence</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:90%;background:var(--accent)"></div></div><span class="weight-val">×1.8</span></div>
+      <div class="weight-row"><span class="weight-label">india</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:80%;background:var(--cyan)"></div></div><span class="weight-val">×1.6</span></div>
+      <div class="weight-row"><span class="weight-label">semiconductors</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:80%;background:var(--cyan)"></div></div><span class="weight-val">×1.6</span></div>
+      <div class="weight-row"><span class="weight-label">geopolitics</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:75%;background:var(--yellow)"></div></div><span class="weight-val">×1.5</span></div>
+      <div class="weight-row"><span class="weight-label">china</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:70%;background:var(--yellow)"></div></div><span class="weight-val">×1.4</span></div>
+      <div class="weight-row"><span class="weight-label">energy_transition</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:65%;background:var(--orange)"></div></div><span class="weight-val">×1.3</span></div>
+      <div class="weight-row"><span class="weight-label">central_banks</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:65%;background:var(--orange)"></div></div><span class="weight-val">×1.3</span></div>
+      <div class="weight-row"><span class="weight-label">venture_capital</span><div class="weight-bar-track"><div class="weight-bar-fill" style="width:60%;background:var(--red)"></div></div><span class="weight-val">×1.2</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- CUSTOM QUESTION -->
+<div class="section" id="ask">
+  <div class="section-eyebrow">Ask Anything</div>
+  <h2>Not covered above? Ask Claude directly.</h2>
+  <p class="section-sub">Full system knowledge base loaded as context. Ask about any file, any function, any design decision.</p>
+  <div id="custom-q-box">
+    <div class="cq-label">Suggested deep cuts:</div>
+    <div class="cq-suggestions">
+      <span class="cq-sug" onclick="setCQ(this.textContent)">What exactly is in the Claude API prompt? Show the template.</span>
+      <span class="cq-sug" onclick="setCQ(this.textContent)">How does safe_fill_template() work and why is it needed?</span>
+      <span class="cq-sug" onclick="setCQ(this.textContent)">What happens if the Claude API returns an error mid-pipeline?</span>
+      <span class="cq-sug" onclick="setCQ(this.textContent)">How does the chatbot memory compound into future pipeline runs?</span>
+      <span class="cq-sug" onclick="setCQ(this.textContent)">Walk me through exactly what GitHub Actions does, line by line.</span>
+      <span class="cq-sug" onclick="setCQ(this.textContent)">How does deduplication work across 300 articles?</span>
+      <span class="cq-sug" onclick="setCQ(this.textContent)">What's the difference between memory/ files and world_model/ files?</span>
+      <span class="cq-sug" onclick="setCQ(this.textContent)">What does the 150KB HTML report contain that makes it self-contained?</span>
+    </div>
+    <div class="cq-input-row">
+      <textarea class="cq-input" id="cq-input" rows="2" placeholder="Ask any technical question about how this system works..."></textarea>
+      <button class="cq-send" onclick="sendCustomQ()">Ask →</button>
+    </div>
+    <div id="cq-answer" class="md"></div>
+  </div>
+</div>
+
+<div class="divider" style="margin-bottom:40px"><hr></div>
+
+<script>
+// ═══════════════════════════════════════════════════════════
+// SYSTEM KNOWLEDGE BASE — Claude uses this to answer questions
+// ═══════════════════════════════════════════════════════════
+const SYSTEM_KB = {
+  overview: "World Intelligence System: a fully autonomous news intelligence pipeline that runs on GitHub Actions (free), stores everything as files in a GitHub repo, deploys reports to GitHub Pages, and uses Claude API for deep analysis. No backend server. No database. GitHub IS the database.",
+  runs_per_day: 2,
+  schedule: "0 6,18 * * * (6am and 6pm UTC)",
+  stories_per_run: 5,
+  sections_per_report: 20,
+  rss_feeds: "60+ across 8 categories: technology, ai, macro, geopolitics, india, energy, finance, science",
+  articles_per_run_range: "100–300 raw, ~80–200 after dedup, 5 sent to Claude",
+  html_report_size: "~150KB self-contained (CSS + JS + data all embedded)",
+  api_cost_per_story: "$0.06–0.18 depending on story complexity",
+  monthly_cost: "$5–30 at default settings (5 stories/day)",
+  pipeline: [
+    { step: 1, file: "scripts/fetch_news.py", input: "config/feeds.yaml + HTTP requests", output: "staging/raw/YYYY-MM-DD/articles.json", duration: "~45 seconds", description: "Uses feedparser library to parse RSS/Atom XML. For each feed: iterate entries, call parse_date() (tries published_parsed, updated_parsed, raw string via dateutil), call extract_article() which creates a 15-field dict with id=md5(url)[:16]. After all feeds: deduplicate_articles() does URL-exact dedup first (keep longer summary), then title-based approximate dedup using Jaccard similarity >0.7. Result: articles.json with metadata wrapper.", key_functions: ["fetch_all_feeds()", "fetch_single_feed()", "extract_article()", "parse_date()", "deduplicate_articles()"], output_format: "{ metadata: {fetched_at, cutoff_time, total_articles, date}, articles: [array of article dicts] }" },
+    { step: 2, file: "scripts/rank_news.py", input: "staging/raw/.../articles.json + config/topic_weights.json + config/entity_priorities.json", output: "staging/ranked/YYYY-MM-DD/ranked_articles.json + top_stories.json", duration: "~5 seconds", description: "score_article() combines 5 components: score_source() returns trust float from source_weight field. score_topics() iterates article text against topic_weights.json keywords, sums matched weights. score_entities() checks if priority entities appear in title+summary, +3 for priority 1 +1.5 for priority 2. score_intelligence_keywords() has tier1 (+2 each: sanctions, invasion, collapse, breakthrough, crisis, default, coup, merger), tier2 (+1 each), noise words (-2 each). score_recency() returns 0.85-1.1 multiplier based on age in hours. compute_novelty_penalty() computes Jaccard similarity against recently-analyzed story titles in memory, returns 0.3-1.0. Final formula: (topic_score * source_multiplier * category_weight + entity_bonus + keyword_bonus) * recency_multiplier * novelty_multiplier. Top N sorted by final score saved to top_stories.json.", scoring_formula: "final = (topic_score × source_mult × cat_weight + entity_bonus + keyword_bonus) × recency × novelty", topic_weights: { artificial_intelligence: 1.8, india: 1.6, semiconductors: 1.6, geopolitics: 1.5, china: 1.4, energy_transition: 1.3, central_banks: 1.3, venture_capital: 1.2 } },
+    { step: 3, file: "scripts/analyze_story.py", input: "staging/ranked/.../top_stories.json + memory/ files + config/analysis_prompt.md", output: "reports/YYYY/MM/DD/<slug>/{structured_data.json, raw_analysis.md, summary.md, memory_updates.md, connections.md, followup_questions.md}", duration: "~30–90 seconds per story (x5 stories = 3–7 minutes total)", description: "load_analysis_prompt() reads config/analysis_prompt.md, splits on ## SYSTEM PROMPT and ## USER PROMPT TEMPLATE regex markers. load_memory_context() reads worldview_evolution.md (max 4000 chars), active_theses.md (max 2000 chars), recurring_patterns.md (max 1000 chars), unresolved_questions.md (max 500 chars). safe_fill_template() substitutes {variables} in the prompt template without crashing on JSON {curly braces} by using null-byte tokens as placeholders. Calls Claude API model=claude-opus-4-7 with the assembled prompt. parse_analysis_response() strips markdown code fences, tries JSON parse, falls back to regex extraction of JSON block. save_analysis() writes 6 output files per story.", critical_bug_fixed: "safe_fill_template() was added to fix a crash: the prompt template contains JSON schema examples with {field} patterns. Python str.format() would try to interpret these as variables. Fix: replace {variable} with null-byte tokens, escape remaining { as {{ and } as }}, then restore tokens.", model: "claude-opus-4-7", max_tokens: 6000 },
+    { step: 4, file: "scripts/generate_report.py", input: "reports/.../structured_data.json", output: "reports/.../index.html (~150KB)", duration: "~1 second per story", description: "build_html_report() is a Python f-string that embeds REPORT_CSS (large CSS constant, NOT an f-string) and REPORT_JS (large JS constant, also not f-string). The f-string processes {REPORT_CSS} and {REPORT_JS} as Python variable references, not as HTML/JS content. This is why JavaScript template literals ${} inside REPORT_JS are safe—Python never re-scans the substituted value. generate_sections() converts the 20 JSON fields into HTML sections using make_*() helper functions. The chatbot embeds: window._REPORT_DATA = JSON; and window._WORLDVIEW_CONTEXT = JSON; as inline script tags. Report is completely self-contained—no CDN, no external scripts.", chatbot_features: "localStorage API key, accumulated insights from past sessions loaded into system prompt, GitHub Contents API for memory commits, Claude Haiku insight extraction every 6 messages, settings panel for GitHub PAT" },
+    { step: 5, file: "scripts/update_memory.py", input: "reports/YYYY/MM/DD/*/structured_data.json", output: "memory/ files (6 files updated) + world_model/ entity files", duration: "~2 seconds", description: "find_todays_memory_updates() scans today's reports dir for structured_data.json files. For each: apply_memory_updates_from_json() reads analysis.memory_updates from the JSON. Applies: new_insights → append to master_memory.md. thesis_updates → update_thesis() which appends to active_theses.md with STRENGTHEN/WEAKEN/NEW/CLOSE markers. pattern_updates → update_pattern() which finds existing pattern by name, increments Count, appends observation. new_questions → add_unresolved_question() → unresolved_questions.md. entity_updates → update_entity_file() → world_model/[type]/[entity-slug].md. Also: update_predictions_log() logs Bull/Base/Bear scenarios to predictions.md for accuracy tracking. ensure_memory_file() prevents FileNotFoundError by creating missing files with headers." },
+    { step: 6, file: "scripts/build_indexes.py", input: "reports/ directory scan", output: "index.html + reports/index.html + intelligence/daily/ + intelligence/weekly/", duration: "~1 second", description: "Walks reports/ directory recursively, loads structured_data.json from each story. build_main_index() creates homepage with recent stories and stats. build_reports_archive() creates filterable archive with category buttons (data-category attributes for JS filtering). build_daily_digest() and build_weekly_digest() create digest pages. make_report_card() generates cards with data-category attribute embedded directly (not via post-processing, which was a bug that was fixed)." },
+  ],
+  github_actions: { file: ".github/workflows/intelligence.yml", trigger: "cron 0 6,18 * * * + workflow_dispatch (manual)", permissions: "contents:write, pages:write, id-token:write", python_version: "3.11", commit_message_format: "intel: YYYY-MM-DD — N stories analyzed [automated]", pages_deployment: "configure-pages@v4 → upload-pages-artifact@v3 (path: '.') → deploy-pages@v4", nojekyll: ".nojekyll file prevents Jekyll from processing the repo and suppressing _ files", concurrency: "group: intelligence-pipeline, cancel-in-progress: false (wait for current run to finish)" },
+  memory_system: { files: ["master_memory.md (append-only facts)", "active_theses.md (tracked beliefs with evidence log)", "recurring_patterns.md (pattern name + count + instances)", "unresolved_questions.md (open questions)", "worldview_evolution.md (meta-patterns + run summaries)", "predictions.md (Bull/Base/Bear scenarios for tracking accuracy)"], world_model: "world_model/ has subdirs: people/ companies/ countries/ technologies/ themes/ entities/ — each entity gets its own .md file with a Timeline of Developments section that grows over time", compounding_mechanism: "Memory files are loaded as context at the START of analyze_story.py. So run 50 knows everything runs 1–49 discovered. The context window includes: worldview (4000 chars) + theses (2000) + patterns (1000) + questions (500) = 7500 chars of accumulated intelligence as context for each new analysis." },
+  chatbot_memory: { browser_model: "claude-opus-4-7 (chat)", extraction_model: "claude-haiku-4-5-20251001 (insight mining)", extraction_trigger: "every 6 messages (3 Q&A pairs), silently in background", extraction_output: "{ new_facts, open_questions, patterns, connections } — max 3 per category", local_storage: "localStorage['intel_insights'] = JSON array, max 200 entries. Persists across all sessions, all reports.", github_commit: "GitHub Contents API: GET file SHA + existing content, base64-encode (existing + new), PUT with SHA. Commits to memory/master_memory.md and memory/unresolved_questions.md", system_prompt_enrichment: "buildChatSystemPrompt() includes last 30 insights from localStorage. So if you chatted about story A 2 weeks ago and saved insights, they appear as context when you chat about story B today — cross-report, compounding intelligence." },
+  config_files: { "config/feeds.yaml": "RSS feed configuration. Add/remove sources. trust field (0.0-1.0) is the source_multiplier in scoring.", "config/schedules.yaml": "fetch_window_hours: 24, stories_per_run: 5, max_tokens_per_analysis: 6000, max_memory_context_chars: 4000", "config/analysis_prompt.md": "Contains ## SYSTEM PROMPT section (analyst persona) and ## USER PROMPT TEMPLATE section (variables: {current_date} {worldview_context} {active_theses} {story_title} {story_content} etc + JSON output schema)", "config/topic_weights.json": "Keyword → multiplier pairs. Edit to reweight topics. AI is 1.8 (highest), VC is 1.2 (lowest).", "config/entity_priorities.json": "Named entities with priority 1 or 2. Priority 1 = +3 score bonus, priority 2 = +1.5." },
+  secrets: { ANTHROPIC_API_KEY: "In GitHub repository secrets (Settings → Secrets → Actions). Read by analyze_story.py as os.environ['ANTHROPIC_API_KEY']. Never in code, commits, HTML, or logs.", browser_api_key: "localStorage['anthropic_api_key']. Sent only to Anthropic API directly from user browser.", github_pat: "localStorage['intel_settings'] = {pat, repo, branch}. Used only for GitHub Contents API calls from browser." },
+  failure_modes: { "feed_down": "fetch_single_feed() catches all exceptions, prints error, returns empty list. Pipeline continues with other feeds.", "claude_api_error": "analyze_story.py catches API errors, logs, skips story. Pipeline continues with next story.", "json_parse_fail": "parse_analysis_response() first strips markdown fences, then tries JSON parse, then falls back to regex r'{.*}' with re.DOTALL to extract JSON from anywhere in response.", "missing_memory_file": "ensure_memory_file() creates file with header before any write. Added after a FileNotFoundError bug.", "template_collision": "safe_fill_template() prevents KeyError crash when JSON {field} patterns in analysis_prompt.md are seen by Python str.format().", "github_conflict": "concurrency.cancel-in-progress: false prevents two pipeline runs from conflicting. Each run is atomic.", "pages_first_run": "environment.url may be empty on first deployment — this is safe and expected." },
+  numbers: { prompt_chars_total: "~12000–15000 chars sent to Claude per story (story content + memory context + schema)", output_tokens: "4000–6000 tokens per analysis", report_html_size: "~150KB", git_objects_per_run: "~20–40 new files committed per run (5 reports × 6 files + memory updates + index pages)", pages_deploy_time: "~30 seconds after commit", memory_growth_rate: "~5–20 new lines per run across all memory files", world_model_files_after_100_runs: "50–200 entity files depending on story variety" }
+};
+
+const DEEP_QUESTIONS = [
+  { id: 'cron', icon: '⏰', title: 'The Cron Chain', sub: 'Exact second-by-second execution when GitHub Actions fires at 6am UTC', color: '#6366f1',
+    q: 'Explain in exact technical detail what happens from the moment GitHub Actions wakes up at 6:00:00 UTC to the moment the final GitHub Pages deployment completes. Include: which YAML steps execute in which order, what Python scripts run and in which sequence, approximate wall-clock timing for each step, what files are created at each stage, and what the final git commit contains. Be very specific with file paths and function names. Use numbers wherever possible.' },
+  { id: 'data', icon: '🔄', title: 'The Full Data Chain', sub: 'How a URL in feeds.yaml becomes an HTML intelligence report, field by field', color: '#22d3ee',
+    q: 'Trace the complete journey of a single news article through the entire pipeline, starting from its URL in config/feeds.yaml and ending as a section inside reports/YYYY/MM/DD/slug/index.html. At each step, name the exact function that processes it, show what data fields exist at that point, and explain what transformation occurs. Include: how parse_date() works, what extract_article() produces, how score_article() calculates its score with actual numbers, what safe_fill_template() does, what the Claude API receives, and how build_html_report() embeds the result. Be extremely detailed.' },
+  { id: 'memory', icon: '🧠', title: 'The Memory Chain', sub: 'How the system accumulates intelligence and gets smarter with each run', color: '#4ade80',
+    q: 'Explain the complete memory compounding mechanism in detail. How many chars of memory context are loaded before each Claude analysis and from which files? What happens in update_memory.py after analysis — which functions update which files and in what format? How does the world_model/ entity system work? How does memory loaded in run 50 differ from run 1? Include specific file paths, the exact format entries are written in, and how this compounds over time. Give concrete numbers.' },
+  { id: 'chat', icon: '💬', title: 'The Chat Chain', sub: 'What happens under the hood when you click 💬 Ask Claude in a report', color: '#f472b6',
+    q: 'Walk through the complete technical chain when a user clicks 💬 Ask Claude in a generated report, types a question, and hits Enter. Include: what JavaScript functions run in sequence, how localStorage is read, what buildChatSystemPrompt() includes and how large it is, what the exact Anthropic API call looks like (headers, model, parameters), how the response is rendered, what happens after every 6 messages with extractAndSaveInsights(), how Claude Haiku mines the conversation, what data is saved to localStorage, and how that data feeds back into future chats and pipeline runs via GitHub commit. Name every JS function involved.' },
+  { id: 'score', icon: '📊', title: 'The Scoring Algorithm', sub: 'Why these 5 stories out of 200. The exact math.', color: '#fbbf24',
+    q: 'Explain the complete scoring algorithm in rank_news.py with exact mathematical detail. Show the full formula and explain each component: how source_multiplier maps from the trust field, how topic scoring works against topic_weights.json with a worked example, how entity_bonus is applied using entity_priorities.json, what the tier-1 and tier-2 intelligence keywords are and how they add/subtract points, how recency_multiplier varies by article age, and how compute_novelty_penalty() calculates Jaccard similarity and what values it returns. Give a worked numerical example of an article scoring 18.7.' },
+  { id: 'prompt', icon: '📝', title: 'Inside the Claude Prompt', sub: 'What Claude is actually told — the full context structure', color: '#fb923c',
+    q: 'Show me exactly what Claude receives for each story analysis. What is in the system prompt (from config/analysis_prompt.md)? What variables are substituted into the user prompt template by safe_fill_template()? How many characters of each memory file are included? What is the JSON output schema Claude is instructed to return? What does the full assembled prompt look like structurally? Include character counts for each section and explain why safe_fill_template() was needed (the bug it fixed). Also explain what happens when Claude returns malformed JSON.' },
+  { id: 'fail', icon: '⚡', title: 'Failure Modes & Resilience', sub: 'What can go wrong and exactly how each failure is handled', color: '#f87171',
+    q: 'Enumerate every failure mode in the system and explain exactly how each is handled. Include: a feed returning 404 or garbled XML, Claude API returning a rate limit error or a 500, Claude returning valid JSON without all 20 required fields, Claude returning prose instead of JSON, a memory file being deleted, the template containing unexpected {curly brace} patterns, two GitHub Actions runs starting simultaneously, the GitHub Pages environment URL being empty, the analysis taking longer than expected causing a timeout. For each, name the specific try/except block or validation that handles it and what fallback behavior occurs.' },
+  { id: 'config', icon: '⚙️', title: 'Everything You Can Change', sub: 'All config knobs, what they do, and what happens when you turn them', color: '#a78bfa',
+    q: 'List every configuration file in the config/ directory, every settable parameter in each, what happens when you change it, and what the tradeoffs are. Include: feeds.yaml (how to add a source, what trust does, how categories and weights interact), schedules.yaml (what each parameter controls, cost/quality tradeoffs of changing stories_per_run or max_tokens_per_analysis), analysis_prompt.md (how changing the system prompt changes output quality, what the variable placeholders are, how to add a new output field to the JSON schema), topic_weights.json (how to reweight focus areas, what score range to expect), entity_priorities.json (what counts as priority 1 vs 2). Be specific and include numbers.' },
+];
+
+// ═══════════════════════════════════════════════
+// STREAMING MARKDOWN RENDERER
+// ═══════════════════════════════════════════════
+function renderMD(text) {
+  let html = text;
+  // Escape HTML first
+  html = html.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  // Code blocks
+  html = html.replace(/```[\s\S]*?```/g, m => {
+    const inner = m.slice(3, -3).replace(/^[^\n]*\n/, '');
+    return '<pre><code>' + inner + '</code></pre>';
+  });
+  // Inline code
+  html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
+  // Bold
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // Italic
+  html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+  // H2
+  html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+  // H3
+  html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+  // Horizontal rule
+  html = html.replace(/^---$/gm, '<hr>');
+  // Blockquote
+  html = html.replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>');
+  // List items
+  html = html.replace(/^[-*] (.+)$/gm, '<li>$1</li>');
+  html = html.replace(/(<li>[\s\S]*?<\/li>)/g, m => '<ul>' + m + '</ul>');
+  html = html.replace(/<\/ul>\s*<ul>/g, '');
+  // Numbered lists
+  html = html.replace(/^\d+\. (.+)$/gm, '<li>$1</li>');
+  // Highlight numbers
+  html = html.replace(/\b(\d[\d,.]*)(%|\s*[KMBT]B|\s*tokens|\s*chars|\s*seconds|\s*stories|\s*feeds|\s*files)?\b/g, (m, n, u) => {
+    if (u) return '<span class="num">' + n + u + '</span>';
+    if (n.length >= 2) return '<span class="num">' + n + '</span>';
+    return m;
+  });
+  // File paths
+  html = html.replace(/\b(scripts\/[\w.]+|config\/[\w.]+|memory\/[\w.]+|reports\/|staging\/|world_model\/[\w/]*|\.github\/[\w./]+)\b/g, '<span class="file">$1</span>');
+  // Function names
+  html = html.replace(/\b([a-z_]+)\(\)/g, '<span class="fn">$1()</span>');
+  // Paragraphs
+  const parts = html.split(/\n\n+/);
+  html = parts.map(p => {
+    p = p.trim();
+    if (!p) return '';
+    if (/^<(h[23]|ul|ol|li|pre|blockquote|hr)/.test(p)) return p;
+    return '<p>' + p.replace(/\n/g, ' ') + '</p>';
+  }).join('\n');
+  return html;
+}
+
+// ═══════════════════════════════════════════════
+// STREAMING API CALL
+// ═══════════════════════════════════════════════
+function buildSystemPrompt() {
+  return 'You are the embedded technical explainer for the World Intelligence System — an autonomous news analysis pipeline.\n\n' +
+    'COMPLETE SYSTEM KNOWLEDGE BASE (JSON):\n' + JSON.stringify(SYSTEM_KB, null, 2) + '\n\n' +
+    'RULES:\n' +
+    '- Answer with extreme technical depth using the knowledge base above\n' +
+    '- Always reference specific file paths, function names, line-level details\n' +
+    '- Include real numbers (character counts, timing, costs, record counts) wherever relevant\n' +
+    '- Structure answers with ## headers and bullet points\n' +
+    '- Highlight any design decisions or non-obvious engineering choices\n' +
+    '- The reader is non-technical but wants to understand everything deeply\n' +
+    '- Do NOT oversimplify — give the real technical picture\n' +
+    '- Use ```code``` blocks for code snippets, file paths in backticks';
+}
+
+async function streamAnswer(targetEl, question, onDone) {
+  const apiKey = localStorage.getItem('anthropic_api_key');
+  if (!apiKey) { targetEl.innerHTML = '<em style="color:var(--text3)">Add your Anthropic API key above to generate answers.</em>'; return; }
+
+  let buffer = '';
+  let cursorEl = document.createElement('span');
+  cursorEl.className = 'dq-cursor';
+  targetEl.innerHTML = '';
+  targetEl.appendChild(cursorEl);
+
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true' },
+      body: JSON.stringify({ model: 'claude-opus-4-7', max_tokens: 2000, stream: true, system: buildSystemPrompt(), messages: [{ role: 'user', content: question }] })
+    });
+
+    if (!resp.ok || !resp.body) { targetEl.innerHTML = '<em style="color:var(--red)">API error: ' + resp.status + '</em>'; return; }
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const chunk = decoder.decode(value, { stream: true });
+      const lines = chunk.split('\n');
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        const data = line.slice(6).trim();
+        if (data === '[DONE]') continue;
+        try {
+          const parsed = JSON.parse(data);
+          if (parsed.type === 'content_block_delta' && parsed.delta && parsed.delta.text) {
+            buffer += parsed.delta.text;
+            targetEl.innerHTML = renderMD(buffer) + '<span class="dq-cursor"></span>';
+            targetEl.closest('.dq-card') && (targetEl.closest('.dq-card').scrollIntoView ? null : null);
+          }
+        } catch(e) {}
+      }
+    }
+
+    // Final render without cursor
+    targetEl.innerHTML = renderMD(buffer);
+    if (onDone) onDone();
+
+  } catch(e) {
+    targetEl.innerHTML = '<em style="color:var(--red)">Error: ' + e.message + '</em>';
+  }
+}
+
+// ═══════════════════════════════════════════════
+// BUILD DEEP QUESTION CARDS
+// ═══════════════════════════════════════════════
+function buildCards() {
+  const grid = document.getElementById('dq-grid');
+  DEEP_QUESTIONS.forEach(q => {
+    const card = document.createElement('div');
+    card.className = 'dq-card';
+    card.id = 'card-' + q.id;
+    card.innerHTML = `
+      <div class="dq-card-header" onclick="toggleCard('${q.id}')">
+        <span class="dq-icon">${q.icon}</span>
+        <div>
+          <div class="dq-title" style="color:${q.color}">${q.title}</div>
+          <div class="dq-subtitle">${q.sub}</div>
+        </div>
+        <span class="dq-status idle" id="status-${q.id}">click to generate</span>
+      </div>
+      <div class="dq-body md" id="body-${q.id}"></div>`;
+    grid.appendChild(card);
+  });
+}
+
+const generated = new Set();
+
+function toggleCard(id) {
+  const body = document.getElementById('body-' + id);
+  const status = document.getElementById('status-' + id);
+  const isOpen = body.classList.contains('open');
+
+  if (isOpen && generated.has(id)) {
+    body.classList.remove('open');
+    return;
+  }
+
+  body.classList.add('open');
+
+  if (!generated.has(id)) {
+    generated.add(id);
+    status.textContent = 'generating…';
+    status.className = 'dq-status loading';
+    const q = DEEP_QUESTIONS.find(x => x.id === id);
+    body.innerHTML = '<div class="dq-thinking"><span></span><span></span><span></span></div>';
+    streamAnswer(body, q.q, () => {
+      status.textContent = 'done';
+      status.className = 'dq-status done';
+    });
+  }
+}
+
+// ═══════════════════════════════════════════════
+// CUSTOM QUESTION
+// ═══════════════════════════════════════════════
+function setCQ(text) {
+  document.getElementById('cq-input').value = text;
+}
+
+async function sendCustomQ() {
+  const input = document.getElementById('cq-input');
+  const q = input.value.trim();
+  if (!q) return;
+  const answerEl = document.getElementById('cq-answer');
+  answerEl.classList.add('open');
+  answerEl.innerHTML = '<div class="dq-thinking"><span></span><span></span><span></span></div>';
+  input.value = '';
+  await streamAnswer(answerEl, q, null);
+}
+
+document.getElementById('cq-input') && document.getElementById('cq-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendCustomQ(); }
+});
+
+// ═══════════════════════════════════════════════
+// API KEY GATE
+// ═══════════════════════════════════════════════
+function saveGateKey() {
+  const key = document.getElementById('gate-key-input').value.trim();
+  if (key && key.startsWith('sk-')) {
+    localStorage.setItem('anthropic_api_key', key);
+    document.getElementById('api-gate').style.display = 'none';
+    document.getElementById('gate-key-input').value = '';
+  } else {
+    document.getElementById('gate-key-input').style.borderColor = 'var(--red)';
+  }
+}
+
+// ═══════════════════════════════════════════════
+// DATA STRUCTURE TABS
+// ═══════════════════════════════════════════════
+function showDS(id) {
+  document.querySelectorAll('.ds-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.ds-tab').forEach(el => el.classList.remove('active'));
+  document.getElementById('ds-' + id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// ═══════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════
+buildCards();
+if (!localStorage.getItem('anthropic_api_key')) {
+  document.getElementById('api-gate').style.display = 'block';
+}
+</script>
+</body>
+</html>

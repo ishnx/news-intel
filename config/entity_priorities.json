@@ -1,0 +1,129 @@
+{
+  "_comment": "entity_priorities.json - People, companies, and organizations to track closely",
+  "_instructions": "Add entities you want the system to pay special attention to. Priority 1=highest, 3=lowest.",
+  "_last_updated": "initial",
+
+  "people": {
+    "priority_1": [
+      "Sam Altman",
+      "Jensen Huang",
+      "Satya Nadella",
+      "Dario Amodei",
+      "Demis Hassabis",
+      "Elon Musk",
+      "Narendra Modi",
+      "Jerome Powell",
+      "Xi Jinping"
+    ],
+    "priority_2": [
+      "Mark Zuckerberg",
+      "Sundar Pichai",
+      "Andy Jassy",
+      "Arvind Krishna",
+      "Ilya Sutskever",
+      "Yann LeCun",
+      "Geoffrey Hinton",
+      "Larry Fink",
+      "Christine Lagarde",
+      "Shaktikanta Das"
+    ],
+    "priority_3": [
+      "Marc Andreessen",
+      "Peter Thiel",
+      "Reid Hoffman",
+      "Bill Gates",
+      "Jeff Bezos"
+    ]
+  },
+
+  "companies": {
+    "priority_1": [
+      "OpenAI",
+      "Anthropic",
+      "Google DeepMind",
+      "Nvidia",
+      "Microsoft",
+      "TSMC",
+      "Apple",
+      "Meta AI",
+      "xAI"
+    ],
+    "priority_2": [
+      "Amazon AWS",
+      "Mistral AI",
+      "Cohere",
+      "Scale AI",
+      "Hugging Face",
+      "Inflection AI",
+      "Stability AI",
+      "Tesla",
+      "SpaceX",
+      "ASML",
+      "ARM Holdings",
+      "Samsung",
+      "Intel",
+      "AMD",
+      "Qualcomm"
+    ],
+    "priority_3_india": [
+      "Reliance Industries",
+      "Infosys",
+      "TCS",
+      "Wipro",
+      "HDFC Bank",
+      "Zepto",
+      "Meesho",
+      "PhonePe",
+      "Razorpay",
+      "CRED",
+      "Zomato",
+      "Swiggy",
+      "Ola",
+      "Nykaa",
+      "PolicyBazaar"
+    ]
+  },
+
+  "institutions": {
+    "priority_1": [
+      "US Federal Reserve",
+      "European Central Bank",
+      "Reserve Bank of India",
+      "US Department of Defense",
+      "US Commerce Department",
+      "DARPA"
+    ],
+    "priority_2": [
+      "IMF",
+      "World Bank",
+      "NATO",
+      "G7",
+      "G20",
+      "WTO",
+      "BIS",
+      "SEBI",
+      "NITI Aayog"
+    ]
+  },
+
+  "technologies": {
+    "priority_1": [
+      "Large Language Models",
+      "Transformers",
+      "Agentic AI",
+      "AI Reasoning",
+      "GPU Clusters",
+      "CUDA",
+      "Advanced Semiconductors"
+    ],
+    "priority_2": [
+      "Multimodal AI",
+      "Robotics",
+      "Quantum Computing",
+      "Nuclear Fusion",
+      "mRNA",
+      "CRISPR",
+      "Battery Technology"
+    ]
+  }
+}

@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="">
+  <title>Configuration Guide — World Intel</title>
+  <style>
+    :root {
+      --bg: #07070e; --surface: #0d0d18; --surface2: #121220; --surface3: #181828;
+      --border: rgba(255,255,255,0.065); --border2: rgba(255,255,255,0.11);
+      --text: #eeeef8; --text2: #7a82ac; --text3: #404568;
+      --accent: #6366f1; --accent2: #818cf8;
+      --accent-soft: rgba(99,102,241,0.1); --accent-border: rgba(99,102,241,0.2);
+      --bull: #4ade80; --bear: #f87171; --neutral: #fbbf24;
+      --r: 12px; --r-sm: 7px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px; line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent2); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* HEADER */
+    .site-header {
+      background: rgba(7,7,14,0.9); backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px; height: 52px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .header-left { display: flex; align-items: center; gap: 16px; }
+    .back-link { color: var(--text3); font-size: 13px; transition: color 0.15s; }
+    .back-link:hover { color: var(--text2); text-decoration: none; }
+    .header-title { font-size: 14px; font-weight: 600; }
+    .header-sub { font-size: 12px; color: var(--text3); }
+    .header-actions { display: flex; gap: 10px; }
+    .btn-outline {
+      border: 1px solid var(--border2); color: var(--text2); background: none;
+      border-radius: var(--r-sm); padding: 7px 14px; font-size: 12px;
+      cursor: pointer; transition: all 0.15s; text-decoration: none; display: inline-block;
+    }
+    .btn-outline:hover { border-color: var(--accent-border); color: var(--text); text-decoration: none; }
+    .btn-accent {
+      background: var(--accent); color: white; border: none;
+      border-radius: var(--r-sm); padding: 7px 16px; font-size: 12px; font-weight: 600;
+      cursor: pointer; text-decoration: none; display: inline-block;
+    }
+    .btn-accent:hover { filter: brightness(1.1); text-decoration: none; }
+
+    /* LAYOUT */
+    .layout { display: flex; max-width: 1200px; margin: 0 auto; padding: 0 32px; gap: 48px; }
+
+    /* TOC */
+    .toc {
+      width: 200px; flex-shrink: 0;
+      position: sticky; top: 72px; height: calc(100vh - 72px);
+      overflow-y: auto; padding: 32px 0;
+    }
+    .toc-label { font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: var(--text3); margin-bottom: 12px; }
+    .toc-item { display: block; font-size: 12px; color: var(--text3); padding: 4px 0;
+      border-left: 2px solid transparent; padding-left: 10px; transition: all 0.15s; }
+    .toc-item:hover { color: var(--text2); border-color: var(--border2); text-decoration: none; }
+    .toc-item.active { color: var(--accent2); border-color: var(--accent); }
+    .toc-sub { font-size: 11px; color: var(--text3); padding: 3px 0 3px 20px; display: block; }
+    .toc-sub:hover { color: var(--text2); text-decoration: none; }
+
+    /* CONTENT */
+    .content { flex: 1; padding: 40px 0 80px; min-width: 0; }
+
+    /* HERO */
+    .guide-hero {
+      margin-bottom: 48px;
+      padding: 40px 40px;
+      background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, transparent 60%);
+      border: 1px solid var(--accent-border); border-radius: 16px;
+    }
+    .guide-hero h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 8px; }
+    .guide-hero p { color: var(--text2); font-size: 15px; max-width: 580px; }
+    .guide-badges { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+    .badge {
+      font-size: 11px; font-weight: 600; padding: 4px 10px;
+      border-radius: 20px; border: 1px solid var(--border2); color: var(--text2);
+    }
+    .badge.green { border-color: rgba(74,222,128,0.3); color: var(--bull); background: rgba(74,222,128,0.07); }
+    .badge.blue { border-color: var(--accent-border); color: var(--accent2); background: var(--accent-soft); }
+
+    /* SECTIONS */
+    .guide-section { margin-bottom: 56px; scroll-margin-top: 72px; }
+    .section-header {
+      display: flex; align-items: center; gap: 12px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-icon { font-size: 20px; }
+    .section-title { font-size: 20px; font-weight: 700; }
+    .section-num { font-size: 12px; color: var(--text3); font-weight: 600;
+      background: var(--surface2); padding: 2px 8px; border-radius: 20px; }
+
+    h3 { font-size: 14px; font-weight: 700; color: var(--text); margin: 24px 0 8px; }
+    h4 { font-size: 13px; font-weight: 600; color: var(--text2); margin: 16px 0 6px; }
+    p { margin-bottom: 12px; color: var(--text2); font-size: 14px; line-height: 1.75; }
+    p strong { color: var(--text); }
+
+    /* CARDS */
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 20px 24px; margin-bottom: 12px;
+    }
+    .card-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+    .card-icon { font-size: 14px; }
+    .card-desc { font-size: 13px; color: var(--text2); line-height: 1.6; }
+    .card-path { font-family: 'SF Mono', monospace; font-size: 11px; color: var(--text3);
+      background: var(--surface2); padding: 3px 8px; border-radius: 4px; margin-top: 8px; display: inline-block; }
+    .card-tip { font-size: 12px; color: var(--accent2); margin-top: 8px; }
+
+    /* CONFIG GRID */
+    .config-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+    @media (max-width: 700px) { .config-grid { grid-template-columns: 1fr; } }
+
+    /* CODE */
+    pre {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 16px 20px; overflow-x: auto;
+      font-family: 'SF Mono', 'Fira Code', monospace; font-size: 12px;
+      line-height: 1.6; color: var(--text2); margin: 12px 0;
+    }
+    code { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 12px;
+      background: var(--surface2); padding: 2px 6px; border-radius: 4px; color: var(--accent2); }
+
+    /* STEPS */
+    .steps { list-style: none; counter-reset: steps; }
+    .steps li {
+      counter-increment: steps; position: relative;
+      padding: 14px 16px 14px 52px; margin-bottom: 8px;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--r);
+      font-size: 14px; color: var(--text2);
+    }
+    .steps li::before {
+      content: counter(steps);
+      position: absolute; left: 16px; top: 50%; transform: translateY(-50%);
+      width: 24px; height: 24px; border-radius: 50%;
+      background: var(--accent-soft); border: 1px solid var(--accent-border);
+      color: var(--accent2); font-size: 11px; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .steps li strong { color: var(--text); }
+
+    /* CALLOUT */
+    .callout {
+      border-radius: var(--r); padding: 14px 18px; margin: 16px 0;
+      font-size: 13px; line-height: 1.65; display: flex; gap: 12px;
+    }
+    .callout.info { background: rgba(99,102,241,0.08); border: 1px solid var(--accent-border); color: var(--accent2); }
+    .callout.warn { background: rgba(251,191,36,0.07); border: 1px solid rgba(251,191,36,0.2); color: var(--neutral); }
+    .callout.success { background: rgba(74,222,128,0.07); border: 1px solid rgba(74,222,128,0.2); color: var(--bull); }
+    .callout-icon { flex-shrink: 0; font-size: 16px; }
+
+    /* TABLE */
+    .guide-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+    .guide-table th { text-align: left; color: var(--text3); font-size: 10px; font-weight: 700;
+      letter-spacing: 1px; text-transform: uppercase; padding: 8px 12px;
+      border-bottom: 1px solid var(--border); }
+    .guide-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); color: var(--text2); vertical-align: top; }
+    .guide-table tr:last-child td { border-bottom: none; }
+    .guide-table td:first-child { font-family: monospace; font-size: 12px; color: var(--text); white-space: nowrap; }
+    .guide-table tr:hover td { background: var(--surface); }
+
+    /* PROVIDER CARDS */
+    .provider-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 16px 0; }
+    @media (max-width: 700px) { .provider-cards { grid-template-columns: 1fr; } }
+    .provider-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--r); padding: 16px; text-align: center;
+    }
+    .provider-card.active { border-color: var(--accent-border); background: var(--accent-soft); }
+    .provider-logo { font-size: 24px; margin-bottom: 8px; }
+    .provider-name { font-size: 13px; font-weight: 700; color: var(--text); }
+    .provider-tag { font-size: 11px; color: var(--text3); margin-top: 4px; }
+    .provider-models { margin-top: 10px; text-align: left; }
+    .model-chip { display: inline-block; font-size: 10px; font-family: monospace;
+      background: var(--surface2); border: 1px solid var(--border);
+      padding: 2px 7px; border-radius: 4px; color: var(--text3); margin: 2px 2px 0 0; }
+    .model-chip.best { border-color: var(--accent-border); color: var(--accent2); }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-left">
+    <a href="" class="back-link">← World Intel</a>
+    <div>
+      <div class="header-title">📖 Configuration Guide</div>
+      <div class="header-sub">Everything you can tune and how to tune it</div>
+    </div>
+  </div>
+  <div class="header-actions">
+    <a href="config.html" class="btn-outline">⚙ Config Editor</a>
+    <a href="how_this_works.html" class="btn-outline">How It Works</a>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- TOC -->
+  <nav class="toc">
+    <div class="toc-label">In this guide</div>
+    <a class="toc-item" href="#quickstart">Quick Start</a>
+    <a class="toc-item" href="#secrets">GitHub Secrets</a>
+    <a class="toc-item" href="#provider">AI Provider & Model</a>
+    <a class="toc-item" href="#feeds">News Feeds</a>
+    <a class="toc-item" href="#schedule">Schedule</a>
+    <a class="toc-item" href="#topics">Topic Weights</a>
+    <a class="toc-item" href="#entities">Entity Tracking</a>
+    <a class="toc-item" href="#prompt">Analysis Prompt</a>
+    <a class="toc-item" href="#worldview">Worldview</a>
+    <a class="toc-item" href="#adhoc">Ad-hoc Reports</a>
+    <a class="toc-item" href="#design">Report Design</a>
+    <a class="toc-item" href="#faq">FAQ</a>
+  </nav>
+
+  <!-- CONTENT -->
+  <main class="content">
+
+    <!-- HERO -->
+    <div class="guide-hero">
+      <h1>Configuration Guide</h1>
+      <p>Every knob, dial, and lever in the World Intel system — explained clearly. All configs are editable live in <a href="config.html">config.html</a> without touching code.</p>
+      <div class="guide-badges">
+        <span class="badge green">✓ No code changes needed</span>
+        <span class="badge blue">7 config files</span>
+        <span class="badge">3 AI providers supported</span>
+      </div>
+    </div>
+
+    <!-- QUICK START -->
+    <section class="guide-section" id="quickstart">
+      <div class="section-header">
+        <span class="section-icon">🚀</span>
+        <span class="section-title">Quick Start</span>
+        <span class="section-num">01</span>
+      </div>
+      <p>Four steps to get the system running end-to-end on GitHub Pages.</p>
+      <ol class="steps">
+        <li><strong>Push this repo to GitHub.</strong> Create a new repo and push all files.</li>
+        <li><strong>Add your API key as a GitHub Secret.</strong> Go to Settings → Secrets → Actions. Add <code>ANTHROPIC_API_KEY</code> (or <code>OPENAI_API_KEY</code> / <code>GOOGLE_API_KEY</code> depending on your chosen provider).</li>
+        <li><strong>Enable GitHub Pages.</strong> Go to Settings → Pages → Source: GitHub Actions.</li>
+        <li><strong>Trigger your first run.</strong> Go to Actions → Intelligence Pipeline → Run workflow. Or go to <a href="config.html">config.html</a> and click "Generate Report Now".</li>
+      </ol>
+      <div class="callout success">
+        <span class="callout-icon">✓</span>
+        <span>After the first run completes (~10 min), your reports will be live at <code>https://[username].github.io/[repo-name]/</code></span>
+      </div>
+    </section>
+
+    <!-- GITHUB SECRETS -->
+    <section class="guide-section" id="secrets">
+      <div class="section-header">
+        <span class="section-icon">🔑</span>
+        <span class="section-title">GitHub Secrets</span>
+        <span class="section-num">02</span>
+      </div>
+      <p>Secrets are API keys stored securely in GitHub — never in code or committed files. Only the key for your active provider is required.</p>
+
+      <table class="guide-table">
+        <thead><tr><th>Secret Name</th><th>Required for</th><th>Where to get it</th></tr></thead>
+        <tbody>
+          <tr><td>ANTHROPIC_API_KEY</td><td>Claude (Anthropic)</td><td>console.anthropic.com → API Keys</td></tr>
+          <tr><td>OPENAI_API_KEY</td><td>GPT (OpenAI)</td><td>platform.openai.com → API Keys</td></tr>
+          <tr><td>GOOGLE_API_KEY</td><td>Gemini (Google)</td><td>aistudio.google.com → Get API Key</td></tr>
+        </tbody>
+      </table>
+
+      <h3>How to add a secret</h3>
+      <ol class="steps">
+        <li>Go to your GitHub repo → <strong>Settings</strong></li>
+        <li>Click <strong>Secrets and Variables</strong> → <strong>Actions</strong></li>
+        <li>Click <strong>New repository secret</strong></li>
+        <li>Name: <code>ANTHROPIC_API_KEY</code> (or the relevant key) · Value: your actual key</li>
+      </ol>
+
+      <div class="callout warn">
+        <span class="callout-icon">⚠</span>
+        <span>Never paste API keys into config files, code, or HTML. They'll be committed to git and exposed publicly. Always use GitHub Secrets.</span>
+      </div>
+
+      <h3>For local testing</h3>
+      <p>When running scripts locally, export keys in your terminal before running:</p>
+      <pre>export ANTHROPIC_API_KEY=sk-ant-...
+python scripts/run_pipeline.py</pre>
+    </section>
+
+    <!-- AI PROVIDER & MODEL -->
+    <section class="guide-section" id="provider">
+      <div class="section-header">
+        <span class="section-icon">🤖</span>
+        <span class="section-title">AI Provider &amp; Model</span>
+        <span class="section-num">03</span>
+      </div>
+      <p>The system supports three AI providers. Change the provider and model in <code>config/providers.yaml</code> — editable live in the <a href="config.html">config editor</a>.</p>
+
+      <div class="provider-cards">
+        <div class="provider-card active">
+          <div class="provider-logo">◈</div>
+          <div class="provider-name">Anthropic Claude</div>
+          <div class="provider-tag">Best reasoning depth</div>
+          <div class="provider-models">
+            <span class="model-chip best">claude-opus-4-7</span>
+            <span class="model-chip">claude-sonnet-4-6</span>
+            <span class="model-chip">claude-haiku-4-5</span>
+          </div>
+        </div>
+        <div class="provider-card">
+          <div class="provider-logo">◇</div>
+          <div class="provider-name">OpenAI GPT</div>
+          <div class="provider-tag">Broad knowledge base</div>
+          <div class="provider-models">
+            <span class="model-chip best">gpt-4o</span>
+            <span class="model-chip">gpt-4o-mini</span>
+            <span class="model-chip">gpt-4-turbo</span>
+          </div>
+        </div>
+        <div class="provider-card">
+          <div class="provider-logo">◎</div>
+          <div class="provider-name">Google Gemini</div>
+          <div class="provider-tag">Speed + long context</div>
+          <div class="provider-models">
+            <span class="model-chip best">gemini-2.0-flash</span>
+            <span class="model-chip">gemini-1.5-pro</span>
+            <span class="model-chip">gemini-1.5-flash</span>
+          </div>
+        </div>
+      </div>
+
+      <h3>How to switch provider</h3>
+      <p>Open <code>config/providers.yaml</code> in the <a href="config.html">config editor</a> and change <code>active_provider</code>:</p>
+      <pre>active_provider: openai   # was: anthropic</pre>
+      <p>Then save. The next pipeline run will use GPT. Make sure <code>OPENAI_API_KEY</code> is in GitHub Secrets.</p>
+
+      <h3>How to change model</h3>
+      <p>Find the provider block and update its <code>model</code> field:</p>
+      <pre>anthropic:
+  model: claude-sonnet-4-6   # changed from claude-opus-4-7</pre>
+      <div class="callout info">
+        <span class="callout-icon">ℹ</span>
+        <span>Switching to a lighter model (Sonnet, Haiku, gpt-4o-mini, gemini-flash) reduces cost and increases speed. Use for high-frequency runs. Use the flagship models for the best analysis depth.</span>
+      </div>
+
+      <h3>Cost guidance</h3>
+      <table class="guide-table">
+        <thead><tr><th>Model</th><th>Approx cost/analysis</th><th>Best for</th></tr></thead>
+        <tbody>
+          <tr><td>claude-opus-4-7</td><td>$0.05–0.20</td><td>Daily flagship analysis</td></tr>
+          <tr><td>claude-sonnet-4-6</td><td>$0.01–0.05</td><td>High-frequency runs</td></tr>
+          <tr><td>gpt-4o</td><td>$0.02–0.10</td><td>Alternative deep analysis</td></tr>
+          <tr><td>gpt-4o-mini</td><td>&lt;$0.01</td><td>Testing, high frequency</td></tr>
+          <tr><td>gemini-2.0-flash</td><td>&lt;$0.01</td><td>Fastest, cheapest</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- NEWS FEEDS -->
+    <section class="guide-section" id="feeds">
+      <div class="section-header">
+        <span class="section-icon">📡</span>
+        <span class="section-title">News Feeds</span>
+        <span class="section-num">04</span>
+      </div>
+      <p><strong>File:</strong> <code>config/feeds.yaml</code> — controls where news comes from.</p>
+      <p>Each feed entry has a <strong>url</strong> (RSS/Atom), a <strong>category</strong> (drives the report color theme), and a <strong>trust</strong> score (0.5–1.5 multiplier on the intelligence score).</p>
+
+      <h3>Add a new feed</h3>
+      <pre>feeds:
+  - url: https://example.com/rss
+    category: technology       # ai | technology | geopolitics | macro | india | energy | finance | science | general
+    trust: 1.0                 # 0.5 = low trust, 1.0 = neutral, 1.5 = high trust
+    name: "Example Source"     # display name</pre>
+
+      <h3>Category → Report Color</h3>
+      <p>The category you set on a feed determines the accent color of every report from that source. Themes are automatic — no manual work needed.</p>
+      <table class="guide-table">
+        <thead><tr><th>Category</th><th>Color</th><th>Typical feeds</th></tr></thead>
+        <tbody>
+          <tr><td>ai</td><td>Violet (263°)</td><td>AI news, ML papers, OpenAI blog</td></tr>
+          <tr><td>technology</td><td>Blue (220°)</td><td>Tech Crunch, Wired, Ars Technica</td></tr>
+          <tr><td>geopolitics</td><td>Amber (38°)</td><td>Foreign Affairs, War on the Rocks</td></tr>
+          <tr><td>macro</td><td>Teal (174°)</td><td>Bloomberg, FT, The Economist</td></tr>
+          <tr><td>india</td><td>Saffron (25°)</td><td>The Hindu, Economic Times, Mint</td></tr>
+          <tr><td>energy</td><td>Green (142°)</td><td>Bloomberg NEF, Energy Monitor</td></tr>
+          <tr><td>finance</td><td>Emerald (157°)</td><td>WSJ, Reuters finance</td></tr>
+          <tr><td>science</td><td>Sky (197°)</td><td>Nature, Science, MIT Tech Review</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="guide-section" id="schedule">
+      <div class="section-header">
+        <span class="section-icon">⏱</span>
+        <span class="section-title">Schedule &amp; Limits</span>
+        <span class="section-num">05</span>
+      </div>
+      <p><strong>File:</strong> <code>config/schedules.yaml</code> — controls when and how much the system runs.</p>
+
+      <div class="config-grid">
+        <div class="card">
+          <div class="card-title"><span class="card-icon">🕐</span> primary_schedule</div>
+          <div class="card-desc">Cron expression for main runs. Default: <code>"0 6,18 * * *"</code> (6am + 6pm UTC).</div>
+          <div class="card-tip">Note: also update the cron in <code>.github/workflows/intelligence.yml</code> to match.</div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="card-icon">📊</span> stories_per_run</div>
+          <div class="card-desc">How many top-ranked articles get deep AI analysis per run. Default: 5. Higher = richer output, more API cost.</div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="card-icon">🪙</span> max_tokens_per_analysis</div>
+          <div class="card-desc">Max AI output tokens per story. Default: 6000. Higher = deeper analysis, more cost. Range: 3000–10000.</div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="card-icon">🕰</span> fetch_window_hours</div>
+          <div class="card-desc">How far back to look for news on each run. Default: 24 hours. Set to 4 for every-3-hour runs.</div>
+        </div>
+      </div>
+
+      <h3>Common schedule presets</h3>
+      <pre>primary_schedule: "0 8 * * *"      # Once daily at 8am UTC
+primary_schedule: "0 6,14,22 * * *" # Three times daily
+primary_schedule: "0 */4 * * *"     # Every 4 hours
+primary_schedule: "0 8 * * 1-5"     # Weekdays only</pre>
+
+      <div class="callout warn">
+        <span class="callout-icon">⚠</span>
+        <span>The schedule in <code>schedules.yaml</code> is informational/used by scripts. The actual GitHub Actions trigger is the cron in <code>.github/workflows/intelligence.yml</code> — update both to stay in sync.</span>
+      </div>
+    </section>
+
+    <!-- TOPIC WEIGHTS -->
+    <section class="guide-section" id="topics">
+      <div class="section-header">
+        <span class="section-icon">⚖</span>
+        <span class="section-title">Topic Weights</span>
+        <span class="section-num">06</span>
+      </div>
+      <p><strong>File:</strong> <code>config/topic_weights.json</code> — controls which news topics score higher in ranking.</p>
+      <p>Each topic has a <strong>weight</strong> (how much it boosts the score) and a list of <strong>keywords</strong> (matched against article title + summary).</p>
+
+      <pre>{
+  "topics": {
+    "artificial_intelligence": {
+      "weight": 2.0,
+      "keywords": ["AI", "machine learning", "LLM", "GPT", "neural network"]
+    },
+    "your_new_topic": {
+      "weight": 1.5,
+      "keywords": ["keyword1", "keyword2", "keyword3"]
+    }
+  }
+}</pre>
+
+      <h3>Weight guide</h3>
+      <table class="guide-table">
+        <thead><tr><th>Weight</th><th>Effect</th></tr></thead>
+        <tbody>
+          <tr><td>3.0</td><td>Extremely high priority — almost always selected</td></tr>
+          <tr><td>2.0</td><td>High priority — strongly preferred</td></tr>
+          <tr><td>1.5</td><td>Above average</td></tr>
+          <tr><td>1.0</td><td>Neutral — default</td></tr>
+          <tr><td>0.5</td><td>Below average — deprioritized</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ENTITY TRACKING -->
+    <section class="guide-section" id="entities">
+      <div class="section-header">
+        <span class="section-icon">👤</span>
+        <span class="section-title">Entity Tracking</span>
+        <span class="section-num">07</span>
+      </div>
+      <p><strong>File:</strong> <code>config/entity_priorities.json</code> — specific people, companies, countries, and technologies that automatically boost a story's score.</p>
+      <p><strong>Priority 1</strong> entities add +15 points each. <strong>Priority 2</strong> add +8. <strong>Priority 3</strong> add minor boosts.</p>
+
+      <pre>{
+  "people": {
+    "priority_1": ["Sam Altman", "Narendra Modi", "Jensen Huang"],
+    "priority_2": ["Sundar Pichai", "Elon Musk"]
+  },
+  "companies": {
+    "priority_1": ["OpenAI", "NVIDIA", "Reliance Industries"],
+    "priority_2": ["Google", "Microsoft", "Apple"]
+  },
+  "countries": {
+    "priority_1": ["India", "China", "United States"],
+    "priority_2": ["Taiwan", "Russia", "EU"]
+  }
+}</pre>
+      <div class="callout info">
+        <span class="callout-icon">ℹ</span>
+        <span>Entity matching is case-insensitive substring matching. "NVIDIA" matches "Nvidia Corporation", "NVIDIA stock", etc.</span>
+      </div>
+    </section>
+
+    <!-- ANALYSIS PROMPT -->
+    <section class="guide-section" id="prompt">
+      <div class="section-header">
+        <span class="section-icon">🧠</span>
+        <span class="section-title">Analysis Prompt</span>
+        <span class="section-num">08</span>
+      </div>
+      <p><strong>File:</strong> <code>config/analysis_prompt.md</code> — the most powerful config file. This is the exact prompt sent to the AI for every story analysis. <strong>Nothing about the analysis is hardcoded in Python</strong> — the output structure, the analyst persona, the sections, the depth — all of it lives here.</p>
+
+      <div class="card">
+        <div class="card-title">System Prompt section</div>
+        <div class="card-desc">Defines the analyst's persona, expertise areas, and analytical philosophy. Change this to get a different analytical lens — e.g. "you are a geopolitical risk analyst focused on Southeast Asia" or "you are a VC investor focused on deep tech."</div>
+      </div>
+      <div class="card">
+        <div class="card-title">User Prompt Template section</div>
+        <div class="card-desc">The actual analysis request, including the output JSON schema. Every section in the report (executive summary, scenarios, strategic incentives, etc.) is defined here. Add or remove sections by editing the JSON schema in this file — the report HTML will adapt automatically.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Analysis Style Guidelines section</div>
+        <div class="card-desc">Behavioral rules: depth over breadth, contrarian lean, time horizons. Edit these to shape how the AI reasons — e.g. add "always include a startup opportunity section" or "weight regulatory risk heavily."</div>
+      </div>
+
+      <div class="callout warn">
+        <span class="callout-icon">⚠</span>
+        <span>The output JSON schema in the prompt must stay valid JSON structure. Adding new keys is safe — the report renderer handles unknown keys gracefully. Removing required keys may cause rendering gaps.</span>
+      </div>
+    </section>
+
+    <!-- WORLDVIEW -->
+    <section class="guide-section" id="worldview">
+      <div class="section-header">
+        <span class="section-icon">🌍</span>
+        <span class="section-title">Worldview</span>
+        <span class="section-num">09</span>
+      </div>
+      <p><strong>File:</strong> <code>config/worldview.md</code> — a persistent context document injected into every analysis. This is how the system builds compounding intelligence over time.</p>
+      <p>The worldview starts empty and gets <strong>automatically updated</strong> by the system after each analysis run — the AI extracts new insights, theses, and patterns and appends them here. You can also edit it manually.</p>
+
+      <h3>What to put here</h3>
+      <p>Think of it as a "standing brief" — what does the analyst already know going into each story?</p>
+      <pre>## Active Theses
+- India is in a 10-year window of demographic dividend, peaking ~2035
+- AI compute is the new oil — whoever controls GPU supply controls AI
+
+## Recurring Patterns I've Noticed
+- Tech regulation always lags 5-7 years behind technology adoption
+
+## Current Geopolitical Context
+- US-China tech decoupling is accelerating; Taiwan is the flashpoint</pre>
+
+      <div class="callout info">
+        <span class="callout-icon">ℹ</span>
+        <span>The worldview gets more valuable over time. After 30–60 days of runs, the system has accumulated significant context and produces notably deeper analysis. Don't clear it unless starting a fresh focus area.</span>
+      </div>
+    </section>
+
+    <!-- AD-HOC REPORTS -->
+    <section class="guide-section" id="adhoc">
+      <div class="section-header">
+        <span class="section-icon">⚡</span>
+        <span class="section-title">Ad-hoc Reports</span>
+        <span class="section-num">10</span>
+      </div>
+      <p>Generate a report on any topic or question instantly — without waiting for the next scheduled run and without needing a news article.</p>
+
+      <h3>From config.html (easiest)</h3>
+      <ol class="steps">
+        <li>Go to <a href="config.html">config.html</a> and connect your repository.</li>
+        <li>In the "Ad-hoc Analysis" box in the sidebar, type your topic or phrase.</li>
+        <li>Click <strong>▶ Analyze This Topic</strong>. Confirm the modal.</li>
+        <li>Wait ~5-10 minutes. The report appears in your GitHub Pages site.</li>
+      </ol>
+
+      <h3>From GitHub Actions (manual)</h3>
+      <ol class="steps">
+        <li>Go to your repo → <strong>Actions</strong> → <strong>Intelligence Pipeline</strong></li>
+        <li>Click <strong>Run workflow</strong></li>
+        <li>Fill in the <strong>custom_topic</strong> field with your topic</li>
+        <li>Click <strong>Run workflow</strong></li>
+      </ol>
+
+      <h3>Good topic examples</h3>
+      <pre>Impact of AI on Indian software export industry
+The geopolitics of lithium supply chains
+Why central bank digital currencies are accelerating
+Second-order effects of US tariffs on Vietnamese manufacturing</pre>
+
+      <div class="callout info">
+        <span class="callout-icon">ℹ</span>
+        <span>Ad-hoc reports skip the fetch and rank steps entirely. The AI receives your topic as-is and applies the full analysis framework from <code>analysis_prompt.md</code>.</span>
+      </div>
+    </section>
+
+    <!-- REPORT DESIGN -->
+    <section class="guide-section" id="design">
+      <div class="section-header">
+        <span class="section-icon">🎨</span>
+        <span class="section-title">Report Design</span>
+        <span class="section-num">11</span>
+      </div>
+      <p>Report design is controlled by Python in <code>scripts/generate_report.py</code>. The category-contextual color system is automatic — no configuration needed.</p>
+
+      <h3>How contextual theming works</h3>
+      <p>Each report's category (set via the feed's <code>category</code> field) maps to a CSS hue value. A single <code>--cat-h</code> variable drives the entire color palette for that report — hero glow, section borders, score badges, everything.</p>
+
+      <pre>CATEGORY_HUE = {
+    "ai": 263,           # violet
+    "technology": 220,   # blue
+    "geopolitics": 38,   # amber
+    "macro": 174,        # teal
+    "india": 25,         # saffron
+    "energy": 142,       # green
+    "finance": 157,      # emerald
+    "science": 197,      # sky
+}</pre>
+
+      <p>To add a new category color: edit <code>CATEGORY_HUE</code> in <code>generate_report.py</code> and add the matching category to your feeds.</p>
+
+      <div class="callout info">
+        <span class="callout-icon">ℹ</span>
+        <span>The analysis prompt and HTML design are intentionally separated. The AI outputs structured JSON — the Python renderer turns it into beautiful HTML. To change design, edit the Python. To change analysis depth/sections, edit <code>analysis_prompt.md</code>.</span>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="guide-section" id="faq">
+      <div class="section-header">
+        <span class="section-icon">❓</span>
+        <span class="section-title">FAQ</span>
+        <span class="section-num">12</span>
+      </div>
+
+      <div class="card">
+        <div class="card-title">How do I change the AI provider mid-stream?</div>
+        <div class="card-desc">Edit <code>active_provider</code> in <code>providers.yaml</code> and ensure the matching API key secret exists in GitHub. The change takes effect on the next run. Old reports are unaffected.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Why is my feed not showing up?</div>
+        <div class="card-desc">Check: (1) The URL is a valid RSS/Atom feed — open it in a browser, it should show XML. (2) The feed has articles published within <code>fetch_window_hours</code>. (3) YAML indentation is correct in feeds.yaml.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">How do I make the system focus more on India?</div>
+        <div class="card-desc">Three levers: (1) Add India-focused feeds with <code>category: india</code> and <code>trust: 1.3</code>. (2) Increase <code>india</code> weight in <code>topic_weights.json</code>. (3) Add key India entities to <code>priority_1</code> in <code>entity_priorities.json</code>.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">How do I reduce API costs?</div>
+        <div class="card-desc">Three levers: (1) Switch to a lighter model in <code>providers.yaml</code>. (2) Reduce <code>stories_per_run</code> in <code>schedules.yaml</code>. (3) Reduce <code>max_tokens_per_analysis</code>. Each story costs roughly 3-8 API tokens × model price.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Can I add my own analysis sections?</div>
+        <div class="card-desc">Yes. Add a new key to the JSON schema in <code>analysis_prompt.md</code>'s user prompt template. Then add a matching entry to the <code>SECTIONS</code> list in <code>generate_report.py</code>. The HTML renders any section the AI returns.</div>
+      </div>
+      <div class="card">
+        <div class="card-title">How do I reset the worldview/memory?</div>
+        <div class="card-desc">Delete or clear the contents of <code>config/worldview.md</code> and <code>memory/</code> directory files via the <a href="config.html">config editor</a>. The system will start fresh on the next run.</div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+// Highlight active TOC item on scroll
+const sections = document.querySelectorAll('.guide-section');
+const tocItems = document.querySelectorAll('.toc-item');
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      tocItems.forEach(t => t.classList.remove('active'));
+      const active = document.querySelector(`.toc-item[href="#${e.target.id}"]`);
+      if (active) active.classList.add('active');
+    }
+  });
+}, { rootMargin: '-20% 0px -75% 0px' });
+sections.forEach(s => obs.observe(s));
+</script>
+
+</body>
+</html>

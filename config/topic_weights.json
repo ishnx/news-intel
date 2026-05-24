@@ -1,0 +1,68 @@
+{
+  "_comment": "topic_weights.json - Controls how much each topic is prioritized in intelligence scoring",
+  "_instructions": "Increase a weight above 1.0 to prioritize that topic. Set to 0.5 to de-emphasize. Range: 0.1 to 2.0",
+  "_last_updated": "initial",
+
+  "topics": {
+    "artificial_intelligence": {
+      "weight": 1.8,
+      "keywords": ["AI", "artificial intelligence", "machine learning", "LLM", "GPT", "Claude", "Gemini", "deep learning", "neural network", "foundation model", "AGI", "robotics"],
+      "reason": "Civilization-scale transition underway; highest strategic priority"
+    },
+    "geopolitics": {
+      "weight": 1.5,
+      "keywords": ["geopolitical", "US-China", "NATO", "sanctions", "treaty", "alliance", "war", "conflict", "diplomacy", "foreign policy", "national security"],
+      "reason": "Shapes all other domains; major portfolio risk factor"
+    },
+    "india": {
+      "weight": 1.6,
+      "keywords": ["India", "Indian", "Modi", "RBI", "BSE", "NSE", "Bangalore", "Mumbai", "Delhi", "rupee", "SEBI", "UPI"],
+      "reason": "Primary geographic focus; fastest growing major economy"
+    },
+    "semiconductors": {
+      "weight": 1.6,
+      "keywords": ["semiconductor", "chip", "TSMC", "Nvidia", "AMD", "Intel", "fab", "foundry", "chip war", "silicon", "GPU", "CPU"],
+      "reason": "Critical chokepoint in AI and geopolitics; supply chain bottleneck"
+    },
+    "energy_transition": {
+      "weight": 1.3,
+      "keywords": ["solar", "wind", "battery", "EV", "electric vehicle", "clean energy", "renewables", "climate", "carbon", "nuclear", "hydrogen", "grid"],
+      "reason": "Multi-decade transition with massive capital allocation shifts"
+    },
+    "venture_capital": {
+      "weight": 1.2,
+      "keywords": ["startup", "venture", "Series A", "Series B", "fundraise", "unicorn", "IPO", "acquisition", "founder", "investment round"],
+      "reason": "Tracks where smart capital flows; early signal of emerging trends"
+    },
+    "central_banks": {
+      "weight": 1.3,
+      "keywords": ["Federal Reserve", "Fed", "interest rates", "inflation", "monetary policy", "ECB", "RBI", "Bank of England", "rate cut", "rate hike", "quantitative"],
+      "reason": "Drives asset prices and capital allocation across all sectors"
+    },
+    "biotech_health": {
+      "weight": 1.1,
+      "keywords": ["biotech", "pharmaceutical", "drug", "FDA", "clinical trial", "CRISPR", "genomics", "pandemic", "vaccine", "healthcare AI"],
+      "reason": "Biology is becoming programmable; large commercial and social impact"
+    },
+    "china": {
+      "weight": 1.4,
+      "keywords": ["China", "Chinese", "Beijing", "Xi Jinping", "CCP", "Taiwan", "yuan", "renminbi", "BRI", "PBOC", "Alibaba", "Tencent", "Huawei"],
+      "reason": "Second largest economy; key strategic counterpart in most major trends"
+    },
+    "space": {
+      "weight": 1.0,
+      "keywords": ["SpaceX", "Starlink", "NASA", "satellite", "rocket", "Mars", "lunar", "space industry", "orbital"],
+      "reason": "Increasingly commercial; strategic importance growing"
+    },
+    "regulation_policy": {
+      "weight": 1.2,
+      "keywords": ["regulation", "antitrust", "GDPR", "AI Act", "policy", "legislation", "Congress", "Parliament", "ruling", "fine", "compliance"],
+      "reason": "Regulatory shifts reshape competitive landscapes overnight"
+    },
+    "crypto_defi": {
+      "weight": 0.8,
+      "keywords": ["bitcoin", "ethereum", "crypto", "blockchain", "DeFi", "NFT", "stablecoin", "web3"],
+      "reason": "Monitoring but not primary focus; high noise-to-signal ratio"
+    }
+  }
+}

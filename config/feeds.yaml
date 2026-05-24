@@ -1,0 +1,224 @@
+# =============================================================
+# config/feeds.yaml - News Feed Configuration
+# =============================================================
+# This file controls WHERE the system fetches news from.
+#
+# HOW TO ADD A FEED:
+# 1. Find the RSS/Atom URL of a news source
+# 2. Add it under the appropriate category below
+# 3. The system will automatically include it on next run
+#
+# HOW TO DISABLE A FEED:
+# Add a # at the start of the url/name lines to comment them out
+#
+# CATEGORIES affect intelligence scoring — stories from "geopolitics"
+# category get different treatment than "startup" stories.
+# =============================================================
+
+feeds:
+
+  # ───────────────────────────────────────────────────────────
+  # TECHNOLOGY & AI — Startup/venture/deep tech intelligence
+  # ───────────────────────────────────────────────────────────
+  - category: technology
+    weight: 1.2  # Slightly boost tech stories
+    sources:
+      - name: "TechCrunch"
+        url: "https://techcrunch.com/feed/"
+        trust: 0.8
+
+      - name: "The Verge"
+        url: "https://www.theverge.com/rss/index.xml"
+        trust: 0.8
+
+      - name: "Hacker News (Top Stories)"
+        url: "https://hnrss.org/frontpage"
+        trust: 0.9  # Community-curated, high signal
+
+      - name: "MIT Technology Review"
+        url: "https://www.technologyreview.com/feed/"
+        trust: 0.9
+
+      - name: "Wired"
+        url: "https://www.wired.com/feed/rss"
+        trust: 0.8
+
+      - name: "VentureBeat"
+        url: "https://venturebeat.com/feed/"
+        trust: 0.7
+
+  # ───────────────────────────────────────────────────────────
+  # AI / MACHINE LEARNING — Specific AI intelligence
+  # ───────────────────────────────────────────────────────────
+  - category: ai
+    weight: 1.3  # High strategic importance
+    sources:
+      - name: "DeepMind Blog"
+        url: "https://deepmind.google/blog/rss.xml"
+        trust: 0.95
+
+      - name: "OpenAI Blog"
+        url: "https://openai.com/blog/rss.xml"
+        trust: 0.9
+
+      - name: "Anthropic News"
+        url: "https://www.anthropic.com/rss"
+        trust: 0.95
+
+      - name: "AI News (Import AI)"
+        url: "https://jack-clark.net/feed/"
+        trust: 0.95  # Jack Clark's Import AI — essential reading
+
+      - name: "Hugging Face Blog"
+        url: "https://huggingface.co/blog/feed.xml"
+        trust: 0.85
+
+  # ───────────────────────────────────────────────────────────
+  # MACROECONOMICS — Global economic intelligence
+  # ───────────────────────────────────────────────────────────
+  - category: macro
+    weight: 1.1
+    sources:
+      - name: "Financial Times"
+        url: "https://www.ft.com/rss/home"
+        trust: 0.95
+
+      - name: "The Economist"
+        url: "https://www.economist.com/finance-and-economics/rss.xml"
+        trust: 0.95
+
+      - name: "Reuters Business"
+        url: "https://feeds.reuters.com/reuters/businessNews"
+        trust: 0.9
+
+      - name: "Bloomberg Markets (via RSS)"
+        url: "https://feeds.bloomberg.com/markets/news.rss"
+        trust: 0.9
+
+      - name: "Project Syndicate"
+        url: "https://www.project-syndicate.org/rss"
+        trust: 0.85  # Expert opinion / economic analysis
+
+  # ───────────────────────────────────────────────────────────
+  # GEOPOLITICS — Strategic & international relations
+  # ───────────────────────────────────────────────────────────
+  - category: geopolitics
+    weight: 1.2
+    sources:
+      - name: "Foreign Affairs"
+        url: "https://www.foreignaffairs.com/rss.xml"
+        trust: 0.95
+
+      - name: "Foreign Policy"
+        url: "https://foreignpolicy.com/feed/"
+        trust: 0.9
+
+      - name: "The Diplomat"
+        url: "https://thediplomat.com/feed/"
+        trust: 0.85  # Strong Asia-Pacific coverage
+
+      - name: "Reuters World News"
+        url: "https://feeds.reuters.com/Reuters/worldNews"
+        trust: 0.9
+
+      - name: "BBC World News"
+        url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+        trust: 0.85
+
+  # ───────────────────────────────────────────────────────────
+  # INDIA — India-specific intelligence
+  # ───────────────────────────────────────────────────────────
+  - category: india
+    weight: 1.3  # High priority for India-specific content
+    sources:
+      - name: "The Ken"
+        url: "https://the-ken.com/feed/"
+        trust: 0.9  # Premium India tech/business journalism
+
+      - name: "Economic Times"
+        url: "https://economictimes.indiatimes.com/rssfeedsdefault.cms"
+        trust: 0.8
+
+      - name: "Mint"
+        url: "https://www.livemint.com/rss/news"
+        trust: 0.85
+
+      - name: "Medianama"
+        url: "https://www.medianama.com/feed/"
+        trust: 0.85  # India tech policy
+
+      - name: "Inc42"
+        url: "https://inc42.com/feed/"
+        trust: 0.8  # India startup ecosystem
+
+  # ───────────────────────────────────────────────────────────
+  # ENERGY & CLIMATE — Strategic resource intelligence
+  # ───────────────────────────────────────────────────────────
+  - category: energy
+    weight: 1.0
+    sources:
+      - name: "Energy Monitor"
+        url: "https://www.energymonitor.ai/feed/"
+        trust: 0.85
+
+      - name: "Oil Price"
+        url: "https://oilprice.com/rss/main"
+        trust: 0.75
+
+      - name: "Carbon Brief"
+        url: "https://www.carbonbrief.org/feed"
+        trust: 0.85
+
+  # ───────────────────────────────────────────────────────────
+  # FINANCE & MARKETS — Capital allocation intelligence
+  # ───────────────────────────────────────────────────────────
+  - category: finance
+    weight: 1.0
+    sources:
+      - name: "Wall Street Journal Economy"
+        url: "https://feeds.a.dj.com/rss/RSSEconomy.xml"
+        trust: 0.9
+
+      - name: "Dealbook (NYT)"
+        url: "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"
+        trust: 0.85
+
+      - name: "Sequoia Capital Blog"
+        url: "https://www.sequoiacap.com/feed/"
+        trust: 0.85  # VC perspective
+
+      - name: "a16z Blog"
+        url: "https://a16z.com/feed/"
+        trust: 0.8
+
+  # ───────────────────────────────────────────────────────────
+  # SCIENCE & RESEARCH — Fundamental shifts
+  # ───────────────────────────────────────────────────────────
+  - category: science
+    weight: 0.9
+    sources:
+      - name: "Nature News"
+        url: "https://www.nature.com/nature.rss"
+        trust: 0.95
+
+      - name: "Science Daily"
+        url: "https://www.sciencedaily.com/rss/top/science.xml"
+        trust: 0.85
+
+      - name: "Ars Technica Science"
+        url: "https://feeds.arstechnica.com/arstechnica/science"
+        trust: 0.85
+
+# =============================================================
+# GLOBAL SETTINGS
+# =============================================================
+
+# Maximum articles to keep per feed per run (prevents noise from prolific feeds)
+max_articles_per_feed: 20
+
+# Minimum article length (in characters) — filters out stub/teaser articles
+min_summary_length: 100
+
+# Languages to accept (ISO 639-1 codes, empty = all languages)
+accepted_languages:
+  - "en"

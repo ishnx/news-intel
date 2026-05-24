@@ -1,0 +1,31 @@
+# =============================================================
+# requirements.txt - Python Dependencies
+# =============================================================
+# This file lists all Python packages required to run the
+# intelligence system. Install with: pip install -r requirements.txt
+#
+# Philosophy: Minimal dependencies. Every package here earns its place.
+# =============================================================
+
+# AI Provider SDKs — only the active provider's key is needed
+anthropic>=0.34.0          # for provider: anthropic
+openai>=1.40.0             # for provider: openai
+google-generativeai>=0.8.0 # for provider: google
+
+# RSS/Atom feed parsing - how we read news feeds
+feedparser>=6.0.11
+
+# HTTP requests - for fetching web content
+requests>=2.31.0
+
+# YAML parsing - for reading config files
+PyYAML>=6.0.1
+
+# Date/time parsing - handles various date formats from feeds
+python-dateutil>=2.8.2
+
+# HTML parsing - for extracting text from article pages (optional enrichment)
+beautifulsoup4>=4.12.0
+
+# Markdown to HTML conversion - for rendering memory in indexes
+markdown>=3.5.0

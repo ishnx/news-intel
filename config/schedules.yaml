@@ -1,0 +1,108 @@
+# =============================================================
+# config/schedules.yaml - Automation Schedule Configuration
+# =============================================================
+# Controls WHEN and HOW OFTEN the intelligence system runs.
+#
+# CRON SYNTAX REFERENCE:
+# ┌──────────── minute (0-59)
+# │ ┌────────── hour (0-23, UTC)
+# │ │ ┌──────── day of month (1-31)
+# │ │ │ ┌────── month (1-12)
+# │ │ │ │ ┌──── day of week (0=Sunday, 6=Saturday)
+# │ │ │ │ │
+# * * * * *
+#
+# EXAMPLES:
+# "0 6 * * *"     = Every day at 6am UTC
+# "0 6,18 * * *"  = Every day at 6am and 6pm UTC
+# "0 */3 * * *"   = Every 3 hours
+# "0 6 * * 1"     = Every Monday at 6am UTC (weekly digest)
+# =============================================================
+
+# ───────────────────────────────────────────────────────────
+# MAIN INTELLIGENCE RUN
+# How often to fetch news, analyze, and generate reports
+# ───────────────────────────────────────────────────────────
+
+# Primary schedule: twice daily (morning and evening)
+primary_schedule: "0 6,18 * * *"
+
+# Alternative schedules (comment/uncomment to switch):
+# Hourly:        "0 * * * *"
+# Every 3 hours: "0 */3 * * *"
+# Once daily:    "0 8 * * *"
+# Weekdays only: "0 8 * * 1-5"
+
+# ───────────────────────────────────────────────────────────
+# WEEKLY DIGEST
+# A deeper, synthesized weekly intelligence summary
+# ───────────────────────────────────────────────────────────
+
+weekly_digest_schedule: "0 8 * * 0"  # Every Sunday at 8am UTC
+
+# ───────────────────────────────────────────────────────────
+# FETCH WINDOW
+# How far back to look for articles in each run
+# ───────────────────────────────────────────────────────────
+
+# Hours to look back when fetching news
+# Set to 24 for daily runs, 4 for every-3-hour runs
+fetch_window_hours: 24
+
+# ───────────────────────────────────────────────────────────
+# ANALYSIS LIMITS
+# Controls how much Claude API is used per run
+# ───────────────────────────────────────────────────────────
+
+# Number of top-ranked stories to deeply analyze per run
+# Higher = more intelligence depth but more API cost
+# Recommended: 3-5 for daily runs
+stories_per_run: 5
+
+# For weekly digest: number of stories to include in synthesis
+weekly_digest_stories: 15
+
+# Maximum Claude API tokens per story analysis
+# Higher = deeper analysis but more cost
+# Recommended: 4000-8000
+max_tokens_per_analysis: 6000
+
+# ───────────────────────────────────────────────────────────
+# MEMORY SETTINGS
+# Controls the memory and learning system
+# ───────────────────────────────────────────────────────────
+
+# Maximum characters of memory context to send to Claude
+# Larger = richer context but higher cost
+# Recommended: 3000-6000
+max_memory_context_chars: 4000
+
+# Maximum characters from worldview to send
+max_worldview_context_chars: 2000
+
+# How many recent reports to reference in analysis (for connections)
+recent_reports_for_context: 10
+
+# ───────────────────────────────────────────────────────────
+# REPORT ARCHIVING
+# ───────────────────────────────────────────────────────────
+
+# Keep raw staging files for N days (0 = keep forever)
+staging_retention_days: 30
+
+# Keep full HTML reports forever (they are the intelligence archive)
+keep_html_reports: true
+
+# ───────────────────────────────────────────────────────────
+# DEPLOYMENT
+# ───────────────────────────────────────────────────────────
+
+# Auto-commit outputs to GitHub after each run
+auto_commit: true
+
+# Commit message template
+# Available variables: {date}, {stories_count}, {run_id}
+commit_message_template: "intel: {date} — {stories_count} stories analyzed [automated]"
+
+# Branch to commit to (usually main)
+target_branch: "main"

@@ -1,0 +1,55 @@
+# =============================================================
+# config/providers.yaml — AI Provider Configuration
+# =============================================================
+# Choose which AI provider generates the intelligence analysis.
+# Change active_provider to switch providers instantly.
+# Add the matching API key to GitHub Secrets — never put keys here.
+#
+# GITHUB SECRETS NEEDED (Settings → Secrets and Variables → Actions):
+#   ANTHROPIC_API_KEY  — for anthropic provider
+#   OPENAI_API_KEY     — for openai provider
+#   GOOGLE_API_KEY     — for google provider
+# =============================================================
+
+# ─────────────────────────────────────────────────────────────
+# ACTIVE PROVIDER
+# Change this one line to switch which AI does all analysis
+# Options: anthropic | openai | google
+# ─────────────────────────────────────────────────────────────
+active_provider: anthropic
+
+# ─────────────────────────────────────────────────────────────
+# ANTHROPIC — Claude
+# Best for: Deep reasoning, nuanced analysis, complex instructions
+# Secret:   ANTHROPIC_API_KEY
+# ─────────────────────────────────────────────────────────────
+anthropic:
+  model: claude-opus-4-7
+  # Available models (most capable → fastest/cheapest):
+  # claude-opus-4-7           — Flagship, best analysis
+  # claude-sonnet-4-6         — Balanced speed + quality (recommended for frequent runs)
+  # claude-haiku-4-5-20251001 — Fastest and cheapest (good for testing)
+
+# ─────────────────────────────────────────────────────────────
+# OPENAI — GPT
+# Best for: General analysis, broad knowledge base
+# Secret:   OPENAI_API_KEY
+# ─────────────────────────────────────────────────────────────
+openai:
+  model: gpt-4o
+  # Available models:
+  # gpt-4o       — Most capable (recommended)
+  # gpt-4o-mini  — Faster, cheaper (good for testing)
+  # gpt-4-turbo  — Previous generation, still strong
+
+# ─────────────────────────────────────────────────────────────
+# GOOGLE — Gemini
+# Best for: Speed, cost-efficiency, long context
+# Secret:   GOOGLE_API_KEY
+# ─────────────────────────────────────────────────────────────
+google:
+  model: gemini-2.0-flash
+  # Available models:
+  # gemini-2.0-flash  — Fast and capable (recommended)
+  # gemini-1.5-pro    — Deep reasoning, massive context window
+  # gemini-1.5-flash  — Fastest and cheapest
