@@ -1,0 +1,39 @@
+# =============================================================
+# .gitignore - Files NOT tracked by Git
+# =============================================================
+# Everything else IS tracked — GitHub is our database.
+# =============================================================
+
+# Python environment
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.env
+*.egg-info/
+
+# Local development
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets (NEVER commit API keys)
+.env.local
+secrets.txt
+api_keys.txt
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Large binary files
+*.zip
+*.tar.gz
+
+# NOTE: staging/ IS tracked (raw data is part of the intelligence archive)
+# NOTE: All .json, .md, .html files ARE tracked (GitHub is the database)

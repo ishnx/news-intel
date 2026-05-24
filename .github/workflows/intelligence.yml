@@ -1,0 +1,285 @@
+# =============================================================
+# .github/workflows/intelligence.yml
+# =============================================================
+# The main automation workflow for the World Intelligence System.
+#
+# This workflow runs automatically on a schedule and:
+# 1. Fetches news from configured RSS feeds
+# 2. Ranks articles by intelligence value
+# 3. Analyzes top stories with Claude AI
+# 4. Generates beautiful HTML intelligence reports
+# 5. Updates the persistent memory system
+# 6. Builds navigation index pages
+# 7. Commits all outputs back to GitHub
+# 8. Deploys to GitHub Pages automatically
+#
+# SCHEDULE: Configurable (see config/schedules.yaml)
+#           Default: 6am and 6pm UTC daily
+#
+# MANUAL RUN: Go to Actions tab → intelligence.yml → Run workflow
+#
+# SECRETS REQUIRED:
+#   ANTHROPIC_API_KEY — Add in Settings → Secrets and Variables → Actions
+# =============================================================
+
+name: Intelligence Pipeline
+
+on:
+  # ──────────────────────────────────────────────────────────
+  # AUTOMATED SCHEDULE
+  # Runs twice daily by default (6am and 6pm UTC)
+  # To change: edit the cron expressions below
+  #
+  # Cron format: minute hour day-of-month month day-of-week
+  # Examples:
+  #   "0 6 * * *"    = Daily at 6am UTC
+  #   "0 6,18 * * *" = Daily at 6am and 6pm UTC
+  #   "0 */3 * * *"  = Every 3 hours
+  # ──────────────────────────────────────────────────────────
+  schedule:
+    - cron: "0 6,18 * * *"   # Default: twice daily
+
+  # ──────────────────────────────────────────────────────────
+  # MANUAL TRIGGER
+  # Go to: Actions tab → intelligence.yml → Run workflow
+  # ──────────────────────────────────────────────────────────
+  workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Run mode (normal/weekly/dry-run)"
+        required: false
+        default: "normal"
+        type: choice
+        options:
+          - normal
+          - weekly
+          - dry-run
+      custom_topic:
+        description: "Ad-hoc topic/phrase to analyze (leave blank for normal RSS run)"
+        required: false
+        default: ""
+        type: string
+      force_stories:
+        description: "Override: number of stories to analyze (0 = use config)"
+        required: false
+        default: "0"
+        type: string
+
+  # ──────────────────────────────────────────────────────────
+  # PUSH TRIGGER (Optional — analyzes after any config change)
+  # Comment this out if you don't want analysis on every push
+  # ──────────────────────────────────────────────────────────
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'config/feeds.yaml'
+  #     - 'config/analysis_prompt.md'
+
+# Prevents multiple workflow runs from conflicting
+concurrency:
+  group: intelligence-pipeline
+  cancel-in-progress: false  # Don't cancel — let the current run finish
+
+jobs:
+  run-intelligence:
+    name: "Intelligence Pipeline"
+    runs-on: ubuntu-latest
+
+    # ──────────────────────────────────────────────────────────
+    # PERMISSIONS
+    # Required for: reading repo, writing reports, deploying pages
+    # ──────────────────────────────────────────────────────────
+    permissions:
+      contents: write      # Allows pushing commits back to the repo
+      pages: write         # Allows deploying to GitHub Pages
+      id-token: write      # Required for OIDC Pages authentication
+
+    # The Pages environment URL is populated after first successful Pages deployment.
+    # On the very first run, this URL may be empty — that's normal and safe.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # ────────────────────────────────────────────────────────
+      # STEP 1: Check out the repository
+      # ────────────────────────────────────────────────────────
+      - name: "📥 Checkout Repository"
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Fetch full history so memory/git context is available
+          fetch-depth: 0
+
+      # ────────────────────────────────────────────────────────
+      # STEP 2: Set up Python
+      # ────────────────────────────────────────────────────────
+      - name: "🐍 Set Up Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ────────────────────────────────────────────────────────
+      # STEP 3: Install dependencies
+      # ────────────────────────────────────────────────────────
+      - name: "📦 Install Dependencies"
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ────────────────────────────────────────────────────────
+      # STEP 4: Verify API key is available
+      # ────────────────────────────────────────────────────────
+      - name: "🔑 Verify API Key"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          # Read active provider from config
+          PROVIDER=$(python3 -c "import yaml; d=yaml.safe_load(open('config/providers.yaml')); print(d.get('active_provider','anthropic'))" 2>/dev/null || echo "anthropic")
+          echo "Active provider: $PROVIDER"
+          if [ "$PROVIDER" = "anthropic" ] && [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ERROR: ANTHROPIC_API_KEY secret is not set!"
+            echo "Go to: Settings → Secrets and Variables → Actions → New Repository Secret"
+            exit 1
+          elif [ "$PROVIDER" = "openai" ] && [ -z "$OPENAI_API_KEY" ]; then
+            echo "ERROR: OPENAI_API_KEY secret is not set for provider: openai"
+            exit 1
+          elif [ "$PROVIDER" = "google" ] && [ -z "$GOOGLE_API_KEY" ]; then
+            echo "ERROR: GOOGLE_API_KEY secret is not set for provider: google"
+            exit 1
+          fi
+          echo "✓ API key is configured for provider: $PROVIDER"
+
+      # ────────────────────────────────────────────────────────
+      # STEP 4.5: Auto-detect site base URL for GitHub Pages
+      # User/org pages (repo = username.github.io): site at /
+      # Project pages (any other repo name): site at /repo-name/
+      # Python reads SITE_BASE_URL env var when generating HTML.
+      # ────────────────────────────────────────────────────────
+      - name: "🔗 Detect Site Base URL"
+        run: |
+          REPO_NAME="${{ github.event.repository.name }}"
+          OWNER="${{ github.repository_owner }}"
+          if [ "$REPO_NAME" = "${OWNER}.github.io" ]; then
+            SITE_BASE_URL="/"
+          else
+            SITE_BASE_URL="/${REPO_NAME}/"
+          fi
+          echo "SITE_BASE_URL=${SITE_BASE_URL}" >> $GITHUB_ENV
+          echo "Site base URL: ${SITE_BASE_URL}"
+
+      # ────────────────────────────────────────────────────────
+      # STEP 5: Run the intelligence pipeline
+      # ────────────────────────────────────────────────────────
+      - name: "🧠 Run Intelligence Pipeline"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          SITE_BASE_URL: ${{ env.SITE_BASE_URL }}
+          FORCE_STORIES: ${{ github.event.inputs.force_stories || '0' }}
+        run: |
+          CUSTOM_TOPIC="${{ github.event.inputs.custom_topic }}"
+          RUN_MODE="${{ github.event.inputs.run_mode || 'normal' }}"
+          echo "Run mode: $RUN_MODE"
+
+          # Ad-hoc topic takes priority over run_mode
+          if [ -n "$CUSTOM_TOPIC" ]; then
+            echo "Ad-hoc topic: $CUSTOM_TOPIC"
+            python scripts/run_pipeline.py --topic "$CUSTOM_TOPIC"
+          else
+            case "$RUN_MODE" in
+              "weekly")
+                python scripts/run_pipeline.py --weekly
+                ;;
+              "dry-run")
+                python scripts/run_pipeline.py --dry-run
+                ;;
+              *)
+                python scripts/run_pipeline.py
+                ;;
+            esac
+          fi
+
+      # ────────────────────────────────────────────────────────
+      # STEP 6: Commit all generated outputs back to GitHub
+      # This is how GitHub becomes our database — all intelligence
+      # artifacts are committed and versioned.
+      # ────────────────────────────────────────────────────────
+      - name: "💾 Commit Intelligence Outputs"
+        run: |
+          # Configure git identity for the commit
+          git config user.name "Intelligence Bot"
+          git config user.email "intelligence-bot@worldintel.local"
+
+          # Add all generated files
+          git add reports/ || true
+          git add intelligence/ || true
+          git add memory/ || true
+          git add world_model/ || true
+          git add staging/ || true
+          git add logs/ || true
+          git add index.html || true
+
+          # Check if there are any changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit (no new analysis or all already up to date)"
+          else
+            # Build commit message with stats
+            TODAY=$(date -u +"%Y-%m-%d")
+            STORY_COUNT=$(find reports/$TODAY -name "structured_data.json" 2>/dev/null | wc -l | tr -d ' ')
+            git commit -m "intel: ${TODAY} — ${STORY_COUNT} stories analyzed [automated]"
+            echo "✓ Committed ${STORY_COUNT} new intelligence reports"
+          fi
+
+      # ────────────────────────────────────────────────────────
+      # STEP 7: Push changes to GitHub
+      # ────────────────────────────────────────────────────────
+      - name: "🚀 Push to GitHub"
+        run: |
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ────────────────────────────────────────────────────────
+      # STEP 8: Deploy to GitHub Pages
+      # This makes all reports publicly accessible
+      # ────────────────────────────────────────────────────────
+      # Create .nojekyll so GitHub Pages doesn't try to run Jekyll on our files.
+      # Without this, GitHub Pages silently drops files starting with _ and may
+      # mis-process CSS/JS files. Always safe to include.
+      - name: "📄 Create .nojekyll"
+        run: touch .nojekyll
+
+      - name: "📄 Setup GitHub Pages"
+        uses: actions/configure-pages@v4
+
+      - name: "📦 Upload to GitHub Pages"
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload the entire repository as the Pages site.
+          # All HTML/CSS/JS/JSON/Markdown files become the website.
+          path: "."
+
+      - name: "🌐 Deploy to GitHub Pages"
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      # ────────────────────────────────────────────────────────
+      # STEP 9: Post-run summary
+      # ────────────────────────────────────────────────────────
+      - name: "📊 Pipeline Summary"
+        run: |
+          TODAY=$(date -u +"%Y-%m-%d")
+          echo ""
+          echo "╔══════════════════════════════════════════════╗"
+          echo "║        INTELLIGENCE PIPELINE COMPLETE         ║"
+          echo "╠══════════════════════════════════════════════╣"
+          echo "║  Date: $TODAY"
+          STORIES=$(find reports/${TODAY} -name "index.html" 2>/dev/null | wc -l | tr -d ' ')
+          echo "║  Reports generated: $STORIES"
+          echo "║  Status: SUCCESS"
+          echo "╚══════════════════════════════════════════════╝"
