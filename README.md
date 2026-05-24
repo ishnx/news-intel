@@ -2,7 +2,7 @@
 
 > An autonomous, compounding intelligence organism that continuously builds deep understanding of the world.
 
-[![Intelligence Pipeline](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/intelligence.yml/badge.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/actions/workflows/intelligence.yml)
+[![Intelligence Pipeline](https://github.com/Black98Hat/news-intel/actions/workflows/intelligence.yml/badge.svg)](https://github.com/Black98Hat/news-intel/actions/workflows/intelligence.yml)
 
 ---
 
@@ -23,7 +23,7 @@ This is not a news app. This is an **autonomous evolving intelligence system** t
 
 ## Live Site
 
-**→ [View Intelligence Reports](https://YOUR_USERNAME.github.io/YOUR_REPO/)**
+**→ [View Intelligence Reports](https://Black98Hat.github.io/news-intel/)**
 
 ---
 
