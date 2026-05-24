@@ -57,10 +57,10 @@ fetch_window_hours: 24
 # Number of top-ranked stories to deeply analyze per run
 # Higher = more intelligence depth but more API cost
 # Recommended: 3-5 for daily runs
-stories_per_run: 5
+stories_per_run: 1
 
 # For weekly digest: number of stories to include in synthesis
-weekly_digest_stories: 15
+weekly_digest_stories: 2
 
 # Maximum Claude API tokens per story analysis
 # Higher = deeper analysis but more cost
