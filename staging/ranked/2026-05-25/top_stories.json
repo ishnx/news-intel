@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-05-25",
+    "top_n": 1,
+    "selected_at": "2026-05-25T09:52:47.070058+00:00"
+  },
+  "stories": [
+    {
+      "id": "6b91ca325ab54490",
+      "title": "What It Takes to Run One of London's Most Popular Pubs | Odd Lots",
+      "url": "https://www.bloomberg.com/news/videos/2026-05-25/what-it-takes-to-run-one-of-london-s-most-popular-pubs-video",
+      "summary": "Restaurants are great microcosms for macro-economic trends. They sit at the intersection of everything from consumer confidence to commodity costs to the labor market. According to the British Beer and Pub Association, approximately two pubs a day have closed in England during the first quarter of 2026. Could pubs tell us something about larger trends in the British economy? We talk to Oisin Rogers and Ashley Palmer-Watts, co-founders of The Devonshire, a famed London pub, top find out. Rogers, the publican, discusses the difference between a good and bad pub, why he hates the word 'gastropub,' and how the indoor smoking ban changed the meaning of pubs for the average Londoner. In a segment from our London live show, chef Palmer-Watts, details the factors that lead to a perfect pint of Guinness, why higher ingredient costs does not always correlate to higher menu prices, and about making a Victorian-era meat fruit for Apple's Jony Ive. (Source: Bloomberg)",
+      "published_at": "2026-05-25T08:17:26+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-05-25T09:52:38.053643+00:00",
+      "intelligence_score": 114.76,
+      "rank": 1,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 73.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition",
+          "venture_capital",
+          "china"
+        ]
+      }
+    }
+  ]
+}
