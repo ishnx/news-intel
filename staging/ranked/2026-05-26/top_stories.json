@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-05-26",
+    "top_n": 1,
+    "selected_at": "2026-05-26T09:38:57.342284+00:00"
+  },
+  "stories": [
+    {
+      "id": "827aca1416c325e7",
+      "title": "First Taiwan, then South Korea? How global AI supercycle is demoting Indian stock market",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/first-taiwan-then-south-korea-how-global-ai-supercycle-is-demoting-indian-stock-market/articleshow/131323127.cms",
+      "summary": "A global AI-led market shift is driving massive foreign capital outflows from India toward East Asia\u2019s technology hubs, with overseas investors pulling nearly $24 billion from Indian equities this year. Fueled by the AI boom and a sharp rally in Taiwan Semiconductor Manufacturing Company, Taiwan has overtaken India as the world\u2019s fifth-largest stock market, while South Korea is emerging as another strong challenger.",
+      "published_at": "2026-05-26T06:23:13+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-05-26T09:38:50.550204+00:00",
+      "intelligence_score": 100.38,
+      "rank": 1,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "semiconductors",
+          "china"
+        ]
+      }
+    }
+  ]
+}
