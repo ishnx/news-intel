@@ -2,36 +2,37 @@
   "metadata": {
     "date": "2026-05-27",
     "top_n": 1,
-    "selected_at": "2026-05-27T09:32:35.858580+00:00"
+    "selected_at": "2026-05-27T20:03:27.550338+00:00"
   },
   "stories": [
     {
-      "id": "8edcf166af52f598",
-      "title": "SpaceX Investor Powerlaw to Debut on Nasdaq as IPO Race Heats Up",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-27/spacex-investor-powerlaw-to-debut-on-nasdaq-as-ipo-race-heats-up",
-      "summary": "Powerlaw Corp., a closed-end fund that owns stakes in Elon Musk\u2019s SpaceX and artificial intelligence firm OpenAI, is going public without raising any capital in the latest public vehicle to cater to retail investors\u2019 clamor for exposure to the hottest private tech companies.",
-      "published_at": "2026-05-27T09:00:00+00:00",
-      "source_name": "Bloomberg Markets (via RSS)",
-      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
-      "category": "macro",
-      "source_weight": 0.9,
-      "fetched_at": "2026-05-27T09:32:26.463135+00:00",
-      "intelligence_score": 132.32,
+      "id": "4269c0d3a184c779",
+      "title": "MiniMax teases upcoming M3 model with new sparse attention mechanism and 15.6X long-context response speed boost",
+      "url": "https://venturebeat.com/technology/minimax-teases-upcoming-m3-model-with-new-sparse-attention-mechanism-and-15-6x-response-speed-boost",
+      "summary": "Among the many Chinese AI companies and laboratories vying for market share and attention (no pun intended) on the global marketplace,  MiniMax  stands out for its commitment to providing frontier-level intelligence across a range of modalities, including text, coding, and video (through its  Hailuo  model series) \u2014 often under permissive, enterprise-friendly, standard open source licenses.  Now, MiniMax is again raising the eyebrows of AI power users and developers around the world by releasing a new,  in-depth technical report  on the making of its popular M2 series of language models ( M2 ,  M2.5 , and  M2.7 ) shedding light on its numerous engineering innovations and clever approaches \u2014 while the company and its leaders also teased a whole new  sparse attention approach for its upcoming MiniMax M3 series of models , which it says yields up to 15.6 times faster decoding (or LLM response) speed by adopting a custom sub-quadratic framework. In so doing, MiniMax has designed M3 to make ultra-long-context AI agent deployment economically viable. The M2 report is noteworthy for any enterprise working with AI models, and especially those looking to fine-tune and train their own in-house. After all, MiniMax's M2 series models often achieved top benchmarks in the world for open source AI performance when they were released.  While the title has since been  eclipsed  by several other Chinese labs including DeepSeek and Xiaomi, MiniMax's new report offers a blueprint that can be used to improve AI model and agent performance by enterprises around the world. As Adina Yakup of Hugging Face  observed on X , \"Beyond the benchmarks, they\u2019ve done some really solid work on MoE efficiency and agent oriented design. Excited to see where M3 goes next!\"  The attention dilemma The core technical architecture of the M2 series relies on a sparse Mixture-of-Experts (MoE) decoder-only Transformer layout used by numerous other state-of-the-art LLMs. The foundational backbone houses 229.9 billion total parameters, yet maintains a remarkably lean operational footprint by activating just 9.8 billion parameters per token across 256 fine-grained experts.  To optimize routing and avoid standard load-balancing issues, however, MiniMax implemented sigmoid gating paired with learnable, expert-specific bias terms, heavily reducing reliance on restrictive auxiliary losses. The most definitive engineering decision documented in the M2 paper was the strict adherence to full multi-head attention with Grouped Query Attention (GQA) across all 62 layers.  In large language models, \"quadratic scaling\" refers to the computationally expensive reality of standard full attention mechanisms, where every token in a sequence must mathematically connect to every other token. To use a real-world analogy, it is akin to attending a networking event and being forced to have a deep conversation with every single person in the room while simultaneously monitoring all other ongoing conversations.  Whil",
+      "published_at": "2026-05-27T19:59:06+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
+      "category": "technology",
+      "source_weight": 0.7,
+      "fetched_at": "2026-05-27T20:03:15.081976+00:00",
+      "intelligence_score": 129.14,
       "rank": 1,
-      "category_weight": 1.1,
+      "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 61.4,
-        "source_multiplier": 1.1,
-        "entity_bonus": 46,
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 31,
         "keyword_bonus": 0,
         "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.1,
+        "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
+          "india",
           "semiconductors",
-          "venture_capital",
-          "space"
+          "energy_transition",
+          "china"
         ]
       }
     }
