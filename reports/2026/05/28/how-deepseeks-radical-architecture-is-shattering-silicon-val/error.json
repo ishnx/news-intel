@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbVa8NArjMf3swDrPfPVn'}",
+  "story": {
+    "id": "971bcad388d5e51e",
+    "title": "How DeepSeek\u2019s radical architecture is shattering Silicon Valley's token moat",
+    "url": "https://venturebeat.com/infrastructure/how-deepseeks-radical-architecture-is-shattering-silicon-valleys-token-moat",
+    "summary": "DeepSeek\u2019s announcement over the weekend that it has made its  75% price cut permanent on its flagship V4 Pro model  is a disruptive assault on the capital-heavy business models of Silicon Valley\u2019s frontier labs.\u00a0 The reduction on DeepSeek V4 Pro directly undercuts comparable Western models used as workhorses for enterprise production. It is  7x cheaper on inputs and 17x cheaper on outputs  than Anthropic\u2019s Claude Sonnet or OpenAI\u2019s GPT 5.5-Med, while the lightweight DeepSeek  V4 Flash  undercuts entry-tier alternatives like Claude Haiku by  10x to 25x .\u00a0 The price cuts are enabled by a series of hardware-software innovations, especially around cache, that make DeepSeek's models radically more efficient to run. When hosted natively in China, DeepSeek\u2019s cache-read pricing is a whopping  87x cheaper  than Western clouds \u2014 a deflationary floor so aggressive that handset giant Xiaomi just  moved to match the exact pricing tier  for its newly deployed MiMo architecture. DeepSeek  V4 Pro\u2019s performance  is ranked almost on  par with Western frontier models , hitting  80.6%  on coding-agent tasks via the  SWE-bench Verified leaderboard  and an  elite reasoning score of  87.5  on the advanced   MMLU-Pro technical index . Both V4 Pro and V4 Flash \u2014 a hyper-optimized speedy version for developers \u2014 are open-weight and issued under a permissive MIT license. This gives enterprises complete flexibility over deployment. This dual-model strategy allows technical teams to route their heaviest, multi-step autonomous agent workloads to the lightning-fast Flash model, while reserving the heavy Pro model for deep reasoning tasks, drastically lowering costs at a time when budget concerns have grown considerably. This also comes at a time when the closed Western labs, in particular OpenAI and Anthropic, face an intense return-on-investment scrutiny for their multi-billion dollar general-purpose hardware infrastructure investments.\u00a0 This deflationary collapse will not affect all Silicon Valley labs equally, signaling a permanent bifurcation of the enterprise AI market. While a premium, deterministic tier will endure for mission-critical engineering workflows, the high-volume background agentic layer is being completely commoditized by open weights. Ultimately, it creates a much more dangerous exposure for OpenAI \u2014 whose revenue mix relies heavily on general-purpose commodity API streams \u2014 than for software-insulated peers like Anthropic. The token cost crisis Uber says it burned through its entire 2026 budget for Claude Code and Cursor in just the first four months of the year; its COO said that the cost related to high token usage by some of its engineers was  getting \u201charder to justify \u201d without better products to show for it. Airbnb's Brian Chesky said last year that while the company uses OpenAI's latest models,  they don't rely on them heavily in production  \u2014 favoring faster, cheaper alternatives like Alibaba's Qwen. And in the latest episode of VentureBeat\u2019s podc",
+    "published_at": "2026-05-28T16:57:24+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-05-28T20:08:17.196959+00:00",
+    "intelligence_score": 122.22,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 30,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "semiconductors",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-05-28T20:08:38.099184+00:00"
+}
