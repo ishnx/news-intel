@@ -2,36 +2,37 @@
   "metadata": {
     "date": "2026-05-29",
     "top_n": 1,
-    "selected_at": "2026-05-29T09:39:05.609137+00:00"
+    "selected_at": "2026-05-29T20:10:45.705881+00:00"
   },
   "stories": [
     {
-      "id": "eb8ece7017fb5a67",
-      "title": "Quote of the day by Jenson Huang: \u2018Everyone is a programmer now. You just have to say something to the computer'",
-      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-jenson-huang-everyone-is-a-programmer-now-you-just-have-to-say-something-to-the-computer-11780037037576.html",
-      "summary": "NVIDIA CEO Jensen Huang believes Artificial Intelligence is transforming the way people interact with technology. His message is simple yet powerful: in the AI era, the ability to communicate ideas clearly may matter more than mastering complex programming languages.&nbsp;",
-      "published_at": "2026-05-29T07:18:13+00:00",
-      "source_name": "Mint",
-      "source_url": "https://www.livemint.com/rss/news",
-      "category": "india",
-      "source_weight": 0.85,
-      "fetched_at": "2026-05-29T09:38:58.848043+00:00",
-      "intelligence_score": 156.94,
+      "id": "5d8342f0307196a2",
+      "title": "Shift will clean homes for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "summary": "Article URL:  https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning \n Comments URL:  https://news.ycombinator.com/item?id=48327962 \n Points: 9 \n # Comments: 12",
+      "published_at": "2026-05-29T19:16:32+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-05-29T20:10:33.874740+00:00",
+      "intelligence_score": 144.58,
       "rank": 1,
-      "category_weight": 1.3,
+      "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 73.2,
-        "source_multiplier": 1.1,
-        "entity_bonus": 38,
+        "topic_score": 74.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 16,
         "keyword_bonus": 0,
         "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.3,
+        "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
-          "india",
+          "geopolitics",
           "semiconductors",
-          "energy_transition"
+          "energy_transition",
+          "venture_capital"
         ]
       }
     }
