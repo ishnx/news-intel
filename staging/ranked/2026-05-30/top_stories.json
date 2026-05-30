@@ -2,37 +2,36 @@
   "metadata": {
     "date": "2026-05-30",
     "top_n": 1,
-    "selected_at": "2026-05-30T08:19:04.514473+00:00"
+    "selected_at": "2026-05-30T19:01:41.892964+00:00"
   },
   "stories": [
     {
-      "id": "5d8342f0307196a2",
-      "title": "Shift will clean homes for free to train future robots",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
-      "summary": "Article URL:  https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning \n Comments URL:  https://news.ycombinator.com/item?id=48327962 \n Points: 131 \n # Comments: 183",
-      "published_at": "2026-05-29T19:16:32+00:00",
+      "id": "5242279d8db2aaaf",
+      "title": "Show HN: Helios \u2013 what plug-in solar could generate for any address in Britain",
+      "url": "https://helios.southlondonscientific.com/",
+      "summary": "Plug-in solar panels (no electrician needed) have just become legal in the UK and will go on sale soon. Helios estimates how much electricity a typical installation could generate at a given address and what that's worth against your tariff. It uses UK government LIDAR data to reflect the actual skyline, so it knows whether there's a building or a hill blocking the sun. Caveats:\n- Outside LIDAR coverage (most of Scotland and Wales) it falls back to a synthetic horizon (less accurate).\n- Trees and recent developments (post-2022 or so) may not be in the data, and some address placements could be off (geocoding via OSM). Feedback on the shading model especially welcome. \n \n Comments URL:  https://news.ycombinator.com/item?id=48334949 \n Points: 85 \n # Comments: 29",
+      "published_at": "2026-05-30T11:08:37+00:00",
       "source_name": "Hacker News (Top Stories)",
       "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
       "source_weight": 0.9,
-      "fetched_at": "2026-05-30T08:18:46.666935+00:00",
-      "intelligence_score": 131.44,
+      "fetched_at": "2026-05-30T19:01:19.848441+00:00",
+      "intelligence_score": 113.07,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 74.0,
+        "topic_score": 63.9,
         "source_multiplier": 1.3,
-        "entity_bonus": 16,
+        "entity_bonus": 8,
         "keyword_bonus": 0,
-        "recency_multiplier": 1.0,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "semiconductors",
           "energy_transition",
-          "venture_capital"
+          "china"
         ]
       }
     }
