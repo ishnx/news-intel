@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-05-30",
+    "top_n": 1,
+    "selected_at": "2026-05-30T08:19:04.514473+00:00"
+  },
+  "stories": [
+    {
+      "id": "5d8342f0307196a2",
+      "title": "Shift will clean homes for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "summary": "Article URL:  https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning \n Comments URL:  https://news.ycombinator.com/item?id=48327962 \n Points: 131 \n # Comments: 183",
+      "published_at": "2026-05-29T19:16:32+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-05-30T08:18:46.666935+00:00",
+      "intelligence_score": 131.44,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 74.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 16,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "semiconductors",
+          "energy_transition",
+          "venture_capital"
+        ]
+      }
+    }
+  ]
+}
