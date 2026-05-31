@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-05-31",
+    "top_n": 1,
+    "selected_at": "2026-05-31T08:36:21.487546+00:00"
+  },
+  "stories": [
+    {
+      "id": "e1358796ecc12ca9",
+      "title": "Show HN: Breathe CLI \u2013 Paced resonance breathing in the macOS terminal",
+      "url": "https://github.com/marekkowalczyk/breathe-cli",
+      "summary": "I built a terminal app that paces slow breathing at 6 breaths per minute for vagal tone training. It's a single Python file, stdlib only, no dependencies \u2014 just run breathe and follow the bar. I'm a cardiology patient (HFrEF). Slow breathing at resonance frequency is one of the few non-pharmacological interventions shown to improve cardiac vagal tone and baroreflex sensitivity (Bernardi et al., Circulation 2002; Lancet 1998). I wanted a frictionless daily habit tool \u2014 no app store, no account, no subscription, just open terminal and go. Design constraints, all grounded in the clinical literature: - No breath retention \u2014 Valsalva risk in cardiac patients - No rapid breathing \u2014 minimum 8-second cycles - Exhale \u2264 2x inhale \u2014 no evidence for extreme ratios - Immediate exit, always \u2014 q or Ctrl+C restores the terminal even on crash The README includes a resonance frequency measurement protocol for anyone with a chest-strap HRV monitor who wants to find their individual optimum instead of using the 6 bpm default. macOS only (uses afplay for audio cues). MIT licensed. pip install breathe-cli or brew tap marekkowalczyk/breathe && brew install breathe. \n \n Comments URL:  https://news.ycombinator.com/item?id=48340315 \n Points: 9 \n # Comments: 1",
+      "published_at": "2026-05-30T20:30:53+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-05-31T08:36:01.052689+00:00",
+      "intelligence_score": 106.72,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 62.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
