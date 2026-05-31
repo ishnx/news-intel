@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbbAkUtA2yW6gaRtSKVFZ'}",
+  "story": {
+    "id": "0d7d29791ae70fe1",
+    "title": "How Poland Became Europe\u2019s Growth Leader",
+    "url": "https://www.bloomberg.com/news/videos/2026-05-31/how-poland-became-europe-s-growth-leader-video",
+    "summary": "Poland has become one of Europe\u2019s standout growth stories, with an economy that crossed $1 trillion and a new generation of entrepreneurs returning home after studying and working abroad. Finance Minister Andrzej Doma\u0144ski points to decades of reform, EU integration, foreign investment and a diversified economy as drivers of Poland\u2019s rise, while venture capitalist Aleksandra Pedraszewska says Warsaw\u2019s technology scene now offers opportunities that were far less obvious a decade ago. But economists warn that sustaining the boom will require Poland to address large deficits, elevated defense spending, demographic decline and the need for more investment in research, education and innovation. (Source: Bloomberg)",
+    "published_at": "2026-05-31T12:05:33+00:00",
+    "source_name": "Bloomberg Markets (via RSS)",
+    "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "macro",
+    "source_weight": 0.9,
+    "fetched_at": "2026-05-31T19:05:15.760371+00:00",
+    "intelligence_score": 101.64,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.1,
+      "entity_bonus": 0,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-05-31T19:05:38.216283+00:00"
+}
