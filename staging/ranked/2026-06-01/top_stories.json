@@ -2,32 +2,35 @@
   "metadata": {
     "date": "2026-06-01",
     "top_n": 1,
-    "selected_at": "2026-06-01T11:13:17.284745+00:00"
+    "selected_at": "2026-06-01T21:23:12.491173+00:00"
   },
   "stories": [
     {
-      "id": "3c29974bd81f18ea",
-      "title": "Nvidia announces RTX Spark as \u2018the most efficient PC chip ever built\u2019",
-      "url": "https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date",
-      "summary": "This fall, Nvidia will officially become a consumer PC chipmaker like Intel, AMD, Apple, and Qualcomm, putting a complete computing chip - not just graphics - into the very heart of laptops and mini-PCs. After many months of leaks, it's finally announcing the RTX Spark, the first in a family of chips that will meet [\u2026]",
-      "published_at": "2026-06-01T04:28:53+00:00",
-      "source_name": "The Verge",
-      "source_url": "https://www.theverge.com/rss/index.xml",
+      "id": "413cbcb212ecffe0",
+      "title": "MiniMax-M3 debuts, eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmark performance for just 5-10% of the cost",
+      "url": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost",
+      "summary": "Big news in enterprise AI broke over the weekend as Chinese AI startup  MiniMax released its highly anticipated M3 large language model  on Sunday evening Eastern time, pairing frontier-tier coding and agentic performance with a 1-million-token context window and native multimodality for a fraction of the cost of leading proprietary models, with pricing starting at just $20 per month under its new subscription token plans.  The company's leadership also announced plans to deliver the model under an open source license including \"open weights,\" allowing for full enterprise downloading and customizability free-of-charge, coming sometime in the next 10 days. For now, it is available via the  MiniMax API  at a special discounted price of $0.3 per 1 million input tokens and $1.20 per million output tokens (on fresh cache) for the next week \u2014 beating proprietary U.S. giants like Google, OpenAI and Anthropic handily on cost, while also eclipsing the performance of the latest models from the former two on selected benchmarks. Even at its full price of $0.6/$2.40 per million input/output tokens, MiniMax-M3 remains at just 8-20% the cost of the leading, proprietary U.S. models.  The traditional matrix governing large language model development has long dictated a rigid choice: software developers can either access top-tier closed-source intelligence behind restrictive APIs, or deploy nimble, cost-effective open models that falter on multi-step reasoning, dense coding tasks, and massive data sequences. MiniMax-M3 fundamentally upends this paradigm.  By unifying these two historically separated frontier capabilities, M3 introduces a level of comprehensive utility previously restricted to expensive, closed-source ecosystems, effectively shifting the baseline of open-weights systems while drastically minimizing the operational compute footprint required to execute complex development loops.  VentureBeat Frontier AI Model API Pricing Snapshot Model Input Output Total Cost Source MiMo-V2.5 Flash $0.10 $0.30 $0.40 Xiaomi MiMo deepseek-v4-flash $0.14 $0.28 $0.42 DeepSeek deepseek-v4-pro $0.435 $0.87 $1.305 DeepSeek MiniMax-M3 $0.30 $1.20 $1.50 (limited time only) MiniMax Gemini 3.1 Flash-Lite $0.25 $1.50 $1.75 Google MiMo-V2.5 $0.40 $2.00 $2.40 Xiaomi MiMo Grok 4.3 low context $1.25 $2.50 $3.75 xAI GLM-5 $1.00 $3.20 $4.20 Z.ai Kimi-K2.6 $0.95 $4.00 $4.95 Moonshot/Kimi GLM-5.1 $1.40 $4.40 $5.80 Z.ai Grok 4.3 high context $2.50 $5.00 $7.50 xAI Qwen3.7-Max $2.50 $7.50 $10.00 Alibaba Cloud Gemini 3.5 Flash $1.50 $9.00 $10.50 Google Gemini 3.1 Pro Preview \u2264200K $2.00 $12.00 $14.00 Google GPT-5.4 $2.50 $15.00 $17.50 OpenAI Gemini 3.1 Pro Preview >200K $4.00 $18.00 $22.00 Google Claude Opus 4.8 $5.00 $25.00 $30.00 Anthropic GPT-5.5 $5.00 $30.00 $35.00 OpenAI New MiniMax Sparse Attention (MSA) technique helps keep the model's cost low At the core of the model's efficiency lies an architectural departure from classic Transformer networks. Standard attention mechanisms scal",
+      "published_at": "2026-06-01T16:10:05+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
       "category": "technology",
-      "source_weight": 0.8,
-      "fetched_at": "2026-06-01T11:12:52.312572+00:00",
-      "intelligence_score": 102.98,
+      "source_weight": 0.7,
+      "fetched_at": "2026-06-01T21:22:58.462829+00:00",
+      "intelligence_score": 130.62,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 43.4,
-        "source_multiplier": 1.0,
-        "entity_bonus": 46,
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 38,
         "keyword_bonus": 0,
         "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
           "semiconductors",
           "energy_transition"
         ]
