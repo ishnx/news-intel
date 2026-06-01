@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "date": "2026-06-01",
+    "top_n": 1,
+    "selected_at": "2026-06-01T11:13:17.284745+00:00"
+  },
+  "stories": [
+    {
+      "id": "3c29974bd81f18ea",
+      "title": "Nvidia announces RTX Spark as \u2018the most efficient PC chip ever built\u2019",
+      "url": "https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date",
+      "summary": "This fall, Nvidia will officially become a consumer PC chipmaker like Intel, AMD, Apple, and Qualcomm, putting a complete computing chip - not just graphics - into the very heart of laptops and mini-PCs. After many months of leaks, it's finally announcing the RTX Spark, the first in a family of chips that will meet [\u2026]",
+      "published_at": "2026-06-01T04:28:53+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-01T11:12:52.312572+00:00",
+      "intelligence_score": 102.98,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 43.4,
+        "source_multiplier": 1.0,
+        "entity_bonus": 46,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
