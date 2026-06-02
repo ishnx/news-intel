@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cbf5NKwDU6B5Nvwn6XYMx'}",
+  "story": {
+    "id": "6e309711fc8ef993",
+    "title": "Show HN: RePlaya \u2013 self-hosted browser session replay with live tailing",
+    "url": "https://github.com/s2-streamstore/replaya",
+    "summary": "Hi HN, I'm one of the founders of s2.dev. RePlaya ( https://github.com/s2-streamstore/replaya ) is a self-hosted browser session replay tool using rrweb ( https://github.com/rrweb-io/rrweb ). It occurred to me that a durable stream per session would be a much neater architectural foundation for much of what you'd want from such a tool. As a unique feature, it also made live tailing straightforward because the player can read from the same stream the recorder is appending to. The alternative architecture is likely an ingest firehose which is then indexed, with associated complexity and latency. You'd have to string together multiple data systems like a message queue, a metadata database, and blob storage and/or an OLAP database. Here the only dependency is S2, which has an open source version you can self-host called s2-lite ( https://news.ycombinator.com/item?id=46708055 ). How it works: - one S2 stream per browser session - large rrweb events (like a full snapshot) get framed across multiple binary S2 records and reassembled on read - active sessions are tailed with an S2 read session, and bridged to the browser over SSE - session listing relies on stream names encoding reverse timestamps, as S2 returns a lexicographic order listing - relying on fencing tokens so a stopped session can't be written to again by a late recorder - retention and GC are handled via S2 stream config, so no background job needed Curious to hear from folks on the tool or the stream-per-session model! \n \n Comments URL:  https://news.ycombinator.com/item?id=48373482 \n Points: 19 \n # Comments: 3",
+    "published_at": "2026-06-02T17:40:15+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-02T20:37:09.195327+00:00",
+    "intelligence_score": 140.07,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 76.5,
+      "source_multiplier": 1.3,
+      "entity_bonus": 8,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "energy_transition",
+        "venture_capital",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-06-02T20:37:26.256848+00:00"
+}
