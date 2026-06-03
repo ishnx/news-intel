@@ -1,5 +1,5 @@
 {
-  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbgC7yR7qSzmam39Dgmf7'}",
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cbgz4ktKicnKTtYj7PNK1'}",
   "story": {
     "id": "270397becd063179",
     "title": "Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token \u2014 but it's proprietary",
@@ -10,8 +10,8 @@
     "source_url": "https://venturebeat.com/feed/",
     "category": "technology",
     "source_weight": 0.7,
-    "fetched_at": "2026-06-03T10:45:17.214167+00:00",
-    "intelligence_score": 126.4,
+    "fetched_at": "2026-06-03T20:48:42.412037+00:00",
+    "intelligence_score": 120.08,
     "rank": 1,
     "category_weight": 1.2,
     "score_breakdown": {
@@ -19,7 +19,7 @@
       "source_multiplier": 0.9,
       "entity_bonus": 38,
       "keyword_bonus": 2,
-      "recency_multiplier": 1.0,
+      "recency_multiplier": 0.95,
       "novelty_multiplier": 1.0,
       "category_weight": 1.2,
       "matched_topics": [
@@ -31,5 +31,5 @@
       ]
     }
   },
-  "timestamp": "2026-06-03T10:46:34.858341+00:00"
+  "timestamp": "2026-06-03T20:49:05.011820+00:00"
 }

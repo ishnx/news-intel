@@ -2,7 +2,7 @@
   "metadata": {
     "date": "2026-06-03",
     "top_n": 1,
-    "selected_at": "2026-06-03T10:46:34.053560+00:00"
+    "selected_at": "2026-06-03T20:49:04.156674+00:00"
   },
   "stories": [
     {
@@ -15,8 +15,8 @@
       "source_url": "https://venturebeat.com/feed/",
       "category": "technology",
       "source_weight": 0.7,
-      "fetched_at": "2026-06-03T10:45:17.214167+00:00",
-      "intelligence_score": 126.4,
+      "fetched_at": "2026-06-03T20:48:42.412037+00:00",
+      "intelligence_score": 120.08,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
@@ -24,7 +24,7 @@
         "source_multiplier": 0.9,
         "entity_bonus": 38,
         "keyword_bonus": 2,
-        "recency_multiplier": 1.0,
+        "recency_multiplier": 0.95,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
