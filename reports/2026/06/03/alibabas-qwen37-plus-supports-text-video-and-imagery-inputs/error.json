@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbgC7yR7qSzmam39Dgmf7'}",
+  "story": {
+    "id": "270397becd063179",
+    "title": "Alibaba's Qwen3.7-Plus supports text, video and imagery inputs at low cost of $0.4/$1.6 per 1M token \u2014 but it's proprietary",
+    "url": "https://venturebeat.com/technology/alibabas-qwen3-7-plus-supports-text-video-and-imagery-inputs-at-low-cost-of-0-4-1-6-per-1m-token-but-its-proprietary",
+    "summary": "Alibaba  this week released Qwen3.7-Plus , the latest AI large language model (LLM) in its globally beloved and increasingly expansive Qwen family, boasting more multimodal capabilities and a 60% lower cost than the  prior, text-only Qwen3.7-Max model released just weeks ago.  However, like its immediate predecessor Qwen3.7-Plus is available only under a \"closed\" commercial license via  proprietary application programming interfaces (API)  and Qwen Chat.  That marks a big departure from the Qwen strategy to date, which was focused mainly on releasing powerful,near state-of-the-art open source models. Those enterprises and users who relied on the open source Qwen models \u2014 among them,  U.S. giants such as Airbnb  \u2014 will no doubt be disappointed to see that Alibaba is going closed for its newer releases. Still, the model is worth a look because of its low cost and high performance on multimodal tasks like creating enterprise-grade visuals or analyzing video, imagery and screenshots, which Qwen3.7-Max cannot do (it's text-only). It is among the cheaper powerful AI models available now, coming in price-wise just above Chinese rival's new  MiniMax-M3's limited-time discount pricing.  VentureBeat Frontier AI Model API Pricing Snapshot Model Input Output Total Cost Source MiMo-V2.5 Flash $0.10 $0.30 $0.40 Xiaomi MiMo deepseek-v4-flash $0.14 $0.28 $0.42 DeepSeek deepseek-v4-pro $0.435 $0.87 $1.305 DeepSeek MiniMax-M3 $0.30 $1.20 $1.50 MiniMax Qwen3.7-Plus $0.40 $1.60 $2.00 Alibaba Cloud Gemini 3.1 Flash-Lite $0.25 $1.50 $1.75 Google MiMo-V2.5 $0.40 $2.00 $2.40 Xiaomi MiMo Grok 4.3 low context $1.25 $2.50 $3.75 xAI GLM-5 $1.00 $3.20 $4.20 Z.ai Kimi-K2.6 $0.95 $4.00 $4.95 Moonshot/Kimi GLM-5.1 $1.40 $4.40 $5.80 Z.ai Grok 4.3 high context $2.50 $5.00 $7.50 xAI Qwen3.7-Max $2.50 $7.50 $10.00 Alibaba Cloud Gemini 3.5 Flash $1.50 $9.00 $10.50 Google Gemini 3.1 Pro Preview \u2264200K $2.00 $12.00 $14.00 Google GPT-5.4 $2.50 $15.00 $17.50 OpenAI Gemini 3.1 Pro Preview >200K $4.00 $18.00 $22.00 Google Claude Opus 4.8 $5.00 $25.00 $30.00 Anthropic GPT-5.5 $5.00 $30.00 $35.00 OpenAI Maintaining continuity during complex tool execution loops  For technical decision-makers deploying autonomous agents, the primary bottleneck has rarely been initial model intelligence. Instead, it is  state decay \u2014the tendency of an agent framework to lose its analytical trajectory over multi-step, long-horizon tasks.  Qwen3.7-Plus addresses this architectural vulnerability through a combined approach to context management and reasoning state preservation.  The model ships with a  1-million token context window  and allocates up to 256K tokens specifically for internal chain-of-thought processing. To contextualize this capacity, imagine an automated cloud migration agent: it can ingest an entire codebase, map out the dependencies, and spend thousands of tokens quietly evaluating edge cases before executing a single line of bash script. Crucially, the API exposes a parameter called ' preserve",
+    "published_at": "2026-06-02T22:40:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-06-03T10:45:17.214167+00:00",
+    "intelligence_score": 126.4,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 38,
+      "keyword_bonus": 2,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "india",
+        "semiconductors",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-06-03T10:46:34.858341+00:00"
+}
