@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-06-04",
+    "top_n": 1,
+    "selected_at": "2026-06-04T09:45:39.426252+00:00"
+  },
+  "stories": [
+    {
+      "id": "6fb148c09ab4d82f",
+      "title": "US proposes extra 12.5% tariffs on Indian imports: What is the current levy on Indian goods?",
+      "url": "https://www.livemint.com/news/india/us-plans-extra-12-5-per-cent-tariffs-on-indian-imports-what-is-the-current-levy-on-indian-goods-11780554018167.html",
+      "summary": "A list of 54 US trading partners \u2013 including India, China, Japan, South Korea and Switzerland \u2013 would face additional tariffs for failing \u2018to impose and effectively enforce a prohibition on the importation of goods produced with forced labor.\u2019",
+      "published_at": "2026-06-04T08:36:36+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-04T09:45:31.736319+00:00",
+      "intelligence_score": 103.5,
+      "rank": 1,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 65.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition",
+          "china"
+        ]
+      }
+    }
+  ]
+}
