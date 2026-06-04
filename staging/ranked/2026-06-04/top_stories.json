@@ -2,36 +2,36 @@
   "metadata": {
     "date": "2026-06-04",
     "top_n": 1,
-    "selected_at": "2026-06-04T09:45:39.426252+00:00"
+    "selected_at": "2026-06-04T19:56:16.446535+00:00"
   },
   "stories": [
     {
-      "id": "6fb148c09ab4d82f",
-      "title": "US proposes extra 12.5% tariffs on Indian imports: What is the current levy on Indian goods?",
-      "url": "https://www.livemint.com/news/india/us-plans-extra-12-5-per-cent-tariffs-on-indian-imports-what-is-the-current-levy-on-indian-goods-11780554018167.html",
-      "summary": "A list of 54 US trading partners \u2013 including India, China, Japan, South Korea and Switzerland \u2013 would face additional tariffs for failing \u2018to impose and effectively enforce a prohibition on the importation of goods produced with forced labor.\u2019",
-      "published_at": "2026-06-04T08:36:36+00:00",
-      "source_name": "Mint",
-      "source_url": "https://www.livemint.com/rss/news",
-      "category": "india",
-      "source_weight": 0.85,
-      "fetched_at": "2026-06-04T09:45:31.736319+00:00",
-      "intelligence_score": 103.5,
+      "id": "7755ae204c378015",
+      "title": "Show HN: Cost.dev (YC W21) \u2013 making agents cost-aware and cheaper to call",
+      "url": "https://cost.dev/",
+      "summary": "We launched Infracost on HN five years ago ( https://news.ycombinator.com/item?id=26064588 ) where our CLI generated cost estimates for infra-as-code, e.g. \"this Terraform PR adds $400/mo\". The idea was to shift cloud costs (FinOps) left, so engineers get visibility of costs before deployment and make better decisions. Earlier this year we started seeing agent traffic in our logs and it looked like coding agents were calling our CLI. But that CLI wasn't designed with coding agents in mind. We went down a philosophical rabbit hole to see if a CLI is even needed anymore given that Claude, Copilot et al. already follow best practices. Ultimately we decided to create a new CLI from the ground up with coding agents in mind for two reasons: 1. We optimized the CLI for agent callers and cut Claude's output token usage by up to 79% and API cost by up to 67% versus a bare-Claude baseline. We wrote a blog documenting our lessons on optimizing user token usage when designing a CLI, e.g. using predicate flags so the agent doesn't compose jq | python | wc pipelines, output format that strips JSON's redundant field names. The blog is here:  https://www.infracost.io/resources/blog/we-cut-claude-s-toke... 2. With cloud costs, precision matters. Telling a coding agent \"make this Terraform cost-optimized\" can be expensive and lossy. You burn tokens loading code and policy context into every conversation. Your agent could make up a price and you wouldn't know because it's difficult to verify that across the ~10M price points that AWS, Azure and Google have. The CLI runs static analysis on the code, uses the latest prices from cloud vendors, and passes that context to the coding agent. So that's what we're launching today - Cost.dev:  https://cost.dev/ . - It runs locally. Your code never leaves your machine, you get a fast feedback loop, and you're not burning API calls per character when you want to fetch prices. - The CLI does the deterministic work. Fetching price points, scanning the code, validating fixes. The coding agent does the natural-language part. You don't have to trust the LLM to remember the rules, and can verify it called the right CLI command. - It provides a consistent rule layer across every tool you use. Get cost estimates in your IDE and your coding agent with a single install. We support Claude Code, GitHub Copilot, Cursor, Windsurf, OpenAI Codex, Gemini CLI, as well as IDEs like VS Code and JetBrains Before we keep building more in that direction, I want to sanity-check with HN: is \"agents writing IaC in prod\" actually a thing yet, or am I betting on a future that's still a year out? I know software developers are using coding agents heavily, but are platform/infra folks doing that for prod too? Also, if you have any feedback on Cost.dev, I'd love to hear it! \n \n Comments URL:  https://news.ycombinator.com/item?id=48397148 \n Points: 10 \n # Comments: 1",
+      "published_at": "2026-06-04T11:30:13+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-04T19:55:58.394701+00:00",
+      "intelligence_score": 147.8,
       "rank": 1,
-      "category_weight": 1.3,
+      "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 65.8,
-        "source_multiplier": 1.1,
-        "entity_bonus": 0,
+        "topic_score": 80,
+        "source_multiplier": 1.3,
+        "entity_bonus": 23,
         "keyword_bonus": 0,
-        "recency_multiplier": 1.1,
+        "recency_multiplier": 1.0,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.3,
+        "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
-          "india",
+          "geopolitics",
           "energy_transition",
-          "china"
+          "regulation_policy"
         ]
       }
     }
