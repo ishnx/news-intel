@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbjtCYbBRefgMVZ62cCRn'}",
+  "story": {
+    "id": "66ea935039228c1b",
+    "title": "Anthropic says 80% of its new production code is now authored by Claude \u2014 how your enterprise can keep up",
+    "url": "https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up",
+    "summary": "Anthropic co-founder and CEO Dario Amodei  said it was coming , but it still feels like a milestone: More than 80% of the code merged into Anthropic\u2019s production codebase in May wasn't authored by humans, but by its own AI model, Claude, according to a  new report shared by the record-breaking AI startup today. This transformation has triggered an  8x increase in the volume of code  shipped per engineer per quarter compared to the company\u2019s 2021\u20132025 baseline, which the company notes means even more code someone or something must review. For enterprise technical leaders, this is no longer a localized research curiosity; it's a new, aggressive competitive baseline.  If a frontier AI laboratory can successfully offload the vast majority of its engineering output to autonomous agents \u2014 showing signs of the long-sought AI Holy Grail of \" recursive self-improvement ,\" models that can independently research and upgrade themselves \u2014 what's preventing enterprises across other sectors from automating more of their internal software development with AI agents, too?  Obviously, it's easier said than done. Anthropic is one of the principle creators of the current gen AI boom, so you'd expect them to know how to deploy the technology effectively. But for other enterprises looking to bump up the amount of code and workflows handled by agents, Anthropic's new blog post details the outlines of a general plan they too can adopt to re-engineer their operations and workflows to take advantage of the latest AI advances.  Anthropic's roadmap that other enterprises can follow The transition from human-centric coding to autonomous orchestration requires understanding the evolution of AI capabilities. Anthropic outlines a clear historical continuum that enterprises can map onto their own digital transformation roadmaps:  2021\u20132023 (Manual Writing):  Engineers write code and documentation natively within local text editors.  2023\u20132025 (Chatbot Assistance):  Developers use early models to generate brief code snippets, copying and pasting outputs manually into their environments.  2025\u20132026 (Coding Agents):  Capable agents actively write and edit entire files autonomously.  Present Day (Autonomous Agents):  Agents execute code independently, debug live environments, and delegate multi-hour work streams to specialized sub-agents.  This rapid evolution is validated by external benchmarks. Software engineering evaluation frameworks like SWE-bench\u2014which tasks models with resolving real bug reports in complex, open-source codebases\u2014have saturated over a two-year window.  Furthermore, long-duration capability evaluations demonstrate that models like Claude Opus 4.6 can reliably sustain operations on 12-hour tasks, while Claude Mythos Preview pushes past 16 hours of continuous problem-solving.  Internally, the technological leap is even more stark. On highly complex, open-ended engineering problems where clear specifications are initially absent, Claude\u2019s success rate climbed to ",
+    "published_at": "2026-06-04T20:25:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-06-05T09:33:42.880140+00:00",
+    "intelligence_score": 116.4,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 30,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-06-05T09:33:56.678292+00:00"
+}
