@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-06-05",
     "top_n": 1,
-    "selected_at": "2026-06-05T09:33:55.936215+00:00"
+    "selected_at": "2026-06-05T19:43:55.672303+00:00"
   },
   "stories": [
     {
-      "id": "66ea935039228c1b",
-      "title": "Anthropic says 80% of its new production code is now authored by Claude \u2014 how your enterprise can keep up",
-      "url": "https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up",
-      "summary": "Anthropic co-founder and CEO Dario Amodei  said it was coming , but it still feels like a milestone: More than 80% of the code merged into Anthropic\u2019s production codebase in May wasn't authored by humans, but by its own AI model, Claude, according to a  new report shared by the record-breaking AI startup today. This transformation has triggered an  8x increase in the volume of code  shipped per engineer per quarter compared to the company\u2019s 2021\u20132025 baseline, which the company notes means even more code someone or something must review. For enterprise technical leaders, this is no longer a localized research curiosity; it's a new, aggressive competitive baseline.  If a frontier AI laboratory can successfully offload the vast majority of its engineering output to autonomous agents \u2014 showing signs of the long-sought AI Holy Grail of \" recursive self-improvement ,\" models that can independently research and upgrade themselves \u2014 what's preventing enterprises across other sectors from automating more of their internal software development with AI agents, too?  Obviously, it's easier said than done. Anthropic is one of the principle creators of the current gen AI boom, so you'd expect them to know how to deploy the technology effectively. But for other enterprises looking to bump up the amount of code and workflows handled by agents, Anthropic's new blog post details the outlines of a general plan they too can adopt to re-engineer their operations and workflows to take advantage of the latest AI advances.  Anthropic's roadmap that other enterprises can follow The transition from human-centric coding to autonomous orchestration requires understanding the evolution of AI capabilities. Anthropic outlines a clear historical continuum that enterprises can map onto their own digital transformation roadmaps:  2021\u20132023 (Manual Writing):  Engineers write code and documentation natively within local text editors.  2023\u20132025 (Chatbot Assistance):  Developers use early models to generate brief code snippets, copying and pasting outputs manually into their environments.  2025\u20132026 (Coding Agents):  Capable agents actively write and edit entire files autonomously.  Present Day (Autonomous Agents):  Agents execute code independently, debug live environments, and delegate multi-hour work streams to specialized sub-agents.  This rapid evolution is validated by external benchmarks. Software engineering evaluation frameworks like SWE-bench\u2014which tasks models with resolving real bug reports in complex, open-source codebases\u2014have saturated over a two-year window.  Furthermore, long-duration capability evaluations demonstrate that models like Claude Opus 4.6 can reliably sustain operations on 12-hour tasks, while Claude Mythos Preview pushes past 16 hours of continuous problem-solving.  Internally, the technological leap is even more stark. On highly complex, open-ended engineering problems where clear specifications are initially absent, Claude\u2019s success rate climbed to ",
-      "published_at": "2026-06-04T20:25:00+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
+      "id": "fc5ba2eb6dd6f82d",
+      "title": "Launch HN: General Instinct (YC P26) \u2013 Frontier models on edge devices",
+      "url": "https://news.ycombinator.com/item?id=48414869",
+      "summary": "Hey HN, Guanming and Bill here from General Instinct ( https://general-instinct.com/ ). After years of working in robotics, we kept running into the same problem: the best models never fit the hardware we actually had available. The models that performed best were usually designed around datacenter assumptions: large GPUs, lots of memory bandwidth, and reliable network access. But most physical systems have the opposite constraints. That led us down the path of figuring out how much of a frontier model could be preserved while still making it practical to run on edge hardware. As part of that work, we recently open sourced InstinctRazor ( https://github.com/General-Instinct/InstinctRazor ) One result we're excited about is compressing Qwen3.5-122B-A10B, a roughly 245 GB BF16 MoE model, into a 48 GiB GGUF. The resulting model is actually smaller than Gemma-4-26B-A4B while outperforming it on benchmarks like MMLU-Pro and GPQA-D etc. we preserve the parts that are always active (router, norms, Gated-DeltaNet/SSM layers, vision pathway, etc.) and quantize the routed experts much more aggressively. We then use on-policy distillation to recover capability lost during quantization. The model can also run in a \"small GPU\" configuration where experts are streamed from system RAM. With an 8k context window, peak VRAM usage is around 7.6\u20138 GB. If you're interested in the technical details, we wrote up the approach here ( https://general-instinct.com/blog/frontier-moe-sub-4-bit ) We're especially interested in hearing from people deploying models onto robots or other edge devices. What models are you trying to run locally today? What has been the biggest bottleneck in getting them into production? \n \n Comments URL:  https://news.ycombinator.com/item?id=48414869 \n Points: 25 \n # Comments: 9",
+      "published_at": "2026-06-05T16:33:00+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-06-05T09:33:42.880140+00:00",
-      "intelligence_score": 116.4,
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-05T19:43:35.710041+00:00",
+      "intelligence_score": 148.89,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
         "topic_score": 80,
-        "source_multiplier": 0.9,
-        "entity_bonus": 30,
-        "keyword_bonus": 0,
-        "recency_multiplier": 1.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 16,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "india",
+          "semiconductors",
           "energy_transition",
-          "venture_capital"
+          "regulation_policy"
         ]
       }
     }
