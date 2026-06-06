@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbmgpqdUTCRK8XBWkN9Fo'}",
+  "story": {
+    "id": "ce98e9fb336bd529",
+    "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+    "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+    "summary": "Article URL:  https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/ \n Comments URL:  https://news.ycombinator.com/item?id=48421442 \n Points: 322 \n # Comments: 96",
+    "published_at": "2026-06-06T04:38:36+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-06T08:25:40.301734+00:00",
+    "intelligence_score": 138.39,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 55.0,
+      "source_multiplier": 1.3,
+      "entity_bonus": 46,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "space",
+        "regulation_policy"
+      ]
+    }
+  },
+  "timestamp": "2026-06-06T08:25:58.949616+00:00"
+}
