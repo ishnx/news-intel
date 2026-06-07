@@ -1,0 +1,3447 @@
+{
+  "metadata": {
+    "fetched_at": "2026-06-07T08:46:51.843540+00:00",
+    "cutoff_time": "2026-06-06T08:46:34.950357+00:00",
+    "total_articles": 125,
+    "date": "2026-06-07",
+    "ranked_at": "2026-06-07T08:46:51.927961+00:00",
+    "total_ranked": 125,
+    "top_n": 1
+  },
+  "articles": [
+    {
+      "id": "4e25d687b6ca9b2f",
+      "title": "FIIs, weak global cues among 5 factors that could keep D-St under pressure this week",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-weak-global-cues-among-5-factors-that-could-keep-d-st-under-pressure-this-week/articleshow/131561835.cms",
+      "summary": "Indian stock markets may remain under pressure this week amid persistent FII selling, weak global cues, rising geopolitical tensions in West Asia and elevated crude oil prices. While RBI\u2019s policy measures and steps to attract foreign capital could support sentiment, investors will closely track monsoon progress, inflation concerns, global market trends and institutional flows for further market direction.",
+      "published_at": "2026-06-07T04:09:40+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:44.230758+00:00",
+      "intelligence_score": 98.28,
+      "rank": 1,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "aaab49a61417b3dd",
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "url": "https://twitter.com/lemire/status/2062880075117113739",
+      "summary": "Article URL:  https://twitter.com/lemire/status/2062880075117113739 \n Comments URL:  https://news.ycombinator.com/item?id=48424605 \n Points: 275 \n # Comments: 467",
+      "published_at": "2026-06-06T12:52:18+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.917887+00:00",
+      "intelligence_score": 94.17,
+      "rank": 2,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 48.8,
+        "source_multiplier": 1.3,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "7c5851285d53ee51",
+      "title": "LPG Price Hike by  \u20b929: What your 14.2-kg domestic cylinder will cost now in Delhi, Bengaluru, Mumbai, Hyderabad, Kolkata",
+      "url": "https://www.livemint.com/news/india/lpg-price-hike-by-29-what-your-14-2-kg-domestic-cylinder-will-cost-now-in-delhi-bengaluru-mumbai-hyderabad-kolkata-11780793037140.html",
+      "summary": "LPG Price Hike by  \u20b929: Domestic cylinder rates increased for the second time in three months as state-owned oil companies continue to grapple with elevated global energy costs. Check latest 14.2-kg domestic cylinder rates in your city here.",
+      "published_at": "2026-06-07T01:37:28+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415999+00:00",
+      "intelligence_score": 93.53,
+      "rank": 3,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 51.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "045c339bb8789587",
+      "title": "World News Today Live Updates on June 7, 2026 : Trump plans to redirect frozen Iranian assets toward Gulf ally rebuilding as truce talks stall over $24 billion",
+      "url": "https://www.livemint.com/news/world/total-world-latest-news-on-june-7-2026-live-updates-11780793596247.html",
+      "summary": "World News Today Live Updates on June 7, 2026: Stay informed on global events with our in-depth world news coverage, bringing you the latest developments across politics, economy, and culture. Discover insights into international affairs, breaking news, and the trends shaping our interconnected world, all in one place.",
+      "published_at": "2026-06-07T00:53:15+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.416036+00:00",
+      "intelligence_score": 90.09,
+      "rank": 4,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 60.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "3c5baeffc5b7761a",
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "summary": "Article URL:  https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/ \n Comments URL:  https://news.ycombinator.com/item?id=48427643 \n Points: 568 \n # Comments: 206",
+      "published_at": "2026-06-06T18:35:27+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.917233+00:00",
+      "intelligence_score": 84.44,
+      "rank": 5,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 49.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "6bbad19beaac4585",
+      "title": "What we know about the plan to give Americans an equity stake in AI",
+      "url": "https://www.ft.com/content/8559a3f9-86de-4a1c-8a75-6623e83e6a00",
+      "summary": "OpenAI has proposed a sovereign-wealth-style fund to ease public anxiety about the impact of artificial intelligence",
+      "published_at": "2026-06-06T21:18:20+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-07T08:46:40.810334+00:00",
+      "intelligence_score": 83.68,
+      "rank": 6,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 39.4,
+        "source_multiplier": 1.4,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "id": "fb349b41e3f1d2f0",
+      "title": "Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)",
+      "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer",
+      "summary": "Article URL:  https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer \n Comments URL:  https://news.ycombinator.com/item?id=48424103 \n Points: 0 \n # Comments: 0",
+      "published_at": "2026-06-06T12:00:56+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.918059+00:00",
+      "intelligence_score": 80.11,
+      "rank": 7,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 43.8,
+        "source_multiplier": 1.3,
+        "entity_bonus": 16,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "c5c4ad1e152a690a",
+      "title": "Kosovo Seeks to End Impasse With Snap Election: What to Watch",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/kosovo-seeks-to-end-impasse-with-snap-election-what-to-watch",
+      "summary": "Kosovo goes to the polls for the third time in 18 months Sunday in an attempt to break a political impasse that\u2019s stymied progress toward improving ties with Serbia and gaining more European aid.",
+      "published_at": "2026-06-07T05:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502004+00:00",
+      "intelligence_score": 78.77,
+      "rank": 8,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 62.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "92926412d9c92161",
+      "title": "Anthropic calls for the ability to slow or pause frontier AI development",
+      "url": "https://www.medianama.com/2026/06/223-anthropic-calls-ability-slow-pause-frontier-ai-development/",
+      "summary": "Anthropic warns that AI is increasingly building better AI, raising the risk of recursive self-improvement\u2014and urges coordinated action among developers and policymakers before societies lose meaningful oversight. \n The post  Anthropic calls for the ability to slow or pause frontier AI development  appeared first on  MEDIANAMA .",
+      "published_at": "2026-06-06T11:26:46+00:00",
+      "source_name": "Medianama",
+      "source_url": "https://www.medianama.com/feed/",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:46.271444+00:00",
+      "intelligence_score": 75.14,
+      "rank": 9,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 58.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "725f92b88a01d922",
+      "title": "Crypto-Funded Chinese Peptide Labs Are Booming",
+      "url": "https://www.wired.com/story/security-news-this-week-crypto-funded-chinese-peptide-labs-are-booming/",
+      "summary": "Plus: Hackers use Meta\u2019s AI bots to hack Instagram accounts, Anthropic helps NSA hackers, a decades-long GPS satellite mystery may have been solved, and more.",
+      "published_at": "2026-06-06T10:30:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336371+00:00",
+      "intelligence_score": 71.25,
+      "rank": 10,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 50.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "china",
+          "space",
+          "crypto_defi"
+        ]
+      }
+    },
+    {
+      "id": "8aa957646200b755",
+      "title": "War in Iran Approaches 100 Day Mark",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/war-in-iran-approaches-100-day-mark-video",
+      "summary": "American forces headed off Iranian missile and drone attacks in the Persian Gulf as the war that began nearly 100 days ago continued to simmer with no resolution in the offing. Six ballistic missiles fired at Bahrain and Kuwait \u201cwere intercepted and a seventh did not reach its intended target,\u201d US Central Command said in a statement on X late Friday. Bloomberg News Congressional Reporter Steven Dennis joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "published_at": "2026-06-06T15:02:55+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502472+00:00",
+      "intelligence_score": 66.67,
+      "rank": 11,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 58.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "349eaacbbc1276f7",
+      "title": "FIFA Prepares for World Cup 2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/fifa-prepares-for-world-cup-2026-video",
+      "summary": "FIFA is offering assurances to New York Mayor Zohran Mamdani that fans may bring water into World Cup stadiums \u2014 within certain rules. Mamdani raised concerns Thursday about reports that FIFA had banned fans from bringing bottles of water to World Cup matches, demanding answers from FIFA. Bloomberg Opinion Business of Sports Columnist Adam Minter joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "published_at": "2026-06-06T14:20:46+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502560+00:00",
+      "intelligence_score": 64.68,
+      "rank": 12,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 48.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "5fc0c72e7a147214",
+      "title": "Elon Musk flags India's fertility decline after report shows birth rate below replacement level",
+      "url": "https://www.livemint.com/news/india/elon-musk-flags-indias-fertility-decline-after-report-shows-birth-rate-below-replacement-level-11780777864218.html",
+      "summary": "Delhi recorded the country\u2019s lowest fertility rate at 1.2, lower than that of Finland. The national TFR currently stands at 1.9.",
+      "published_at": "2026-06-06T20:43:27+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.416146+00:00",
+      "intelligence_score": 63.33,
+      "rank": 13,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 33.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "45ed5d1bd9b4e9e1",
+      "title": "NSE investor accounts cross 26 crore milestone as mobile trading and tier-2/3 cities drive participation",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-investor-accounts-cross-26-crore-milestone-as-mobile-trading-and-tier-2/3-cities-drive-participation/articleshow/131563611.cms",
+      "summary": "NSE said in a press release that over 4.3 crore accounts, nearly 17% of the total, have been added in the past year alone, reflecting sustained retail interest despite geopolitical uncertainty and market volatility.",
+      "published_at": "2026-06-07T07:51:22+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:44.230569+00:00",
+      "intelligence_score": 63.06,
+      "rank": 14,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 49.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "9d0aab84b5aabd65",
+      "title": "China Starts Prefabricated Power Hub for Data Centers, CCTV Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/china-starts-prefabricated-power-hub-for-data-centers-cctv-says",
+      "summary": "China\u2019s first prefabricated computing power hub has started operations, offering a faster and lower-cost way to build and supply electricity to data centers, according to a report from China Central Television.",
+      "published_at": "2026-06-07T05:53:04+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.501962+00:00",
+      "intelligence_score": 62.82,
+      "rank": 15,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 47.2,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "semiconductors",
+          "energy_transition",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "b6287271e48a42ad",
+      "title": "ECB Steps Up as G7\u2019s Lead Hawk With Interest-Rate Hike Primed",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-06/ecb-steps-up-as-g7-s-lead-hawk-with-interest-rate-hike-primed",
+      "summary": "A euro-zone interest-rate hike in the coming week is set to place the European Central Bank at the vanguard of global tightening caused by the Iran war.",
+      "published_at": "2026-06-06T20:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.501863+00:00",
+      "intelligence_score": 62.6,
+      "rank": 16,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 31.9,
+        "source_multiplier": 1.1,
+        "entity_bonus": 23,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "geopolitics",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "90ca8d3ced0f85f4",
+      "title": "I design with Claude more than Figma now",
+      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+      "summary": "Article URL:  https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/ \n Comments URL:  https://news.ycombinator.com/item?id=48431981 \n Points: 119 \n # Comments: 84",
+      "published_at": "2026-06-07T05:04:24+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.915035+00:00",
+      "intelligence_score": 62.45,
+      "rank": 17,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "9624dfb70ab70fe3",
+      "title": "US weighs using Iranian assets to compensate Gulf allies for war damage",
+      "url": "https://www.ft.com/content/d19bd87f-2673-40e8-9216-8529d80b42aa",
+      "summary": "Proposal comes as relations between Trump administration and regional partners have been strained by conflict",
+      "published_at": "2026-06-07T02:50:19+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-07T08:46:40.810376+00:00",
+      "intelligence_score": 60.64,
+      "rank": 18,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 37.5,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "2449056cf32121ae",
+      "title": "Public Domain Image Archive",
+      "url": "https://pdimagearchive.org/",
+      "summary": "Article URL:  https://pdimagearchive.org/ \n Comments URL:  https://news.ycombinator.com/item?id=48430539 \n Points: 102 \n # Comments: 16",
+      "published_at": "2026-06-07T00:22:51+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.916427+00:00",
+      "intelligence_score": 59.48,
+      "rank": 19,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "4ef1f9f7722085ae",
+      "title": "Human-Like Neural Nets by Catapulting",
+      "url": "https://gwern.net/llm-catapult",
+      "summary": "Article URL:  https://gwern.net/llm-catapult \n Comments URL:  https://news.ycombinator.com/item?id=48430282 \n Points: 33 \n # Comments: 3",
+      "published_at": "2026-06-06T23:45:36+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.916583+00:00",
+      "intelligence_score": 59.48,
+      "rank": 20,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "a273f1e4d439628e",
+      "title": "Show HN: Oproxy \u2013 inspect and modify network traffic from the browser",
+      "url": "https://github.com/sauravrao637/oproxy",
+      "summary": "Article URL:  https://github.com/sauravrao637/oproxy \n Comments URL:  https://news.ycombinator.com/item?id=48431079 \n Points: 43 \n # Comments: 6",
+      "published_at": "2026-06-07T02:11:29+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.916110+00:00",
+      "intelligence_score": 59.18,
+      "rank": 21,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "cd143ac0d4bb3476",
+      "title": "AlphaGrep enters MF space, eyes Rs 25,000-30,000 cr AUM in 3-5 yrs; to launch maiden scheme on Jul 6",
+      "url": "https://economictimes.indiatimes.com/mf/mf-news/alphagrep-enters-mf-space-eyes-rs-25000-30000-cr-aum-in-3-5-yrs-to-launch-maiden-scheme-on-jul-6/articleshow/131563079.cms",
+      "summary": "The move comes after the company received approval from the Securities and Exchange Board of India (Sebi) to commence mutual fund operations.",
+      "published_at": "2026-06-07T06:48:57+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:44.230675+00:00",
+      "intelligence_score": 58.74,
+      "rank": 22,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "c3048522c6f16c15",
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "published_at": "2026-06-06T20:32:24+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.347825+00:00",
+      "intelligence_score": 58.68,
+      "rank": 23,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 36.4,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "30eaf9d3728f4632",
+      "title": "Trump's AI wealth plan: How Americans could gain stakes in OpenAI, Anthropic, other trillion-dollar tech companies",
+      "url": "https://www.livemint.com/news/us-news/trumps-ai-wealth-plan-how-americans-could-gain-stakes-in-openai-anthropic-other-trillion-dollar-tech-companies-11780799360989.html",
+      "summary": "President Trump proposes giving the US public ownership stakes in AI companies like OpenAI and Anthropic. Here's why he calls it 'a beautiful thing' and what it could mean for average Americans.",
+      "published_at": "2026-06-07T03:00:57+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415814+00:00",
+      "intelligence_score": 58.53,
+      "rank": 24,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 30,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "58cc34d41fc1790f",
+      "title": "DoubleLine, Oaktree Brace for Potential AI Pain",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-06/doubleline-oaktree-brace-for-potential-ai-pain-credit-weekly",
+      "summary": "Credit heavyweights like DoubleLine Capital LP and Oaktree Capital Management are buying debt now that can perform well if the artificial intelligence boom turns into a credit bust.",
+      "published_at": "2026-06-06T19:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502359+00:00",
+      "intelligence_score": 55.67,
+      "rank": 25,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 39.4,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "id": "80196890dcabe9cb",
+      "title": "The circus freaks of open source",
+      "url": "https://drewdevault.com/blog/Circus-freaks-of-FOSS/",
+      "summary": "Article URL:  https://drewdevault.com/blog/Circus-freaks-of-FOSS/ \n Comments URL:  https://news.ycombinator.com/item?id=48431952 \n Points: 74 \n # Comments: 17",
+      "published_at": "2026-06-07T04:57:02+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.915241+00:00",
+      "intelligence_score": 54.26,
+      "rank": 26,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "f3732f165a134d26",
+      "title": "Domestic LPG cheapest in India despite price hike, says Modi govt; how cooking gas rates fare in Pakistan, US, Canada",
+      "url": "https://www.livemint.com/news/india/domestic-lpg-cheapest-in-india-despite-price-hike-says-modi-govt-how-cooking-gas-rates-fare-in-pakistan-us-canada-11780806259082.html",
+      "summary": "The latest price hike of the 14.2 kg LPG cylinder \u2014 the second such increase since the West Asia conflict broke out \u2014 meant that the rates have increased by  \u20b989 cumulatively.",
+      "published_at": "2026-06-07T05:36:56+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415644+00:00",
+      "intelligence_score": 53.75,
+      "rank": 27,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 35.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "geopolitics",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "b5a3ac3e892463fc",
+      "title": "AI Boom or Political Play? Trump Channels Defense Funds Into Dying Coal Plants",
+      "url": "https://oilprice.com/Energy/Coal/AI-Boom-or-Political-Play-Trump-Channels-Defense-Funds-Into-Dying-Coal-Plants.html",
+      "summary": "The Trump administration is set to channel nearly $700 million in federal funds into the U.S. coal industry Thursday, invoking a Korean War-era statute to prop up existing power plants, finance new construction, and push open a California export terminal that has been blocked for nearly two decades. The centerpiece is $425 million distributed under the Defense Production Act to 13 existing coal plants across West Virginia, Kentucky, North Carolina, Indiana, Tennessee, Arkansas, Arizona, Oklahoma, North Dakota, and Wisconsin. Another $75 million\u2026",
+      "published_at": "2026-06-06T17:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-07T08:46:49.523282+00:00",
+      "intelligence_score": 53.7,
+      "rank": 28,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 71.6,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "049e818ac2e1354e",
+      "title": "Fed\u2019s Barr Warns of Risks Tied to Looser Wall Street Bank Rules",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-06/fed-s-barr-warns-of-risks-tied-to-looser-wall-street-bank-rules",
+      "summary": "Federal Reserve Governor Michael Barr criticized moves from regulators over the past year to relax the rules for US lenders, saying the proposals \u201cconsiderably weaken bank regulation and supervision.\u201d",
+      "published_at": "2026-06-06T16:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502435+00:00",
+      "intelligence_score": 52.36,
+      "rank": 29,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 43.9,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "geopolitics",
+          "central_banks",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "38d841889265d4be",
+      "title": "How Vobiz.ai Is Building The Backbone Of India\u2019s Voice AI Boom",
+      "url": "https://inc42.com/startups/how-vobiz-ai-is-building-the-backbone-of-indias-voice-ai-boom/",
+      "summary": "There is no doubt that AI voice agents are having their moment. But most conversations around voice AI today revolve\u2026",
+      "published_at": "2026-06-06T12:11:10+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:48.839693+00:00",
+      "intelligence_score": 52.24,
+      "rank": 30,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 47.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "9a1099ae600f4d39",
+      "title": "'Software engineering is boring': Meta employee quits to run noodle stall with girlfriend",
+      "url": "https://www.livemint.com/news/trends/software-engineering-is-boring-meta-employee-quits-to-run-noodle-stall-with-girlfriend-11780816679840.html",
+      "summary": "The career switch caught attention online because Tan left behind a job that paid significantly more than his current business.",
+      "published_at": "2026-06-07T08:13:54+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415292+00:00",
+      "intelligence_score": 51.91,
+      "rank": 31,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "8b3cb887c3bd0c3f",
+      "title": "Petrol, diesel prices on June 7: Check fuel cost in Chennai, Kolkata, Delhi, Gurgaon and other cities",
+      "url": "https://www.livemint.com/news/india/petrol-diesel-prices-on-june-7-check-fuel-cost-in-chennai-kolkata-punjab-delhi-gurgaon-karnataka-11780802876019.html",
+      "summary": "Despite the status quo, petrol and diesel prices have already risen by nearly  \u20b97.5 per litre in recent weeks as OMCs responded to soaring crude oil costs linked to the ongoing West Asia crisis.",
+      "published_at": "2026-06-07T04:00:04+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415775+00:00",
+      "intelligence_score": 51.05,
+      "rank": 32,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "10b524d14e6c1315",
+      "title": "Kerala on red alert amid \u2018cyclonic circulation\u2019; monsoon advances into Maharashtra, Delhi next?",
+      "url": "https://www.livemint.com/news/india/kerala-on-red-alert-amid-cyclonic-circulation-monsoon-advances-into-maharashtra-delhi-next-11780795479868.html",
+      "summary": "The advancing monsoon is significantly impacting the western coastline, where Kerala, Coastal Karnataka, Goa and parts of Maharashtra are expected to receive heavy rainfall.",
+      "published_at": "2026-06-07T01:39:48+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415957+00:00",
+      "intelligence_score": 51.05,
+      "rank": 33,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "fd085ca135c7039d",
+      "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
+      "url": "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
+      "summary": "For years, we at Inc42 have tracked the Indian tech startup ecosystem and seen it grow from a kid to\u2026",
+      "published_at": "2026-06-06T10:49:59+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:48.839869+00:00",
+      "intelligence_score": 50.91,
+      "rank": 34,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 45.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "energy_transition",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "bfab5ed986ca56e3",
+      "title": "Tiny X-ray telescope could unlock the Moon's hidden chemistry",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260606075508.htm",
+      "summary": "A lightweight new X-ray telescope could finally give scientists something they\u2019ve never had before: a complete chemical map of the Moon. Researchers used detailed mission simulations to show that a compact telescope orbiting the Moon could identify key elements across the entire lunar surface, helping reveal how the Moon formed and evolved.",
+      "published_at": "2026-06-06T13:24:27+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:51.687495+00:00",
+      "intelligence_score": 50.87,
+      "rank": 35,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 70.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition",
+          "central_banks",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "242d2040d8d5316e",
+      "title": "Motorola effectively bricked its entire line of WiFi routers without explanation",
+      "url": "https://mashable.com/tech/motorola-wifi-routers-stop-working-motosync-plus-app-down",
+      "summary": "Article URL:  https://mashable.com/tech/motorola-wifi-routers-stop-working-motosync-plus-app-down \n Comments URL:  https://news.ycombinator.com/item?id=48425611 \n Points: 135 \n # Comments: 61",
+      "published_at": "2026-06-06T14:43:53+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.917557+00:00",
+      "intelligence_score": 50.58,
+      "rank": 36,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 29.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "57bd8982f16aa0db",
+      "title": "Pope begins Spain visit with praise for country's opposition to war and support for migrants",
+      "url": "https://www.bbc.com/news/articles/c8d2pgjy4qgo?at_medium=RSS&at_campaign=rss",
+      "summary": "On the first day of his official seven-day tour of Spain, the Pope praises the country's \"active commitment to peace and solidarity among peoples\".",
+      "published_at": "2026-06-06T18:34:26+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965316+00:00",
+      "intelligence_score": 49.68,
+      "rank": 37,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "f53525a2933029b4",
+      "title": "Trump plans to redirect frozen Iranian assets toward Gulf ally rebuilding as truce talks stall over $24 billion",
+      "url": "https://www.livemint.com/news/world/trump-plans-to-redirect-frozen-iranian-assets-toward-gulf-ally-rebuilding-as-truce-talks-stall-over-24-billion-11780792044681.html",
+      "summary": "Trump administration is seeking to steer Iranian assets toward helping US allies in the Persian Gulf rebuild from damage inflicted by Tehran, and to repair any future destruction.",
+      "published_at": "2026-06-07T00:53:07+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.416073+00:00",
+      "intelligence_score": 49.55,
+      "rank": 38,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "56de7263b1847ed0",
+      "title": "Indian Startup IPO Tracker 2026",
+      "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026/",
+      "summary": "Dalal Street emerged as a founder\u2019s paradise in 2025, with 18 Indian startups listing on the bourses and collectively mopping\u2026",
+      "published_at": "2026-06-07T04:30:54+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:48.839522+00:00",
+      "intelligence_score": 49.14,
+      "rank": 39,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 40.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "e7ed6fd3ba19b653",
+      "title": "Trump\u2019s outbursts rattle Gulf allies",
+      "url": "https://www.ft.com/content/a25ad28c-f360-4331-a18e-f93b0da6c372",
+      "summary": "US president\u2019s threat against longtime mediator heightens concerns about unpredictability of Washington\u2019s policy",
+      "published_at": "2026-06-07T04:00:02+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-07T08:46:40.810416+00:00",
+      "intelligence_score": 48.51,
+      "rank": 40,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 30.0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "7de38d4facc20c81",
+      "title": "China\u2019s PBOC Adds Gold Again as Bullion Remains Under Pressure",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/china-s-pboc-adds-gold-again-as-bullion-remains-under-pressure",
+      "summary": "China\u2019s central bank extended its gold-buying streak in May, adding to holdings as prices of the precious metal remained under pressure.",
+      "published_at": "2026-06-07T02:19:17+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502044+00:00",
+      "intelligence_score": 47.04,
+      "rank": 41,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 36.2,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "3e4b82be04cc2f67",
+      "title": "How Liminalism Became the Defining Aesthetic of Our Time",
+      "url": "https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/",
+      "summary": "Article URL:  https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/ \n Comments URL:  https://news.ycombinator.com/item?id=48431085 \n Points: 57 \n # Comments: 34",
+      "published_at": "2026-06-07T02:12:19+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.915945+00:00",
+      "intelligence_score": 46.07,
+      "rank": 42,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 23.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "crypto_defi"
+        ]
+      }
+    },
+    {
+      "id": "cd90a7a00da2cde2",
+      "title": "Ragas and symphonies: Indian maestro Ilaiyaraaja is still reshaping music 50 years on",
+      "url": "https://www.bbc.com/news/articles/cm2pldw8x9zo?at_medium=RSS&at_campaign=rss",
+      "summary": "Fifty years after his debut, Ilaiyaraaja remains one of the most celebrated composers in Indian cinema.",
+      "published_at": "2026-06-06T22:27:05+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965276+00:00",
+      "intelligence_score": 41.9,
+      "rank": 43,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "eace30e52f48bc91",
+      "title": "Ola Consumer\u2019s Race Against Time",
+      "url": "https://inc42.com/features/ola-consumers-race-against-time/",
+      "summary": "In the summer of 2021, Bhavish Aggarwal was arguably India\u2019s most audacious tech entrepreneur.\u00a0 Ola Cabs (now Ola Consumer), the\u2026",
+      "published_at": "2026-06-07T05:30:33+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:48.839412+00:00",
+      "intelligence_score": 41.77,
+      "rank": 44,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "6390c07cf5168362",
+      "title": "Valve P2P networking broken for more than 2 months",
+      "url": "https://github.com/ValveSoftware/GameNetworkingSockets/issues/398",
+      "summary": "Article URL:  https://github.com/ValveSoftware/GameNetworkingSockets/issues/398 \n Comments URL:  https://news.ycombinator.com/item?id=48431461 \n Points: 137 \n # Comments: 63",
+      "published_at": "2026-06-07T03:21:52+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.915424+00:00",
+      "intelligence_score": 40.34,
+      "rank": 45,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 19.5,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "39eea90dbdc29a33",
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "url": "https://arxiv.org/abs/2601.14470",
+      "summary": "Article URL:  https://arxiv.org/abs/2601.14470 \n Comments URL:  https://news.ycombinator.com/item?id=48430923 \n Points: 93 \n # Comments: 29",
+      "published_at": "2026-06-07T01:37:11+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.916270+00:00",
+      "intelligence_score": 40.34,
+      "rank": 46,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 19.5,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "8edd0aa5a61ea089",
+      "title": "World's most populous country records fertility rate of 1.9; Elon Musk flags India's birth rate 'below replacement'",
+      "url": "https://www.livemint.com/news/india/worlds-most-populous-country-records-fertility-rate-of-1-9-elon-musk-flags-indias-birth-rate-below-replacement-11780807391317.html",
+      "summary": "Fresh data from the 2024 Sample Registration System (SRS) report indicates that India's Total Fertility Rate has fallen from 2.1 to 1.9 children per woman. As a result, most states are now below the replacement fertility benchmark of 2.1.",
+      "published_at": "2026-06-07T05:28:48+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415684+00:00",
+      "intelligence_score": 39.77,
+      "rank": 47,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "93e54e3f510b2828",
+      "title": "Why Solar Power Is Booming Under Trump",
+      "url": "https://oilprice.com/Alternative-Energy/Solar-Energy/Why-Solar-Power-Is-Booming-Under-Trump.html",
+      "summary": "Despite the Trump administration\u2019s pivot away from renewable energies, solar continues to dominate new energy additions in the United States. Newly released data from the Federal Energy Regulatory Commission (FERC) shows that at the close of last year, solar energy additions were the single largest form of new energy capacity installations for the 28th straight month, starting in September of 2023. In fact, in spite of a broad rollback of Biden-era clean energy incentives since Trump resumed office in January of last year, renewables represented\u2026",
+      "published_at": "2026-06-06T21:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-07T08:46:49.523236+00:00",
+      "intelligence_score": 38.85,
+      "rank": 48,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 51.8,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "cdd1631e4f22fa08",
+      "title": "GOG apologizes for emailing people Nazi symbols",
+      "url": "https://www.theverge.com/games/945088/gog-apologizes-email-nazi-symbols-the-end-of-the-sun",
+      "summary": "GOG sent a newsletter about the game The End of the Sun on June 5th that included symbols associated with the Nazi SS. The Steam competitor issued a statement attributing the inclusion to a \"series of mistakes,\" including miscommunication with the German QA team, inconsistent font rendering, and being understaffed during a bank holiday, among [\u2026]",
+      "published_at": "2026-06-06T17:59:37+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.597802+00:00",
+      "intelligence_score": 38.2,
+      "rank": 49,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "79536b402e890666",
+      "title": "JetBlue CEO Speaks on Potential Consolidation at IATA",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/jetblue-ceo-speaks-on-potential-consolidation-at-iata-video",
+      "summary": "JetBlue CEO Joanna Geraghty speaks at the International Air Transport Association (IATA) on potential consolidation saying \"never say never\". (Source: Bloomberg)",
+      "published_at": "2026-06-06T21:02:51+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502242+00:00",
+      "intelligence_score": 37.51,
+      "rank": 50,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "07196cc2678c705c",
+      "title": "Quote of the day by Nikola Tesla: \u2018New idea must not be judged by\u2026\u2019",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-nikola-tesla-new-idea-must-not-be-judged-by-11780818284270.html",
+      "summary": "Tesla\u2019s remark emerged from a lifetime of experience as an inventor whose work frequently faced scepticism before gaining acceptance.",
+      "published_at": "2026-06-07T07:52:27+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415364+00:00",
+      "intelligence_score": 37.11,
+      "rank": 51,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "aa786c70242aa86a",
+      "title": "Steve Rosenberg: Russia's economic forum overshadowed by drone attacks on St Petersburg",
+      "url": "https://www.bbc.com/news/articles/c9q2gp52rgro?at_medium=RSS&at_campaign=rss",
+      "summary": "The BBC's Russia editor saw Putin's flagship economic event overshadowed by Ukrainian drones attacks.",
+      "published_at": "2026-06-07T07:11:18+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965101+00:00",
+      "intelligence_score": 36.83,
+      "rank": 52,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "585227548710f7b4",
+      "title": "New-Age Tech Stocks: BlueStone, ideaForge Lead Weekly Gains; PB Fintech, Meesho Slip",
+      "url": "https://inc42.com/buzz/new-age-tech-stocks-bluestone-ideaforge-lead-weekly-gains-pb-fintech-meesho-slip/",
+      "summary": "New-age tech stocks saw another mixed week amid the ongoing broader market turmoil due to ongoing geopolitical tensions. While 31\u2026",
+      "published_at": "2026-06-06T12:44:24+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:48.839612+00:00",
+      "intelligence_score": 36.68,
+      "rank": 53,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "fdb4e15c067b537f",
+      "title": "[Update] Nazara Raises \u20b9474 Cr Via Preferential Issue",
+      "url": "https://inc42.com/buzz/nazara-to-raise-%e2%82%b9500-cr-via-preferential-issue/",
+      "summary": "Update |\u00a0 June 6, 17:15 IST Nazara\u2019s board has approved the allotment of 1.82 Cr warrants through a preferential issue\u2026",
+      "published_at": "2026-06-06T11:45:40+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:48.839779+00:00",
+      "intelligence_score": 36.68,
+      "rank": 54,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "ddeca2fe26886159",
+      "title": "IATA Director Willie Walsh on Rising Cost of Jet Fuel",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/iata-director-willie-walsh-on-rising-cost-of-jet-fuel-video",
+      "summary": "The International Air Transport Association (IATA) Director Willie Walsh speaks on how the cost of jet fuel will provide an incentive for refineries to increase production. (Source: Bloomberg)",
+      "published_at": "2026-06-06T19:16:50+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502277+00:00",
+      "intelligence_score": 36.3,
+      "rank": 55,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 30.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "e4830999942f827f",
+      "title": "Swiggy among 9 largecap stocks with up to 45% upside potential. Do you own any?",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/swiggy-among-9-largecap-stocks-with-up-to-45-upside-potential-do-you-own-any/slideshow/131562347.cms",
+      "summary": "For investors seeking the next opportunity, a closer examination of BSE largecap stocks reveals several promising names.",
+      "published_at": "2026-06-07T05:13:07+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:44.230717+00:00",
+      "intelligence_score": 35.63,
+      "rank": 56,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 29.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "7d5544da4d74828f",
+      "title": "Pointed News Quiz | AI, Securities Fraud, Movies",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/pointed-news-quiz-ai-securities-fraud-movies-video",
+      "summary": "David Gura, Christina Ruffini, and Lisa Mateo of \u201cBloomberg This Weekend\u201d play Pointed! Wager your points, leverage your bets and answer wisely. A new quiz is available to play each week on Bloomberg.com (Source: Bloomberg)",
+      "published_at": "2026-06-06T14:43:10+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502511+00:00",
+      "intelligence_score": 35.63,
+      "rank": 57,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "52447b7a133f933c",
+      "title": "Benn Jordan longs for the days of tech that didn\u2019t spy on you",
+      "url": "https://www.theverge.com/report/942609/benn-jordan-music-gear-cybersecurity-surveillance-questionnaire",
+      "summary": "Benn Jordan may have initially gained notoriety for his music as Flashbulb and later, reviewing synths and effects pedals on YouTube under Benn and Gear. But about five years ago, Benn decided to take his YouTube channel in a different direction. He didn't stop covering music gear overnight, but as time progressed, his channel became [\u2026]",
+      "published_at": "2026-06-06T15:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.598085+00:00",
+      "intelligence_score": 35.34,
+      "rank": 58,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "a475bbe67d910efe",
+      "title": "2 Best Bluetooth Trackers of 2026, Plus Honorable Mentions",
+      "url": "https://www.wired.com/story/the-best-bluetooth-trackers/",
+      "summary": "These are the best Bluetooth, Wi-Fi, GPS, and cellular gadgets to ensure you never lose anything ever again.",
+      "published_at": "2026-06-06T10:38:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336325+00:00",
+      "intelligence_score": 35.34,
+      "rank": 59,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "057d53010a81dceb",
+      "title": "How to Share a Link to a Particular Phrase",
+      "url": "https://www.wired.com/story/how-to-share-a-link-to-a-particular-phrase/",
+      "summary": "Modern browsers let you share a link that jumps straight to whatever text you wish to highlight. Here\u2019s how the feature works.",
+      "published_at": "2026-06-06T10:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336454+00:00",
+      "intelligence_score": 35.34,
+      "rank": 60,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "394a759db8d499b6",
+      "title": "\u2018It\u2019s Not a Joke\u2019: A \u2018Simpsons\u2019 Writer Holds His First Presidential Campaign Rally",
+      "url": "https://www.wired.com/story/simpsons-writer-dan-greaney-holds-his-first-presidential-campaign-rally/",
+      "summary": "At a small kickoff event in Los Angeles, Dan Greaney explained why he could no longer stand by and watch the demolition of American democracy.",
+      "published_at": "2026-06-06T09:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336570+00:00",
+      "intelligence_score": 35.34,
+      "rank": 61,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "ccfe51be44a80332",
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "summary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+      "published_at": "2026-06-06T16:17:21+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.348173+00:00",
+      "intelligence_score": 34.77,
+      "rank": 62,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "d20c26243dcf5cbb",
+      "title": "Meta made its own AI-generated clickbait news feed",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "summary": "Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI. The standalone Meta AI app now has a \"For You\" section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated - and as questionable [\u2026]",
+      "published_at": "2026-06-06T14:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.598172+00:00",
+      "intelligence_score": 34.77,
+      "rank": 63,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "454af80e5be4ab14",
+      "title": "The Best 3-in-1 Apple Charging Stations After Testing Top Models",
+      "url": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+      "summary": "I tried all the top models to find the best 3-in-1 Apple charging stations, pads, and more. Keep your iPhone, Apple Watch, and AirPods topped up with these WIRED-tested docking systems.",
+      "published_at": "2026-06-06T14:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336207+00:00",
+      "intelligence_score": 34.77,
+      "rank": 64,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "b291182be44f6dc6",
+      "title": "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners",
+      "url": "https://www.ioccc.org/2025/",
+      "summary": "Article URL:  https://www.ioccc.org/2025/ \n Comments URL:  https://news.ycombinator.com/item?id=48432199 \n Points: 109 \n # Comments: 18",
+      "published_at": "2026-06-07T05:47:54+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.914763+00:00",
+      "intelligence_score": 34.54,
+      "rank": 65,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "cf453e05c79c43de",
+      "title": "Oil Market Flying Blind as Dark Tanker Traffic Surges in Hormuz",
+      "url": "https://oilprice.com/Energy/Energy-General/Oil-Market-Flying-Blind-as-Dark-Tanker-Traffic-Surges-in-Hormuz.html",
+      "summary": "Tanker traffic through the Strait of Hormuz has collapsed by 90% to 95% compared to pre-war levels, analysts concur. Some oil cargoes continue to trickle through the critical chokepoint, but under increasingly opaque operating conditions, complicating the tracking of oil and gas flows and obscuring the visibility of how much energy supply actually reaches buyers these days. Traffic appears to have ramped up in recent weeks, according to an analysis of shipping data by Reuters energy columnist Ron Bousso. More vessels are leaving the region after\u2026",
+      "published_at": "2026-06-06T23:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-07T08:46:49.523177+00:00",
+      "intelligence_score": 34.5,
+      "rank": 66,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "28173cb06e2a4f05",
+      "title": "Meta\u2019s AI smart glasses are one switch away from recognising and naming faces",
+      "url": "https://www.medianama.com/2026/06/223-meta-ray-ban-facial-recognition-feature-privacy-concerns/",
+      "summary": "A security researcher discovered a fully developed facial recognition pipeline inside Meta's Ray-Ban smart glasses companion app, though the feature remains disabled. \n The post  Meta\u2019s AI smart glasses are one switch away from recognising and naming faces  appeared first on  MEDIANAMA .",
+      "published_at": "2026-06-06T11:12:49+00:00",
+      "source_name": "Medianama",
+      "source_url": "https://www.medianama.com/feed/",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:46.271636+00:00",
+      "intelligence_score": 33.49,
+      "rank": 67,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "75471a6be22c280a",
+      "title": "Field of clones: How horse replicas came to dominate polo",
+      "url": "https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses",
+      "summary": "Article URL:  https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses \n Comments URL:  https://news.ycombinator.com/item?id=48431286 \n Points: 74 \n # Comments: 38",
+      "published_at": "2026-06-07T02:46:37+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.915598+00:00",
+      "intelligence_score": 32.97,
+      "rank": 68,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "e69bfec57f34946c",
+      "title": "Show HN: TakoVM \u2013 Isolated model and tool execution used by enterprises",
+      "url": "https://github.com/las7/TakoVM",
+      "summary": "Article URL:  https://github.com/las7/TakoVM \n Comments URL:  https://news.ycombinator.com/item?id=48431257 \n Points: 19 \n # Comments: 7",
+      "published_at": "2026-06-07T02:42:24+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.915766+00:00",
+      "intelligence_score": 32.97,
+      "rank": 69,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "3317090311f6f5d4",
+      "title": "Funeral held for baby shot dead by Israeli troops in occupied West Bank",
+      "url": "https://www.bbc.com/news/articles/cly8lgn0x30o?at_medium=RSS&at_campaign=rss",
+      "summary": "The seven-month-old boy's shrouded body was wrapped in a Palestinian flag and carried by his father to the graveyard.",
+      "published_at": "2026-06-06T19:57:42+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965235+00:00",
+      "intelligence_score": 32.32,
+      "rank": 70,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 29.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "4bdd567499920392",
+      "title": "Summer Game Fest 2026: All the news from gaming&#8217;s busiest week",
+      "url": "https://www.theverge.com/games/939206/summer-game-fest-playstation-xbox-gaming-events-2026",
+      "summary": "Get ready for some gaming news. It\u2019s officially June, which means splashy new events from PlayStation, Xbox, gaming hype man Geoff Keighley, and more. PlayStation kicked things off with a big event that was mostly about premium single-player games like the new God of War Laufey \u2014 a statement from PlayStation that it\u2019s getting back [\u2026]",
+      "published_at": "2026-06-06T16:14:23+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.597940+00:00",
+      "intelligence_score": 31.92,
+      "rank": 71,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "040be72b59702cc6",
+      "title": "Sem: New primitive for code understanding \u2013 not LSPs, but entities on top of Git",
+      "url": "https://ataraxy-labs.github.io/sem/",
+      "summary": "Article URL:  https://ataraxy-labs.github.io/sem/ \n Comments URL:  https://news.ycombinator.com/item?id=48428475 \n Points: 114 \n # Comments: 45",
+      "published_at": "2026-06-06T20:03:55+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.916736+00:00",
+      "intelligence_score": 31.4,
+      "rank": 72,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "e0c52205400bfeab",
+      "title": "Ntsc-rs \u2013 open-source video emulation of analog TV and VHS artifacts",
+      "url": "https://ntsc.rs/",
+      "summary": "Article URL:  https://ntsc.rs/ \n Comments URL:  https://news.ycombinator.com/item?id=48428025 \n Points: 333 \n # Comments: 87",
+      "published_at": "2026-06-06T19:17:46+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.916917+00:00",
+      "intelligence_score": 31.4,
+      "rank": 73,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "600dfa4b2c4bb40b",
+      "title": "Bloomberg This Weekend 6/06/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/bloomberg-this-weekend-6-06-2026-video",
+      "summary": "The news doesn\u2019t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend\u2019s biggest headlines, LIVE from New York. Joined by Navy Federal Credit Union Chief Economist Heather Long, CNN Havana Bureau Chief Patrick Oppman, Fmr. US Ambassador to Israel Tom Nides and Grindr CEO George Arison. (Source: Bloomberg)",
+      "published_at": "2026-06-06T16:19:31+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502397+00:00",
+      "intelligence_score": 31.04,
+      "rank": 74,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 27.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "central_banks",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "7864e9eb41668b00",
+      "title": "Everything to know about CBSE\u2019s 2026 evaluation crisis: a timeline",
+      "url": "https://www.medianama.com/2026/06/223-cbse-2026-evaluation-crisis-timeline/",
+      "summary": "CBSE's digital evaluation experiment has spiralled into a controversy involving cybersecurity flaws, low results, cyberattacks, and procurement allegations. \n The post  Everything to know about CBSE\u2019s 2026 evaluation crisis: a timeline  appeared first on  MEDIANAMA .",
+      "published_at": "2026-06-06T10:05:04+00:00",
+      "source_name": "Medianama",
+      "source_url": "https://www.medianama.com/feed/",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:46.272034+00:00",
+      "intelligence_score": 30.44,
+      "rank": 75,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 29.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "4d9fadeb082c4f82",
+      "title": "Zeroserve: A zero-config web server you can script with eBPF",
+      "url": "https://su3.io/posts/introducing-zeroserve",
+      "summary": "Article URL:  https://su3.io/posts/introducing-zeroserve \n Comments URL:  https://news.ycombinator.com/item?id=48425723 \n Points: 228 \n # Comments: 54",
+      "published_at": "2026-06-06T14:59:43+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.917398+00:00",
+      "intelligence_score": 29.83,
+      "rank": 76,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "bcffa4aa2b44b400",
+      "title": "Moving beyond fork() + exec()",
+      "url": "https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/",
+      "summary": "Article URL:  https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/ \n Comments URL:  https://news.ycombinator.com/item?id=48425528 \n Points: 293 \n # Comments: 292",
+      "published_at": "2026-06-06T14:34:20+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.917706+00:00",
+      "intelligence_score": 29.83,
+      "rank": 77,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "28ecaa38fab664df",
+      "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
+      "url": "https://pokeemerald.com/",
+      "summary": "Article URL:  https://pokeemerald.com/ \n Comments URL:  https://news.ycombinator.com/item?id=48423762 \n Points: 312 \n # Comments: 89",
+      "published_at": "2026-06-06T11:12:58+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:36.918211+00:00",
+      "intelligence_score": 29.83,
+      "rank": 78,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "e00f919089d73fbd",
+      "title": "CBI raids 6 locations linked with alleged  \u20b9661 crore scam \u2014 IDFC First Bank, AU Finance Bank on radar",
+      "url": "https://www.livemint.com/news/india/cbi-raids-6-locations-linked-with-alleged-rs-661-crore-scam-idfc-first-bank-au-finance-bank-on-radar-11780812325451.html",
+      "summary": "CBI conducted searches at six premises in connection with  \u20b9661 crore scam. IDFC First Bank and AU Finance Bank are on investigation agency's radar.",
+      "published_at": "2026-06-07T07:21:20+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415515+00:00",
+      "intelligence_score": 29.41,
+      "rank": 79,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "859e1a741ce47739",
+      "title": "The mayor of Shelbyville, Indiana, says only people who live in \u2018shitty houses\u2019 oppose data center",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
+      "summary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but [\u2026]",
+      "published_at": "2026-06-06T15:05:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.598039+00:00",
+      "intelligence_score": 29.18,
+      "rank": 80,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 25.6,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "b974730fd4744968",
+      "title": "Taylor Swift and Travis Kelce to marry at Madison Square Garden in July? Wedding could cost $20 million",
+      "url": "https://www.livemint.com/news/trends/taylor-swift-and-travis-kelce-to-marry-at-madison-square-garden-in-july-wedding-could-cost-20-million-11780812094735.html",
+      "summary": "Sources familiar with the alleged plans said a wedding celebration could take place on July 3, with an estimated guest list of between 1,100 and 1,200 people.",
+      "published_at": "2026-06-07T06:57:02+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415601+00:00",
+      "intelligence_score": 28.31,
+      "rank": 81,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "ade5524a094f6004",
+      "title": "A Stock Trader\u2019s Guide to the Start of ECB Interest Rate Hikes",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/a-stock-trader-s-guide-to-the-start-of-ecb-interest-rate-hikes",
+      "summary": "European stock traders will need to add a further variable to their investment strategies this week: how rising interest rates will affect each corner of the market.",
+      "published_at": "2026-06-07T07:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.501915+00:00",
+      "intelligence_score": 27.68,
+      "rank": 82,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 20.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "32e45cef25e091e7",
+      "title": "Who is Sriram Krishnan? Chennai-born AI adviser to Donald Trump set to leave White House",
+      "url": "https://www.livemint.com/news/us-news/who-is-sriram-krishnan-chennai-born-ai-adviser-to-donald-trump-set-to-leave-white-house-11780793632527.html",
+      "summary": "White House AI advisor Sriram Krishnan announced his departure from the White House by the end of June. Krishnan says he aims to tackle significant AI issues post his departure from the administration.",
+      "published_at": "2026-06-07T02:00:47+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415918+00:00",
+      "intelligence_score": 27.03,
+      "rank": 83,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "ba9969bf1044002c",
+      "title": "Alan Riding, Times Correspondent in Latin America and Paris, Dies at 82",
+      "url": "https://www.nytimes.com/2026/06/06/business/media/alan-riding-dead.html",
+      "summary": "He was a cosmopolitan observer and interpreter of societies he knew firsthand, whether writing about war in Nicaragua or the history and cultural salons of France.",
+      "published_at": "2026-06-06T22:14:35+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:50.404462+00:00",
+      "intelligence_score": 26.35,
+      "rank": 84,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "geopolitics",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "394bc3a2d8e20ab5",
+      "title": "\u2018No border too complex\u2019: Nepal plans to resolve India disputes with \u2018open mind,\u2019 foreign minister Shishir Khanal says",
+      "url": "https://www.livemint.com/news/india/no-border-too-complex-nepal-plans-to-resolve-india-disputes-with-open-mind-foreign-minister-shishir-khanal-says-11780815868128.html",
+      "summary": "The remarks came after Nepal's new prime minister Balendra Shah's recent comments on the boundary row between the two sides.",
+      "published_at": "2026-06-07T07:49:59+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415417+00:00",
+      "intelligence_score": 25.17,
+      "rank": 85,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "5e3641196e59a856",
+      "title": "Ferrari diehards debate whether buying its first EV is test of loyalty",
+      "url": "https://www.ft.com/content/d35e37ff-cb93-4ba1-8c04-63b9c071523e",
+      "summary": "Group has banned dealers from bundling Luce sales and access to exclusive models as it seeks new clients",
+      "published_at": "2026-06-07T04:00:02+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-07T08:46:40.810493+00:00",
+      "intelligence_score": 23.12,
+      "rank": 86,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "b1280672497507e5",
+      "title": "Malaysian Police Finish Probe Into Ex Anti-Graft Chief, NST Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/malaysian-police-finish-probe-into-ex-anti-graft-chief-nst-says",
+      "summary": "Malaysian police have completed a probe into two cases involving former anti-graft chief Azam Baki and referred the matter to the Attorney-General\u2019s Chambers, according to the New Straits Times.",
+      "published_at": "2026-06-07T01:57:08+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502084+00:00",
+      "intelligence_score": 22.87,
+      "rank": 87,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "e2fb2aa417136ffe",
+      "title": "US-Iran News LIVE: West Asia war marks 100 days, Pakistan pushes for peace deal amid stalled talks, fresh strikes",
+      "url": "https://www.livemint.com/news/world/usiran-war-latest-news-opec-brent-crude-oil-price-strait-of-hormuz-donald-trump-fresh-strikes-peace-talks-11780797646828.html",
+      "summary": "US-Iran News LIVE: Despite Washington and Tehran being engaged in peace negotiations for weeks, there has been no word from wither nations on how to end the war. Stay tuned for latest updates",
+      "published_at": "2026-06-07T02:42:25+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415876+00:00",
+      "intelligence_score": 22.52,
+      "rank": 88,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "13d1d607447f9d4c",
+      "title": "Delta President on Middle East Flights & Premium Travel",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/delta-president-on-middle-east-flights-premium-travel",
+      "summary": "Delta Airlines President Peter Carter speaks at the International Air Transport Association (IATA) on Middle East, Rhiad flights and premium travel.  (Source: Bloomberg)",
+      "published_at": "2026-06-06T21:50:29+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502162+00:00",
+      "intelligence_score": 21.78,
+      "rank": 89,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "480078f1af4575ca",
+      "title": "Delta's Peter Carter on Consumer Premium Travel Appetite",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/delta-s-peter-carter-on-consumer-premium-travel-appetite-video",
+      "summary": "Delta Airlines President Peter Carter speaks at the International Air Transport Association (IATA) on consumers \"insatiable appetite\" for premium travel. (Source: Bloomberg)",
+      "published_at": "2026-06-06T21:34:18+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502204+00:00",
+      "intelligence_score": 21.78,
+      "rank": 90,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "643631f1a795e3d8",
+      "title": "IATA Director on Air Transport Stagflation & Challenges",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-06/iata-director-on-air-transport-stagflation-challenges-video",
+      "summary": "The International Air Transport Association (IATA) Director Willie Walsh speaks on the stagflation & challenges for the industry air transport industry. (Source: Bloomberg)",
+      "published_at": "2026-06-06T19:10:26+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502321+00:00",
+      "intelligence_score": 21.78,
+      "rank": 91,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "11bf0aef931bae75",
+      "title": "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
+      "url": "https://www.bbc.com/news/articles/c802e7jk458o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US defence secretary was speaking in Normandy, 82 years after allied forces launched their operation to liberate Nazi-occupied north-western Europe.",
+      "published_at": "2026-06-07T05:47:28+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965040+00:00",
+      "intelligence_score": 21.21,
+      "rank": 92,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "bb51fe13cda4f62a",
+      "title": "Will America\u2019s evangelicals stick with Trump?",
+      "url": "https://www.ft.com/content/875790ee-cfc7-4fd6-937d-615f7ce5ff1c",
+      "summary": "A critical part of the president\u2019s base is questioning whether his politics and rhetoric align with Christian values",
+      "published_at": "2026-06-07T04:00:02+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-07T08:46:40.810244+00:00",
+      "intelligence_score": 21.02,
+      "rank": 93,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "804b73893b206e09",
+      "title": "Quote of the day by Denzel Washington: \u2018Without commitment, you\u2019ll never start, but\u2026\u2019",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-denzel-washington-without-commitment-you-ll-never-start-but-without-consistency-you-ll-never-fi-11780816519620.html",
+      "summary": "Denzel Washington\u2019s quote \u201cWithout commitment, you\u2019ll never start, but without consistency, you\u2019ll never finish\u201d is a powerful lesson on discipline, hard work, persistence and long-term success.",
+      "published_at": "2026-06-07T07:22:22+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415468+00:00",
+      "intelligence_score": 20.45,
+      "rank": 94,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "0817fd3b9e505878",
+      "title": "Scientists found a surprisingly simple way to create powerful quantum states",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260606075510.htm",
+      "summary": "A team at the University of Chicago has discovered a surprisingly simple way to create powerful quantum states that are normally difficult to produce. By making small adjustments to the energy levels of atoms inside an optical cavity, researchers can generate a wide variety of highly entangled states without adding complicated hardware.",
+      "published_at": "2026-06-06T13:02:19+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:51.687431+00:00",
+      "intelligence_score": 20.35,
+      "rank": 95,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "ce41fb9e335dde74",
+      "title": "Ozempic and similar weight-loss drugs linked to 30% lower breast cancer risk",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260605023400.htm",
+      "summary": "A large study found that women taking GLP-1 drugs, the medication class behind Ozempic, Wegovy, Mounjaro, and Zepbound, were about 30% less likely to develop breast cancer. Researchers say the findings are promising but not yet proof, and clinical trials are now being planned to test whether these drugs could help prevent breast cancer.",
+      "published_at": "2026-06-06T13:28:24+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:51.687591+00:00",
+      "intelligence_score": 19.84,
+      "rank": 96,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 27.3,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "energy_transition",
+          "biotech_health"
+        ]
+      }
+    },
+    {
+      "id": "88cff9d9aa3e4b61",
+      "title": "Iran says staff blocked from entering US after players given World Cup visas",
+      "url": "https://www.bbc.com/news/articles/cy8286nqz87o?at_medium=RSS&at_campaign=rss",
+      "summary": "Iranian officials say technical staff have been denied visas, hours after the US said players could enter the country.",
+      "published_at": "2026-06-06T22:38:36+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965150+00:00",
+      "intelligence_score": 19.44,
+      "rank": 97,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "0897196b28b5d90e",
+      "title": "Toledo shooting: Multiple people shot at during Old West End celebration in Ohio - What we know",
+      "url": "https://www.livemint.com/news/us-news/toledo-shooting-multiple-people-shot-at-during-old-west-end-celebration-in-ohio-dead-injured-casualty-what-we-know-11780788058508.html",
+      "summary": "A shooting erupted at a Toledo festival Saturday, wounding multiple victims. Law enforcement continues searching for suspects behind the incident at the Old West End event.",
+      "published_at": "2026-06-06T23:28:50+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.416109+00:00",
+      "intelligence_score": 18.59,
+      "rank": 98,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "10a1c178f5d53c1b",
+      "title": "Bouygues Telecom consortium agrees to buy Patrick Drahi\u2019s SFR for \u20ac20.35bn",
+      "url": "https://www.ft.com/content/64686829-95e6-4af2-8568-579684606403",
+      "summary": "Bid from group including Orange and Free-Iliad faces showdown with antitrust regulators in Paris and Brussels",
+      "published_at": "2026-06-06T22:16:57+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-07T08:46:40.810454+00:00",
+      "intelligence_score": 18.48,
+      "rank": 99,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 12.0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "0c2d38434c3862f8",
+      "title": "US and Iran exchange strikes in Gulf in latest test of ceasefire",
+      "url": "https://www.bbc.com/news/articles/cvgzgyjk2weo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US military strikes Iranian drones and radar sites and Tehran says it has targeted US bases in Kuwait and Bahrain.",
+      "published_at": "2026-06-06T14:46:20+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965391+00:00",
+      "intelligence_score": 18.47,
+      "rank": 100,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "e3d23cd66ca3ddf8",
+      "title": "Insecurity and instability drive voters in Peru's tight presidential race",
+      "url": "https://www.bbc.com/news/articles/c9d21184e7yo?at_medium=RSS&at_campaign=rss",
+      "summary": "After eight presidents in 10 years, many voters are looking for stability so the next president can focus on tackling crime and inequality.",
+      "published_at": "2026-06-06T23:17:43+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965194+00:00",
+      "intelligence_score": 17.28,
+      "rank": 101,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "5cb0dc1deca7c534",
+      "title": "JMGO\u2019s N3 Ultimate projector is the new portable 4K champ",
+      "url": "https://www.theverge.com/reviews/943732/best-portable-4k-projector-review",
+      "summary": "Sorry Anker: JMGO now makes my favorite flagship portable projector. The N3 Ultimate is an excellent portable 4K projector that defeats moderate ambient light at severe placement angles and can rival more expensive home theater installations at night. After a few weeks of testing, I think the raw adaptability exhibited by the JMGO's N3 Ultimate [\u2026]",
+      "published_at": "2026-06-07T07:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.597624+00:00",
+      "intelligence_score": 17.16,
+      "rank": 102,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "47cd00e6050a2899",
+      "title": "The cutest games from the Wholesome Direct 2026 showcase",
+      "url": "https://www.theverge.com/entertainment/943977/wholesome-direct-2026-cute-games-trailers",
+      "summary": "Every year at Summer Game Fest, nestled in between the splashy blockbuster showcases, the Wholesome Direct provides a nice change of pace. It's similarly packed with games - this year's edition had more than 50 - but the vibe is more chill and, well, wholesome. As in years past, I've pulled out some of the [\u2026]",
+      "published_at": "2026-06-06T17:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.597876+00:00",
+      "intelligence_score": 15.6,
+      "rank": 103,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "28e100cf35b4934a",
+      "title": "Sorry, I\u2019m Not Available. Talk to the A.I. Version of Me.",
+      "url": "https://www.nytimes.com/2026/06/06/business/dealbook/ai-digital-twin.html",
+      "summary": "The hot new productivity hack for C.E.O.s and Harvard professors? A.I. twins that answer questions and attend meetings.",
+      "published_at": "2026-06-07T00:19:58+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:50.404526+00:00",
+      "intelligence_score": 15.3,
+      "rank": 104,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "d8d3ada5baf5ce2c",
+      "title": "82-0 is the best basketball game, to hell with NBA 2K",
+      "url": "https://www.theverge.com/games/944975/82-0-perfect-basketball-stats-game",
+      "summary": "82-0 marries the stat nerd fun of fantasy basketball with instant gratification and a bit of dumb luck. The goal is to draft a team of players that could (theoretically) have a perfect 82-0 season. Obviously, if you just had free rein to pick whoever you wanted from throughout history, there would be little challenge. [\u2026]",
+      "published_at": "2026-06-06T14:30:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.598129+00:00",
+      "intelligence_score": 14.82,
+      "rank": 105,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "2489af0a01d2e310",
+      "title": "Velotric Nomad 2 Fat Tire Ebike, Tested and Reviewed (2026)",
+      "url": "https://www.wired.com/review/velotric-nomad-2-fat-tire-ebike/",
+      "summary": "This wide-tired bike rolls comfortably over dirt, gravel, and whatever curbs you happen to bounce down.",
+      "published_at": "2026-06-06T10:02:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336413+00:00",
+      "intelligence_score": 14.82,
+      "rank": 106,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "5685c56f0727c8d5",
+      "title": "Scientists ejected from diabetes conference for distributing journal reprints",
+      "url": "https://arstechnica.com/science/2026/06/scientists-ejected-from-diabetes-conference-for-distributing-journal-reprints/",
+      "summary": "Those ousted included ADA journal editor-in-chief Steven Kahn and former ADA president Desmond Schatz",
+      "published_at": "2026-06-06T20:53:07+00:00",
+      "source_name": "Ars Technica Science",
+      "source_url": "https://feeds.arstechnica.com/arstechnica/science",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:51.835793+00:00",
+      "intelligence_score": 11.7,
+      "rank": 107,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "c0422089e9e9389c",
+      "title": "Lebanese general among three soldiers killed in Israeli attack on car",
+      "url": "https://www.bbc.com/news/articles/cj0g8jymg92o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Israeli military is investigating the incident in south Lebanon, where it is fighting Hezbollah.",
+      "published_at": "2026-06-06T21:23:03+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965430+00:00",
+      "intelligence_score": 1.0,
+      "rank": 108,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "ce5b4f6ac70380d4",
+      "title": "Fire Erupts on Luxury Yacht Near Singapore's Sentosa Cove",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-07/fire-erupts-on-luxury-yacht-near-singapore-s-sentosa-cove",
+      "summary": "Firefighters attempt to extinguish a fire that broke out on a luxury yacht berthed in Singapore's Sentosa Cove. (Source: Bloomberg)",
+      "published_at": "2026-06-07T08:23:25+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.501783+00:00",
+      "intelligence_score": 0.0,
+      "rank": 109,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "b1d06c544cbcb774",
+      "title": "Scientists finally complete Schr\u00f6dinger\u2019s 100-year-old color theory",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260606015140.htm",
+      "summary": "Researchers have finally resolved a key problem in a 100-year-old theory of color, showing that the qualities we perceive in colors are intrinsic to the mathematics of color space itself. The discovery sharpens our understanding of human vision and could lead to more precise color technologies and visualizations.",
+      "published_at": "2026-06-07T07:55:21+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:51.687542+00:00",
+      "intelligence_score": 0.0,
+      "rank": 110,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "8a425eaba93f553e",
+      "title": "Quote of the day by Michelle Obama: \u2018Who do you want to be? What inspires you? How do you want to give back?\u2019",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-michelle-obama-who-do-you-want-to-be-what-inspires-you-how-do-you-want-to-give-back-11780815481422.html",
+      "summary": "Michelle Obama\u2019s quote \u201cWho do you want to be? What inspires you? How do you want to give back?\u201d is a powerful lesson on identity, purpose, authenticity and service.",
+      "published_at": "2026-06-07T07:08:28+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415559+00:00",
+      "intelligence_score": 0.0,
+      "rank": 111,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "977ec8deaa86cd13",
+      "title": "These 8 flexicap funds have low consistency scores. Do you own any?",
+      "url": "https://economictimes.indiatimes.com/mf/analysis/these-8-flexicap-funds-have-low-consistency-scores-do-you-own-any/slideshow/131562518.cms",
+      "summary": "Eight flexi cap funds exhibited low performance consistency over the last five years, according to CRISIL's Mutual Fund Scorecard. These funds, despite generally low risk compared to peers, showed varying investment styles and delivered CAGRs ranging from 4.79% to 10.4%.",
+      "published_at": "2026-06-07T05:31:26+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:44.230626+00:00",
+      "intelligence_score": 0.0,
+      "rank": 112,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "6b4481075b9d2b03",
+      "title": "Japanese Proverb of the Day: \u2018If the fish is kind to the water, the water is\u2026\u2019; meaning and why it still matters today",
+      "url": "https://www.livemint.com/news/us-news/japanese-proverb-of-the-day-7-june-2026-11780807267237.html",
+      "summary": "The Japanese proverb highlights the interconnectedness of relationships, emphasizing that kindness is essential for mutual support.&nbsp;",
+      "published_at": "2026-06-07T04:53:18+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:44.415734+00:00",
+      "intelligence_score": 0.0,
+      "rank": 113,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "cd95e1d7b0c4a580",
+      "title": "We are optimising ourselves to death",
+      "url": "https://www.ft.com/content/42e5cdaa-005f-4a3b-ba0f-db443b2bad17",
+      "summary": "A tracker might tell you that you got to bed too late, but it doesn\u2019t tell you that you were busy living your life",
+      "published_at": "2026-06-07T04:00:11+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-07T08:46:40.810292+00:00",
+      "intelligence_score": 0.0,
+      "rank": 114,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "3cea2249f523d27c",
+      "title": "World\u2019s Hottest Market Has Korea Bulls Reaching for Protection",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-07/world-s-hottest-market-korea-has-bulls-reaching-for-protection",
+      "summary": "A wave of optimism over South Korean stocks is giving way to growing caution, as some investors hedge positions and pare back crowded trades on concerns that the rally has run too hot, too fast.",
+      "published_at": "2026-06-07T00:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502122+00:00",
+      "intelligence_score": 0.0,
+      "rank": 115,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "1357dfd782a90dce",
+      "title": "Police officer turned Love Island US contestant faces hometown backlash",
+      "url": "https://www.bbc.com/news/articles/cpqprxlqe0po?at_medium=RSS&at_campaign=rss",
+      "summary": "Sean Reifel's joined the cast of the popular reality series less than a year after he joined his hometown's police force.",
+      "published_at": "2026-06-06T23:25:36+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965468+00:00",
+      "intelligence_score": 0.0,
+      "rank": 116,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "04f228869fb3606a",
+      "title": "'It was either killed or be killed' - ongoing nightmares of an ex-child soldier in Somalia",
+      "url": "https://www.bbc.com/news/articles/c98r7zxdxe7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Yusuf Ali, now 34, struggles with his memories living in Mogadishu surrounded by dark reminders of his past.",
+      "published_at": "2026-06-06T23:25:20+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:42.965354+00:00",
+      "intelligence_score": 0.0,
+      "rank": 117,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "c7d7de08339ac1d1",
+      "title": "The first Story-Rich showcase was packed with narrative-driven games",
+      "url": "https://www.theverge.com/games/944406/fellow-traveller-story-rich-showcase-2026-announcements-trailers",
+      "summary": "Fellow Traveller, the publisher behind games like Titanium Court and 1000xResist, just wrapped up its Story-Rich Showcase, which featured a bunch of narrative-driven indie games. With more than 20 games on display, there was a lot to follow, but we've pulled together some of the most notable announcements below. You can also catch the full [\u2026]",
+      "published_at": "2026-06-06T18:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.597702+00:00",
+      "intelligence_score": 0.0,
+      "rank": 118,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "b472fac3e0a20f6b",
+      "title": "Screwworm Flies Add to Cattle Ranchers\u2019 Woes",
+      "url": "https://www.nytimes.com/2026/06/06/business/screwworm-flies-drought-cattle.html",
+      "summary": "Some Texans fear \u201cthe nightmares and the horrors\u201d of a potential screwworm outbreak. Elsewhere, not enough grass to feed cattle sends them to market earlier.",
+      "published_at": "2026-06-06T17:35:17+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:50.404577+00:00",
+      "intelligence_score": 0.0,
+      "rank": 119,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "28d8949a8ea28785",
+      "title": "4K Blu-rays are three for $33 ahead of Father\u2019s Day",
+      "url": "https://www.theverge.com/gadgets/944347/4k-bluray-gruv-fathers-day-deal-sale",
+      "summary": "If you know a dad with a predilection for physical media, he might really dig what you buy for him with this deal at Gruv. Ahead of Father\u2019s Day on June 21st, the online seller (operated by Universal Pictures, in case you didn\u2019t know) is letting you check out with three movies from a large [\u2026]",
+      "published_at": "2026-06-06T16:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.597989+00:00",
+      "intelligence_score": 0.0,
+      "rank": 120,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "5a875338103b494f",
+      "title": "Beyond Instagram: Introducing the next generation of social apps",
+      "url": "https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/",
+      "summary": "These newer social apps offer alternatives to Big Tech\u2019s feeds, focusing on interests, creativity, and community.",
+      "published_at": "2026-06-06T15:00:00+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:35.348232+00:00",
+      "intelligence_score": 0.0,
+      "rank": 121,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "8f9cbecaaef26101",
+      "title": "Frasers Weighs \u00a3500 Million Bid for Shopping Center, Sky Reports",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-06/frasers-weighs-500-million-bid-for-shopping-center-sky-reports",
+      "summary": "Mike Ashley\u2019s Frasers Group Plc is considering a \u00a3500 million ($667 million) bid for Metrocentre, one of the UK\u2019s biggest shopping centers, Sky News reports.",
+      "published_at": "2026-06-06T14:19:41+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-07T08:46:41.502597+00:00",
+      "intelligence_score": 0.0,
+      "rank": 122,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "c82902725fb57a61",
+      "title": "Anti-Vax Dating Apps Are Going IRL. People Are Mad as Hell About It",
+      "url": "https://www.wired.com/story/anti-vax-dating-apps-are-going-irl-people-are-mad-as-hell-about-it/",
+      "summary": "Unjected and PureBlood.Dating are hosting in-person meetups\u2014and have transformed the dating landscape into a political battleground over bodily autonomy.",
+      "published_at": "2026-06-06T11:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336273+00:00",
+      "intelligence_score": 0.0,
+      "rank": 123,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "4e4f27ec31c81346",
+      "title": "30 Best Father\u2019s Day Gifts for Dads (2026)",
+      "url": "https://www.wired.com/story/the-best-gifts-for-dads-2026/",
+      "summary": "Dads are traditionally tough to shop for\u2014let me help with these handpicked gift ideas for fathers with great taste.",
+      "published_at": "2026-06-06T09:31:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:37.336494+00:00",
+      "intelligence_score": 0.0,
+      "rank": 124,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "ac0faa5321196e7f",
+      "title": "\u201860 Minutes\u2019 Is a \u2018Cage Full of Tigers.\u2019 Can Nick Bilton Lead It?",
+      "url": "https://www.nytimes.com/2026/06/06/business/media/60-minutes-nick-bilton.html",
+      "summary": "The tech journalist and filmmaker was a surprise choice to lead a famously combative newsroom. His first week was chaos.",
+      "published_at": "2026-06-06T09:02:01+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-07T08:46:50.404619+00:00",
+      "intelligence_score": 0.0,
+      "rank": 125,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": []
+      }
+    }
+  ]
+}

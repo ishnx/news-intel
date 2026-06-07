@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-06-07",
+    "top_n": 1,
+    "selected_at": "2026-06-07T08:46:51.931311+00:00"
+  },
+  "stories": [
+    {
+      "id": "4e25d687b6ca9b2f",
+      "title": "FIIs, weak global cues among 5 factors that could keep D-St under pressure this week",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-weak-global-cues-among-5-factors-that-could-keep-d-st-under-pressure-this-week/articleshow/131561835.cms",
+      "summary": "Indian stock markets may remain under pressure this week amid persistent FII selling, weak global cues, rising geopolitical tensions in West Asia and elevated crude oil prices. While RBI\u2019s policy measures and steps to attract foreign capital could support sentiment, investors will closely track monsoon progress, inflation concerns, global market trends and institutional flows for further market direction.",
+      "published_at": "2026-06-07T04:09:40+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-07T08:46:44.230758+00:00",
+      "intelligence_score": 98.28,
+      "rank": 1,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    }
+  ]
+}
