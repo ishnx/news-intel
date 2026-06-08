@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-06-08",
+    "top_n": 1,
+    "selected_at": "2026-06-08T10:20:39.959167+00:00"
+  },
+  "stories": [
+    {
+      "id": "34418e260e4c938a",
+      "title": "The AI trade trap: Why successful tech stocks are triggering a trillion-dollar market meltdown in Korea, Taiwan",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/the-ai-trade-trap-why-successful-tech-stocks-are-triggering-a-trillion-dollar-market-meltdown-in-korea-taiwan/articleshow/131579623.cms",
+      "summary": "A sharp tech selloff exposed concentration risks in Asian markets, where chip giants such as TSMC, Samsung and SK Hynix dominate benchmarks. As their rapid gains pushed portfolio weights beyond risk limits, active fund managers were forced to sell despite strong fundamentals. The unwind triggered market volatility, accelerated fund outflows and intensified the shift from active to passive investing.",
+      "published_at": "2026-06-08T05:49:56+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-08T10:20:33.290298+00:00",
+      "intelligence_score": 107.09,
+      "rank": 1,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 65.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 23,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "energy_transition",
+          "china"
+        ]
+      }
+    }
+  ]
+}
