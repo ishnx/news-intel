@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbsSvpfjxokpZw2JEbamE'}",
+  "story": {
+    "id": "f74ade91ac54e2ea",
+    "title": "The Agentic Reckoning: Enterprise AI organizations have a runtime problem, not a model problem \u2014 and most are building the wrong solution",
+    "url": "https://venturebeat.com/resources/the-agentic-reckoning-enterprise-ai-organizations-have-a-runtime-problem-not-a-model-problem",
+    "summary": "In Q1 2026, VentureBeat's Pulse Research surfaced the  \u201cGovernance Mirage\u201d : the gap between the governance org charts enterprises had drawn and the control layers they had actually built. Forty-three percent said a central team owned AI governance; 23% couldn't agree on who owned it at all; and 31% named vendor opacity as the single biggest obstacle. This new wave of research asks the next question: Once you've admitted the governance problem, what breaks first when you try to fix it? The answer from our respondents is unambiguous. The failure point is not the model. It's the runtime. Enterprises are discovering that AI agents built on stateless infrastructure \u2014 Python scripts, LangChain chains, ad hoc orchestration \u2014 cannot survive the operational realities of production. Container restarts erase context. Token costs breach business cases. Hallucinations in Step 3 compound into catastrophic failures by Step 12. And the majority of engineering teams are spending more time managing this \"plumbing\" than building the intelligence that was supposed to justify the investment. What emerges from this survey is a picture of an industry at a critical fork. The organizations that survive the Agentic Reckoning will be those that treat runtime durability as a first-class engineering concern \u2014 not an afterthought to be patched with retries and prompting. The ones that don't will find themselves back where RPA left enterprises a decade ago: a graveyard of clever pilots that couldn't survive Day Two. Methodology VentureBeat conducted this survey in May 2026 as part of its ongoing Pulse Research series on agentic AI adoption in the enterprise. Respondents were filtered to organizations with 100 or more employees. The final qualified sample consists of 132  verified, highly qualified technology leaders  at the forefront of enterprise AI agent deployment.\u00a0 They span: Directors of AI/Analytics (8%) Directors of Engineering/IT (16%) VP of Data/AI/Analytics (5%) VP of Engineering/IT (5%) CIOs/CTOs/CISOs (15%)\u00a0 Product and Program Managers (13%)\u00a0 Consultants (9%)\u00a0 Software and ML Engineers (9%)\u00a0 Enterprise Architects (8%)\u00a0 Other (12%) Industries represented include Technology/Software (42%), Financial Services (20%), Professional Services (8%), Healthcare/Life Sciences (7%), Retail/Consumer (6%), Education (4%), and others. Given our strict filtering criteria, this cohort provides a robust and authoritative look at emerging agentic infrastructure trends. Respondent demographics by company size: Large enterprise (10,000+ employees):  35% of the sample Mid-to-large enterprise (500\u20139,999 employees):  48% of the sample Growth enterprise (100\u2013499 employees):  17% of the sample These quantitative findings capture a critical moment in infrastructure evolution and are best synthesized alongside VentureBeat\u2019s Q1 2026 governance reports and our deep-dive practitioner conversations conducted throughout the quarter. Finding 1: The runtime is the problem The \"spine vs. brain\" deb",
+    "published_at": "2026-06-08T21:01:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-06-09T09:26:51.889264+00:00",
+    "intelligence_score": 111.4,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 23,
+      "keyword_bonus": 2,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "semiconductors",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-06-09T09:27:18.034294+00:00"
+}
