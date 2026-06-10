@@ -2,36 +2,37 @@
   "metadata": {
     "date": "2026-06-10",
     "top_n": 1,
-    "selected_at": "2026-06-10T09:42:47.729476+00:00"
+    "selected_at": "2026-06-10T20:16:25.110251+00:00"
   },
   "stories": [
     {
-      "id": "6b58f5d49cbb2b10",
-      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
-      "url": "https://news.ycombinator.com/item?id=48473166",
-      "summary": "> For Fable 5, Mythos 5, and future models on Bedrock with similar or higher capability levels, Anthropic will require 30-day retention for all traffic on Mythos-class models. Retaining data for a limited period allows Anthropic to detect patterns of misuse that are not visible from a single exchange. Once you opt into data retention, your data will leave AWS\u2019s data and security boundary. From the announcement here: https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/ > After 30 days, the data is deleted automatically, except in the rare cases where it's part of a safety investigation or we're legally required to keep it. From: https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models \n \n Comments URL:  https://news.ycombinator.com/item?id=48473166 \n Points: 30 \n # Comments: 7",
-      "published_at": "2026-06-10T08:21:38+00:00",
+      "id": "968a9ee6ed0de29c",
+      "title": "Show HN: HelixDB \u2013 A graph database built on object storage",
+      "url": "https://github.com/HelixDB/helix-db/tree/main",
+      "summary": "Hey HN, it\u2019s been just over a year since we launched HelixDB ( https://news.ycombinator.com/item?id=43975423 ), a project a friend and I started in college. It\u2019s an OLTP graph database built on object-storage, with native vector search and full-text search (FTS). Why graph, vector and FTS? Graph databases provide a natural cognitive model for data, vectors allow for a semantic understanding of the entities and relationships in the graph, and FTS provides more specific filtering. Many AI-driven applications attempt to combine all of these functionalities by stitching together multiple disconnected systems, but even then there\u2019s no native way to perform joins or queries that span all systems. You still need to handle this logic at the application level. Helix started as a graph DB, but we moved to a hybrid graph/vector approach after attempting to build an AI memory system, which led us down the GraphRAG and HybridRAG rabbit hole, where we would need separate graph and vector databases. We knew scalability would be a challenge at each stage of our product's development, however our initial focus this past year was to prove out the product through local deployments and was only meant to be run on a single node. Scaling graph DBs remained a difficult and expensive problem we\u2019d have to solve later.\nSome common ways other graph DBs solve scaling is by duplicating entire datasets across distributed machines (extremely expensive per node), or by sharding the data. Sharding databases is effective and affordable, however, graph data doesn\u2019t have explicit partitions like relational databases do. For example, sharding a relational DB involves splitting up tables. When it comes to graph DBs, the edges can span across any of the partitions, and hopping across multiple machines when traversing nodes is ineffective and computationally expensive. Replicating graph DBs for high availability and better throughput drastically increases the operational cost of the db and still has a limit of how big you can vertically scale. The workload that we\u2019re used for requires storing a huge amount of data for agents, where only a subset of that data is ever needed at any one time. So rather than having the whole thing in memory, we can store it all in object-storage and get the bits we need when they\u2019re needed. Agents benefit from better context, which is achieved from more and better data (more relationships etc). By using S3 as the persistence/data layer there is  no limit  to how big the graph can be or how many relationships you can have, and we can scale to serve throughput and requests by horizontally spinning up nodes and caching relevant subsets of the graph on each node. This way, you get extremely low latency for \u201chot\u201d data and a p99 of ~100ms for writes and ~50ms for reads from cold storage (S3). Plus you get the benefit of dirt cheap storage. Workloads that HelixDB is currently supporting:\n- Huge amounts of data (TBs) from which the agents need to search and traver",
+      "published_at": "2026-06-10T15:47:31+00:00",
       "source_name": "Hacker News (Top Stories)",
       "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
       "source_weight": 0.9,
-      "fetched_at": "2026-06-10T09:42:29.400089+00:00",
-      "intelligence_score": 140.96,
+      "fetched_at": "2026-06-10T20:14:58.927951+00:00",
+      "intelligence_score": 132.89,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 67.4,
+        "topic_score": 76.0,
         "source_multiplier": 1.3,
-        "entity_bonus": 23,
+        "entity_bonus": 8,
         "keyword_bonus": 0,
-        "recency_multiplier": 1.1,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "semiconductors",
-          "energy_transition"
+          "india",
+          "energy_transition",
+          "china"
         ]
       }
     }
