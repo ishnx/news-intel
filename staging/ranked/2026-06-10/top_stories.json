@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-06-10",
+    "top_n": 1,
+    "selected_at": "2026-06-10T09:42:47.729476+00:00"
+  },
+  "stories": [
+    {
+      "id": "6b58f5d49cbb2b10",
+      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "url": "https://news.ycombinator.com/item?id=48473166",
+      "summary": "> For Fable 5, Mythos 5, and future models on Bedrock with similar or higher capability levels, Anthropic will require 30-day retention for all traffic on Mythos-class models. Retaining data for a limited period allows Anthropic to detect patterns of misuse that are not visible from a single exchange. Once you opt into data retention, your data will leave AWS\u2019s data and security boundary. From the announcement here: https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/ > After 30 days, the data is deleted automatically, except in the rare cases where it's part of a safety investigation or we're legally required to keep it. From: https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models \n \n Comments URL:  https://news.ycombinator.com/item?id=48473166 \n Points: 30 \n # Comments: 7",
+      "published_at": "2026-06-10T08:21:38+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-10T09:42:29.400089+00:00",
+      "intelligence_score": 140.96,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 67.4,
+        "source_multiplier": 1.3,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
