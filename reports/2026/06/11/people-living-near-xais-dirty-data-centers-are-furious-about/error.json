@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbwHpVqTpaJwmYgFRmC1D'}",
+  "story": {
+    "id": "fc9c5c7975060fd4",
+    "title": "People Living Near xAI\u2019s Dirty Data Centers Are Furious About the SpaceX IPO",
+    "url": "https://www.wired.com/story/spacex-ipo-how-people-living-near-xai-data-centers-feel/",
+    "summary": "Elon Musk is set to make hundreds of billions even as communities in Mississippi and Tennessee are fighting to stop the gas turbines powering xAI's supercomputers.",
+    "published_at": "2026-06-11T09:30:00+00:00",
+    "source_name": "Wired",
+    "source_url": "https://www.wired.com/feed/rss",
+    "category": "technology",
+    "source_weight": 0.8,
+    "fetched_at": "2026-06-11T10:09:31.984158+00:00",
+    "intelligence_score": 147.4,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.0,
+      "entity_bonus": 38,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "india",
+        "energy_transition",
+        "venture_capital",
+        "central_banks"
+      ]
+    }
+  },
+  "timestamp": "2026-06-11T10:10:13.432410+00:00"
+}
