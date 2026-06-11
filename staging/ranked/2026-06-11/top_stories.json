@@ -2,7 +2,7 @@
   "metadata": {
     "date": "2026-06-11",
     "top_n": 1,
-    "selected_at": "2026-06-11T10:10:12.631653+00:00"
+    "selected_at": "2026-06-11T20:12:09.598632+00:00"
   },
   "stories": [
     {
@@ -15,8 +15,8 @@
       "source_url": "https://www.wired.com/feed/rss",
       "category": "technology",
       "source_weight": 0.8,
-      "fetched_at": "2026-06-11T10:09:31.984158+00:00",
-      "intelligence_score": 147.4,
+      "fetched_at": "2026-06-11T20:11:40.959228+00:00",
+      "intelligence_score": 134.0,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
@@ -24,7 +24,7 @@
         "source_multiplier": 1.0,
         "entity_bonus": 38,
         "keyword_bonus": 0,
-        "recency_multiplier": 1.1,
+        "recency_multiplier": 1.0,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [

@@ -1,5 +1,5 @@
 {
-  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbwHpVqTpaJwmYgFRmC1D'}",
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cbx5iqyN5apZWHKKdYLgh'}",
   "story": {
     "id": "fc9c5c7975060fd4",
     "title": "People Living Near xAI\u2019s Dirty Data Centers Are Furious About the SpaceX IPO",
@@ -10,8 +10,8 @@
     "source_url": "https://www.wired.com/feed/rss",
     "category": "technology",
     "source_weight": 0.8,
-    "fetched_at": "2026-06-11T10:09:31.984158+00:00",
-    "intelligence_score": 147.4,
+    "fetched_at": "2026-06-11T20:11:40.959228+00:00",
+    "intelligence_score": 134.0,
     "rank": 1,
     "category_weight": 1.2,
     "score_breakdown": {
@@ -19,7 +19,7 @@
       "source_multiplier": 1.0,
       "entity_bonus": 38,
       "keyword_bonus": 0,
-      "recency_multiplier": 1.1,
+      "recency_multiplier": 1.0,
       "novelty_multiplier": 1.0,
       "category_weight": 1.2,
       "matched_topics": [
@@ -31,5 +31,5 @@
       ]
     }
   },
-  "timestamp": "2026-06-11T10:10:13.432410+00:00"
+  "timestamp": "2026-06-11T20:12:10.536697+00:00"
 }
