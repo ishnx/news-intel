@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CbzyDmFbejcHtLFFejyxv'}",
+  "story": {
+    "id": "b5a39bff62532e86",
+    "title": "Launch HN: BitBoard (YC P25) \u2013 Analytics Workspace for Agents",
+    "url": "https://bitboard.work/",
+    "summary": "We\u2019re Connor and Ambar from BitBoard ( https://bitboard.work ). BitBoard is an agentic analytics workspace. We give you the infrastructure and visualization layer to analyze data with AI. Today, we\u2019re launching dashboards that you and your agents can work on together. You can connect your coding agent or AI chat to BitBoard and build live reporting. Here\u2019s a demo:  https://www.youtube.com/watch?v=HPl0K565a7c . AI tools treat data analysis as ephemeral, making it hard to report or collaborate. Legacy BI tools weren\u2019t intended for AI users, so they bolt on chatbots and can\u2019t offer meaningful control to your agents. Software can now make far more of a business legible than BI ever could, but neither legacy BI nor chat bots are built to handle it. Our original product was AI agents for administrative tasks in healthcare ( https://news.ycombinator.com/item?id=44237769 ), but customers kept pulling us toward their data analysis problems: queries scattered across disparate sources, spreadsheets floating everywhere. We kept building tooling for addressing that, and at a certain point those tools were becoming our product. We ran into several problems. Agents made bad inferences because they had no context on the business. They couldn't be trusted to make decisions because nothing checked their work. And anything one agent or one person figured out was invisible to everyone else. In BitBoard, humans and agents interact with the same data primitives but get tools designed for their own work. We\u2019re building dashboards to make the human reading experience better. These dashboards progressively use intelligence - starting from code or SQL queries and leading to full embedded apps. Humans and agents will need to agree on methods to interpret data, so we\u2019re letting both contribute to canonical sources, entities, and measures (using your favorite semantic model or ours). Every answer comes with provenance, and the same call with the same parameters returns the same number. Looking ahead, these shared primitives let long-running agents operate inside a business, and we're building those agents too. An agent needs a measurable goal and a way to verify its work. BitBoard gives it both. The agent takes a problem like a metric drifting or a funnel leaking and figures out what to do next. Its work becomes datasets, dashboards, and traces that the team can observe and sign off on. Technically, we\u2019re building a collaboration engine with isomorphic updates for humans and AI, columnar analysis (we use DuckDB and Apache Arrow), grounding and verification infrastructure, and enabling long running tasks with agent containers and traces. For agentic work we\u2019re big fans of applying LLM judgement to discover problems, and then generating deterministic software to automate them. Try it out at  https://app.bitboard.work . (We require an email so we can set up your account). We\u2019re excited about how data analysis and science can change in the age of LLMs, and welcome all your thoug",
+    "published_at": "2026-06-12T16:58:03+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-13T08:48:25.484154+00:00",
+    "intelligence_score": 140.8,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.3,
+      "entity_bonus": 16,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "semiconductors",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-06-13T08:48:42.135725+00:00"
+}
