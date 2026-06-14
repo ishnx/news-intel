@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc2uU1jvHAqSKd7rijLjm'}",
+  "story": {
+    "id": "74d17f3b8425f8bc",
+    "title": "Can Tech Justify a Trillion-Dollar Valuation?",
+    "url": "https://www.bloomberg.com/news/videos/2026-06-13/can-tech-justify-a-trillion-dollar-valuation-video",
+    "summary": "The long-awaited SpaceX IPO tested the limits of modern capital markets, and is expected to be followed by OpenAI and Anthropic. Investor Steve Rattner says the scale of the valuations and fundraising involved is unprecedented, simultaneously reflecting optimism about artificial intelligence and a belief that the technology could transform the economy. The offerings also raise broader questions about concentration in technology and whether retail investors will be able to participate. (Source: Bloomberg)",
+    "published_at": "2026-06-13T12:04:13+00:00",
+    "source_name": "Bloomberg Markets (via RSS)",
+    "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "macro",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-14T09:20:28.528173+00:00",
+    "intelligence_score": 131.12,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 74.4,
+      "source_multiplier": 1.1,
+      "entity_bonus": 46,
+      "keyword_bonus": 2,
+      "recency_multiplier": 0.95,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "artificial_intelligence",
+        "semiconductors",
+        "energy_transition",
+        "venture_capital",
+        "space"
+      ]
+    }
+  },
+  "timestamp": "2026-06-14T09:20:39.397474+00:00"
+}

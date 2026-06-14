@@ -1,0 +1,3578 @@
+{
+  "metadata": {
+    "fetched_at": "2026-06-14T09:20:38.319543+00:00",
+    "cutoff_time": "2026-06-13T09:20:20.311549+00:00",
+    "total_articles": 129,
+    "date": "2026-06-14",
+    "ranked_at": "2026-06-14T09:20:38.399371+00:00",
+    "total_ranked": 129,
+    "top_n": 1
+  },
+  "articles": [
+    {
+      "id": "74d17f3b8425f8bc",
+      "title": "Can Tech Justify a Trillion-Dollar Valuation?",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-13/can-tech-justify-a-trillion-dollar-valuation-video",
+      "summary": "The long-awaited SpaceX IPO tested the limits of modern capital markets, and is expected to be followed by OpenAI and Anthropic. Investor Steve Rattner says the scale of the valuations and fundraising involved is unprecedented, simultaneously reflecting optimism about artificial intelligence and a belief that the technology could transform the economy. The offerings also raise broader questions about concentration in technology and whether retail investors will be able to participate. (Source: Bloomberg)",
+      "published_at": "2026-06-13T12:04:13+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.528173+00:00",
+      "intelligence_score": 131.12,
+      "rank": 1,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 74.4,
+        "source_multiplier": 1.1,
+        "entity_bonus": 46,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "energy_transition",
+          "venture_capital",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "4329a5d6d8fc7e71",
+      "title": "Anthropic blocks all public access to Claude Fable 5, Mythos 5 following US government order \u2014 what enterprises should do",
+      "url": "https://venturebeat.com/technology/anthropic-blocks-all-public-access-to-claude-fable-5-mythos-5-following-us-government-order-what-enterprises-should-do",
+      "summary": "The US government last night issued an unprecedented export control directive  ordering Anthropic to immediately suspend  all access to its top-tier Claude Fable 5 and Claude Mythos 5 models for foreign nationals, citing unspecified national security authorities.  In response, Anthropic has blocked  all  public access to both models, globally \u2014 meaning no users around the world can access them at this time, even paying enterprise customers and Anthropic employees internally. It's a huge blow and reversal following the  public release of Fable/Mythos 5  just three days prior.  Current Fable 5/Mythos 5 sessions will end in errors and new queries will be automatically routed to older, less capable models like Opus 4.8. Anthropic says in a  blog post  that \"We believe this is a misunderstanding and are working to restore access as soon as possible,\" and apologizes to its customers.  The sudden regulatory intervention serves as a stark warning to the enterprise sector: centralized, cloud-based frontier models exist at the absolute mercy of government oversight and vendor compliance. Did Pliny the Liberator's public jailbreak catalyze the extraordinary USG action against Fable/Mythos 5? The government's sweeping action follows a  viral jailbreak of Fable 5 published publicly on X on June 10  by the prolific jailbreaker \" Pliny the Liberator ,\" who claimed to have successfully bypassed the model's safety guardrails to extract functional instructions for cyber exploits, explosives, and chemical synthesis pathways, specifically noting the \"birch reduction method\" for methamphetamine. Pliny outlined a highly sophisticated, multi-agent attack that leveraged a combination of \"Unicode, homoglyphs, Cyrillic,\" long-context reference tracking, and a technique of breaking harmful requests into innocuous, out-of-distribution tokens. The attacker then used a previously jailbroken Opus model to piece the benign chunks back together into actionable, restricted outputs. Anthropic doesn't specify if this is the jailbreak that precipitated the government order, and in fact, notes that the information provided by the U.S. government regarding the specific jailbreak has been poorly documented, writing: \"To date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government.\"   The company argues the capabilities uncovered are \"widely available\" in other public models, explicitly naming rival OpenAI's GPT-5.5.  Furthermore, Anthropic warns that pulling a commercial model over a non-universal jailbreak sets a regulatory standard that could \"essentially halt all new model deployments for all frontier model providers\". The Pentagon precedent and need for enterprise AI redundancy and diversification This sudden blackout of Anthropic's latest and greatest AI mode",
+      "published_at": "2026-06-13T12:24:00+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
+      "category": "technology",
+      "source_weight": 0.7,
+      "fetched_at": "2026-06-14T09:20:22.127197+00:00",
+      "intelligence_score": 112.48,
+      "rank": 2,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 30,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "c6df5ab666227b26",
+      "title": "Indian Army's new dress code includes bandi jackets; check other grooming rules: \u2018Moustaches capped at 12 cm\u2026\u2019",
+      "url": "https://www.livemint.com/news/india/indian-armys-new-dress-code-includes-bandi-jackets-check-other-grooming-rules-11781417047044.html",
+      "summary": "The revised manual also sets out detailed appearance and grooming standards, covering tattoos, body piercings, hairstyles, moustaches and the use of cosmetics.",
+      "published_at": "2026-06-14T06:29:32+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520892+00:00",
+      "intelligence_score": 82.58,
+      "rank": 3,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 51.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "91c3ed3d9a4dff16",
+      "title": "Honda Civics and the Evil Valet",
+      "url": "https://juniperspring.org/posts/honda-evil-valet/",
+      "summary": "Previously:  Show HN: Honda Civic Infotainment Reverse-Engineering  -  https://news.ycombinator.com/item?id=36052753  - May 2023 (43 comments) \n \n Comments URL:  https://news.ycombinator.com/item?id=48523080 \n Points: 261 \n # Comments: 43",
+      "published_at": "2026-06-14T00:49:46+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.548067+00:00",
+      "intelligence_score": 79.76,
+      "rank": 4,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "b55bf7c09244b802",
+      "title": "Making Claude a Chemist",
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "summary": "Article URL:  https://www.anthropic.com/research/making-claude-a-chemist \n Comments URL:  https://news.ycombinator.com/item?id=48523752 \n Points: 39 \n # Comments: 26",
+      "published_at": "2026-06-14T02:55:36+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.547022+00:00",
+      "intelligence_score": 78.2,
+      "rank": 5,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "3172ccfb3615aa50",
+      "title": "Fed and BOE Stay Guarded After 100 Days of Iran War",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/fed-boe-to-hold-rates-as-trump-seeks-iran-peace-deal",
+      "summary": "For several global central banks, the question of whether the Iran war poses more of an immediate danger to inflation or to growth is likely to remain open in the coming week.",
+      "published_at": "2026-06-13T20:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527501+00:00",
+      "intelligence_score": 77.11,
+      "rank": 6,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 62.9,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "0ad53053f7b6f3e2",
+      "title": "SpaceX Shares Close 19% Higher After Historic $75 Billion IPO",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-13/spacex-shares-close-higher-post-historic-75-billion-ipo-video",
+      "summary": "SpaceX\u2019s first day on the stock market transformed the startup into one of the world\u2019s most-valuable public companies, handed buyers of the IPO a 19% return and turned its founder Elon Musk into the world\u2019s first trillionaire. Bloomberg Tech Co-Host Ed Ludlow joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "published_at": "2026-06-13T14:05:10+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.528011+00:00",
+      "intelligence_score": 76.11,
+      "rank": 7,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 47.2,
+        "source_multiplier": 1.1,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "venture_capital",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "32a09a489ecbe77b",
+      "title": "My first 24 hours with Siri AI on the Mac",
+      "url": "https://www.theverge.com/tech/949502/apple-macos-27-golden-gate-siri-ai-apple-intelligence",
+      "summary": "I turned off Siri on the Mac years ago and never looked back. Similarly, I found Apple Intelligence so fruitless I never engage with it. But the new Siri AI coming to macOS 27 Golden Gate has at least got me slightly rethinking things. I'm still early in testing Siri AI, as I've only had [\u2026]",
+      "published_at": "2026-06-13T15:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168445+00:00",
+      "intelligence_score": 75.43,
+      "rank": 8,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 47.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "baea468a0c14f35e",
+      "title": "British military intercepts Russian shadow fleet tanker in the Channel",
+      "url": "https://www.livemint.com/news/world/british-military-intercepts-russian-shadow-fleet-tanker-in-the-channel-11781426971412.html",
+      "summary": "British forces intercepted a sanctioned Russian oil tanker in the English Channel, marking a UK-led operation to disrupt Russia's shadow fleet funding its war in Ukraine.&nbsp;",
+      "published_at": "2026-06-14T09:17:37+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520539+00:00",
+      "intelligence_score": 73.93,
+      "rank": 9,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 47.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "8554346c65dfe96d",
+      "title": "Quote of the day by Airbnb's Brian Chesky on embracing personal freedom: \u2018If you want to be autonomous, start\u2026.\u2019",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-airbnbs-brian-chesky-on-embracing-personal-freedom-if-you-want-to-be-autonomous-start-11781421181700.html",
+      "summary": "Airbnb's Brian Chesky emphasizes that autonomy can be achieved through entrepreneurship and starting one's own company. Learn more about this quote's in-depth meaning here.",
+      "published_at": "2026-06-14T08:11:32+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520785+00:00",
+      "intelligence_score": 70.79,
+      "rank": 10,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 45.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "f582d40c501d6d84",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "summary": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-offic... \n \n Comments URL:  https://news.ycombinator.com/item?id=48519092 \n Points: 680 \n # Comments: 498",
+      "published_at": "2026-06-13T16:57:49+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.549163+00:00",
+      "intelligence_score": 70.76,
+      "rank": 11,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "3ea2f0308eed9443",
+      "title": "Wall Street digests record fundraising haul as AI race intensifies",
+      "url": "https://www.ft.com/content/db05efcb-9035-4d55-aca4-7253656a1c06",
+      "summary": "SpaceX, Anthropic and Alphabet financings highlight investors\u2019 willingness to absorb a torrent of new issuance",
+      "published_at": "2026-06-14T04:00:17+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-14T09:20:27.850415+00:00",
+      "intelligence_score": 69.43,
+      "rank": 12,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "376b05e4a07ec969",
+      "title": "US-Iran news LIVE: Qatari negotiators fly to Tehran amid Iran's pending final decision on peace deal",
+      "url": "https://www.livemint.com/news/world/us-iran-war-news-live-latest-updates-donald-trump-peace-deal-strait-of-hormuz-abbas-araghchi-pakistan-israel-lebanon-11781402982192.html",
+      "summary": "US-Iran news LIVE: Hopes are a high as the end of US-Iran war seems near after Donald Trump shared the date of signing of peace deal. However, Iran did not confirm any date. Stay tuned for latest updates on West Asia war and opening of Strait of Hormuz.",
+      "published_at": "2026-06-14T03:03:37+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521390+00:00",
+      "intelligence_score": 69.07,
+      "rank": 13,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "016081c23e689552",
+      "title": "The FCC Wants to Kill Burner Phones",
+      "url": "https://www.wired.com/story/security-news-this-week-the-fcc-wants-to-kill-burner-phones/",
+      "summary": "Plus: AI bug hunting fuels Microsoft\u2019s biggest-ever Patch Tuesday, ShinyHunters ransomware gang exploits an Oracle zero-day, and more.",
+      "published_at": "2026-06-13T10:30:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.855269+00:00",
+      "intelligence_score": 66.69,
+      "rank": 14,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "92a203e276648b5e",
+      "title": "Swarovski CEO's focus on \"modern luxury\" to return the 131-year-old company to profitability",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-13/swarovski-focus-on-returning-company-to-profitability-video",
+      "summary": "Swarovski CEO Alexis Nasard joined Bloomberg This Weekend's Christina Ruffini for a tour and discussion about the significant brand transformation the company is undergoing as it aims to modernize its luxury image by partnering with celebrities like Ariana Grande and Venus Williams, as well as incorporating popular Disney and Marvel characters. (Source: Bloomberg)",
+      "published_at": "2026-06-13T16:08:28+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527833+00:00",
+      "intelligence_score": 65.52,
+      "rank": 15,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 57.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "china",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "258e5ef307304f8a",
+      "title": "Amazon security research reportedly led to the White House\u2019s Anthropic Fable ban",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "summary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series [\u2026]",
+      "published_at": "2026-06-13T21:39:26+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168057+00:00",
+      "intelligence_score": 64.8,
+      "rank": 16,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 23,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "id": "e1f4bf4c0900e9e6",
+      "title": "ReactOS (FOSS \"Windows\") achieves 3D-accelerated Half-Life on real hardware",
+      "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
+      "summary": "Article URL:  https://www.phoronix.com/news/ReactOS-Running-Half-Life \n Comments URL:  https://news.ycombinator.com/item?id=48522486 \n Points: 216 \n # Comments: 30",
+      "published_at": "2026-06-13T23:22:05+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.548456+00:00",
+      "intelligence_score": 64.78,
+      "rank": 17,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 36.4,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "bc7fc883d0fee319",
+      "title": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "summary": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the models for all customers. In [\u2026]",
+      "published_at": "2026-06-13T12:55:49+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168641+00:00",
+      "intelligence_score": 64.41,
+      "rank": 18,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 44.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "8d29ed5a324b80e0",
+      "title": "Indian-flagged vessel MS Virat 1 suffers engine failure off the coast of Oman; 14 nationals on board rescued",
+      "url": "https://www.livemint.com/news/india/indianflagged-vessel-ms-virat-1-suffers-engine-failure-off-the-coast-of-oman-14-nationals-on-board-rescued-11781428107513.html",
+      "summary": "An Indian-flagged mechanised sailing vessel, Virat 1, carrying 14 Indian crew members, has reportedly been involved in an incident off the coast of Oman, prompting a search and rescue operation, the Embassy of India in Oman said on Sunday.",
+      "published_at": "2026-06-14T09:17:26+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520608+00:00",
+      "intelligence_score": 61.03,
+      "rank": 19,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "239e44878ab327cd",
+      "title": "\u2018Body unrefrigerated, used cold water bottles:\u2019 Seamen as Indian sailor dies on ship docked in Oman",
+      "url": "https://www.livemint.com/news/india/body-unrefrigerated-used-cold-water-bottles-seamen-as-indian-sailor-dies-on-ship-docked-in-oman-11781424421259.html",
+      "summary": "The death comes days after three Indian seafarers were killed in a US strike on a tanker off Oman, triggering criticism from the public and opposition parties.",
+      "published_at": "2026-06-14T08:41:29+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520666+00:00",
+      "intelligence_score": 61.03,
+      "rank": 20,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "a253e052be31c713",
+      "title": "How Indian student made  \u20b980,000 a month from overseas clients - until 'CarryMinati's feature' exposed him",
+      "url": "https://www.livemint.com/news/trends/how-indian-student-made-80-000-a-month-from-overseas-clients-until-carryminatis-feature-exposed-him-11781423742093.html",
+      "summary": "He changed his name, claimed to be based in the Netherlands and produced videos using what he described as a strong American accent. The change had an immediate impact, he said.&nbsp;",
+      "published_at": "2026-06-14T08:23:17+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520729+00:00",
+      "intelligence_score": 61.03,
+      "rank": 21,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "55e84a6f47f9549f",
+      "title": "Noise infusion banned from statistical products published by Census Bureau",
+      "url": "https://desfontain.es/blog/banning-noise.html",
+      "summary": "Article URL:  https://desfontain.es/blog/banning-noise.html \n Comments URL:  https://news.ycombinator.com/item?id=48517377 \n Points: 818 \n # Comments: 509",
+      "published_at": "2026-06-13T13:54:56+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.549652+00:00",
+      "intelligence_score": 60.31,
+      "rank": 22,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 4,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "44c4331283e5f22d",
+      "title": "China tees up digital payments system to compete with dollar",
+      "url": "https://www.ft.com/content/76de5ca6-9ae8-49ae-a0cb-64d09040f327",
+      "summary": "Beijing\u2019s cross-border currency platform will be backed by central banks of Hong Kong, Thailand, UAE and Saudi Arabia",
+      "published_at": "2026-06-14T02:24:03+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-14T09:20:27.850728+00:00",
+      "intelligence_score": 59.59,
+      "rank": 23,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 36.2,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "2b91002bac10f65d",
+      "title": "Zohran Mamdani's FIFA World Cup 2026 jerseys being sold at 2000 times the price on Ebay: Report",
+      "url": "https://www.livemint.com/news/us-news/zohran-mamdanis-fifa-world-cup-2026-jerseys-being-sold-at-2000-times-the-price-on-ebay-report-11781401861884.html",
+      "summary": "Earlier this week, Mamdani announced an exclusive run of New York City-inspired World Cup jerseys. There would be only 1,500 shirts available to the public\u2026",
+      "published_at": "2026-06-14T02:16:54+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521524+00:00",
+      "intelligence_score": 59.45,
+      "rank": 24,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "id": "483a2be8de49fc2a",
+      "title": "LPG prices today \u2014 14 June: Domestic and commercial cylinder rates in Delhi, Mumbai, Bengaluru, Kolkata and other cities",
+      "url": "https://www.livemint.com/news/india/lpg-prices-today-14-june-domestic-and-commercial-cylinder-rates-in-delhi-mumbai-bengaluru-kolkata-and-other-cities-11781407460600.html",
+      "summary": "LPG prices held steady on 14 June after recent increases, with  \u20b929 hike in the price of 14.2 kg domestic cylinder registered last week. Meanwhile, Union minister Suresh Gopi indicated the need to monitor crude oil supplies.&nbsp;",
+      "published_at": "2026-06-14T04:43:35+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521176+00:00",
+      "intelligence_score": 58.26,
+      "rank": 25,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "55c16434343c0295",
+      "title": "Petrol, diesel prices on June 14: Check fuel cost in Chennai, Bengaluru, Delhi, Kolkata, Mumbai and other cities today",
+      "url": "https://www.livemint.com/news/india/petrol-diesel-prices-on-june-14-check-fuel-cost-in-chennai-bengaluru-delhi-kolkata-mumbai-and-other-cities-today-11781407490526.html",
+      "summary": "Fuel prices were unchanged today on Sunday, 14 June. The last fuel price hike was on Monday, 25 May, when oil marketing companies (OMCs) hiked both petrol and diesel prices by more than  \u20b92.50/litre.",
+      "published_at": "2026-06-14T03:55:36+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521233+00:00",
+      "intelligence_score": 58.26,
+      "rank": 26,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "e9e5f28166c82e63",
+      "title": "Anthropic\u2019s Fable 5, Mythos 5 Access Suspension Rekindles Sovereign AI Debate",
+      "url": "https://inc42.com/buzz/anthropics-fable-5-mythos-5-access-suspension-rekindles-sovereign-ai-debate/",
+      "summary": "Just three days after launching Claude Fable 5, which it described as its most capable AI system yet, Anthropic has\u2026",
+      "published_at": "2026-06-13T10:02:16+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:35.357673+00:00",
+      "intelligence_score": 58.04,
+      "rank": 27,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 39.4,
+        "source_multiplier": 0.9,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "id": "5400e0f2d52428f4",
+      "title": "UK Sets January 2027 Deadline for Ban on Fuel Made From Russian Crude",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/UK-Sets-January-2027-Deadline-for-Ban-on-Fuel-Made-From-Russian-Crude.html",
+      "summary": "The UK has finally put a date on the sanctions loophole it said it would close a while ago. The British government said Friday that imports of diesel and jet fuel refined from Russian crude in third countries will be banned no later than January 1, 2027, closing one of the remaining routes by which Russian oil products can still find their way into the UK market. The move builds on sanctions announced in May that prohibit the import of refined oil made from Russian crude, even if that refining occurred outside Russia. At the time, however, London\u2026",
+      "published_at": "2026-06-13T17:30:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-14T09:20:36.011715+00:00",
+      "intelligence_score": 57.0,
+      "rank": 28,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 72.0,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 3,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition",
+          "china",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "a1b2827714b39ef3",
+      "title": "Mongolia Reaffirms One China Policy at Meeting, China Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/mongolia-reaffirms-one-china-policy-at-meeting-china-says",
+      "summary": "Mongolian President Khurelsukh Ukhnaa said Mongolia firmly adheres to the One China principle in a meeting with China\u2019s Foreign Minister Wang Yi in Ulaanbaatar on June 13, according to a statement from China\u2019s Foreign Ministry.",
+      "published_at": "2026-06-14T04:17:13+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527361+00:00",
+      "intelligence_score": 55.9,
+      "rank": 29,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 44.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "china",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "cc1fbbb1ee4f65aa",
+      "title": "CLO ETFs Boom on Higher Rates, Private Debt Woes",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/clo-etfs-boom-on-higher-rates-private-debt-woes-credit-weekly",
+      "summary": "Wall Street has an answer for retail investors seeking to profit from elevated interest rates and dodge defaults in private credit: funds that buy collateralized loan obligations.",
+      "published_at": "2026-06-13T19:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527557+00:00",
+      "intelligence_score": 55.24,
+      "rank": 30,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 44.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "29e21a1bda87a3cc",
+      "title": "Anthropic suspends new AI tools over US government security concerns",
+      "url": "https://www.bbc.com/news/articles/c932g3v3e13o?at_medium=RSS&at_campaign=rss",
+      "summary": "Anthropic's Claude Fable 5, released publicly this week, sparked concerns about cybersecurity and hacking.",
+      "published_at": "2026-06-13T16:28:38+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.268061+00:00",
+      "intelligence_score": 54.67,
+      "rank": 31,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 39.4,
+        "source_multiplier": 0.9,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors"
+        ]
+      }
+    },
+    {
+      "id": "6c73b1f372058589",
+      "title": "Don't trust large context windows",
+      "url": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
+      "summary": "Article URL:  https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows \n Comments URL:  https://news.ycombinator.com/item?id=48524620 \n Points: 70 \n # Comments: 53",
+      "published_at": "2026-06-14T06:07:09+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.545230+00:00",
+      "intelligence_score": 54.26,
+      "rank": 32,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "c55d76cd1dca89e8",
+      "title": "Phoenix LiveView 1.2 Released",
+      "url": "https://phoenixframework.org/blog/phoenix-liveview-1-2-released",
+      "summary": "Article URL:  https://phoenixframework.org/blog/phoenix-liveview-1-2-released \n Comments URL:  https://news.ycombinator.com/item?id=48524293 \n Points: 94 \n # Comments: 18",
+      "published_at": "2026-06-14T04:53:51+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.546037+00:00",
+      "intelligence_score": 54.26,
+      "rank": 33,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "ed56c042f605f218",
+      "title": "Building a serial and VGA \"everything console\"",
+      "url": "http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html",
+      "summary": "Article URL:  http://oldvcr.blogspot.com/2026/06/building-serial-and-vga-everything.html \n Comments URL:  https://news.ycombinator.com/item?id=48523615 \n Points: 28 \n # Comments: 2",
+      "published_at": "2026-06-14T02:31:15+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.547522+00:00",
+      "intelligence_score": 54.26,
+      "rank": 34,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "d0dc2db773b822dc",
+      "title": "There\u2019s a Bug in the Gold Trade as Miners Move Like Meme Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/there-s-a-bug-in-the-gold-trade-as-miners-move-like-meme-stocks",
+      "summary": "Brian Laks has been investing in gold stocks for over a decade. To the deep-value investor, they serve as a hedge against volatility in the rest of his portfolio, a haven during geopolitical uncertainty and deliver steady returns.",
+      "published_at": "2026-06-13T12:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.528361+00:00",
+      "intelligence_score": 54.03,
+      "rank": 35,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 47.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "e4f3773a4a34f464",
+      "title": "Zumutor Biologics Secures $7.3 Mn To Advance Clinical Trials For Cancer Therapy",
+      "url": "https://inc42.com/buzz/zumutor-biologics-secures-7-3-mn-to-advance-clinical-trials-for-cancer-therapy/",
+      "summary": "Biotech startup Zumutor Biologics has raised $7.3 Mn (about \u20b970 Cr) in its Series B funding round from existing investors\u2026",
+      "published_at": "2026-06-13T11:08:52+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:35.357564+00:00",
+      "intelligence_score": 53.24,
+      "rank": 36,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 47.9,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "venture_capital",
+          "biotech_health"
+        ]
+      }
+    },
+    {
+      "id": "b96ad45ed2fcd3aa",
+      "title": "Why is India's diesel restriction order worrying hospitals, IT parks, data centres?",
+      "url": "https://www.livemint.com/focus/diesel-curbs-raise-concerns-for-hospitals-it-parks-dependent-on-generator-power-11781402635385.html",
+      "summary": "India barred industrial and institutional consumers from buying diesel at petrol pumps on 11 June. Hospitals running generators through surgeries, IT parks managing peak-hour power costs and data centres with strict uptime commitments say the restrictions threaten critical operation",
+      "published_at": "2026-06-14T02:03:55+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521574+00:00",
+      "intelligence_score": 53.15,
+      "rank": 37,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "8a5b2fb5cdc47948",
+      "title": "US, Iran to conclude peace talks remotely today? What we know so far \u2014 Hormuz reopening on agenda, nuclear issues not",
+      "url": "https://www.livemint.com/news/world/us-iran-to-conclude-peace-talks-remotely-today-what-we-know-so-far-hormuz-reopening-on-agenda-nuclear-issues-not-11781417566023.html",
+      "summary": "On the one hand, Trump has asserted multiple times in recent weeks the two nations were on the cusp of a deal. On the other, Iran has been wary and pointed out that previous negotiations with the US have inadvertently led to attacks by Israel and the US.",
+      "published_at": "2026-06-14T07:24:44+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520840+00:00",
+      "intelligence_score": 52.38,
+      "rank": 38,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 31.9,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "6bfb729a629768e7",
+      "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
+      "url": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
+      "summary": "Article URL:  https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/ \n Comments URL:  https://news.ycombinator.com/item?id=48520080 \n Points: 95 \n # Comments: 22",
+      "published_at": "2026-06-13T18:32:22+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.548689+00:00",
+      "intelligence_score": 51.68,
+      "rank": 39,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "bb9054ffaadf7e1d",
+      "title": "Who was the world's first billionaire? Hint- he studied accounting for just 10 weeks",
+      "url": "https://www.livemint.com/news/trends/who-was-the-worlds-first-billionaire-hint-he-studied-accounting-for-just-10-weeks-11781405548714.html",
+      "summary": "John D Rockefeller started his career as an assistant bookkeeper before launching a commodities trading business dealing in hay, grain, meat, and other goods in 1859.",
+      "published_at": "2026-06-14T03:17:20+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521337+00:00",
+      "intelligence_score": 51.05,
+      "rank": 40,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "0aab4c88bdac964c",
+      "title": "Wall Street Is Gaining Access to New Catastrophe Models to Help Predict Wars",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/wall-street-gets-access-to-new-catastrophe-models-to-predict-wars",
+      "summary": "As Wall Street races to incorporate war into its risk scenarios, the same people modeling natural catastrophes are now adapting their methodology to help investors, banks and insurers predict military conflicts.",
+      "published_at": "2026-06-14T09:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527230+00:00",
+      "intelligence_score": 51.01,
+      "rank": 41,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 37.5,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "fd085ca135c7039d",
+      "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
+      "url": "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
+      "summary": "For years, we at Inc42 have tracked the Indian tech startup ecosystem and seen it grow from a kid to\u2026",
+      "published_at": "2026-06-13T11:17:59+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:35.357451+00:00",
+      "intelligence_score": 50.91,
+      "rank": 42,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 45.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "energy_transition",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "748265de56e10a9f",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "published_at": "2026-06-13T16:47:18+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.066553+00:00",
+      "intelligence_score": 49.59,
+      "rank": 43,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "a625f9e23673621e",
+      "title": "Russia, China, and Iran Are Joining Forces Against Western Pressure",
+      "url": "https://oilprice.com/Geopolitics/North-America/Russia-China-and-Iran-Are-Joining-Forces-Against-Western-Pressure.html",
+      "summary": "Russia, China, and Iran are increasingly creating a strategic alliance of convenience that US policymakers must confront as it seeks to disrupt global order, according to a group of US experts and former officials. Speaking on June 10 at the \"America's Adversaries: The Russia Reality\" national security briefing organized by the Independent Women's Forum, many of the panelists noted that the transactional benefits are already yielding critical strategic dividends, particularly for an otherwise isolated Iranian regime. Driven by their shared opposition\u2026",
+      "published_at": "2026-06-13T17:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-14T09:20:36.011770+00:00",
+      "intelligence_score": 49.19,
+      "rank": 44,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 67.7,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "china",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "9cc7608624a905db",
+      "title": "Treating pancreatic tumours may have revealed cancer's master switch",
+      "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
+      "summary": "Article URL:  https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch \n Comments URL:  https://news.ycombinator.com/item?id=48517199 \n Points: 355 \n # Comments: 127",
+      "published_at": "2026-06-13T13:34:00+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.549882+00:00",
+      "intelligence_score": 49.1,
+      "rank": 45,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "37c04ef685e983f7",
+      "title": "Every Frame Perfect",
+      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "summary": "Article URL:  https://tonsky.me/blog/every-frame-perfect/ \n Comments URL:  https://news.ycombinator.com/item?id=48516251 \n Points: 692 \n # Comments: 226",
+      "published_at": "2026-06-13T11:40:20+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.550101+00:00",
+      "intelligence_score": 49.1,
+      "rank": 46,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "d72aa7f786d71b6b",
+      "title": "Bloomberg This Weekend 6/13/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-13/bloomberg-this-weekend-6-13-2026-video",
+      "summary": "The news doesn\u2019t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend\u2019s biggest headlines, LIVE from New York. Joined by Swarovski CEO Alexis Nasard, Johns Hopkins Center for Health Security Senior Scholar Dr. Amesh Adalja, and Pacific University Political Science Professor Jules Boykoff.  (Source: Bloomberg)",
+      "published_at": "2026-06-13T18:09:11+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527616+00:00",
+      "intelligence_score": 47.19,
+      "rank": 47,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 39.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "geopolitics",
+          "china",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "28225f5060fe8459",
+      "title": "SpaceX Surge Further Boosts Saudi Billionaire Prince\u2019s Fortune",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/spacex-surge-further-boosts-saudi-billionaire-prince-s-fortune",
+      "summary": "Friday\u2019s debut share surge for SpaceX is bolstering the fortunes of one of Saudi Arabia\u2019s richest men.",
+      "published_at": "2026-06-14T07:33:34+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527299+00:00",
+      "intelligence_score": 46.07,
+      "rank": 48,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "3e038e9c5fcde022",
+      "title": "Alien planet spins revealed a hidden clue to how worlds form",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613034225.htm",
+      "summary": "Using the Keck Observatory, astronomers measured the spins of dozens of giant planets and brown dwarfs orbiting distant stars. They found that giant planets can spin faster than much more massive brown dwarfs, challenging simple assumptions about mass and rotation. The results suggest that magnetic fields and formation processes play a major role in determining how fast worlds end up spinning.",
+      "published_at": "2026-06-13T12:57:55+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.165994+00:00",
+      "intelligence_score": 44.91,
+      "rank": 49,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 61.8,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "geopolitics",
+          "india",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "78182d2f35d6704d",
+      "title": "Rising Energy Bills Are Fueling a Global Home Battery Boom",
+      "url": "https://oilprice.com/Energy/Energy-General/Rising-Energy-Bills-Are-Fueling-a-Global-Home-Battery-Boom.html",
+      "summary": "Consumers are battling higher energy bills worldwide due to rising inflation and greater price volatility of oil and gas, driven by significant restrictions on energy trade through the Strait of Hormuz in recent months. This has prompted a surge in interest in household solar systems, as consumers look to produce their own clean, affordable power. Consumer interest in battery installations is also growing as battery prices decrease and people become increasingly aware of the potential for 24-hour clean power. Australia is one of the countries pioneering\u2026",
+      "published_at": "2026-06-13T15:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-14T09:20:36.011824+00:00",
+      "intelligence_score": 44.82,
+      "rank": 50,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 62.9,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "0308281aa0fca485",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "published_at": "2026-06-13T19:11:41+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.066461+00:00",
+      "intelligence_score": 44.6,
+      "rank": 51,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "152aebc6304c47ab",
+      "title": "EcoFlow PowerOcean Battery Review: Cutting My Bill in Half",
+      "url": "https://www.wired.com/review/ecoflow-powerocean-home-battery/",
+      "summary": "Whether you want to buy cheaper electricity, store solar energy, or guard against outages, EcoFlow\u2019s home battery might be just what you need.",
+      "published_at": "2026-06-13T10:30:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.855325+00:00",
+      "intelligence_score": 44.23,
+      "rank": 52,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "d598ae73806adf3c",
+      "title": "Rivian\u2019s CEO on Tesla\u2019s Cybertruck, Ferrari\u2019s Luce, and What Happens If the R2 Fails",
+      "url": "https://www.wired.com/story/interview-with-rivian-ceo-rj-scaringe/",
+      "summary": "RJ Scaringe, the CEO of Rivian Automotive, joined us for a wide-ranging interview about how his company\u2019s new electric SUV fits into the current EV industry, and what comes next.",
+      "published_at": "2026-06-13T10:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.855387+00:00",
+      "intelligence_score": 42.94,
+      "rank": 53,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "d3ae194135d62322",
+      "title": "Echo Isle is a pint-sized adventure inspired by classic Zelda",
+      "url": "https://www.theverge.com/games/947136/echo-isle-review-pc",
+      "summary": "Echo Isle is heavily inspired by The Legend of Zelda, and it's not afraid to show it: The retro graphics bear a striking resemblance to Link's Awakening, the main character wears a blue tunic and wields a sword, and he navigates dungeons to collect items and keys to fight bosses and gather magical MacGuffins. But [\u2026]",
+      "published_at": "2026-06-13T12:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168701+00:00",
+      "intelligence_score": 42.26,
+      "rank": 54,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 35.4,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "87b6cf306498c6ca",
+      "title": "Zepto\u2019s Battle Beyond Speed",
+      "url": "https://inc42.com/features/zeptos-battle-beyond-speed/",
+      "summary": "For Blinkit, Zepto and Swiggy Instamart, much of the post-pandemic era was spent persuading urban Indians to prioritise convenience over\u2026",
+      "published_at": "2026-06-14T05:30:44+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:35.357204+00:00",
+      "intelligence_score": 42.22,
+      "rank": 55,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 31.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 3,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "biotech_health"
+        ]
+      }
+    },
+    {
+      "id": "2904709a02e51136",
+      "title": "\u0160koda\u2019s New EV Will Likely Be Its Most Expensive Yet",
+      "url": "https://www.wired.com/story/skoda-peaq-will-likely-be-its-most-expensive-ev-yet/",
+      "summary": "The \u0160koda Peaq, which will debut this summer as the European automaker\u2019s flagship model, seats seven and has an intriguing design. It will almost certainly come with a hefty price tag.",
+      "published_at": "2026-06-14T09:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.855094+00:00",
+      "intelligence_score": 40.92,
+      "rank": 56,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "3fcc906ea319870a",
+      "title": "Software Architecture Guide (2019)",
+      "url": "https://martinfowler.com/architecture/",
+      "summary": "Article URL:  https://martinfowler.com/architecture/ \n Comments URL:  https://news.ycombinator.com/item?id=48524084 \n Points: 61 \n # Comments: 21",
+      "published_at": "2026-06-14T04:07:37+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.546551+00:00",
+      "intelligence_score": 40.34,
+      "rank": 57,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 19.5,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "55323ccc7338ac48",
+      "title": "As World Cup Begins, Health Officials Issue Warnings Amid Measles Outbreak",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-13/health-officials-warn-of-measles-outbreak-at-world-cup-video",
+      "summary": "The FIFA World Cup is expected to create a \"hospitable environment\" for pathogens, with millions of people gathering in packed stadiums, and there are concerns about the spread of diseases such as Ebola, dengue, and measles. Johns Hopkins Center for Health Security Senior Scholar Dr. Amesh Adalja joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss.\n\nPrivate disease-tracking companies, research institutions, and nonprofits are stepping up their efforts to monitor for potential outbreaks during the World Cup, using methods such as wastewater surveillance and AI-powered data analysis.\nOriginal filename: 20260613_122155_Experts_Warn_of_Measles_and_Other_Infectious_Disease_Risks_a.mp4 (Source: Bloomberg)",
+      "published_at": "2026-06-13T14:52:42+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527956+00:00",
+      "intelligence_score": 39.83,
+      "rank": 58,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "9b106dc66a19d3b6",
+      "title": "My yard is dying, so I made an app for that",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+      "summary": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird [\u2026]",
+      "published_at": "2026-06-13T13:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168574+00:00",
+      "intelligence_score": 39.79,
+      "rank": 59,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 34.9,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "9b1d592513d0f382",
+      "title": "This thin under-pillow speaker helped me fall asleep without earbuds",
+      "url": "https://techcrunch.com/2026/06/13/this-thin-under-pillow-speaker-helped-me-fall-asleep-without-earbuds/",
+      "summary": "I\u2019ve struggled with insomnia since I was very young. Like many chronic overthinkers, I tend to fall asleep best when my mind is occupied by something else, such as podcasts, YouTube compilations, or my personal favorite: rain sounds. But earbuds can be uncomfortable, and playing audio out loud isn\u2019t exactly considerate when I\u2019m staying at [\u2026]",
+      "published_at": "2026-06-13T16:00:00+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.066642+00:00",
+      "intelligence_score": 38.76,
+      "rank": 60,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "ce1b193b3624da65",
+      "title": "Top Motorcycle Exporter China Urges Industry to Curb Price Wars",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/top-motorcycle-exporter-china-urges-industry-to-curb-price-wars",
+      "summary": "China\u2019s motorcycle industry trade body urged companies across the sector to curb price wars and focus on higher-quality growth, warning that imitation and a flood of similar products are squeezing profits and hurting the reputation of Chinese manufacturing.",
+      "published_at": "2026-06-13T10:19:34+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.528484+00:00",
+      "intelligence_score": 38.16,
+      "rank": 61,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 33.2,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "geopolitics",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "0b330cdc4fe3310d",
+      "title": "New York Knicks win NBA championship for first time in over 50 years",
+      "url": "https://www.bbc.com/news/articles/c78yw4zw19do?at_medium=RSS&at_campaign=rss",
+      "summary": "The Knicks clinched the title against the San Antonio Spurs, 94-90, in the fifth game of the best-of-seven series.",
+      "published_at": "2026-06-14T07:21:26+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267638+00:00",
+      "intelligence_score": 36.83,
+      "rank": 62,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "13d9793cee2bac55",
+      "title": "US and Iran Move Closer to Deal Despite Hormuz Skirmishes",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-13/us-iran-move-closer-to-deal-despite-hormuz-skirmishes-video",
+      "summary": "Pakistan said an interim US-Iran deal to reopen the Strait of Hormuz could be finalized within 24 hours, raising expectations that the sides may be nearing a broader agreement after recent skirmishes near the strategic waterway. Bloomberg News State Department Reporter Eric Martin and Jerusalem Reporter Dan Williams joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss.\n\nPakistan is preparing for the electronic signing of the peace deal \u201cimmediately after, followed by technical level talks next week,\u201d said Pakistan\u2019s Prime Minister Shehbaz Sharif, a key mediator in talks between Washington and Tehran.\n\nHis comments on Saturday came hours after the US Central Command said it shot down multiple Iranian drones targeting commercial ships near the Strait of Hormuz. (Source: Bloomberg)",
+      "published_at": "2026-06-13T15:50:57+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527891+00:00",
+      "intelligence_score": 36.58,
+      "rank": 63,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "aad308661188cc6a",
+      "title": "Trump names James McDonald as US attorney for Manhattan",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-names-james-mcdonald-as-us-attorney-for-manhattan/articleshow/131711928.cms",
+      "summary": "Donald Trump said \u200che \u2060will \u2060appoint \u200bJames McDonald, who \u200bpreviously served as \u200ban \u2060assistant U.S. \u200cattorney \u200band \u200bCFTC \u2060enforcement chief.",
+      "published_at": "2026-06-13T19:18:30+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:31.357596+00:00",
+      "intelligence_score": 36.27,
+      "rank": 64,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "b6f2f8b058bc21ee",
+      "title": "Russian families use AI to 'resurrect' loved ones killed in Ukraine",
+      "url": "https://www.bbc.com/news/articles/cwy24v72n19o?at_medium=RSS&at_campaign=rss",
+      "summary": "The highly controversial trend lies at the intersection of Russia's war on Ukraine, new AI technologies and grief.",
+      "published_at": "2026-06-13T23:19:52+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267586+00:00",
+      "intelligence_score": 35.64,
+      "rank": 65,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "ce5d89c5f30d4788",
+      "title": "Bose\u2019s latest QuietComfort Ultra are $70 off, marking a new low price",
+      "url": "https://www.theverge.com/gadgets/949190/bose-quietcomfort-ultra-headphones-deal-sale",
+      "summary": "If you\u2019re planning on traveling anytime soon, Bose\u2019s second-generation QuietComfort Ultra headphones are a great companion for long flights and train rides. Not only do they offer excellent noise cancellation, but they also retain the foldable design of their predecessor, making them easy to pack in a carry-on. They\u2019re even easier to recommend today, now [\u2026]",
+      "published_at": "2026-06-13T16:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168358+00:00",
+      "intelligence_score": 35.34,
+      "rank": 66,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "a549145175a1eb84",
+      "title": "Millipedes beat vertebrates to land by 80 million years",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613034213.htm",
+      "summary": "Millipedes may have been crawling across Earth's landscapes nearly 460 million years ago, long before vertebrates ventured onto land. A new study finally completes their evolutionary family tree, revealing surprising clues about these ancient ecosystem engineers and their early chemical defenses.",
+      "published_at": "2026-06-14T07:33:34+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.166139+00:00",
+      "intelligence_score": 34.5,
+      "rank": 67,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 41.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "india",
+          "energy_transition",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "58521b890a4155ae",
+      "title": "Fuel Tax Changes Hit Six States As Energy Inflation Accelerates",
+      "url": "https://oilprice.com/Energy/Energy-General/Fuel-Tax-Changes-Hit-Six-States-As-Energy-Inflation-Accelerates.html",
+      "summary": "Oil markets extended their decline on Friday, with crude prices falling sharply after U.S. President Donald Trump said a peace agreement with Iran was close and canceled previously threatened military strikes. Brent crude slipped below $90 per barrel, trading around $88\u2013$89, while WTI fell to roughly $85\u2013$87, as traders priced in the possibility of de-escalation in the Middle East and a potential reopening of the Strait of Hormuz. The decline allowed motorists to enjoy some reprieve at the pump, with national average gas prices falling\u2026",
+      "published_at": "2026-06-13T21:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-14T09:20:36.011589+00:00",
+      "intelligence_score": 33.0,
+      "rank": 68,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 44.0,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "50188637ca89550b",
+      "title": "Consciousness likely not unique to earthlings, paper says",
+      "url": "https://news.ucr.edu/articles/2026/06/10/consciousness-likely-not-unique-earthlings-paper-says",
+      "summary": "Article URL:  https://news.ucr.edu/articles/2026/06/10/consciousness-likely-not-unique-earthlings-paper-says \n Comments URL:  https://news.ycombinator.com/item?id=48524447 \n Points: 31 \n # Comments: 31",
+      "published_at": "2026-06-14T05:27:45+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.545546+00:00",
+      "intelligence_score": 32.97,
+      "rank": 69,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "79786aafe14dcc05",
+      "title": "Tribblix: The retro Illumos distribution",
+      "url": "http://tribblix.org/",
+      "summary": "Article URL:  http://tribblix.org/ \n Comments URL:  https://news.ycombinator.com/item?id=48524434 \n Points: 34 \n # Comments: 11",
+      "published_at": "2026-06-14T05:23:12+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.545789+00:00",
+      "intelligence_score": 32.97,
+      "rank": 70,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "7fa0eccf24026e57",
+      "title": "Pac-Man, but you're the ghost",
+      "url": "https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost",
+      "summary": "Article URL:  https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost \n Comments URL:  https://news.ycombinator.com/item?id=48524135 \n Points: 83 \n # Comments: 36",
+      "published_at": "2026-06-14T04:18:45+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.546283+00:00",
+      "intelligence_score": 32.97,
+      "rank": 71,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "49631f3bf39dcb85",
+      "title": "Free SQL\u2192ER diagram tool, runs in the browser, nothing uploaded",
+      "url": "https://sqltoerdiagram.com/",
+      "summary": "Article URL:  https://sqltoerdiagram.com/ \n Comments URL:  https://news.ycombinator.com/item?id=48523992 \n Points: 95 \n # Comments: 19",
+      "published_at": "2026-06-14T03:43:30+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.546781+00:00",
+      "intelligence_score": 32.97,
+      "rank": 72,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "87df9279804161ea",
+      "title": "Weave: Merging based on language structure and not lines",
+      "url": "https://ataraxy-labs.github.io/weave/",
+      "summary": "Article URL:  https://ataraxy-labs.github.io/weave/ \n Comments URL:  https://news.ycombinator.com/item?id=48523705 \n Points: 39 \n # Comments: 21",
+      "published_at": "2026-06-14T02:45:38+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.547264+00:00",
+      "intelligence_score": 32.97,
+      "rank": 73,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "5f1b3608289b67dd",
+      "title": "Apt Encounters of the Third Kind",
+      "url": "https://igor-blue.github.io/2021/03/24/apt1.html",
+      "summary": "Article URL:  https://igor-blue.github.io/2021/03/24/apt1.html \n Comments URL:  https://news.ycombinator.com/item?id=48523550 \n Points: 24 \n # Comments: 5",
+      "published_at": "2026-06-14T02:17:13+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.547766+00:00",
+      "intelligence_score": 32.97,
+      "rank": 74,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "ece48b98c2dd2999",
+      "title": "PM Modi lands in France: Meeting with Trump, bilateral talks with Macron during G7 summit high on agenda",
+      "url": "https://www.livemint.com/news/world/pm-modi-in-france-nice-meeting-with-trump-g7-summit-bilateral-talks-with-macron-on-agenda-iran-war-oman-indian-mariners-11781406389131.html",
+      "summary": "In the first leg of the visit, PM Modi will hold a bilateral meeting with Macron on Sunday and also inaugurate 'Bharat Innovates' alongside the French president.",
+      "published_at": "2026-06-14T03:26:41+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521287+00:00",
+      "intelligence_score": 32.42,
+      "rank": 75,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "fef29908818ac0f0",
+      "title": "Never Post\u2019s Mike Rugnetta on the creative process and the value of reliable power",
+      "url": "https://www.theverge.com/report/949073/mike-rugnetta-youtube-never-post-podcast-questionnaire",
+      "summary": "Mike Rugnetta is a writer, podcast host, producer, audio engineer, educator, musician, sound designer, and father. In short, the man wears a lot of hats. He's the cocreator and host of the award-winning Never Post, an absolutely must-listen podcast about the internet, as well as Fun City, a TTRPG podcast where he's the GM. He's [\u2026]",
+      "published_at": "2026-06-13T14:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168513+00:00",
+      "intelligence_score": 31.92,
+      "rank": 76,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "03a60f383fcb1ad3",
+      "title": "GameBoy Workboy",
+      "url": "https://tcrf.net/Workboy",
+      "summary": "Article URL:  https://tcrf.net/Workboy \n Comments URL:  https://news.ycombinator.com/item?id=48519552 \n Points: 186 \n # Comments: 65",
+      "published_at": "2026-06-13T17:43:02+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.548909+00:00",
+      "intelligence_score": 31.4,
+      "rank": 77,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "96bde1112444e1f9",
+      "title": "Elon Musk\u2019s Big Bet for SpaceX",
+      "url": "https://www.nytimes.com/video/business/100000010953560/elon-musk-spacex-initial-public-offering.html",
+      "summary": "Elon Musk is taking SpaceX public and keeping almost all the power. Ryan Mac, a technology reporter for The Times, breaks down why the company\u2019s record I.P.O. is both a big bet on Musk\u2019s vision and a risk for investors.",
+      "published_at": "2026-06-13T16:26:23+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934439+00:00",
+      "intelligence_score": 29.92,
+      "rank": 78,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 10.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "1f49d6b84df3d1ba",
+      "title": "How Kalshi\u2019s Lopes Lara Turned Kylie Jenner Gossip Into Billions",
+      "url": "https://www.bloomberg.com/news/features/2026-06-13/how-kalshi-s-lopes-lara-turned-kylie-jenner-gossip-into-billions",
+      "summary": "The firm\u2019s co-founder talks about the celebrity buzz that sparked her interest in prediction markets, the legal battles her firm faces and Jay-Z\u2019s\u00a0advice.",
+      "published_at": "2026-06-13T14:00:15+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527775+00:00",
+      "intelligence_score": 29.89,
+      "rank": 79,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 26.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "venture_capital",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "f2cdd4cdc72d5c03",
+      "title": "GLM 5.2 Is Out",
+      "url": "https://twitter.com/jietang/status/2065784751345287314",
+      "summary": "https://digg.com/tech/ii9xibgn \n \n Comments URL:  https://news.ycombinator.com/item?id=48518684 \n Points: 564 \n # Comments: 300",
+      "published_at": "2026-06-13T16:18:31+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:21.549408+00:00",
+      "intelligence_score": 29.83,
+      "rank": 80,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "752f092ac1eb1cf6",
+      "title": "Microsoft hasn\u2019t ruled out spinning off Xbox",
+      "url": "https://www.theverge.com/games/949584/microsoft-spinning-off-xbox",
+      "summary": "Microsoft is preparing to lay off a significant chunk of its Xbox division and is reevaluating the plans for its next-generation Project Helix console. It's apparently also considering dramatically restructuring its relationship with Xbox, and hasn't ruled out spinning it off into a separate company. A new report from The Information suggests that Microsoft has [\u2026]",
+      "published_at": "2026-06-13T16:29:47+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168285+00:00",
+      "intelligence_score": 29.07,
+      "rank": 81,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "8388d4cb374cb4a0",
+      "title": "How to Run a News Company in the Age of Polarization and A.I. Slop",
+      "url": "https://www.nytimes.com/2026/06/14/business/nbc-news-cesar-conde.html",
+      "summary": "Cesar Conde of NBCUniversal News thinks that the \u201cpendulum will eventually swing back\u201d to mainstream media brands.",
+      "published_at": "2026-06-14T09:00:46+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.933995+00:00",
+      "intelligence_score": 28.98,
+      "rank": 82,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "a6430940f7140fb9",
+      "title": "Kash Patel Keeps Suing the Press",
+      "url": "https://www.nytimes.com/2026/06/14/business/media/kash-patel-defamation-lawsuits.html",
+      "summary": "The F.B.I. director, following a strategy from President Trump, has filed six defamation lawsuits against news media companies and commentators in nearly seven years.",
+      "published_at": "2026-06-14T09:00:33+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934054+00:00",
+      "intelligence_score": 28.98,
+      "rank": 83,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "8a22af203419be77",
+      "title": "Medicare Enrollment 101: What You Need to Know",
+      "url": "https://www.nytimes.com/2026/06/14/business/medicare-enrollment.html",
+      "summary": "The federal health insurance program can be complicated. Here\u2019s how to start, and where to find help.",
+      "published_at": "2026-06-14T09:00:17+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934134+00:00",
+      "intelligence_score": 28.98,
+      "rank": 84,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "central_banks"
+        ]
+      }
+    },
+    {
+      "id": "a279d92771016004",
+      "title": "Wages Are Falling. Wealth Is Surging. No Wonder Americans Are Unhappy.",
+      "url": "https://www.nytimes.com/2026/06/13/business/economy-trillionaire-wealth-wages.html",
+      "summary": "As Elon Musk became the world\u2019s first trillionaire, workers are facing higher prices and fears of A.I.-driven job losses.",
+      "published_at": "2026-06-13T12:28:36+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934269+00:00",
+      "intelligence_score": 28.78,
+      "rank": 85,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "05312d4e9a3bdcdd",
+      "title": "Monsoon tracker: Bengaluru, Kolkata, Thane on IMD's rainfall alert as Maharashtra braces for more heatwave days",
+      "url": "https://www.livemint.com/news/india/monsoon-tracker-bengaluru-kolkata-thane-on-imds-rainfall-alert-as-maharashtra-braces-for-more-heatwave-days-11781398079806.html",
+      "summary": "Monsoon tracker: Rajasthan and Odisha are on IMD's orange alert for heavy rains. Multiple states are on yellow alert due to likelihood of precipitation today.&nbsp;",
+      "published_at": "2026-06-14T01:46:23+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521633+00:00",
+      "intelligence_score": 27.03,
+      "rank": 86,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "5538a05c1152538a",
+      "title": "The Promise and Peril of Jamaica\u2019s Offshore Oil Ambitions",
+      "url": "https://oilprice.com/Energy/Energy-General/The-Promise-and-Peril-of-Jamaicas-Offshore-Oil-Ambitions.html",
+      "summary": "Jamaica may be following in the footsteps of its Caribbean neighbours, such as Guyana, as it plans to drill for oil, despite being highly vulnerable to climate change. In recent years, Caribbean oil exploration has boomed, following successful drilling in Guyana and Suriname. But, at a time when the International Energy Agency (IEA) is calling for an end to exploration, will Jamaica pursue a future in fossil fuels? At present, Jamaica imports all its fuel, spending between $1.5 and $2 billion a year on energy imports. However, successful findings\u2026",
+      "published_at": "2026-06-13T19:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-06-14T09:20:36.011658+00:00",
+      "intelligence_score": 26.18,
+      "rank": 87,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 34.9,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "5a6838d66e61b6b2",
+      "title": "A dying star could create a new universe instead of a black hole",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260614011846.htm",
+      "summary": "What if some black holes aren\u2019t black holes at all? A new theoretical study suggests that when a massive star collapses, it might not form a singularity hidden behind an event horizon. Instead, the collapse could trigger the birth of a tiny new universe inside the dying star. Driven by dark energy, this miniature cosmos would expand and push back against gravity, preventing complete collapse and creating an exotic object known as a gravastar.",
+      "published_at": "2026-06-14T08:08:31+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.165721+00:00",
+      "intelligence_score": 26.09,
+      "rank": 88,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "e80726904650d2aa",
+      "title": "The G7 Summit Is Dogged by Chaos and Divided by Trump",
+      "url": "https://www.nytimes.com/2026/06/14/world/europe/g7-summit-evian-trump.html",
+      "summary": "Group of 7 meetings once embodied the effort to sustain the global diplomatic order. This year\u2019s gathering, starting on Monday, symbolizes its fragmentation.",
+      "published_at": "2026-06-14T09:00:58+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.933913+00:00",
+      "intelligence_score": 25.63,
+      "rank": 89,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "8d41f5155d31a8f2",
+      "title": "How Israel\u2019s \u2018trampoline\u2019 economy has adapted to war",
+      "url": "https://www.ft.com/content/3cce2be6-0fe4-47db-acce-1df6e7c83dfd",
+      "summary": "After two decades of growth the country has proven to be surprisingly resilient to war and energy shocks",
+      "published_at": "2026-06-14T08:09:41+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-14T09:20:27.850619+00:00",
+      "intelligence_score": 25.41,
+      "rank": 90,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "df74e95e4715af1c",
+      "title": "Yellowstone wolves may not have reshaped the national park after all",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613215510.htm",
+      "summary": "One of the most celebrated claims about Yellowstone\u2019s wolves is facing a major challenge. Scientists say the study behind the famous trophic cascade story relied on flawed methods that overstated the ecological impact of wolf recovery. Their reanalysis found no evidence for a dramatic, park-wide surge in willow growth. Instead, the effects appear smaller and vary from place to place.",
+      "published_at": "2026-06-14T04:27:09+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.165788+00:00",
+      "intelligence_score": 24.9,
+      "rank": 91,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "f428be7310cc886b",
+      "title": "Ancient Denisovan DNA still shapes human immunity today",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613034210.htm",
+      "summary": "Ancient encounters between humans and the mysterious Denisovans are still shaping people today. By analyzing genomes from populations across the Pacific, researchers uncovered evidence that the ancestors of Near Oceanians interbred with at least three different Denisovan groups, leaving behind genetic variants that remain active in modern humans.",
+      "published_at": "2026-06-14T01:52:34+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.166188+00:00",
+      "intelligence_score": 24.9,
+      "rank": 92,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "0ee28ec225c3748d",
+      "title": "Your brain can keep improving into your 90s, study finds",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613034222.htm",
+      "summary": "A three-year study of nearly 4,000 adults ranging from age 19 to 94 found that brain health can improve at any age, challenging the common belief that mental sharpness must decline as we get older. Participants spent just a few minutes a day on brain-training activities, and researchers found measurable gains across multiple aspects of brain health, including thinking clarity, emotional well-being, and sense of purpose.",
+      "published_at": "2026-06-13T14:47:04+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.166044+00:00",
+      "intelligence_score": 24.71,
+      "rank": 93,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "78172eb678115140",
+      "title": "Quote of the day by Ursula K. Le Guin: \u2018It is the journey that matters, in the end\u2019",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-ursula-k-le-guin-it-is-the-journey-that-matters-in-the-end-11781414938434.html",
+      "summary": "Ursula K. Le Guin\u2019s quote \u201cIt is good to have an end to journey towards; but it is the journey that matters, in the end\u201d is a powerful lesson on goals, purpose, patience and finding meaning along the way.",
+      "published_at": "2026-06-14T05:32:15+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521059+00:00",
+      "intelligence_score": 22.52,
+      "rank": 94,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "eb110881062a3bd4",
+      "title": "Armed men kidnap high-ranking security official in Haiti",
+      "url": "https://www.bbc.com/news/articles/cz9le087414o?at_medium=RSS&at_campaign=rss",
+      "summary": "James Boyard's abduction is the highest-ranking abduction in the violence-wracked country in recent years, according to reports.",
+      "published_at": "2026-06-14T08:07:55+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267857+00:00",
+      "intelligence_score": 21.38,
+      "rank": 95,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "4f5a8241c256cfa0",
+      "title": "US kills leader of Venezuela's Tren de Aragua gang in air strike, Trump says",
+      "url": "https://www.bbc.com/news/articles/cp36z37knlko?at_medium=RSS&at_campaign=rss",
+      "summary": "Ni\u00f1o Guerrero was killed in a \"swift and lethal kinetic strike,\" the US President wrote in a social media post.",
+      "published_at": "2026-06-14T06:39:29+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.268010+00:00",
+      "intelligence_score": 21.38,
+      "rank": 96,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "e46b8f245ea13d79",
+      "title": "Quote of the Day by Jim Rohn: 'Discipline is the bridge between goals and accomplishment'",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-jim-rohn-discipline-is-the-bridge-between-goals-and-accomplishment-11781415159842.html",
+      "summary": "Jim Rohn\u2019s quote \u201cDiscipline is the bridge between goals and accomplishment\u201d is a powerful lesson on discipline, consistency, self-control and turning ambition into results.",
+      "published_at": "2026-06-14T05:36:00+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521004+00:00",
+      "intelligence_score": 21.02,
+      "rank": 97,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 14.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "d3610aa34d26d241",
+      "title": "US\u2019s Screwworm Fix Is Still a Year Away, Risking More Spread",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/us-s-screwworm-fix-is-still-a-year-away-risking-more-spread",
+      "summary": "The US\u2019s best weapon against a deadly cattle parasite threatening the beef industry is more than a year away from showing meaningful results, raising concerns over how far the outbreak could spread before then.",
+      "published_at": "2026-06-13T14:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.528067+00:00",
+      "intelligence_score": 20.69,
+      "rank": 98,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "6b8772b5ec86d337",
+      "title": "The FBI built its own replica small town to simulate real-world cyberattacks",
+      "url": "https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/",
+      "summary": "Hidden inside a building in Alabama, the FBI has created its own small town as a dedicated cyber training ground for simulating cyberattacks.",
+      "published_at": "2026-06-13T11:00:00+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.066709+00:00",
+      "intelligence_score": 20.52,
+      "rank": 99,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "b0565d92a85f92c1",
+      "title": "Switzerland votes on plan to cap population at 10 million",
+      "url": "https://www.bbc.com/news/articles/cx23kz7e76po?at_medium=RSS&at_campaign=rss",
+      "summary": "The right-wing Swiss People's Party calls the plan a \"sustainability initiative\",  but opponents say it is a recipe for chaos.",
+      "published_at": "2026-06-14T05:36:24+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267529+00:00",
+      "intelligence_score": 20.41,
+      "rank": 100,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "452ff701612bbd6b",
+      "title": "New-Age Tech Stocks: EaseMyTrip, SEDEMAC Lead Weekly Gains; Yudiz, ideaForge Slip",
+      "url": "https://inc42.com/buzz/new-age-tech-stocks-easemytrip-sedemac-lead-weekly-gains-yudiz-ideaforge-slip/",
+      "summary": "New-age tech stocks saw stock-specific movement this week amid the ongoing market volatility. Thirty one out of the 57 new-age\u2026",
+      "published_at": "2026-06-13T13:18:52+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:35.357323+00:00",
+      "intelligence_score": 20.01,
+      "rank": 101,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "bd28b39dd73391f0",
+      "title": "South Korea\u2019s World-Beating Stock Market Eyes Its MSCI Moment",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/world-s-hottest-stock-market-turns-attention-to-msci-moment",
+      "summary": "After one of its most volatile weeks in years, South Korea\u2019s stock market is approaching a milestone it has long been chasing: a potential path into MSCI Inc.\u2019s developed-market status.",
+      "published_at": "2026-06-14T00:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527438+00:00",
+      "intelligence_score": 15.73,
+      "rank": 102,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "7f77192cb36d7295",
+      "title": "Sealed Super Mario Bros. sells for a record $3 million",
+      "url": "https://www.theverge.com/games/949593/super-mario-bros-3-million-auction",
+      "summary": "A copy of Super Mario Bros., still in the box and sealed with its original sticker, just sold at Heritage Auctions for $3 million. That absolutely crushes the previous record of $2 million, also for a copy of Super Mario Bros., in 2021. That sale also came hot on the heels of a controversial auction [\u2026]",
+      "published_at": "2026-06-13T18:37:21+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168219+00:00",
+      "intelligence_score": 15.6,
+      "rank": 103,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "c8a88ea24bf68661",
+      "title": "Caffeine Minimalists Rewrite Routines to Battle Coffee Jitters",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-13/consumers-embrace-caffeine-minimalism-video",
+      "summary": "While plenty of Americans are emphatically unready to give up caffeine, many are experimenting with a new range of options beyond the traditional cup of hot java, paying heed to caffeine\u2019s impact on their sleep, mood and energy level. Consumers are becoming more cognizant of \u201cenergy management\u201d in their beverage choices, says Daniel Jhung, president of the coffee and beverage division of Nestl\u00e9 USA. For many, this might mean drinking coffee in the morning, but going easy on caffeine in the afternoon. Bloomberg reporter Kristina Peterson joined David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "published_at": "2026-06-13T17:04:06+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.527671+00:00",
+      "intelligence_score": 14.94,
+      "rank": 104,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "daa4c894142ac1f7",
+      "title": "Why middle age is becoming a breaking point in the U.S.",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613215430.htm",
+      "summary": "A new international study finds that middle-aged Americans are lonelier, more depressed, and experiencing worse memory and health than earlier generations. Researchers say growing financial strain, weaker social supports, and chronic stress may explain why the U.S. is falling behind other wealthy nations.",
+      "published_at": "2026-06-14T02:24:12+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.165842+00:00",
+      "intelligence_score": 14.46,
+      "rank": 105,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "f4298421c7110bd5",
+      "title": "Author Chimamanda Adichie accuses hospital of stalling review into son's death",
+      "url": "https://www.bbc.com/news/articles/cgk6jzkr0xvo?at_medium=RSS&at_campaign=rss",
+      "summary": "Chimamanda Ngozi Adichie's 21-month old son died in a Lagos hospital, which she says is trying to stop an inquest into the circumstances of his death.",
+      "published_at": "2026-06-14T01:08:20+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267691+00:00",
+      "intelligence_score": 14.04,
+      "rank": 106,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "8c1f848df49ee0fb",
+      "title": "Vincent's parents 'never say he's good enough' - so he turned to a middle-aged couple online",
+      "url": "https://www.bbc.com/news/articles/cpq3dnr5vlzo?at_medium=RSS&at_campaign=rss",
+      "summary": "A niche group of content creators called \"virtual parents\" have become hugely popular among young people.",
+      "published_at": "2026-06-13T22:05:24+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267749+00:00",
+      "intelligence_score": 14.04,
+      "rank": 107,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "9a602c0da6fa96ef",
+      "title": "Trump's name removed from Kennedy Center after court order",
+      "url": "https://www.bbc.com/news/articles/c5yzd4dgxw4o?at_medium=RSS&at_campaign=rss",
+      "summary": "Crews erected scaffolding on Friday as onlookers gathered into the evening, though storms delayed the work until Saturday.",
+      "published_at": "2026-06-13T17:00:23+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267907+00:00",
+      "intelligence_score": 13.34,
+      "rank": 108,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "7782b14c04cd21c1",
+      "title": "Learning a musical instrument in your 70s could help protect memory",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613034217.htm",
+      "summary": "Learning a musical instrument later in life may help keep the brain younger for longer. In a four-year study, older adults who continued practicing maintained their memory performance and showed less age-related brain shrinkage than those who quit. The benefits were especially noticeable in brain regions tied to memory and learning.",
+      "published_at": "2026-06-13T12:24:37+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.166092+00:00",
+      "intelligence_score": 13.08,
+      "rank": 109,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "d07dbe2dbaf38e39",
+      "title": "At the Canadian Screen Awards, the Industry Steps Outside Hollywood\u2019s Shadow",
+      "url": "https://www.nytimes.com/2026/06/13/world/canada/canadian-screen-awards-heated-rivalry-toronto.html",
+      "summary": "No longer content with being just \u201cHollywood North,\u201d the Canadian screen industry is asserting itself and telling its own stories.",
+      "published_at": "2026-06-13T17:16:45+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934339+00:00",
+      "intelligence_score": 12.11,
+      "rank": 110,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "5f509eb7469072cd",
+      "title": "Everyone Wants to Tax A.I. The Big Disagreement: How?",
+      "url": "https://www.nytimes.com/2026/06/13/business/dealbook/ai-tax-proposals.html",
+      "summary": "Bernie Sanders, President Trump and even A.I. companies say they would like the public to share the wealth. But their solutions are very different.",
+      "published_at": "2026-06-13T22:57:49+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934196+00:00",
+      "intelligence_score": 11.05,
+      "rank": 111,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "4eaf521e52083e28",
+      "title": "Cleve Moler, Who Unlocked the Power of Computing for Millions, Dies at 86",
+      "url": "https://www.nytimes.com/2026/06/11/science/cleve-moler-dead.html",
+      "summary": "He built interfaces that allowed engineers, scientists and everyday people to solve difficult problems without having to write the underlying code.",
+      "published_at": "2026-06-13T15:07:40+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934661+00:00",
+      "intelligence_score": 10.5,
+      "rank": 112,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "0d0bd893285d7bec",
+      "title": "Scientists discover parrots may actually use names",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613034232.htm",
+      "summary": "Parrots may be doing more than just repeating words\u2014they may actually use names. By analyzing hundreds of recordings from pet parrots, researchers found evidence that many birds use specific names to identify particular people, animals, and even individual companions. Some parrots appeared to refer to someone who wasn\u2019t present, while others used names in creative ways, such as saying their own name to grab attention.",
+      "published_at": "2026-06-14T05:26:16+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.165894+00:00",
+      "intelligence_score": 10.44,
+      "rank": 113,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "15457b42acc6b69f",
+      "title": "Lucy\u2019s hunter revealed: Giant crocodile terrorized early human ancestors",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260613034229.htm",
+      "summary": "A newly identified crocodile species nicknamed \u201cLucy\u2019s hunter\u201d prowled Ethiopia\u2019s rivers when Lucy\u2019s species walked the Earth more than 3 million years ago. The giant predator was likely the most dangerous animal in the ecosystem and may have regularly hunted early human relatives.",
+      "published_at": "2026-06-13T14:13:48+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:38.165943+00:00",
+      "intelligence_score": 9.45,
+      "rank": 114,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "36893c744e281b4d",
+      "title": "Merger Cleared, David Ellison to Join Trump at U.F.C. Bout",
+      "url": "https://www.nytimes.com/2026/06/14/business/media/trump-ufc-david-ellison.html",
+      "summary": "A U.F.C. fight on President Trump\u2019s birthday will now double as a capstone for Paramount\u2019s successful effort to secure Justice Department approval for a mega media merger.",
+      "published_at": "2026-06-14T09:01:45+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.933834+00:00",
+      "intelligence_score": 1.1,
+      "rank": 115,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "1656aeec6636a0b3",
+      "title": "Defence tech start-up Anduril calls for reset of US arms export controls",
+      "url": "https://www.ft.com/content/74e29a55-8f76-47e2-a039-52fb10beaaec",
+      "summary": "CEO of California-based group wants to enlist allies in helping with production of lower-cost weapons",
+      "published_at": "2026-06-14T04:00:17+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-06-14T09:20:27.850781+00:00",
+      "intelligence_score": 1.05,
+      "rank": 116,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "bb3e898fd35c838b",
+      "title": "7 Best Coffee Makers (2026): Ratio, Fellow, Moccamaster",
+      "url": "https://www.wired.com/gallery/best-coffee-makers/",
+      "summary": "The old-fashioned drip coffee maker has come a long way. These impressive machines can turn your barista into a stranger.",
+      "published_at": "2026-06-14T09:01:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.855018+00:00",
+      "intelligence_score": 0.0,
+      "rank": 117,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "4226f3f7e3a330cc",
+      "title": "'The greatest day of my life' - Knicks fans celebrate in San Antonio",
+      "url": "https://www.bbc.com/news/videos/c0ey470le3no?at_medium=RSS&at_campaign=rss",
+      "summary": "New York's basketball team won the NBA championship for the first time in over 50 years after beating the Spurs in Texas.",
+      "published_at": "2026-06-14T06:34:11+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.268224+00:00",
+      "intelligence_score": 0.0,
+      "rank": 118,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "1cd2c9bb7f871865",
+      "title": "Quote of the day by John Wooden: \u2018Don\u2019t let what you cannot do interfere with what you can do\u2019",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-john-wooden-don-t-let-what-you-cannot-do-interfere-with-what-you-can-do-11781415414448.html",
+      "summary": "John Wooden\u2019s quote \u2018Don\u2019t let what you cannot do interfere with what you can do\u2019 is a powerful lesson on focus, resilience, self-belief and making progress with what is in your control.",
+      "published_at": "2026-06-14T05:40:26+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.520949+00:00",
+      "intelligence_score": 0.0,
+      "rank": 119,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "63c96cb32f33a5f9",
+      "title": "Quote of the day by Donald Trump: 'I try to learn from the past, but...'",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-donald-trump-i-try-to-learn-from-the-past-but-11781411816622.html",
+      "summary": "The quote encourages people to concentrate on what they can do today. The present moment is where decisions are made, actions are taken, and progress happens.",
+      "published_at": "2026-06-14T05:24:37+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521112+00:00",
+      "intelligence_score": 0.0,
+      "rank": 120,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "f9275f6d324b96e1",
+      "title": "Why the US economy keeps defying the odds",
+      "url": "https://www.bbc.com/news/articles/cwy031el03po?at_medium=RSS&at_campaign=rss",
+      "summary": "Why has the American economy continued to outperform so many of its peers, despite facing the same global shocks?",
+      "published_at": "2026-06-14T05:14:17+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.268117+00:00",
+      "intelligence_score": 0.0,
+      "rank": 121,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "4c1ea4250fe9e6c2",
+      "title": "Born on 14 June? You share your birthday with Donald Trump, Raj Thackeray, Kirron Kher",
+      "url": "https://www.livemint.com/news/trends/born-on-14-june-you-share-your-birthday-with-donald-trump-raj-thackeray-kirron-kher-11781402346348.html",
+      "summary": "From US President Donald Trump to Raj Thackeray, Kirron Kher, Pritam and more, check out who was born on 14 June.",
+      "published_at": "2026-06-14T02:45:49+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:31.521467+00:00",
+      "intelligence_score": 0.0,
+      "rank": 122,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "56124b8a35946e28",
+      "title": "As Trump turns 80, what's it really like to work as an octogenarian?",
+      "url": "https://www.bbc.com/news/articles/cm20vyxppneo?at_medium=RSS&at_campaign=rss",
+      "summary": "As President Donald Trump celebrates his birthday, we ask people who have worked into their 80s themselves about what it takes to keep going.",
+      "published_at": "2026-06-13T23:22:52+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.268167+00:00",
+      "intelligence_score": 0.0,
+      "rank": 123,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "bd743b0b51ec5b99",
+      "title": "Norway braces for verdict in rape trial of crown princess's son H\u00f8iby",
+      "url": "https://www.bbc.com/news/articles/cd95xvk4vn2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Marius Borg H\u00f8iby will appear via video link, almost three months after his trial came to an end on 40 charges, including four counts of rape.",
+      "published_at": "2026-06-13T23:11:28+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267805+00:00",
+      "intelligence_score": 0.0,
+      "rank": 124,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "ac9b7ee2469eda2e",
+      "title": "X-Men \u201997 has what Master of the Universe is missing",
+      "url": "https://www.theverge.com/entertainment/947064/xmen-97-season-2-disney-plus-marvel-masters-of-the-universe-mattel",
+      "summary": "In 2026, Marvel and Mattel are both releasing projects designed to capitalize on people's love for iconic animated heroes from their childhoods. Masters of the Universe has put a live-action He-Man on the big screen, and the second season of X-Men '97 is about to fling some of Charles Xavier's mutants into an apocalyptic future. [\u2026]",
+      "published_at": "2026-06-13T20:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.168143+00:00",
+      "intelligence_score": 0.0,
+      "rank": 125,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "dfbb4d48487b1d31",
+      "title": "Kidnapped Nigerian retired general dies in captivity",
+      "url": "https://www.bbc.com/news/articles/cvgq4veq2eqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Maj Gen Rabe Abubakar's death highlights continuing security challenges facing parts of the country.",
+      "published_at": "2026-06-13T15:25:09+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:30.267958+00:00",
+      "intelligence_score": 0.0,
+      "rank": 126,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "cbc0978edb9215ac",
+      "title": "A Guide to Chicago\u2019s South Side, Home of the New Obama Center",
+      "url": "https://www.nytimes.com/2026/06/12/travel/chicago-south-side-obama-center.html",
+      "summary": "The Obama Presidential Center, opening on June 19, is poised to attract visitors to an often-overlooked area. Here\u2019s what you\u2019ll find in Hyde Park and beyond.",
+      "published_at": "2026-06-13T14:53:33+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-14T09:20:36.934565+00:00",
+      "intelligence_score": 0.0,
+      "rank": 127,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "fa0d96309cc724d7",
+      "title": "Brazil\u2019s World Cup Grilling Tradition Challenged by Beef Prices",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/what-are-brazil-s-world-cup-fans-grilling-more-chicken-and-pork-less-beef",
+      "summary": "Soaring prices for the world\u2019s largest beef producer, Brazil, mean households will be buying less red meat when they gather to watch Brazil\u2019s first game of the FIFA World Cup this Saturday.",
+      "published_at": "2026-06-13T13:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-14T09:20:28.528122+00:00",
+      "intelligence_score": 0.0,
+      "rank": 128,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "1232733cb0cbd014",
+      "title": "Meet the New Dyson Vacuums: V16 Piston Animal, V10 Konical, V8 Cyclone (2026)",
+      "url": "https://www.wired.com/story/meet-dysons-new-cordless-vacuum-lineup/",
+      "summary": "The rest of Dyson\u2019s promised 2026 vacuum lineup is here, from the new Dyson V16 Piston Animal to an updated version of the favored Dyson V8 Cyclone.",
+      "published_at": "2026-06-13T11:33:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-06-14T09:20:21.855157+00:00",
+      "intelligence_score": 0.0,
+      "rank": 129,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    }
+  ]
+}
