@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cc7b2Cosw4JUoJjUCVsak'}",
+  "story": {
+    "id": "5f774fc82c4ded2d",
+    "title": "PM Modi at G7 calls for secure shipping lanes after 3 Indian sailors killed in US strike",
+    "url": "https://www.livemint.com/news/us-news/pm-modi-at-g7-calls-for-secure-shipping-lanes-after-3-indian-sailors-killed-in-us-strike-11781640281795.html",
+    "summary": "Addressing the Outreach Session on \u201cForging New Partnerships and Rebuilding International Solidarity\u201d at the 52nd G7 Summit in Evian, France, the Prime Minister said India is deeply concerned about the humanitarian and economic fallout of the conflict.",
+    "published_at": "2026-06-16T20:31:41+00:00",
+    "source_name": "Mint",
+    "source_url": "https://www.livemint.com/rss/news",
+    "category": "india",
+    "source_weight": 0.85,
+    "fetched_at": "2026-06-16T20:41:36.302302+00:00",
+    "intelligence_score": 121.43,
+    "rank": 1,
+    "category_weight": 1.3,
+    "score_breakdown": {
+      "topic_score": 71.6,
+      "source_multiplier": 1.1,
+      "entity_bonus": 8,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.3,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-06-16T20:41:44.709399+00:00"
+}
