@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-06-16",
+    "top_n": 1,
+    "selected_at": "2026-06-16T10:57:14.834263+00:00"
+  },
+  "stories": [
+    {
+      "id": "73c7610a671d8471",
+      "title": "Satya Nadella warns that AI could hollow out entire industries, echoing the damage done by globalization",
+      "url": "https://venturebeat.com/technology/satya-nadella-warns-that-ai-could-hollow-out-entire-industries-echoing-the-damage-done-by-globalization",
+      "summary": "Microsoft CEO Satya Nadella  published a sweeping essay  on Sunday laying out what he describes as the defining economic challenge of the AI era: the risk that a handful of frontier models will absorb the expertise of entire industries and commoditize it, leaving businesses stripped of their competitive moats. \"The last thing any of us want is a world where every company across every sector is ceding value to a few models that eat everything they see,\" Nadella wrote in the piece, titled \"A frontier without an ecosystem is not stable,\" which he posted on X. \"If all the value is accrued by only a few models, the political economy will simply not tolerate it. There is no societal permission for an AI future that hollows out entire industries.\" The essay is unusually philosophical for a sitting CEO of a $3 trillion technology company. But it arrives at a moment when the theoretical risks Nadella describes are becoming tangible \u2014 and, critically, when Microsoft itself is grappling with the very dynamics he warns about. Nadella introduces \"token capital\" as the new currency of enterprise AI strategy At the center of Nadella's essay sits a conceptual framework built on two pillars he calls \" human capital \" and \" token capital .\" Human capital, he writes, \"comprises the knowledge, judgment, relationships, ingenuity, and pattern recognition of its people,\" while token capital refers to \"the firm's AI capability it builds and owns.\" The two are not in tension, he insists. \"Importantly, human capital does not become less valuable as token capital grows. It only becomes more valuable!\" he writes. \"I believe human agency will be the driver of token capital growth. Humans will set ambitious goals, connect dots across domains, build relationships, and recognize patterns that matter most. Without human direction, you have compute running in circles.\" This framing is a deliberate counterweight to the narrative that  AI will simply replace human workers  or, at the enterprise level, dissolve the intellectual property that differentiates one company from another. Nadella is arguing that the real danger is not AI's capability but its tendency to centralize \u2014 and that the solution requires a fundamentally new architecture for how businesses interact with the technology. He describes the real opportunity as \"not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound.\" The key test of a company's sovereignty in this new era, he writes, is whether it can \"switch out a 'generalist' model without losing the 'company veteran' expertise built into their learning system.\" This is the essay's most actionable claim \u2014 and its most provocative. Nadella is telling enterprises they need to decouple their institutional intelligence from whatever frontier model they happen to be running, creating portable knowledge systems that survive vendor changes. Why Nadella is comparing AI concentration to the outsourc",
+      "published_at": "2026-06-15T19:49:14+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
+      "category": "technology",
+      "source_weight": 0.7,
+      "fetched_at": "2026-06-16T10:56:55.931042+00:00",
+      "intelligence_score": 124.4,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 38,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
