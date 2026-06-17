@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-06-17",
+    "top_n": 1,
+    "selected_at": "2026-06-17T10:28:29.732247+00:00"
+  },
+  "stories": [
+    {
+      "id": "65532c445781b5a1",
+      "title": "Why Weibo\u2019s tiny VibeThinker-3B has the AI world arguing over benchmarks again",
+      "url": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
+      "summary": "On Sunday, a team of nine researchers at  Sina Weibo  \u2014 the Chinese social media giant better known for its microblogging platform than for cutting-edge artificial intelligence \u2014 quietly posted a  14-page technical report  to arXiv that sent shockwaves through the AI research community. Their claim: a language model with just 3 billion parameters can match or exceed the reasoning performance of flagship systems from  Google DeepMind ,  OpenAI ,  Anthropic , and  DeepSeek  that are hundreds of times larger. The model, called  VibeThinker-3B , scored 94.3 on  AIME 2026  \u2014 the American Invitational Mathematics Examination, one of the most demanding standardized math competitions in the world. That figure places it alongside  DeepSeek V3.2 , a model with 671 billion parameters, and ahead of  Gemini 3 Pro , Google's high-performance flagship reasoning system, which scored 91.7. With a test-time scaling technique the team calls Claim-Level Reliability Assessment, the score climbs to 97.1, edging past virtually every system in the public record. Within hours of publication, the paper had drawn 62 upvotes on  Hugging Face's daily papers  feed, the model repository had accumulated 130 likes, and the  GitHub repository  had reached 685 stars. But the reaction on social media was not uniformly celebratory. It was, in many cases, deeply skeptical. \"WHAT THE HELL is happening in AI?\" wrote the user  @orcus108  on X, in a post that accumulated over 161,000 views. \"A 3B parameter model just put up coding benchmark scores in the same league as Claude Opus 4.5\u2026 I genuinely don't know if this is a breakthrough or if the benchmarks are broken.\" That tension \u2014 between genuine scientific advancement and the growing suspicion that AI benchmarks have become gameable to the point of meaninglessness \u2014 sits at the heart of the  VibeThinker-3B  story. And the answer matters enormously, not just for academic bragging rights, but for the multibillion-dollar question of whether the AI industry's relentless push toward ever-larger models is the only path to intelligence. Benchmark scores that defy the scaling laws of modern AI The results reported in the technical report are, by any conventional standard, extraordinary. On the mathematics side,  VibeThinker-3B  achieved 91.4 on  AIME 2025 , 94.3 on  AIME 2026 , 89.3 on  HMMT 2025  (the Harvard-MIT Mathematics Tournament), 93.8 on  BruMO 2025  (the Brown University Math Olympiad), and 76.4 on  IMO-AnswerBench , a benchmark comprising 400 problems at the level of the International Mathematical Olympiad. In coding, it posted an 80.2 Pass@1 on  LiveCodeBench v6 , a benchmark designed to test executable code generation, and achieved a 96.1 percent acceptance rate on unseen  LeetCode weekly  and biweekly contests from late April through late May 2026. On instruction following, it scored 93.4 on  IFEval . To put the parameter disparity in perspective:  DeepSeek V3.2  has 671 billion parameters \u2014 roughly 224 times the size of  VibeThi",
+      "published_at": "2026-06-17T00:32:19+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
+      "category": "technology",
+      "source_weight": 0.7,
+      "fetched_at": "2026-06-17T10:28:06.327251+00:00",
+      "intelligence_score": 133.4,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 46,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
