@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcBLU8WQRNLcbmTzsgv65'}",
+  "story": {
+    "id": "5bf6e09b17433b60",
+    "title": "New AI optimization framework beats Claude Code and Codex by 2.5x on the same compute budget",
+    "url": "https://venturebeat.com/orchestration/new-ai-optimization-framework-beats-claude-code-and-codex-by-2-5x-on-the-same-compute-budget",
+    "summary": "Imagine your engineering team just deployed an AI agent to search through internal company documents and answer employee questions. It works perfectly in development, but in production, it consistently hallucinates or misses key constraints. Fixing this is rarely a simple patch. It requires a tedious, trial-and-error process of tweaking chunking strategies, retrieval methods, and system prompts simultaneously. Because these adjustments are entangled, it becomes nearly impossible to attribute which specific tweak actually solved the problem.\u00a0 To address this challenge, researchers at Renmin University of China and Microsoft Research introduced  Arbor , a framework that upgrades AI-driven research and optimization from a sequence of trial-and-error guesses into a cumulative learning process. Arbor organizes hypotheses, experiments, and insights into a tree that helps the system learn from prior failures to make smarter, verified improvements over time. In practical tests, Arbor delivered more than 2.5 times the verifiable performance gains of standard AI coding agents across real-world engineering tasks while operating under the same resource budget.\u00a0 For enterprise AI, this technique directly translates to automating the continuous improvement of complex, real-world engineering systems. Understanding the bottleneck in autonomous optimization As large language models and AI systems become more capable, they are expected to carry out more complex operations such as autonomous optimization (AO) of software systems such as agent harnesses or model training algorithms.\u00a0 AO captures the fundamental loop of autonomous research. An AI agent starts with an initial mutable artifact, such as a machine learning codebase or data pipeline, and a specific objective. The agent's goal is to iteratively improve this artifact through experimental feedback without step-by-step human supervision. The main challenge of AO is often misunderstood. Many engineering teams find that simply giving a coding agent more time or compute to optimize a codebase doesn't lead to better results. \"Automation can keep an AI working for a very long time \u2014 but a loop is not the same as progress,\" Jiajie Jin, co-author of the paper, told VentureBeat. \"If the goal is vague, or the metric is easy to hack, long-running automation often just produces 'improvements' faster that nobody actually wants.\" Jin explains that complex tasks take many attempts to get right, and standard agent architectures are missing the critical data structure to maintain state. \"How do you make sure the insight and experience from each attempt actually accumulate, instead of getting lost in a scrollback buffer?\" he said. Without this structure, agents simply repeat the same mistakes. Current agent systems can run experiments for many hours against well-specified goals: editing code, invoking tools, running tests autonomously. But they treat each attempt in isolation, missing the structural mechanisms that would let ",
+    "published_at": "2026-06-18T18:13:54+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-06-18T20:12:57.611752+00:00",
+    "intelligence_score": 130.24,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 30,
+      "keyword_bonus": 2,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "energy_transition",
+        "venture_capital",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-06-18T20:13:16.696597+00:00"
+}
