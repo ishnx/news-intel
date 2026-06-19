@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-06-19",
+    "top_n": 1,
+    "selected_at": "2026-06-19T10:15:02.402342+00:00"
+  },
+  "stories": [
+    {
+      "id": "60b39acb7bf9cc3d",
+      "title": "Show HN: Talos \u2013 Open-source WASM interpreter for Lean",
+      "url": "https://github.com/cajal-technologies/talos",
+      "summary": "At Cajal (YC W26) we\u2019re excited to share Talos ( https://github.com/cajal-technologies/talos ), an open source framework for formal verification of WebAssembly modules in Lean. AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of software comes with a mathematical proof that it does what its author intended - in doing so, eliminating many classes of exploits. Talos is part of the foundation for that. Talos provides a Wasm interpreter optimized for reasoning at the binary level, together with a weakest-precondition calculus layer for proving properties about programs. Because we reason directly about WebAssembly, any language with a Wasm backend is in scope: Rust, C++, Go, C, Swift, Kotlin, Zig, C#, and many more. To make this possible, we use Lean: a programming language and theorem prover that lets you both write software and mathematically prove that it's correct - all in one system. That's what lets Talos double as both an executable interpreter and the formal object Lean reasons about. Lean also integrates with modern AI proving tools, discharging goals automatically via both proof search and direct evaluation. To see Talos in action check out a proof for Stein's GCD algorithm, implemented in the popular Rust crate num-integer:  https://github.com/cajal-technologies/talos/blob/main/progra... . Our roadmap: - Full Wasm coverage by first passing the official W3C testsuite, then later verifying against SpecTec (formal Wasm spec)\n- Arbitrary crate verification - any Rust crate that compiles to Wasm should be in scope\n- Building our proof library codelib, to make verifying increasingly complex programs tractable We would love to hear the community\u2019s feedback on Talos and comments on the state of formal verification right now. Contributions are also welcome! \n \n Comments URL:  https://news.ycombinator.com/item?id=48584761 \n Points: 52 \n # Comments: 6",
+      "published_at": "2026-06-18T13:10:44+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-19T10:14:43.557079+00:00",
+      "intelligence_score": 125.42,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 79.5,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "energy_transition",
+          "central_banks"
+        ]
+      }
+    }
+  ]
+}
