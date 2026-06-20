@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcF3TAqZaGFjS3vJfNWb9'}",
+  "story": {
+    "id": "a856726d0c43b016",
+    "title": "Show HN: We post-trained a model that pen tests instead of refusing",
+    "url": "https://www.argusred.com/cli",
+    "summary": "Anthropic and OpenAI's publicly available models are explicitly guard-railed so that they refuse offensive tasks. And their cyber-focussed models are gated for enterprises. This leaves SMEs and mid market open to major vulnerabilities. AI can be used as both an adversarial and defensive tool in the world of cyber. A worst case outcome is if only the adversaries have access. Meanwhile, most existing AI cyber tools are just wrappers. The problem is that they still have all the guardrails on from the foundation model where they will inherit its refusals. For this project we've post-trained a specific model on a decade of capture-the-flag contests. This won't be made available to anyone and everyone, but we do believe that responsible SMEs and midmarket companies also need access to these tools in order to identify key vulnerabilities in their systems; not just enterprises. We have developed two modes that run over a CLI: \u2022 Security scan: a read-only audit of your local codebase for vulnerabilities. It only reports what it can tie to a specific file and line, so you're not wading through vibes-based findings. \u2022 Pen test: an active adversarial mode that will try to break a live system in a sandboxed environment. It proves each vulnerability by running the exploit and showing the request it sent and the response your code gave back, not a confidence score. Currently gated. To show what the scan does, we pointed it at Bank of Anthos and it found an integer overflow in the transfer path: amount is an int, and amount + fee can overflow negative, so the balance check passes and you move funds you don't have. Plus the usual auth and secrets issues. (Bank of Anthos is Google's open-source bank. It's a known app and some of it is intentionally weak, which is the point: you can clone it and re-run the scan yourself instead of trusting a screenshot) The base model is a Kimi K2.6 (open weights). We didn't pretrain from scratch. We post-trained it ourselves, SFT on CTF writeups, then RL with verifiable rewards against actual exploit checks. How the harness works: Along with the model we built the harness to support this. The harness runs on a multi-agent swarm: an orchestrator splits the job across subagents running in parallel, each owning a slice, then synthesising one report. The CLI is a local binary (brew/curl). It reads your code locally, then sends context to our inference API over TLS tcpdump it and you'll see exactly what leaves and where. Install is free; and you can run a scan for free up to 2m tokens, then need to pay for tokens beyond this. For full disclosure this is a product part of Cosine (YC W23) Up for debate: tool safety, e.g. domain verification is one method that proves control but not necessarily permission. How would you gate a pen-test tool given that? \n \n Comments URL:  https://news.ycombinator.com/item?id=48609231 \n Points: 11 \n # Comments: 0",
+    "published_at": "2026-06-20T13:49:03+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-20T19:12:14.558516+00:00",
+    "intelligence_score": 158.72,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 71.9,
+      "source_multiplier": 1.3,
+      "entity_bonus": 38,
+      "keyword_bonus": 1,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-06-20T19:12:30.389452+00:00"
+}
