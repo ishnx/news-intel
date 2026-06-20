@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcEDUEmtBCBGUcp4hjRH2'}",
+  "story": {
+    "id": "89a83bf2a75cf33e",
+    "title": "GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+    "url": "https://arrowtsx.dev/bigger-models/",
+    "summary": "Article URL:  https://arrowtsx.dev/bigger-models/ \n Comments URL:  https://news.ycombinator.com/item?id=48600167 \n Points: 117 \n # Comments: 24",
+    "published_at": "2026-06-19T16:11:25+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-20T08:43:00.603582+00:00",
+    "intelligence_score": 99.48,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 62.0,
+      "source_multiplier": 1.3,
+      "entity_bonus": 8,
+      "keyword_bonus": 0,
+      "recency_multiplier": 0.95,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-06-20T08:43:17.407844+00:00"
+}
