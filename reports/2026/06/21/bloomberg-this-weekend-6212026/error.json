@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcGwi2LZeGQ83fMibZA9w'}",
+  "story": {
+    "id": "e3015a59f63f810a",
+    "title": "Bloomberg This Weekend 6/21/2026",
+    "url": "https://www.bloomberg.com/news/videos/2026-06-21/bloomberg-this-weekend-6-21-2026-video",
+    "summary": "The news doesn\u2019t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend\u2019s biggest headlines, LIVE from New York. Joined by The Associated Press International Correspondent Philip Crowther, ABC News State Department Reporter Shannon Kingston, International Maritime Organization Arsenio Domingues, Founder and Author, \u201cThe Energy Word\u201d Dan Dicker, Author of \u201cUsers\u201d BeeBan Kidron, Fmr. Defense Secretary Mark Esper, Georgia Senator Raphael Warnock, Politico NY State Politics Reporter Jason Beeferman and \u201cThe New Fatherhood: Author Kevin Maguire. (Source: Bloomberg)",
+    "published_at": "2026-06-21T17:28:44+00:00",
+    "source_name": "Bloomberg Markets (via RSS)",
+    "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "macro",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-21T19:18:09.143126+00:00",
+    "intelligence_score": 109.06,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 74.5,
+      "source_multiplier": 1.1,
+      "entity_bonus": 8,
+      "keyword_bonus": 1,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "venture_capital",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-06-21T19:18:22.150197+00:00"
+}

@@ -2,35 +2,37 @@
   "metadata": {
     "date": "2026-06-21",
     "top_n": 1,
-    "selected_at": "2026-06-21T09:38:46.012100+00:00"
+    "selected_at": "2026-06-21T19:18:21.402653+00:00"
   },
   "stories": [
     {
-      "id": "d7b8d260418be10b",
-      "title": "Indian Navy warships: Dunagiri, Sanshodhak, Agray - all you need to know about indigenous vessels commissioned by Modi",
-      "url": "https://www.livemint.com/news/india/indian-navy-warships-dunagiri-sanshodhak-agray-all-you-need-to-know-about-indigenous-vessels-11782020093119.html",
-      "summary": "The commissioning of three indigenously built naval ships underscores India's focus on self-reliance in defense, enhancing maritime capabilities. PM Modi emphasized strong maritime prowess as essential for nation's economic and strategic influence, with over 75% indigenous content in these vessels.",
-      "published_at": "2026-06-21T05:49:13+00:00",
-      "source_name": "Mint",
-      "source_url": "https://www.livemint.com/rss/news",
-      "category": "india",
-      "source_weight": 0.85,
-      "fetched_at": "2026-06-21T09:38:39.292705+00:00",
-      "intelligence_score": 98.35,
+      "id": "e3015a59f63f810a",
+      "title": "Bloomberg This Weekend 6/21/2026",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-21/bloomberg-this-weekend-6-21-2026-video",
+      "summary": "The news doesn\u2019t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend\u2019s biggest headlines, LIVE from New York. Joined by The Associated Press International Correspondent Philip Crowther, ABC News State Department Reporter Shannon Kingston, International Maritime Organization Arsenio Domingues, Founder and Author, \u201cThe Energy Word\u201d Dan Dicker, Author of \u201cUsers\u201d BeeBan Kidron, Fmr. Defense Secretary Mark Esper, Georgia Senator Raphael Warnock, Politico NY State Politics Reporter Jason Beeferman and \u201cThe New Fatherhood: Author Kevin Maguire. (Source: Bloomberg)",
+      "published_at": "2026-06-21T17:28:44+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-06-21T19:18:09.143126+00:00",
+      "intelligence_score": 109.06,
       "rank": 1,
-      "category_weight": 1.3,
+      "category_weight": 1.1,
       "score_breakdown": {
-        "topic_score": 63.4,
+        "topic_score": 74.5,
         "source_multiplier": 1.1,
-        "entity_bonus": 0,
-        "keyword_bonus": 3,
-        "recency_multiplier": 1.05,
+        "entity_bonus": 8,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.3,
+        "category_weight": 1.1,
         "matched_topics": [
-          "artificial_intelligence",
           "geopolitics",
-          "india"
+          "india",
+          "energy_transition",
+          "venture_capital",
+          "china"
         ]
       }
     }
