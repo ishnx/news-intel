@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcKx3ehdWjRxH9DgbfJRr'}",
+  "story": {
+    "id": "ec7786d60a025c21",
+    "title": "Elephant alert! AI warning systems aim to avoid deadly clashes",
+    "url": "https://www.technologyreview.com/2026/06/23/1138562/elephant-alert-ai-warning-systems-avoid-deadly-clashes-india/",
+    "summary": "India is home to about 60% of the world\u2019s wild Asian elephants, and around 80% of the animals\u2019 habitat lies outside protected areas, according to the Ministry of Environment, Forest, and Climate Change. That brings people and wildlife into close contact, and clashes can turn lethal: There have been some 3,000 human casualties in the\u2026",
+    "published_at": "2026-06-23T09:00:00+00:00",
+    "source_name": "MIT Technology Review",
+    "source_url": "https://www.technologyreview.com/feed/",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-23T09:24:20.064837+00:00",
+    "intelligence_score": 130.42,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 76.0,
+      "source_multiplier": 1.3,
+      "entity_bonus": 0,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-06-23T09:24:35.420830+00:00"
+}
