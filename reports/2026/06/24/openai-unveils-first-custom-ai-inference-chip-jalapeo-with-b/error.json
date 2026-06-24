@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcNdq9eUJqt9rPWtyJ8W5'}",
+  "story": {
+    "id": "9744c14350ade7b8",
+    "title": "OpenAI unveils first custom AI inference chip, Jalape\u00f1o, with Broadcom \u2014 and its development was sped-up with OpenAI's own models",
+    "url": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models",
+    "summary": "OpenAI  and  Broadcom  this morning unveiled their first custom AI accelerator chip named \"Jalape\u00f1o,\" positioning it is as a purpose-built processor for large language model (LLM) inference, rather than the more general GPUs offered by the likes of Nvidia or AMD.  According to its creators, Jalape\u00f1o is designed to support workloads behind ChatGPT, Codex, the API and future agentic products, though notably, both  OpenAI 's and  Broadcom's news releases  position it as a product that could be made available to external AI firms as well \u2014 \"built from the ground up for current and future LLMs  across the industry. \" [Emphasis mine.] It  reportedly cuts inference costs  by about 50%, according to Bloomberg. Recall inference is when the finished AI model is served to end users to use, while there remain high costs for training, research and development.  Jalape\u00f1o's engineering timeline set a blistering pace for the semiconductor industry, moving from early schematics to fabrication readiness within a brief nine-month window, when new processor development cycles are typically  measured in years.  Indeed, the  OpenAI and Broadcom partnership itself was only publicly announced i n October 2025.  The companies attributed this speed to a deep software-hardware  co-development process that actively used OpenAI\u2019s own models  to accelerate parts of the chip design. Sources close to the firms told VentureBeat the development process relied on prior generation OpenAI models, though an OpenAI spokesperson declined to specify exactly which when asked by VentureBeat. After receiving an early physical model on Wednesday, OpenAI outlined plans to begin rolling out these processors across active data centers by the end of this year. OpenAI says it has already begun testing running at least one of its prior generation models,  GPT\u20115.3\u2011Codex\u2011Spark , on the chips at a production workload, though in a test environment.  The release marks a major strategic expansion for the ChatGPT creator as it attempts to build the full computational stack required to make advanced AI faster, more reliable, and more accessible.  There remain, of course,  many outstanding questions  \u2014 including how the new Jalape\u00f1o chip performs compared to direct competitors, its costs, and its manufacturing viability. Sources close to the company said the initial performance itself was (ironically): \"outstanding.\"  Greg Brockman, OpenAI's president and co-founder and Broadcom  appeared on CNBC  alongside Broadcom CEO Hock Tan this morning to discuss the news, and Brockman noted in the interview that \" this is a real performance improvement...on performance per watt and performance per dollar.\" In a  separate post on X, Brockman wrote  that \"Perf[ormance] per watt looking incredible.\"  Why OpenAI Built an ASIC To understand why OpenAI is moving into chip design, it helps to look at the architecture. Jalape\u00f1o is an Application-Specific Integrated Circuit, or ASIC.  Unlike a GPU, which can handle many typ",
+    "published_at": "2026-06-24T15:14:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-06-24T19:27:11.581413+00:00",
+    "intelligence_score": 131.67,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 38,
+      "keyword_bonus": 1,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "semiconductors",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-06-24T19:27:30.131431+00:00"
+}
