@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcQZ9xcuKnkQfGQjwgkeX'}",
+  "story": {
+    "id": "09be05e3a31adbe1",
+    "title": "Show HN: Turn native language audio into flashcards and shadowing practice",
+    "url": "https://lingochunk.com/try",
+    "summary": "Here is a tool I built initially for myself to help with my German and Greek language studies. It started as a hack for creating Anki cards from native language audio. It extracts the words, finds their base forms (lemmas) and groups the examples by the lemma. At some point I realised that I have a transcription with word level timestamps that opens a lot of other opportunities. So I added a mode to click the first and last word in the transcript and it starts looping with the right gap and repeat count. Another feature I use a lot is selecting an audio fragment, sending a predefined prompt to an AI to \"explain grammar\" or \"explain nuances of meaning\" and I still experimenting with prompts. And because shadowing is so easy I also use it as a player to improve my English pronunciation. (I am not a native English speaker.) I made a quick video showing the workflow for creating Anki cards and shadowing:  https://youtu.be/TaR58uuDBvU?si=o5aGLAi2S-BZ7Zy9 The app supports 15 input languages (Japanese and Chinese are the latest experimental additions), and more than 30 output languages. I would really appreciate it if you could try it  https://lingochunk.com/try . I know there are other tools with similar functionality but I created something that fits my workflow and it is fun to build. Also I struggled to find public domain audio for the try page. I'd be grateful if anyone could point me to public domain sources (I used LibriVox, Wikimedia and FSI courses), or if you're a creator, let me feature some of your own recordings with credits and links. \n \n Comments URL:  https://news.ycombinator.com/item?id=48671886 \n Points: 61 \n # Comments: 27",
+    "published_at": "2026-06-25T11:29:13+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-25T19:47:06.247756+00:00",
+    "intelligence_score": 132.8,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.3,
+      "entity_bonus": 8,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "energy_transition",
+        "china",
+        "regulation_policy"
+      ]
+    }
+  },
+  "timestamp": "2026-06-25T19:47:22.291119+00:00"
+}
