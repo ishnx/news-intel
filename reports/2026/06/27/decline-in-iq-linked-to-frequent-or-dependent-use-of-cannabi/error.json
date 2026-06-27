@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcTSyP3bEU7JnVfHmjuD7'}",
+  "story": {
+    "id": "69b284c38d98eda7",
+    "title": "Decline in IQ linked to frequent or dependent use of cannabis use in youth",
+    "url": "https://www.cambridge.org/core/journals/psychological-medicine/article/intelligence-quotient-decline-following-frequent-or-dependent-cannabis-use-in-youth-a-systematic-review-and-metaanalysis-of-longitudinal-studies/26BEC9CBD2A39010C26100278F8CA813",
+    "summary": "Article URL:  https://www.cambridge.org/core/journals/psychological-medicine/article/intelligence-quotient-decline-following-frequent-or-dependent-cannabis-use-in-youth-a-systematic-review-and-metaanalysis-of-longitudinal-studies/26BEC9CBD2A39010C26100278F8CA813 \n Comments URL:  https://news.ycombinator.com/item?id=48696118 \n Points: 6 \n # Comments: 1",
+    "published_at": "2026-06-27T07:49:31+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-06-27T08:27:50.711621+00:00",
+    "intelligence_score": 117.13,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 58.0,
+      "source_multiplier": 1.3,
+      "entity_bonus": 16,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "geopolitics",
+        "semiconductors",
+        "energy_transition",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-06-27T08:28:04.806252+00:00"
+}
