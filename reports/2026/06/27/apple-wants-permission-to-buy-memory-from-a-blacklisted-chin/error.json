@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcUHeghehox2X95xftAD6'}",
+  "story": {
+    "id": "ad25f033b736134a",
+    "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
+    "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+    "summary": "Apple is looking to alleviate some of the pressure on its supply chain by seeking an exception from the Trump administration to buy RAM chips from CXMT, a company blacklisted by the Pentagon over ties to the People's Liberation Army, according to the Financial Times. The skyrocketing prices of RAM and storage have driven Apple [\u2026]",
+    "published_at": "2026-06-27T17:28:18+00:00",
+    "source_name": "The Verge",
+    "source_url": "https://www.theverge.com/rss/index.xml",
+    "category": "technology",
+    "source_weight": 0.8,
+    "fetched_at": "2026-06-27T19:06:04.760429+00:00",
+    "intelligence_score": 111.32,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 71.0,
+      "source_multiplier": 1.0,
+      "entity_bonus": 15,
+      "keyword_bonus": 1,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "semiconductors",
+        "energy_transition",
+        "china",
+        "space"
+      ]
+    }
+  },
+  "timestamp": "2026-06-27T19:06:25.437333+00:00"
+}
