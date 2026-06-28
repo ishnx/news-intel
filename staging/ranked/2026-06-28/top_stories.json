@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-06-28",
     "top_n": 1,
-    "selected_at": "2026-06-28T08:42:13.955392+00:00"
+    "selected_at": "2026-06-28T19:04:51.956353+00:00"
   },
   "stories": [
     {
-      "id": "11af8a9fb23a839a",
-      "title": "Show HN: Decomp Academy \u2013 Learn to decompile GameCube games into matching C",
-      "url": "https://decomp-academy.dev",
-      "summary": "Over the past few months I've been heavily involved in the decompilation community. I've been hands-on decompiling a beloved game from my childhood (Star Fox Adventures). I started this journey with zero prior decomp experience\u2014and to make things worse I had never really touched C nor assembly either. Learning how to decompile was challenging. It's difficult to find any good learning resources for it and any open-source projects for this are inactive and/or contain little actual learning material. So I put together Decomp Academy! Decomp Academy is an interactive way to learn how to decompile PowerPC assembly back into C. The site runs a live Metrowerks CodeWarrior GC/2.0 compiler, converts your C into assembly, and then checks how close your assembly matches the target. If even 1 instruction or bit is off, that's a fail. This is the gold standard for video game decompilation and this is much stricter than a normal decompile. As of writing there are 250+ lessons on the site and the lessons start at the very basics so anyone with a little programming experience should be able to jump straight in, even if you're not a C expert. Some lessons also have real functions taken from live open source decomp projects (Star Fox Adventures, Mario Party 4, Pikmin, Metroid Prime). The idea being you learn everything you need to know to be able to jump in and contribute to a real decompilation project when done. The site is completely free, open source and you have access to all lessons without having to sign up. All lessons are stored in markdown in the repo (src/curriculum), it's trivial to add or modify lessons. The site is very new and the lessons are rapidly changing every day with a whole C++ section on the way. The site has already been well received by the decomp community and I'm happy to share it with HN. I'm very keen on others to contribute to this project and I hope this becomes the best resource on the internet for learning the art of decompilation. Please let me know what you think! Source:  https://github.com/JackPriceBurns/decomp-academy-fe \n \n Comments URL:  https://news.ycombinator.com/item?id=48703412 \n Points: 114 \n # Comments: 37",
-      "published_at": "2026-06-28T01:21:20+00:00",
-      "source_name": "Hacker News (Top Stories)",
-      "source_url": "https://hnrss.org/frontpage",
+      "id": "fa55756d1486292c",
+      "title": "Prompt injection is exploiting enterprise AI's biggest design flaws by targeting agents, RAG pipelines and model routers",
+      "url": "https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers",
+      "summary": "In the past two years, businesses have been trying to fit large language models (LLMs) into support, analytics, development, and internal automation like never before.  Along with the increasing adoption of  AI technology , another trend is gaining momentum \u2014 cybercriminals are taking advantage of the disconnect between assumptions about LLMs and their actual characteristics. In 2025 and 2026, several independent sources have highlighted the same trend: Prompt injection remains one of the most impactful and widely demonstrated attack vectors against LLM systems. The  OWASP LLM Top 10  (2025) lists prompt injection as LLM01, identifying it as the most critical category of LLM\u2011specific vulnerabilities, for the  second consecutive edition . OWASP's ranking reflects the fact that LLMs still struggle to reliably separate instructions from data, making them susceptible to manipulation through crafted inputs. CrowdStrike's 2026  Global Threat Report  \u2014 built on frontline intelligence across more than 280 tracked adversaries \u2014 documented that threat actors injected malicious prompts into legitimate generative AI tools at more than 90 organizations in 2025. They then used those injections to generate commands that stole credentials and cryptocurrency. The report stated it plainly:  \"Prompts are the new malware.\"  AI-enabled adversaries increased their overall attack volume by 89% year-over-year, with prompt injection working as both an entry point and a force multiplier. Real\u2011world incidents illustrate the operational impact. In August 2024,  researchers at PromptArmor  disclosed a prompt injection vulnerability in Slack AI that allowed an attacker to exfiltrate data from private Slack channels they had no access to \u2014 including API keys shared in private developer channels \u2014 by placing a malicious instruction in a public channel or embedding it in an uploaded document.  In June 2025,  researchers at Aim Security  disclosed EchoLeak (CVE-2025-32711, CVSS 9.3), the first documented zero-click prompt injection exploit against a production AI system, targeting Microsoft 365 Copilot. By sending a single crafted email, no user interaction required, an attacker could cause Copilot to access internal files and transmit their contents to an attacker-controlled server.  Both vulnerabilities  were patched . These incidents underscore the fact that prompt injection is not a theoretical weakness but a practical, repeatable threat organizations must address as they deploy AI systems at scale. Prompt injection techniques have undergone major evolutions over recent years, now targeting multi-agent architecture, retrieval-augmented generation (RAG) pipelines, model routers, and long-term memory capabilities. The e nterprise challenge: Too much trust  Businesses  deploy LLMs  to process instructions, summarize information, and trigger automated workflows, but it is difficult for LLMs to tell: I nstructions from data I nformation from context C ontext from metadata U ser in",
+      "published_at": "2026-06-28T18:00:16+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
       "category": "technology",
-      "source_weight": 0.9,
-      "fetched_at": "2026-06-28T08:41:55.299140+00:00",
-      "intelligence_score": 136.98,
+      "source_weight": 0.7,
+      "fetched_at": "2026-06-28T19:04:36.492685+00:00",
+      "intelligence_score": 136.84,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 78.5,
-        "source_multiplier": 1.3,
-        "entity_bonus": 8,
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 38,
         "keyword_bonus": 0,
-        "recency_multiplier": 1.05,
+        "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
           "india",
-          "energy_transition",
-          "venture_capital"
+          "semiconductors",
+          "energy_transition"
         ]
       }
     }
