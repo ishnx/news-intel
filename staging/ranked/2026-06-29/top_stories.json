@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-06-29",
     "top_n": 1,
-    "selected_at": "2026-06-29T10:26:08.831621+00:00"
+    "selected_at": "2026-06-29T19:45:27.952294+00:00"
   },
   "stories": [
     {
-      "id": "fa55756d1486292c",
-      "title": "Prompt injection is exploiting enterprise AI's biggest design flaws by targeting agents, RAG pipelines and model routers",
-      "url": "https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers",
-      "summary": "In the past two years, businesses have been trying to fit large language models (LLMs) into support, analytics, development, and internal automation like never before.  Along with the increasing adoption of  AI technology , another trend is gaining momentum \u2014 cybercriminals are taking advantage of the disconnect between assumptions about LLMs and their actual characteristics. In 2025 and 2026, several independent sources have highlighted the same trend: Prompt injection remains one of the most impactful and widely demonstrated attack vectors against LLM systems. The  OWASP LLM Top 10  (2025) lists prompt injection as LLM01, identifying it as the most critical category of LLM\u2011specific vulnerabilities, for the  second consecutive edition . OWASP's ranking reflects the fact that LLMs still struggle to reliably separate instructions from data, making them susceptible to manipulation through crafted inputs. CrowdStrike's 2026  Global Threat Report  \u2014 built on frontline intelligence across more than 280 tracked adversaries \u2014 documented that threat actors injected malicious prompts into legitimate generative AI tools at more than 90 organizations in 2025. They then used those injections to generate commands that stole credentials and cryptocurrency. The report stated it plainly:  \"Prompts are the new malware.\"  AI-enabled adversaries increased their overall attack volume by 89% year-over-year, with prompt injection working as both an entry point and a force multiplier. Real\u2011world incidents illustrate the operational impact. In August 2024,  researchers at PromptArmor  disclosed a prompt injection vulnerability in Slack AI that allowed an attacker to exfiltrate data from private Slack channels they had no access to \u2014 including API keys shared in private developer channels \u2014 by placing a malicious instruction in a public channel or embedding it in an uploaded document.  In June 2025,  researchers at Aim Security  disclosed EchoLeak (CVE-2025-32711, CVSS 9.3), the first documented zero-click prompt injection exploit against a production AI system, targeting Microsoft 365 Copilot. By sending a single crafted email, no user interaction required, an attacker could cause Copilot to access internal files and transmit their contents to an attacker-controlled server.  Both vulnerabilities  were patched . These incidents underscore the fact that prompt injection is not a theoretical weakness but a practical, repeatable threat organizations must address as they deploy AI systems at scale. Prompt injection techniques have undergone major evolutions over recent years, now targeting multi-agent architecture, retrieval-augmented generation (RAG) pipelines, model routers, and long-term memory capabilities. The e nterprise challenge: Too much trust  Businesses  deploy LLMs  to process instructions, summarize information, and trigger automated workflows, but it is difficult for LLMs to tell: I nstructions from data I nformation from context C ontext from metadata U ser in",
-      "published_at": "2026-06-28T18:00:16+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
-      "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-06-29T10:25:54.028486+00:00",
-      "intelligence_score": 118.18,
+      "id": "eb54be8e3883547e",
+      "title": "Will Delhi ban existing petrol motorbikes, cars? What the new EV policy actually says",
+      "url": "https://www.livemint.com/news/india/will-delhi-ban-existing-petrol-motorbikes-cars-what-the-new-ev-policy-actually-says-11782750792049.html",
+      "summary": "The Delhi EV policy introduces a phased transition towards electric mobility by setting deadlines beyond which certain categories of petrol and diesel vehicles will no longer receive fresh registrations",
+      "published_at": "2026-06-29T16:49:49+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-06-29T19:45:22.153950+00:00",
+      "intelligence_score": 126.94,
       "rank": 1,
-      "category_weight": 1.2,
+      "category_weight": 1.3,
       "score_breakdown": {
         "topic_score": 80,
-        "source_multiplier": 0.9,
-        "entity_bonus": 38,
-        "keyword_bonus": 0,
-        "recency_multiplier": 0.95,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.2,
+        "category_weight": 1.3,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
           "india",
-          "semiconductors",
-          "energy_transition"
+          "energy_transition",
+          "central_banks"
         ]
       }
     }

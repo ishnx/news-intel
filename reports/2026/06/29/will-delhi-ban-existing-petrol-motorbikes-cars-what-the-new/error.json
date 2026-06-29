@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcY8FFtjEKqQCRNif2ehA'}",
+  "story": {
+    "id": "eb54be8e3883547e",
+    "title": "Will Delhi ban existing petrol motorbikes, cars? What the new EV policy actually says",
+    "url": "https://www.livemint.com/news/india/will-delhi-ban-existing-petrol-motorbikes-cars-what-the-new-ev-policy-actually-says-11782750792049.html",
+    "summary": "The Delhi EV policy introduces a phased transition towards electric mobility by setting deadlines beyond which certain categories of petrol and diesel vehicles will no longer receive fresh registrations",
+    "published_at": "2026-06-29T16:49:49+00:00",
+    "source_name": "Mint",
+    "source_url": "https://www.livemint.com/rss/news",
+    "category": "india",
+    "source_weight": 0.85,
+    "fetched_at": "2026-06-29T19:45:22.153950+00:00",
+    "intelligence_score": 126.94,
+    "rank": 1,
+    "category_weight": 1.3,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.1,
+      "entity_bonus": 0,
+      "keyword_bonus": 1,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.3,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "central_banks"
+      ]
+    }
+  },
+  "timestamp": "2026-06-29T19:45:28.829103+00:00"
+}
