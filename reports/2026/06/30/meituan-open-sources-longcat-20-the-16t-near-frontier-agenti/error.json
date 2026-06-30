@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcZAk5Fp6UxiLLp6wG5kk'}",
+  "story": {
+    "id": "5a87f99f844575c4",
+    "title": "Meituan open sources LongCat-2.0, the 1.6T, near-frontier agentic coding model that's been leading OpenRouter \u2014 trained entirely on Chinese chips",
+    "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips",
+    "summary": "A few hours ago, Chinese delivery app company  Meituan officially unveiled LongCat-2.0  on  GitHub ,  Hugging Face , and its native platform, unmasking the model as the computational engine behind \"Owl Alpha,\" the anonymous stealth model that has spent the last two months commanding global developer charts on OpenRouter.  Developed to fundamentally disrupt closed-source enterprise dominance in autonomous software engineering, the 1.6-trillion-parameter Mixture-of-Experts (MoE) system brings a native 1-million-token context window to the public domain under a highly permissive, enterprise grade, commercially viable MIT license.  Commercial access to the architecture introduces a highly aggressive pricing tier, deploying a mechanism where all context-cache hits are processed completely  free of charge , running alongside a time-limited \" Token Pack \" flash-sale paradigm. There's also a typical  \"pay-as-you-go\" API  for non-cache hits standard priced at $0.75/$2.95 per million tokens in/out. However, a limited-time promotional discount aggressively slashes these operational expenditures down to $0.30 per million tokens for uncached input and $1.20 per million tokens for output, both on the cheaper-end of top performing models globally.  Model Input ($/1M) Output ($/1M) Total ($/1M) Source MiMo-V2.5 Flash $0.10 $0.30 $0.40 Xiaomi deepseek-v4-flash $0.14 $0.28 $0.42 DeepSeek deepseek-v4-pro $0.435 $0.87 $1.305 DeepSeek MiniMax-M3 $0.30 $1.20 $1.50 MiniMax LongCat-2.0 \u2014 limited-time promo $0.30 $1.20 $1.50 LongCat Gemini 3.1 Flash-Lite $0.25 $1.50 $1.75 Google Qwen3.7-Plus $0.40 $1.60 $2.00 Alibaba Cloud MiMo-V2.5 $0.40 $2.00 $2.40 Xiaomi LongCat-2.0 \u2014 standard $0.75 $2.95 $3.70 LongCat Grok 4.3 (low context) $1.25 $2.50 $3.75 xAI MiMo-V2.5 Pro (\u2264256K) $1.00 $3.00 $4.00 Xiaomi Kimi-K2.6 $0.95 $4.00 $4.95 Moonshot AI GLM-5.2 $1.40 $4.40 $5.80 Z.ai GPT-5.6 Luna $1.00 $6.00 $7.00 OpenAI Grok 4.3 (high context) $2.50 $5.00 $7.50 xAI MiMo-V2.5 Pro (>256K) $2.00 $6.00 $8.00 Xiaomi Qwen3.7-Max $2.50 $7.50 $10.00 Alibaba Cloud Gemini 3.5 Flash $1.50 $9.00 $10.50 Google Gemini 3.1 Pro Preview (\u2264200K) $2.00 $12.00 $14.00 Google GPT-5.6 Terra $2.50 $15.00 $17.50 OpenAI GPT-5.4 $2.50 $15.00 $17.50 OpenAI Gemini 3.1 Pro Preview (>200K) $4.00 $18.00 $22.00 Google Claude Opus 4.8 $5.00 $25.00 $30.00 Anthropic GPT-5.5 $5.00 $30.00 $35.00 OpenAI GPT-5.5 Instant (chat-latest) $5.00 $30.00 $35.00 OpenAI Sakana Fugu Ultra (\u2264272K) $5.00 $30.00 $35.00 Sakana AI GPT-5.6 Sol $5.00 $30.00 $35.00 OpenAI Claude Fable 5 / Claude Mythos 5 $10.00 $50.00 $60.00 Anthropic What makes the release a definitive inflection point for global tech infrastructure is its operational independence: the massive model was trained entirely on a cluster of over 50,000 domestic Chinese Application-Specific Integrated Circuits (ASICs), proving that near-frontier AI models can be scaled successfully without relying on the typical U.S. Nvidia GPUs that have, to date, powered much of the global generativ",
+    "published_at": "2026-06-30T05:39:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-06-30T08:58:33.450280+00:00",
+    "intelligence_score": 130.62,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 38,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "semiconductors",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-06-30T08:58:49.087306+00:00"
+}
