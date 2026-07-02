@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-07-02",
     "top_n": 1,
-    "selected_at": "2026-07-02T08:43:50.854740+00:00"
+    "selected_at": "2026-07-02T19:12:05.437252+00:00"
   },
   "stories": [
     {
-      "id": "ea1f8bfc5471bd7e",
-      "title": "Anthropic is bringing back Claude Fable 5 globally after US lifts export control order \u2014 where can enterprises access it?",
-      "url": "https://venturebeat.com/technology/anthropic-is-bringing-back-claude-fable-5-globally-after-us-lifts-export-control-order-where-can-enterprises-access-it",
-      "summary": "Anthropic is  restoring global access  to its most powerful generally released AI model yet, Claude Fable 5, today,  after the U.S. Department of Commerce last night withdrew the emergency export controls it had issued previously around the model.  The U.S. export control order issued on June 12, 2026, led Anthropic to  suspend all global access to both Fable 5 and its less restricted cybersecurity counterpart model Claude Mythos 5 , just days after both models were initially introduced.  Now, Fable 5 is once again being made available for users globally across the primary Anthropic ecosystem, including the Claude Platform, Claude.ai, Claude Code, and Claude Cowork. The official  Claude account on X  announced the return of the model at 3:31 pm ET on July 1, 2026. For organizations leveraging cloud hyperscalers, Anthropic says it is moving to re-enable access on Amazon Web Services, Google Cloud, and Microsoft Foundry \u201cas quickly as possible.\u201d So far, VentureBeat's research has been unable to confirm if the models have been restored on these external cloud hyperscaler platforms yet. Mythos 5 remains a different case. A  letter posted on the social network X  allegedly from U.S. Commerce Secretary Howard Lutnick to Anthropic executive Tom Brown says a license is no longer required for the export, reexport, or in-country transfer of Fable  and Mythos. But Anthropic\u2019s own  redeployment post on its website  says only that Mythos 5 access has been restored for \u201ca set of US organizations,\u201d following government approval on June 26. The company says it is continuing to coordinate with the government to expand access to broader domestic and international partners in its opt-in cybersecurity testing program,  Project Glasswing . That leaves Mythos 5 in a middle category: legally cleared from the emergency export-control order, but not generally available. The current limit appears to come from Anthropic\u2019s decision to keep Mythos behind a vetted-access model, with the U.S. government still playing a role in approvals, standards and expansion. Posting on X, Commerce Secretary Howard Lutnick  said  Anthropic and the government had \u201cworked closely\u201d to \u201canalyze and approve Fable 5,\u201d while White House Chief of Staff Susie Wiles also  posted  on X, framing the decision around U.S. AI leadership and deployment speed. Wiles wrote that the United States is the \u201cundisputed winner in the AI race,\u201d adding that the shared priority is to \u201cget the best tech deployed as quickly and safely as possible.\u201d The reversal follows concerns from cybersecurity leaders and AI policy experts over the export control order, who argued that the U.S. risked hobbling its own industry while giving Chinese AI labs an opening. Former Facebook security chief Alex Stamos  called  the Fable restriction a \u201chuge own goal for the US,\u201d warning that security companies could be driven toward Chinese models, while other critics said the so-called \"ad hoc\" regulatory intervention made dependence on U.S.",
-      "published_at": "2026-07-01T15:51:00+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
+      "id": "1e90d4ca83b70c36",
+      "title": "Launch HN: Manufact (YC S25) \u2013 MCP Cloud",
+      "url": "https://manufact.com",
+      "summary": "Hi HN, we are Pietro and Luigi, cofounders of Manufact ( https://manufact.com ), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name:  https://github.com/mcp-use/mcp-use . We did a Show HN about that last year:  https://news.ycombinator.com/item?id=44747229 . Today we want to tell you about our cloud product, Manufact, which is to mcp-use as Vercel is to Next.js. Manufact is an MCP vertical cloud designed for dev teams putting MCP Apps and servers in production.You can ship, iterate on, test and monitor your MCPs, and get them ready for the store submissions. All with the best developer and agent experience in mind. Here is a demo video of the product:  https://www.youtube.com/watch?v=R2rbr5OT9LI . We have been working on MCP since April 2025. Our first focus was making it easy to build agents that could use any MCP server, and a lot of people started using our SDKs. Then the harness revolution kicked off: Claude Code, Claude Cowork, ChatGPT, Codex, OpenCode started shipping agent harnesses that made most standalone agent frameworks redundant. That pushed us to the other side of the connection, the servers. If agents were going to consolidate into a few harnesses, then first-class integration with the rest of a company's systems (i.e. MCP) would become the thing that mattered, so we started building up our server SDKs. Then in succession: 1. Oct 2025. ChatGPT Apps SDK. OpenAI brings app UIs to ChatGPT, built on top of MCP and the work of mcp-ui.\n2. Late 2025. The stores open. ChatGPT starts accepting app submissions, Claude grows its connector directory with selected partners.\n3. Jan 2026. MCP Apps becomes official. SEP-1865 merges as the first MCP extension (io.modelcontextprotocol/ui): one UI standard any host can render. Today, all the major clients fully support MCP and are opening marketplaces of reviewed MCPs that can be one click installed. All major tech companies have an MCP server, and many of those are reporting that already 15+% of their usage comes from their MCP, and we start to have a good way to distribute them just now. MCP can return fully interactive UIs. So companies can (1) display data in more meaningful ways to their users (e.g. analytics, ecommerce) and (2) display their branding in some of the most used products on the planet (ChatGPT, Claude etc). Numbers: an engineer at Amplitude reported that their MCP saw a 2x increase in retention after adding UI to their MCP. Clients (Claude, ChatGPT, Cursor) are starting to dynamically present MCP servers/apps to users, based on their intent. Products will be organically discovered on the chats! We feel that MCP is reaching its maturity moment. Now that MCPs are starting to be easy to install and discover, there is going to be a huge incentive for users to use them and for companies to create them: 1 - Most work is already done from AI chats, this is not going to stop, MCP gives you a way to interact with products",
+      "published_at": "2026-07-02T15:11:20+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-07-02T08:43:35.223723+00:00",
-      "intelligence_score": 113.43,
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-02T19:11:46.267255+00:00",
+      "intelligence_score": 155.19,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
         "topic_score": 80,
-        "source_multiplier": 0.9,
-        "entity_bonus": 30,
-        "keyword_bonus": 3,
-        "recency_multiplier": 0.95,
+        "source_multiplier": 1.3,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "india",
-          "semiconductors",
-          "energy_transition"
+          "energy_transition",
+          "venture_capital",
+          "china"
         ]
       }
     }
