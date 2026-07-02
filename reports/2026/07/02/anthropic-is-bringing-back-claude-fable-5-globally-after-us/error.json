@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CccwDmA47zpdGYtNBkjvM'}",
+  "story": {
+    "id": "ea1f8bfc5471bd7e",
+    "title": "Anthropic is bringing back Claude Fable 5 globally after US lifts export control order \u2014 where can enterprises access it?",
+    "url": "https://venturebeat.com/technology/anthropic-is-bringing-back-claude-fable-5-globally-after-us-lifts-export-control-order-where-can-enterprises-access-it",
+    "summary": "Anthropic is  restoring global access  to its most powerful generally released AI model yet, Claude Fable 5, today,  after the U.S. Department of Commerce last night withdrew the emergency export controls it had issued previously around the model.  The U.S. export control order issued on June 12, 2026, led Anthropic to  suspend all global access to both Fable 5 and its less restricted cybersecurity counterpart model Claude Mythos 5 , just days after both models were initially introduced.  Now, Fable 5 is once again being made available for users globally across the primary Anthropic ecosystem, including the Claude Platform, Claude.ai, Claude Code, and Claude Cowork. The official  Claude account on X  announced the return of the model at 3:31 pm ET on July 1, 2026. For organizations leveraging cloud hyperscalers, Anthropic says it is moving to re-enable access on Amazon Web Services, Google Cloud, and Microsoft Foundry \u201cas quickly as possible.\u201d So far, VentureBeat's research has been unable to confirm if the models have been restored on these external cloud hyperscaler platforms yet. Mythos 5 remains a different case. A  letter posted on the social network X  allegedly from U.S. Commerce Secretary Howard Lutnick to Anthropic executive Tom Brown says a license is no longer required for the export, reexport, or in-country transfer of Fable  and Mythos. But Anthropic\u2019s own  redeployment post on its website  says only that Mythos 5 access has been restored for \u201ca set of US organizations,\u201d following government approval on June 26. The company says it is continuing to coordinate with the government to expand access to broader domestic and international partners in its opt-in cybersecurity testing program,  Project Glasswing . That leaves Mythos 5 in a middle category: legally cleared from the emergency export-control order, but not generally available. The current limit appears to come from Anthropic\u2019s decision to keep Mythos behind a vetted-access model, with the U.S. government still playing a role in approvals, standards and expansion. Posting on X, Commerce Secretary Howard Lutnick  said  Anthropic and the government had \u201cworked closely\u201d to \u201canalyze and approve Fable 5,\u201d while White House Chief of Staff Susie Wiles also  posted  on X, framing the decision around U.S. AI leadership and deployment speed. Wiles wrote that the United States is the \u201cundisputed winner in the AI race,\u201d adding that the shared priority is to \u201cget the best tech deployed as quickly and safely as possible.\u201d The reversal follows concerns from cybersecurity leaders and AI policy experts over the export control order, who argued that the U.S. risked hobbling its own industry while giving Chinese AI labs an opening. Former Facebook security chief Alex Stamos  called  the Fable restriction a \u201chuge own goal for the US,\u201d warning that security companies could be driven toward Chinese models, while other critics said the so-called \"ad hoc\" regulatory intervention made dependence on U.S.",
+    "published_at": "2026-07-01T15:51:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-07-02T08:43:35.223723+00:00",
+    "intelligence_score": 113.43,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 30,
+      "keyword_bonus": 3,
+      "recency_multiplier": 0.95,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "semiconductors",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-07-02T08:43:52.084671+00:00"
+}
