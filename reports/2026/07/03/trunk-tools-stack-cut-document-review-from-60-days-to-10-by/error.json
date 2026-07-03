@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcfePKhRSCoTU9SiEnRb3'}",
+  "story": {
+    "id": "bf5ff4f1449f9d16",
+    "title": "Trunk Tools' stack cut document review from 60 days to 10 by ditching general-purpose models",
+    "url": "https://venturebeat.com/orchestration/trunk-tools-stack-cut-document-review-from-60-days-to-10-by-ditching-general-purpose-models",
+    "summary": "Most verticals aren\u2019t clean, well-oiled SaaS databases; the reality is ugly documents, proprietary schemas, implicit workflows, and long\u2011running tasks that most general-purpose models struggle with.  This prompted construction project management company Trunk Tools to build a specialized, three-layer architecture \u2014 perception, semantics, agents \u2014 based on highly-detailed data to support high-accuracy, highly-relevant industry automation. Their purpose-built stack has shrunk review cycles from months to days, prevented costly field errors, and given autonomous agents the ability to reason over millions of pages of documentation, Trunk says.  \u201cWe really set out to take the data from dispersed systems, pre-process it, structure it, go through our ontology into a knowledge graph, and then train AI models,\u201d said Sarah Buchner, Trunk\u2019s founder and CEO and a former carpenter.  For builders in other verticals, Trunk\u2019s approach could serve as a blueprint for transforming data chaos into agent\u2011ready, industry-specific workflows.  Where general-purpose LLMs break down on industry data  Foundation LLMs, while powerful, are optimized for breadth, not always depth.  \u201cGeneral-purpose LLMs are trained to be okay at everything, so they're weak at anything niche,\u201d said Kriti Faujdar, a senior product manager working in AI infrastructure, agentic AI, security, and LLM platforms. For instance: Rare terms, domain-specific reasoning, the unspoken context that any practitioner \u201cjust knows.\u201d  Web, app, and software developer S\u00e9bastien De Bollivier agreed that the biggest bottleneck is reliability on data that is \u201cjargon-dense, abbreviation-heavy, and format-specific.\u201d  \u201cA GPT-4-class model can understand a French legal contract, but will fumble the specific article references practitioners need to cite,\u201d he said.  Besides, the most valuable enterprise data never made it into pretraining anyway, Faujdar pointed out. It's sitting in internal systems and proprietary formats. \u201cRAG helps a little,\u201d she said. \u201cBut it's just giving better facts to a model that still can't reason properly in the domain.\u201d Pre-training on domain data is critical; enterprises should then fine-tune on good task examples and build their own evals. \u201cA few thousand examples from real practitioners beats millions of scraped, noisy ones,\" Faujdar said.  Mixture-of-experts (MoE) can provide specialization without inference costs blowing up. Pairing RAG with fine-tuning also works well; RAG handles the factual long trail while fine-tuning fixes vocabulary and reasoning. De Bollivier pointed to the advantage of hybrid stacks: A general-purpose model for reasoning and orchestration, a smaller fine-tuned model (or dense retrieval over a curated corpus) for domain-specific extraction. He advised: \u201cDon't fine-tune to make the model 'smarter' about a domain, fine-tune to make it more reliable on the specific output format your workflow requires.\u201d The trades and construction are certainly industries seeing tract",
+    "published_at": "2026-07-03T13:00:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-07-03T19:04:40.968319+00:00",
+    "intelligence_score": 106.47,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 15,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-07-03T19:04:52.429454+00:00"
+}
