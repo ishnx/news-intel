@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-07-04",
+    "top_n": 1,
+    "selected_at": "2026-07-04T08:26:08.842701+00:00"
+  },
+  "stories": [
+    {
+      "id": "792d6626b799367c",
+      "title": "Bitcoin trades near $62,000; inflation, geopolitical risks remain key market drivers",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-62000-inflation-geopolitical-risks-remain-key-market-drivers/articleshow/132177558.cms",
+      "summary": "Bitcoin rebounded near $62,000 after recovering from last week's lows, supported by optimism over Federal Reserve policy. Ethereum and major altcoins also gained, though investors remain cautious amid inflation, geopolitical tensions, energy prices and mixed ETF investment flows.",
+      "published_at": "2026-07-04T08:11:28+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-04T08:26:02.949265+00:00",
+      "intelligence_score": 98.07,
+      "rank": 1,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 76.2,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "central_banks",
+          "regulation_policy",
+          "crypto_defi"
+        ]
+      }
+    }
+  ]
+}
