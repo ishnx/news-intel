@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-07-04",
     "top_n": 1,
-    "selected_at": "2026-07-04T08:26:08.842701+00:00"
+    "selected_at": "2026-07-04T18:59:06.573955+00:00"
   },
   "stories": [
     {
-      "id": "792d6626b799367c",
-      "title": "Bitcoin trades near $62,000; inflation, geopolitical risks remain key market drivers",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-trades-near-62000-inflation-geopolitical-risks-remain-key-market-drivers/articleshow/132177558.cms",
-      "summary": "Bitcoin rebounded near $62,000 after recovering from last week's lows, supported by optimism over Federal Reserve policy. Ethereum and major altcoins also gained, though investors remain cautious amid inflation, geopolitical tensions, energy prices and mixed ETF investment flows.",
-      "published_at": "2026-07-04T08:11:28+00:00",
-      "source_name": "Economic Times",
-      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
-      "category": "india",
-      "source_weight": 0.8,
-      "fetched_at": "2026-07-04T08:26:02.949265+00:00",
-      "intelligence_score": 98.07,
+      "id": "7bd5b5baf3cfdca5",
+      "title": "No more than 100 000 faint satellites should orbit Earth",
+      "url": "https://www.eso.org/public/news/eso2607/",
+      "summary": "Article URL:  https://www.eso.org/public/news/eso2607/ \n Comments URL:  https://news.ycombinator.com/item?id=48787042 \n Points: 51 \n # Comments: 41",
+      "published_at": "2026-07-04T17:17:28+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-04T18:58:52.094784+00:00",
+      "intelligence_score": 132.35,
       "rank": 1,
-      "category_weight": 1.3,
+      "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 76.2,
-        "source_multiplier": 0.9,
-        "entity_bonus": 0,
+        "topic_score": 72.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
         "keyword_bonus": 0,
         "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.3,
+        "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
+          "india",
           "central_banks",
-          "regulation_policy",
-          "crypto_defi"
+          "space"
         ]
       }
     }
