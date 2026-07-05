@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcicbNg846Tj452M9rp9z'}",
+  "story": {
+    "id": "0c1940bcb40c3405",
+    "title": "How America's 250th birthday became a test of AI-powered collective intelligence",
+    "url": "https://venturebeat.com/technology/how-americas-250th-birthday-became-a-test-of-ai-powered-collective-intelligence",
+    "summary": "Imagine if you could bring 250 people together in a massive room and have them discuss and debate an important issue, arguing the points and counterpoints, and converging on answers that accurately reflect their collective knowledge, wisdom, values, and sensibilities. Now imagine that you convened this debate on  America\u2019s 250 th  birthday  and asked 250 randomly selected Americans to come up with the  top three innovations  that America has contributed to the world over the last 250 years.   What would they come up with? I know \u2013 this all sounds impossible.\u00a0 After all, you can\u2019t get more than a dozen people to have a productive conversation on anything. At large scale, nobody would get enough airtime to express their views or respond to others. This is why typical business meetings or focus groups never have more than 8 to 10 people. Thoughtful real-time conversations just don\u2019t scale. To solve this, a new category of AI technology called  \u201chyper-communication \u201d is greatly expanding the size, scope, and efficiency of large-scale deliberations. It uses specialized  AI agents  to connect groups in real-time, allowing people to  discuss and debate issues at any scale . The goal is to enable hundreds or even thousands of participant to hold thoughtful discussions where they can express their views and argue the merits of any issue.\u00a0 I first wrote about this emerging technology in VentureBeat two years ago in an article about \u201c Collective Superintelligence .\u201d In that piece, I explain how large human groups can be hyper-connected by AI agents in ways that greatly  amplify the group\u2019s collective intelligence . You can check out the science behind hyper-communication in that prior VentureBeat piece. Here I am focusing on the debate among 250 Americans on America\u2019s birthday. To do this, I asked the team at Unanimous AI to field a randomly selected group of at least 250 Americans (with a broad distribution from every region in the country and diverse mix of political and social demographics) and invite them to a twenty-minute online debate inside a hyper-communication platform called  Thinkscape  that enables massively scalable discussion by text, voice, or video.\u00a0\u00a0\u00a0 Once connected, we asked the group to come up with the  top three contributions  that America has made to the world over the last 250 years \u2013 not a survey of opinions, but deliberation of ideas,\u00a0 arguments, evidence, and reasoning. The group converged on a set of top answers that surprised me \u2013 but on reflection, they were sensible and well-reasoned.\u00a0 Before getting into the answers, let me show you what the debate looks like behind the scenes. There were 277 people, each of them debating the issues with four or five other people in parallel discussion spaces. The magic is the  swarm of AI agents  that connect all the small groups together into a single real-time deliberation.This is what it looks like at high speed: In the debate above, the group of 277 people came up with  94 different idea",
+    "published_at": "2026-07-04T19:00:12+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-07-05T08:42:50.315684+00:00",
+    "intelligence_score": 96.4,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 8,
+      "keyword_bonus": 2,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "semiconductors",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-07-05T08:43:09.238839+00:00"
+}
