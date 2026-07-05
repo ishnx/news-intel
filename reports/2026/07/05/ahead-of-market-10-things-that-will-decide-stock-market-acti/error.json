@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcjRvUPB1yRBaezJM9gpp'}",
+  "story": {
+    "id": "c25a38e613abac18",
+    "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
+    "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/132194145.cms",
+    "summary": "Indian stock markets surged on Friday, with Sensex and Nifty posting gains exceeding 0.3%. This upward trend was fueled by a calmer Middle East situation, reduced expectations of US Federal Reserve rate hikes, and positive domestic factors like the India-Japan Summit and IT sector recovery.",
+    "published_at": "2026-07-05T11:35:15+00:00",
+    "source_name": "Economic Times",
+    "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+    "category": "india",
+    "source_weight": 0.8,
+    "fetched_at": "2026-07-05T19:03:45.195127+00:00",
+    "intelligence_score": 113.29,
+    "rank": 1,
+    "category_weight": 1.3,
+    "score_breakdown": {
+      "topic_score": 79.4,
+      "source_multiplier": 0.9,
+      "entity_bonus": 15,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.3,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "central_banks"
+      ]
+    }
+  },
+  "timestamp": "2026-07-05T19:03:48.910087+00:00"
+}
