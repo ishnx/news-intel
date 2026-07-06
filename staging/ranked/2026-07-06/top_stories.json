@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-07-06",
     "top_n": 1,
-    "selected_at": "2026-07-06T09:59:20.517471+00:00"
+    "selected_at": "2026-07-06T19:44:51.935806+00:00"
   },
   "stories": [
     {
-      "id": "5ca759fbf9c56cf9",
-      "title": "IMD issues red alert for Mumbai, forecasts heavy rain and strong winds; BMC urges people to stay indoors",
-      "url": "https://www.livemint.com/news/india/imd-issues-red-alert-for-mumbai-forecasts-heavy-rain-and-strong-winds-bmc-urges-people-to-stay-indoors-11783316686514.html",
-      "summary": "IMD on Monday issued a red alert for Mumbai and neighbouring districts, warning of heavy to very heavy rainfall, thunderstorms and strong winds over the next few hours. The Brihanmumbai Municipal Corporation (BMC) has advised residents to avoid unnecessary travel and follow official advisories.",
-      "published_at": "2026-07-06T08:10:38+00:00",
-      "source_name": "Mint",
-      "source_url": "https://www.livemint.com/rss/news",
-      "category": "india",
-      "source_weight": 0.85,
-      "fetched_at": "2026-07-06T09:59:13.401483+00:00",
-      "intelligence_score": 119.55,
+      "id": "aca08c38154e6610",
+      "title": "Show HN: Pulpie \u2013 Models for Cleaning the Web",
+      "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/",
+      "summary": "Hey HN, I'm Shreyash, founder of Feyn. We built Pulpie, a family of Pareto optimal models for cleaning the web. Pulpie strips boilerplate (ads, footers, sidebars) from raw HTML and returns just the main content as HTML or Markdown. We match SOTA extraction quality while being 20x cheaper. Cleaning 1 billion webpages costs $7,900 with Pulpie versus $159,000 with Dripper, the current leading extractor. The gains come from architecture. Today's leading extractors are decoders that generate output one token at a time. Each step reads the full model from memory to produce a single token. Conversely, Pulpie models are encoders. They run one forward pass over the full input HTML and label each block as boilerplate or content. As a result, Pulpie is compute-bound while decoders are memory-bound. Cheaper GPUs have relatively more compute than memory bandwidth. This makes Pulpie easy to run optimally. Here's Pulpie and Dripper cleaning the same pages side by side:  https://www.youtube.com/watch?v=ibd-tIiQECo . You can try a side-by-side comparison yourself:  https://huggingface.co/spaces/feyninc/pulpie Our motivation for Pulpie came from building a deep research harness. Every search API returns noisy content that contains ads, nav elements, and sidebars. In one instance, an ad for \"Gemini on Pixel\" slipped into our search results, got passed into LLM context, and ended up in the final answer served to the user. Pretty embarrassing moment for us but it helped us realize how bad data kills model intelligence. We built Pulpie to get clean data for cheap. All models are open source on Hugging Face. You can read about our training process and how to use Pulpie here:  https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cl... Happy to answer any questions! \n \n Comments URL:  https://news.ycombinator.com/item?id=48806575 \n Points: 49 \n # Comments: 10",
+      "published_at": "2026-07-06T16:04:27+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-06T19:44:35.712686+00:00",
+      "intelligence_score": 148.89,
       "rank": 1,
-      "category_weight": 1.3,
+      "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 76.0,
-        "source_multiplier": 1.1,
-        "entity_bonus": 0,
-        "keyword_bonus": 0,
-        "recency_multiplier": 1.1,
+        "topic_score": 80,
+        "source_multiplier": 1.3,
+        "entity_bonus": 16,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.3,
+        "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "india",
+          "semiconductors",
           "energy_transition",
-          "china"
+          "venture_capital"
         ]
       }
     }
