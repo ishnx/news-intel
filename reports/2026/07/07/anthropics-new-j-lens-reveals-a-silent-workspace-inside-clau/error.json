@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcnTZ6MmA2VrsgfvKhjuK'}",
+  "story": {
+    "id": "f08efc4cdbab3655",
+    "title": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
+    "url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
+    "summary": "Anthropic , the artificial intelligence company, published a sweeping  research paper  on Sunday revealing that its Claude language models have spontaneously developed an internal structure that mirrors one of the most influential theories of how human consciousness works. The finding, which the company says has already begun reshaping how it monitors its AI systems for safety risks, lands amid an intensifying scientific debate over whether machines can possess anything resembling a mind. The 16-author study, titled \" Verbalizable Representations Form a Global Workspace in Language Models ,\" describes how Anthropic's researchers used a new mathematical technique to peer inside Claude's neural network and discovered what they call a \" J-space \" \u2014 a small, privileged zone of internal activity where the model holds concepts it can report on, reason with, and direct at will, surrounded by a much larger ocean of automatic processing it cannot access or articulate. The researchers present evidence that \"an analogous functional distinction has emerged in modern AI models\" to what exists in humans, specifically observing that \"language models maintain a privileged set of internal representations, available for report, modulation, and flexible internal reasoning, atop a much larger volume of automatic processing.\" The parallel they draw is to  global workspace theory , an influential account from neuroscience first proposed by cognitive scientist Bernard Baars. In the theory, the brain operates like a theater: dozens of specialized processors work in parallel backstage, but only a tiny spotlight of information at any moment gets broadcast to the whole theater \u2014 becoming what we experience as conscious thought. Anthropic says the J-space achieves many of the same functional properties, even though the underlying architecture of a language model looks nothing like a brain. A new lens for reading an AI model's unspoken thoughts At the heart of the discovery is a new interpretability tool the researchers call the  Jacobian lens , or J-lens. The technique works by computing, for each word in the model's vocabulary, the average mathematical effect that a given internal activity pattern would have on making the model say that word at some point in the future. The crucial distinction is between what the model is  saying  and what is \"on its mind.\" When a J-space pattern activates, it does not mean the model is about to say that word \u2014 just that the concept is available for the model to think with. Unlike a  chain-of-thought scratchpad , the J-space operates silently, in the model's internal neural activations, allowing it to hold a concept without writing it down. Critically, the researchers report that this workspace was not deliberately engineered. It \"emerged on its own during Claude's training process.\" When the team applied the J-lens across Claude's layers of computation, the model's processing divided into three distinct regimes: an early \"sensory\" zone wh",
+    "published_at": "2026-07-06T21:00:00+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-07-07T09:26:42.426132+00:00",
+    "intelligence_score": 108.54,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 79.2,
+      "source_multiplier": 0.9,
+      "entity_bonus": 23,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "india",
+        "semiconductors",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-07-07T09:26:59.568591+00:00"
+}
