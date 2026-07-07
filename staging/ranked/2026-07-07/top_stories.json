@@ -2,36 +2,37 @@
   "metadata": {
     "date": "2026-07-07",
     "top_n": 1,
-    "selected_at": "2026-07-07T09:26:58.578323+00:00"
+    "selected_at": "2026-07-07T19:43:37.196420+00:00"
   },
   "stories": [
     {
-      "id": "f08efc4cdbab3655",
-      "title": "Anthropic's new \"J-lens\" reveals a silent workspace inside Claude that mirrors a leading theory of consciousness",
-      "url": "https://venturebeat.com/technology/anthropics-new-j-lens-reveals-a-silent-workspace-inside-claude-that-mirrors-a-leading-theory-of-consciousness",
-      "summary": "Anthropic , the artificial intelligence company, published a sweeping  research paper  on Sunday revealing that its Claude language models have spontaneously developed an internal structure that mirrors one of the most influential theories of how human consciousness works. The finding, which the company says has already begun reshaping how it monitors its AI systems for safety risks, lands amid an intensifying scientific debate over whether machines can possess anything resembling a mind. The 16-author study, titled \" Verbalizable Representations Form a Global Workspace in Language Models ,\" describes how Anthropic's researchers used a new mathematical technique to peer inside Claude's neural network and discovered what they call a \" J-space \" \u2014 a small, privileged zone of internal activity where the model holds concepts it can report on, reason with, and direct at will, surrounded by a much larger ocean of automatic processing it cannot access or articulate. The researchers present evidence that \"an analogous functional distinction has emerged in modern AI models\" to what exists in humans, specifically observing that \"language models maintain a privileged set of internal representations, available for report, modulation, and flexible internal reasoning, atop a much larger volume of automatic processing.\" The parallel they draw is to  global workspace theory , an influential account from neuroscience first proposed by cognitive scientist Bernard Baars. In the theory, the brain operates like a theater: dozens of specialized processors work in parallel backstage, but only a tiny spotlight of information at any moment gets broadcast to the whole theater \u2014 becoming what we experience as conscious thought. Anthropic says the J-space achieves many of the same functional properties, even though the underlying architecture of a language model looks nothing like a brain. A new lens for reading an AI model's unspoken thoughts At the heart of the discovery is a new interpretability tool the researchers call the  Jacobian lens , or J-lens. The technique works by computing, for each word in the model's vocabulary, the average mathematical effect that a given internal activity pattern would have on making the model say that word at some point in the future. The crucial distinction is between what the model is  saying  and what is \"on its mind.\" When a J-space pattern activates, it does not mean the model is about to say that word \u2014 just that the concept is available for the model to think with. Unlike a  chain-of-thought scratchpad , the J-space operates silently, in the model's internal neural activations, allowing it to hold a concept without writing it down. Critically, the researchers report that this workspace was not deliberately engineered. It \"emerged on its own during Claude's training process.\" When the team applied the J-lens across Claude's layers of computation, the model's processing divided into three distinct regimes: an early \"sensory\" zone wh",
-      "published_at": "2026-07-06T21:00:00+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
+      "id": "5bfdb1381234aa52",
+      "title": "Show HN: Rowboat \u2013 Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Claude\u2019s desktop app is brilliant, but for our own daily work we kept wanting it to be less like a chat app and more like a full-fledged work app. Rowboat is our attempt at that, including the ability to build your own work surfaces inside Rowboat (more below). Our repo is  https://github.com/rowboatlabs/rowboat , and there\u2019s a demo video here:  https://www.youtube.com/watch?v=et5yQABJ3xI In a previous startup, we built a deep-learning product for enterprise support reps, including teams supporting P&G brands. Models took live notes, suggested replies, and recommended actions while support reps were on calls or handling emails. One lesson stuck with us: it's not enough for the AI to be right, the help has to show up where the work is happening. So we added what we came to call \u201cwork surfaces\u201d: dedicated areas for email, meetings, notes, browser, and parallel coding, where the assistant can help inside the workflow itself rather than only through chat: - Email client: Rowboat has a simple email client that sorts incoming emails into important vs. everything else, and pre-creates drafts for important emails. As you edit and send emails, it takes notes on your style, so future drafts get closer to your voice. - Meeting notes: We built a Granola-style local meeting notetaker. Notes are stored as plain Markdown files on your machine. After a meeting, Rowboat feeds the notes back into the knowledge graph and updates the relevant people, project, and topic notes. - Browser: We added a built-in browser, isolated from your main one, where you can log in only to the accounts you want the assistant to help with. The assistant uses browser-use skills to navigate websites. - Parallel coding: The code-mode inside Rowboat lets you spin multiple instances of Claude Code or Codex and either work with them directly or let Rowboat use your work context to orchestrate them. We built an ACP (Agent Client Protocol) client in Rowboat for this. - Notes: Rowboat has an Obsidian-style local note-taking system. It comes with graph view, bases view, and voice notes. You can also sync Google Docs files and edit them inside Rowboat. You can also build your own work surfaces inside Rowboat (web apps). Each app gets its own UI and a background agent, and can use all of Rowboat's tools, product integrations, and your work memory. For instance: an app to manage GitHub activity, project tracking, or ads campaign management. There are a few community apps at launch you can search and install, and you can publish your own by creating a GitHub repo for it and registering it. Rowboat also indexes your work into a knowledge graph that all of the above surfaces use to have better context. We did a Show HN a few months back on this:  https://news.ycombinator.com/item?id=46962641 . As an example that ties some of these together: you can create an app inside Rowboat that collects feature requests from your email, meetings, and Slack and ranks them, then uses Claude Code to draft a first ve",
+      "published_at": "2026-07-07T16:10:44+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-07-07T09:26:42.426132+00:00",
-      "intelligence_score": 108.54,
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-07T19:43:19.473052+00:00",
+      "intelligence_score": 135.18,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 79.2,
-        "source_multiplier": 0.9,
-        "entity_bonus": 23,
+        "topic_score": 77.4,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
         "keyword_bonus": 0,
-        "recency_multiplier": 1.0,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
-          "india",
-          "semiconductors",
-          "energy_transition"
+          "geopolitics",
+          "energy_transition",
+          "venture_capital",
+          "china"
         ]
       }
     }
