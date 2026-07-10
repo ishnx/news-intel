@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-07-10",
+    "top_n": 1,
+    "selected_at": "2026-07-10T09:21:06.923647+00:00"
+  },
+  "stories": [
+    {
+      "id": "c3749aa35f8d2981",
+      "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
+      "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
+      "summary": "This is today\u2019s edition of The Download, our weekday newsletter that provides a daily dose of what\u2019s going on in the world of technology. Four nuclear reactors hit a big milestone in the US \u2014Casey Crownhart I was really looking forward to July 4, and not just because I love a poolside barbecue. This year\u2026",
+      "published_at": "2026-07-09T12:10:00+00:00",
+      "source_name": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/feed/",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-10T09:20:54.440085+00:00",
+      "intelligence_score": 134.71,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 1.3,
+        "entity_bonus": 15,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "semiconductors",
+          "energy_transition",
+          "china"
+        ]
+      }
+    }
+  ]
+}
