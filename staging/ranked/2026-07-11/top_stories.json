@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-07-11",
+    "top_n": 1,
+    "selected_at": "2026-07-11T07:42:23.146153+00:00"
+  },
+  "stories": [
+    {
+      "id": "41fa8dca3cf03c5c",
+      "title": "Wall Street is debating the AI buildout. Enterprises just answered: 86% say their GPUs run at half capacity or less",
+      "url": "https://venturebeat.com/orchestration/wall-street-is-debating-the-ai-buildout-enterprises-just-answered-86-say-their-gpus-run-at-half-capacity-or-less",
+      "summary": "Enterprise companies are running AI agents ahead of the controls needed to manage them \u2014 and they deployed that way knowingly. That is the central finding from VentureBeat Research's June survey of 573 technical leaders at companies with 100 or more employees, fielded across five parallel surveys of the agentic stack.\u00a0 Enterprises are now retrofitting to catch up with their own standards, and they are budgeting for it: Roughly six in 10 enterprises plan to switch or add vendors in each of five control layers within the next 12 months, and roughly a third \u2014 depending on the layer \u2014 plan to move within the quarter, the research finds. There are five main layers where enterprises are building: identity for agents (which agent is allowed to do what, under whose credentials); evaluation of agent output (whether the work is any good); cost telemetry (what each agent costs to run); the context layer (the business data and definitions agents draw on to answer); and the orchestration control plane (the software that coordinates multi-step agent work). Enterprises are already paying the price for deploying agents ahead of adequate control functions. Fifty-four percent of companies  had an agent security incident or near-miss caught before harm  in the past 12 months. Twenty-seven percent exercise only reactive control of agent spend \u2014 they learn what an agent costs when the invoice arrives, with no per-agent budget or ceiling in place. Here are the five findings that anchor the set \u2014 one finding per layer of the tech stack \u2014 and what the data suggests doing first in each. Expensive hardware is idle: 86% of GPU operators report utilization of 50% or less Eighty-six percent of enterprises that run their own GPUs report utilization of 50% or less. Wall Street has spent the quarter debating whether the AI buildout is overbuilt. This is buy-side measurement, from the enterprises doing the buying, and the research says the most expensive hardware in buildings of these enterprises runs at no more than half its capacity. The measurement gap compounds it: A minority 44% rigorously track what their AI compute actually costs and returns. Everyone else is only estimating. And the enterprise shopping process continues regardless: 45% of these enterprises say the emerging compute option they are most likely to evaluate in the next 12 months is an AI-specialized cloud (CoreWeave, Lambda, Crusoe, Nebius). However, under 2% of these enterprises report using one of these neoclouds today.  Moreover, roughly one in three companies appears to be considering a hedge against Nvidia: Asked which emerging compute option they are most likely to evaluate in the next 12 months, 32% of enterprises named non-Nvidia accelerators (AWS Trainium, Google TPUs, AMD), while 28% named next-generation Nvidia GPUs. The data suggests that enterprises should measure the utilization and per-workload cost of the GPUs they already own before committing budget to new compute \u2014 whether that's an AI-spe",
+      "published_at": "2026-07-10T19:29:07+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
+      "category": "technology",
+      "source_weight": 0.7,
+      "fetched_at": "2026-07-11T07:42:13.192561+00:00",
+      "intelligence_score": 109.4,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "semiconductors",
+          "energy_transition",
+          "venture_capital"
+        ]
+      }
+    }
+  ]
+}
