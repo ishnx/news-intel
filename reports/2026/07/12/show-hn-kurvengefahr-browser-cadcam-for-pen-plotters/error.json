@@ -1,0 +1,33 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CcxfpAuTvNvuDgZs8YZ8Z'}",
+  "story": {
+    "id": "48b38b54d3550dfc",
+    "title": "Show HN: Kurvengefahr \u2013 browser CAD/CAM for pen plotters",
+    "url": "https://kurvengefahr.org/",
+    "summary": "A few years ago I made a pen plotter attachment for Prusa MK4 ( https://www.printables.com/model/827264-pen-plotter-attachme... ) and at the time I didn't have a good way to turn artwork into G-code for it, and I put the project on ice for a while. I recently wanted to dabble in line art again and made a small browser app to make it easier. As agentic AI tools of 2026 are quite addictive, it rather quickly grew into something quite a bit more - an integrated browser CAD/CAM for pen plotters that covers everything from importing existing artwork, creating artwork from scratch, preparing for plotting and hardware integration. It includes some off-beat features like a Logo interpreter for turtle art and Graves RNN for handwriting synthesis and in addition to 3D printer pretending to be pen plotters it now also supports actual pen plotters based on EBB (AxiDraw) and GRBL firmwares through Web Serial. If you own an AxiDraw or a GRBL plotter, I'd very much appreciate it you gave it a try and give feedback. As I don't own those, I did all the testing with a hardware mock on STM32, so I am not sure how well it works attached to an actual plotter. Source code and docs are on GitHub:\n https://github.com/tibordp/kurvengefahr \n \n Comments URL:  https://news.ycombinator.com/item?id=48881352 \n Points: 10 \n # Comments: 3",
+    "published_at": "2026-07-12T14:09:23+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-07-12T18:53:29.177113+00:00",
+    "intelligence_score": 106.87,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 50.5,
+      "source_multiplier": 1.3,
+      "entity_bonus": 23,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-07-12T18:53:42.372619+00:00"
+}
