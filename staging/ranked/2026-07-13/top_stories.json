@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-07-13",
     "top_n": 1,
-    "selected_at": "2026-07-13T08:52:32.575527+00:00"
+    "selected_at": "2026-07-13T19:14:32.116085+00:00"
   },
   "stories": [
     {
-      "id": "62850fba22aacb1b",
-      "title": "DeepSeek cut prices 75%. The 100x problem remains",
-      "url": "https://venturebeat.com/orchestration/deepseek-cut-prices-75-the-100x-problem-remains",
-      "summary": "DeepSeek's recent decision to  drastically cut pricing  on its V4-Pro model by 75% should have been unequivocally good news for enterprise AI vendors and developers. Instead, many are discovering that cheaper models don\u2019t automatically translate into healthier margins. The reason is simple: While inference costs plummet, agent systems are voraciously consuming tokens\u00a0faster than prices are declining. For the last 2 decades, software economics was dictated by the same rule. Infra became cheaper every year whereas applications became more capable. AI was initially hypothesized to follow the same pattern. As frontier models improved and token prices dropped, many assumed inference would become a negligible operating expense.That assumption has begun crumbling exponentially.\u00a0 A chatbot usually turns one user question into one model call.  An agent  turns it into a chain of planning, retrieval, tool use, verification, summarization, and follow-up decisions. The user sees one answer. The vendor pays for the loop. That is the 100x problem: The same user-visible request can cost a lot\u00a0 more to serve as an agentic workflow than as a chatbot or retrieval-augmented generation (RAG) response. In longer-running workflows, the multiplier is higher. Falling model prices help, but they do not fix a product architecture that turns one prompt into dozens of billable operations. The scale of what is now at stake is clear in how model providers themselves are pricing developer relationships. OpenAI's proposed program to give every Y Combinator startup $2 million in API credits \u2014 a number that would have funded an entire seed round in any prior tech cycle, and when the same cohort got by on a few thousand dollars of AWS credits \u2014 is less a recruiting perk than an admission of what it now costs to run an AI-native company through its first year of product. For established enterprises retrofitting agents into existing product lines, the absolute numbers are larger still. What token amplification is In a single-turn chatbot, one user message produces roughly one model call. Input-to-billed ratio is about 1:5. In a  multi-step agent \u00a0rolled out across customer support, sales operations, finance, legal review, and engineering, that ratio routinely lands at  1:700 or higher . Every loop iteration carries forward the cumulative conversation, tool outputs, and reasoning traces. Each step appends; nothing is dropped. A \"simple\" agent query like \u201c What did our top customer ask about last week?\u201d  typically touches seven priced operations before returning an answer: User prompt (~50 tokens) System prompt and tool definitions (~3,000 tokens, repeated on every call) Retrieval (~5,000 tokens of context) Model call #1 \u2014 tool selection (8,000 in / 200 out) Tool execution (~4,000 tokens returned) Model call #2 \u2014 summarization (12,000 in / 400 out) Model call #3 \u2014 follow-up decision (12,400 in / 100 out) One sentence in, roughly 35,000 input tokens billed. Somewhere between $0.10 and $",
-      "published_at": "2026-07-12T16:00:00+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
-      "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-07-13T08:52:14.358367+00:00",
-      "intelligence_score": 103.93,
+      "id": "21fbf361498c3e99",
+      "title": "Warsh\u2019s Balance-Sheet Panel Runs Into Market Reality Check",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-13/warsh-s-balance-sheet-panel-runs-into-market-reality-check",
+      "summary": "Wall Street strategists expect a group of senior academics and former policymakers assembled by Chairman Kevin Warsh to review the Federal Reserve\u2019s $6.7 trillion balance sheet will face a difficult balancing act: shrinking the central bank\u2019s holdings without destabilizing funding markets.",
+      "published_at": "2026-07-13T17:50:35+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-13T19:14:26.296483+00:00",
+      "intelligence_score": 100.79,
       "rank": 1,
-      "category_weight": 1.2,
+      "category_weight": 1.1,
       "score_breakdown": {
-        "topic_score": 80,
-        "source_multiplier": 0.9,
-        "entity_bonus": 23,
-        "keyword_bonus": 0,
-        "recency_multiplier": 0.95,
+        "topic_score": 74.9,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.2,
+        "category_weight": 1.1,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "india",
           "energy_transition",
-          "venture_capital"
+          "central_banks",
+          "regulation_policy"
         ]
       }
     }
