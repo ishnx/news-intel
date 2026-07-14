@@ -2,36 +2,36 @@
   "metadata": {
     "date": "2026-07-14",
     "top_n": 1,
-    "selected_at": "2026-07-14T07:49:28.213849+00:00"
+    "selected_at": "2026-07-14T19:05:41.268304+00:00"
   },
   "stories": [
     {
-      "id": "85edd3a091524df6",
-      "title": "Show HN: Sx 2.0 \u2013 Share AI skills with your team through a Dropbox folder",
-      "url": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
-      "summary": "Hi all, author here. SX started as a CLI to let developers share skills across AI clients without having to rely on git for storage. This allowed sharing at the Repo/Team/Org and Personal level. However, the more we spoke to users the more we realized that non-technical users were actually using skills more and more but they had no way to share. And there was no way you were going to get your legal team to install and learn git. SX 2.0 is targeting non-technical teams by adding a native Mac, Windows and Linux app. Our vault format was reworked so it can be used directly as a claude or codex plugin. And by storing your vault in Dropbox, Google Drive, iCloud or others you can be up and sharing in under a minute. 2.0 also adds an extension system with extensions that manage Skill Evals, LLM de-duping, metics and much more  https://github.com/sleuth-io/sx-extensions . It's Apache-2.0 and you can download it here  https://github.com/sleuth-io/sx . \n \n Comments URL:  https://news.ycombinator.com/item?id=48900319 \n Points: 34 \n # Comments: 29",
-      "published_at": "2026-07-13T23:26:52+00:00",
+      "id": "a983abfa92af26b7",
+      "title": "Launch HN: Agnost AI (YC S26) \u2013 Extract user feedback from agent conversations",
+      "url": "https://agnost.ai",
+      "summary": "Hey HN, we\u2019re Shubham & Parth, childhood friends building Agnost AI ( https://agnost.ai ), product analytics for teams building chat and voice agents. We read production conversations and find behavioral failures like users rageprompting (cursing at the agent), repeatedly rephrasing the same request, correcting the agent, asking for missing features, or leaving after an answer that was technically successful. We have an interactive demo with no signup here:  https://app.agnost.ai?demo=true Here's a demo video:  https://www.tella.tv/video/agnost-ai-launch-hn-demo-9haa The core problem is that chat and voice products do not have the same metrics as web apps. When the product interface is language, clicks and funnels become much less useful. Users also rarely give explicit feedback, and when they do it's usually sugarcoated. I barely type /feedback in Claude or Codex myself. Most users just curse, ask again, correct the agent, or leave. So product engineers get technical visibility from latency, errors, and traces, but still have to guess whether users got what they wanted. We got here after building around agents for the last year and got a couple of founders asking for something like a PostHog for conversations for the AI assistants they were building. We are not trying to be in the observability or evals space. Observability tells you what happened technically. Evals validate cases you already know. We're more on the discovery side like what users wanted, where they got frustrated, what they asked for repeatedly, and what new evals should exist. Teams send us agent conversation messages through SDKs or OTel, optionally with metadata like account, plan, source, organization, etc. We cluster conversations into product-specific intents. Feature requests and bugs are default categories; most other clusters are created dynamically from the customer\u2019s data and evolve over time. You can create your own cluster in plain English. If a cluster gets too broad, we split it. If a new pattern appears, we suggest it. One AI video editor company used Agnost AI to find feature requests hidden inside chat. The biggest one was that around 70 users wanted auto-subtitles, but users said it as \u201cadd this text in this frame\u201d 12x in a single session, \u201ccan you caption it\u201d, \u201cgive me transcript of audio\u201d and variations across languages. The team later built the feature. Doing this over millions of messages without sending everything to an LLM was the hard part initially. In ClickHouse, \u201cfetch the last 50 events by time across conversations\u201d and \u201cfetch all events in this conversation\u201d want different sort orders, so we had to iterate a lot on sorting keys, partitions, materialized views, and projections. For finding new clusters, sending everything through an LLM was too slow and expensive. HDBSCAN-style embedding clustering also gets painful at scale because of pairwise comparisons. We first split conversations into segments based on cosine drift, run BIRCH to compress the c",
+      "published_at": "2026-07-14T16:06:18+00:00",
       "source_name": "Hacker News (Top Stories)",
       "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
       "source_weight": 0.9,
-      "fetched_at": "2026-07-14T07:49:15.239196+00:00",
-      "intelligence_score": 127.65,
+      "fetched_at": "2026-07-14T19:05:10.719164+00:00",
+      "intelligence_score": 121.98,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 76.7,
+        "topic_score": 69.8,
         "source_multiplier": 1.3,
-        "entity_bonus": 8,
-        "keyword_bonus": 0,
-        "recency_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
-          "geopolitics",
           "india",
-          "energy_transition"
+          "energy_transition",
+          "venture_capital"
         ]
       }
     }
