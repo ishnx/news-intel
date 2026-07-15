@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "efbdcd48ce162ef7",
+    "title": "Launch HN: Coasty (YC S26) \u2013 An API for computer-use agents",
+    "url": "https://coasty.ai/docs",
+    "summary": "Hey HN, we\u2019re Nitish and Prateek, the founders of Coasty ( https://coasty.ai/computer-use ). We\u2019re building computer-use agents that can complete workflows inside legacy desktop software and web applications without usable APIs. Developers send Coasty a natural-language task either through our consumer app or through our API, select a machine or browser environment, and any relevant credentials or files. The agent then operates the interface through screenshots, mouse, and keyboard input, verifies the result, and returns a structured run record with screenshots, actions, outputs, and errors. Here is a raw demo of an agent completing a workflow in a legacy application(It\u2019s a mockup):  https://drive.google.com/file/d/1ZghU_3vsAYhHVz1bsvE0pkvZYk7... A lot of important software is still difficult to automate. Healthcare teams submit prior authorizations through payer portals, accounting teams enter data into desktop applications, and operations teams move information between internal systems, spreadsheets, and remote desktops. Many of these applications have no API, incomplete APIs, or integrations that take months to build. The usual alternative is RPA, record a sequence of clicks and replay it. That works when the interface and workflow are predictable, but it often breaks when a button moves, a pop-up appears, a page loads slowly, or the application enters an unexpected state. Coasty takes a different approach. The agent observes the current screen, decides what action to take, executes it, and then observes the resulting state before continuing. It does not require DOM access, an accessibility tree, selectors, or an application-specific integration, so the same API can operate browsers, remote desktops, and older Windows applications. A simplified request looks roughly like this:   run = coasty.runs.create(\n      environment=\"vm_123\",\n      task=\"\"\"\n      Open the patient record in the billing portal.\n      Enter the attached authorization data.\n      Do not submit if the member ID or procedure code does not match.\n      Return the confirmation number.\n      \"\"\",\n      files=[\"authorization.pdf\"],\n      approval_required=[\"final_submission\"]\n  )\n \nThe response includes the final status, extracted outputs, a replay URL, and a timestamped event log:   {\n    \"status\": \"completed\",\n    \"output\": {\n      \"confirmation_number\": \"PA-184392\"\n    },\n    \"replay_url\": \"...\",\n    \"events\": [\n      {\n        \"type\": \"verification\",\n        \"field\": \"member_id\",\n        \"result\": \"matched\"\n      }\n    ]\n  }\n \nThe API can also pause a run for human approval, retry from a checkpoint, or return control to the developer when it encounters a condition the workflow did not anticipate. We started working on this last summer, because we saw that models were getting better at vision but kept seeing a gap between computer-use demos and the reliability needed for production workflows. Getting an agent to complete a task once is fairly straightforward. Getting it to repe",
+    "published_at": "2026-07-15T15:51:20+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-07-15T18:57:22.365592+00:00",
+    "intelligence_score": 131.04,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.3,
+      "entity_bonus": 0,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-07-15T18:57:35.313523+00:00"
+}
