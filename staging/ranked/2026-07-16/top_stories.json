@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-07-16",
+    "top_n": 1,
+    "selected_at": "2026-07-16T07:59:04.867830+00:00"
+  },
+  "stories": [
+    {
+      "id": "1889a9ed88e814cb",
+      "title": "Thinking Machines open sources first multimodal language model, Inkling, focused on low cost and 'resistance to censorship'",
+      "url": "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
+      "summary": "Enterprises looking to move more of their agentic AI workloads to open weights models they can customize, control and run on-premises or in virtual private clouds have a strong new contender to consider. Today, Thinking Machines\u2014the highly capitalized American AI startup founded by former OpenAI CTO Mira Murati\u2014 released Inkling , its first major language model under an  enterprise-friendly Apache 2.0 open source license , and it boasts high, if sub state-of-the-art, performance for open weights models on third-party benchmarks, specifically software engineering (77.6% on SWE-bench Verified, where it beats fellow U.S. open rival Nvidia Nemotron 3's 71.9%) and voice understanding (91.4% on VoiceBench compared to 94.4% for Gemini 3.1 Pro on high reasoning effort). Another differentiator: Thinking Machines notes that Inkling was designed \"to answer directly on topics that may be subject to censorship,\" offering enterprises concerned about factual outputs, irrespective of controversy or sensitivity, a more trustworthy option.  Coming in at 975 billion total parameters, Inkling is a natively multimodal, open-weights Mixture-of-Experts (MoE) system capable of reasoning across text, images, and audio. The weights  are already available on Hugging Face  and the company's own model training application programming interface (API),  Tinker . Designed to balance cost against performance through a novel \"controllable thinking effort\" mechanism, the model represents a significant departure from the black-box scaling strategies of frontier competitors. Alongside the flagship model, Thinking Machines also announced a preview of Inkling-Small, a lighter 276-billion-parameter alternative optimized for workloads where low latency and cost are paramount. Benchmarks Show a Powerful, High-End, Sub State-of-the-Art Model While Inkling is a formidable multimodal engine, it lands in a fiercely competitive 2026 open-weight landscape characterized by highly specialized MoE architectures. Rather than attempting to dominate every leaderboard, Thinking Machines explicitly designed Inkling\u2014with 975 billion total and 41 billion active parameters\u2014as a broad, balanced generalist.  For example, it comes in near the middle high-end of benchmark performance 1257 on Design Arena\u2019s Agentic Web Dev leaderboard measuring human scores of frontend web design.  But China\u2019s leading AI labs have produced models with elite reasoning and coding capabilities, posing a stiff challenge to Inkling's generalist approach and ultimately outperforming it on general and coding benchmarks. GLM 5.2:  Widely considered the top open-weight reasoning model available in the benchmark set, GLM 5.2 outperforms Inkling on pure coding, agentic, and complex reasoning tasks. It scores 62.1% on SWEBench Pro (Public) compared to Inkling\u2019s 54.3%, and a massive 82.7 on Terminal Bench 2.1 against Inkling\u2019s 63.8. GLM 5.2 also holds the edge in text-only reasoning, scoring 40.1% on HLE (text only) versus Inkling's 30.0%",
+      "published_at": "2026-07-15T21:33:00+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
+      "category": "technology",
+      "source_weight": 0.7,
+      "fetched_at": "2026-07-16T07:58:18.000271+00:00",
+      "intelligence_score": 124.4,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 0.9,
+        "entity_bonus": 38,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
