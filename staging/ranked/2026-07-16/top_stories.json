@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-07-16",
     "top_n": 1,
-    "selected_at": "2026-07-16T07:59:04.867830+00:00"
+    "selected_at": "2026-07-16T18:58:43.222038+00:00"
   },
   "stories": [
     {
-      "id": "1889a9ed88e814cb",
-      "title": "Thinking Machines open sources first multimodal language model, Inkling, focused on low cost and 'resistance to censorship'",
-      "url": "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
-      "summary": "Enterprises looking to move more of their agentic AI workloads to open weights models they can customize, control and run on-premises or in virtual private clouds have a strong new contender to consider. Today, Thinking Machines\u2014the highly capitalized American AI startup founded by former OpenAI CTO Mira Murati\u2014 released Inkling , its first major language model under an  enterprise-friendly Apache 2.0 open source license , and it boasts high, if sub state-of-the-art, performance for open weights models on third-party benchmarks, specifically software engineering (77.6% on SWE-bench Verified, where it beats fellow U.S. open rival Nvidia Nemotron 3's 71.9%) and voice understanding (91.4% on VoiceBench compared to 94.4% for Gemini 3.1 Pro on high reasoning effort). Another differentiator: Thinking Machines notes that Inkling was designed \"to answer directly on topics that may be subject to censorship,\" offering enterprises concerned about factual outputs, irrespective of controversy or sensitivity, a more trustworthy option.  Coming in at 975 billion total parameters, Inkling is a natively multimodal, open-weights Mixture-of-Experts (MoE) system capable of reasoning across text, images, and audio. The weights  are already available on Hugging Face  and the company's own model training application programming interface (API),  Tinker . Designed to balance cost against performance through a novel \"controllable thinking effort\" mechanism, the model represents a significant departure from the black-box scaling strategies of frontier competitors. Alongside the flagship model, Thinking Machines also announced a preview of Inkling-Small, a lighter 276-billion-parameter alternative optimized for workloads where low latency and cost are paramount. Benchmarks Show a Powerful, High-End, Sub State-of-the-Art Model While Inkling is a formidable multimodal engine, it lands in a fiercely competitive 2026 open-weight landscape characterized by highly specialized MoE architectures. Rather than attempting to dominate every leaderboard, Thinking Machines explicitly designed Inkling\u2014with 975 billion total and 41 billion active parameters\u2014as a broad, balanced generalist.  For example, it comes in near the middle high-end of benchmark performance 1257 on Design Arena\u2019s Agentic Web Dev leaderboard measuring human scores of frontend web design.  But China\u2019s leading AI labs have produced models with elite reasoning and coding capabilities, posing a stiff challenge to Inkling's generalist approach and ultimately outperforming it on general and coding benchmarks. GLM 5.2:  Widely considered the top open-weight reasoning model available in the benchmark set, GLM 5.2 outperforms Inkling on pure coding, agentic, and complex reasoning tasks. It scores 62.1% on SWEBench Pro (Public) compared to Inkling\u2019s 54.3%, and a massive 82.7 on Terminal Bench 2.1 against Inkling\u2019s 63.8. GLM 5.2 also holds the edge in text-only reasoning, scoring 40.1% on HLE (text only) versus Inkling's 30.0%",
-      "published_at": "2026-07-15T21:33:00+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
+      "id": "e44ab72a6f797bb0",
+      "title": "Launch HN: Traceforce (YC S26) \u2013 Company-wide security monitoring for AI apps",
+      "url": "https://news.ycombinator.com/item?id=48937020",
+      "summary": "Hey HN, we\u2019re Xia and Varun, the founders of Traceforce ( https://www.traceforce.ai/ ). Traceforce provides visibility and control over AI apps such as ChatGPT, Claude etc directly on all devices (laptops, sandboxes, virtual machines) by discovering not just which apps are being used but also how they are connected to other data sources via MCPs. We also have an open-source dynamic MCP pentesting tool  https://github.com/traceforce/mcp-xray  to detect vulnerable MCPs. The purpose of Traceforce is to: - Give a company\u2019s employees a standardized way to ensure that AI software running on their device is operating safely - Give the company\u2019s security team visibility of the activities of AI software on the company\u2019s devices, and to detect and prevent unsafe actions and security breaches as early as possible. How Traceforce works 1. Traceforce is installed on each device as a lightweight binary and browser extension. 2. Within 30 minutes, the device is uploading live data to the company profile, displaying all the AI agents/apps running across all company devices on a dashboard. 3. Company security staff can monitor the activity of all the agents in real time, implement controls, and be alerted to any security risks as soon as they arise. Here\u2019s the video demo:  https://youtu.be/IdK2WKg7kaM The inspiration for Traceforce came via Xia\u2019s experience as Director of Engineering at a startup called Clumio (which was acquired by Commvault in Oct 2024). Being able to monitor how team members are using AI without slowing them down was a top priority at Clumio. After speaking with 50+ CISOs and CIOs, it became clear that this is a much-needed solution right now across industries. We keep hearing that new AI features are being adopted so quickly and so broadly that visibility and control just can't keep up. Traceforce is transparent about what we monitor and collect. By default, Traceforce collects only metadata and telemetry about the AI applications, MCPs, and tools running on a device. Security teams can enable options to inspect tool calls for the purpose of detecting, warning on, or blocking predefined high-risk or potentially destructive actions. All content inspection happens locally on the device. User prompts are never stored unless explicitly configured by the organization's security administrators. We work closely with end-users of the product, and once they understand what is being monitored/shared, they actually have great comfort that they have a powerful layer of protection on their device to prevent security incidents. It enables them to just focus on their work without worrying about what leaks and breaches may be happening under the hood without their awareness. The Traceforce binary is built using Go and the browser extension is written in Node JS. The hardest part is building a complete connectivity graph between AI applications, MCPs, and tools, then identifying the vulnerabilities and attack paths introduced by those connections. Traditional",
+      "published_at": "2026-07-16T16:52:16+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-07-16T07:58:18.000271+00:00",
-      "intelligence_score": 124.4,
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-16T18:58:23.159295+00:00",
+      "intelligence_score": 148.28,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
         "topic_score": 80,
-        "source_multiplier": 0.9,
-        "entity_bonus": 38,
-        "keyword_bonus": 0,
-        "recency_multiplier": 1.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "india",
-          "semiconductors",
-          "energy_transition"
+          "energy_transition",
+          "venture_capital",
+          "regulation_policy"
         ]
       }
     }
