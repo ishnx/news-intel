@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "6f4d772e89f6a6a4",
+    "title": "China\u2019s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems",
+    "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+    "summary": "Moonshot AI,  the Beijing-based artificial intelligence startup backed by Alibaba, on Thursday released  Kimi K3  \u2014 a 2.8-trillion-parameter model that the company says is now the largest open-source AI model in the world, and one that benchmarks show performs neck-and-neck with the most powerful proprietary systems from  Anthropic  and  OpenAI . The release, timed to land just ahead of the  2026 World Artificial Intelligence Conference  in Shanghai, is a dramatic escalation in the global AI arms race and a watershed moment for the open-source AI movement. It also marks a remarkable comeback for a company whose market position had eroded significantly over the past 18 months following DeepSeek's meteoric rise. Full model weights are scheduled to be released on July 27, according to details shared by researchers who reviewed the company's technical documentation. If you want to take  Kimi K3  for a spin right now, you can \u2014 just head to  kimi.com , sign up with a Google account or phone number (no credit card required), and start chatting with what may be the most powerful open-source model ever built. Inside the architecture that powers the world's largest open-source AI model Kimi K3  is a frontier-class large language model with 2.8 trillion total parameters \u2014 roughly 75 percent larger than  DeepSeek's V4 Pro , which the company's own timeline chart shows at approximately 1.6 trillion parameters. The model features a 1-million-token context window, native visual understanding capabilities, and an always-on reasoning mode that the company calls \"thinking mode.\" The model is built on two key architectural innovations developed internally at Moonshot AI:  Kimi Delta Attention , a hybrid linear attention mechanism, and  Attention Residuals , which the company describes as a drop-in replacement for residual connections that delivers consistent scaling gains. Both techniques were previously published as open research by the Moonshot team on  GitHub . On the  API side , Kimi K3 is compatible with the  OpenAI SDK , lowering the integration barrier for developers already building on OpenAI or Anthropic toolchains. The model is priced at $3 per million input tokens and $15 per million output tokens, with cached input tokens dropping to just $0.30 per million \u2014 pricing that positions it roughly in line with mid-tier offerings from Western labs, but at a performance level the company claims approaches the top of the market. A promotional top-up rebate running through August 12 offers up to 30 percent back in vouchers for API credits of $1,000 or more. As  Xinhua reported , a Moonshot AI executive explained the significance of the parameter count in simple terms: parameters are like neural connections in the human brain, and nearly 3 trillion of them means the model can \"store more knowledge and patterns in its brain, understand more, think deeper, and answer more accurately.\" Benchmark results show Kimi K3 trading blows with Claude and GPT at the top of th",
+    "published_at": "2026-07-16T19:42:09+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-07-17T18:55:22.050515+00:00",
+    "intelligence_score": 117.23,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 38,
+      "keyword_bonus": -1,
+      "recency_multiplier": 0.95,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "semiconductors",
+        "energy_transition",
+        "venture_capital",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-07-17T18:55:38.776758+00:00"
+}
