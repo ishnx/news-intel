@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-07-17",
+    "top_n": 1,
+    "selected_at": "2026-07-17T07:54:30.556530+00:00"
+  },
+  "stories": [
+    {
+      "id": "2258b2ceb304fb69",
+      "title": "Coronation Trims TSMC, SK Hynix on AI Hype, Boosts India Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/coronation-trims-tsm-krx-ai-hype-boosts-india-stocks",
+      "summary": "Coronation Asset Management Ltd., which oversees $47 billion, has trimmed its exposure to chipmakers and increased its allocation to India, as expectations for artificial intelligence stocks have risen to levels that are nearly impossible to beat.",
+      "published_at": "2026-07-17T05:48:36+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-17T07:54:22.194813+00:00",
+      "intelligence_score": 129.12,
+      "rank": 1,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 78.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 23,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
