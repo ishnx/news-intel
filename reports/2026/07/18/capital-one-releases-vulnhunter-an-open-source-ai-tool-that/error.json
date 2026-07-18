@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "f9dce90b0c3072f8",
+    "title": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do",
+    "url": "https://venturebeat.com/technology/capital-one-releases-vulnhunter-an-open-source-ai-tool-that-finds-software-flaws-before-hackers-do",
+    "summary": "Capital One  on Thursday released  VulnHunter , an open-source, agentic AI security tool that scans source code for exploitable vulnerabilities, maps out how an attacker would reach them, and proposes targeted fixes \u2014 all before a single line ships to production. The tool, built internally and  now available on GitHub  under an Apache 2.0 license, is one of the most ambitious attempts by a major financial institution to turn offensive AI capabilities into a public defensive resource. At a time when security teams are facing a rising tide of new AI threats, Capital One's decision to open-source the tool reflects an effort, according to CISO Chris Nims, to address \"an increasingly brief window before sophisticated, next-generation AI attack capabilities become affordable and accessible to virtually every adversary.\" Capital One is not simply releasing another vulnerability scanner. VulnHunter introduces what the company calls an \" attacker-first forward analysis \" \u2014 a workflow in which the tool begins at the points where a real adversary would enter a system, such as APIs, network messages, or file uploads, and reasons forward through the application's logic to determine whether an exploit path actually survives the code's existing defenses. Conventional scanners typically work in reverse, flagging a dangerous-looking code pattern and then searching backward for a hypothetical attacker. That approach, security practitioners widely acknowledge, buries engineering teams under avalanches of false positives. VulnHunter  attacks that problem head-on with a second innovation: a built-in \"falsification engine\" that tries to disprove its own findings before a developer ever sees them. After the tool surfaces a potential vulnerability, a structured reasoning workflow hunts for logical gaps, unsupported assumptions, and conditions that would prevent the attack from succeeding. Only findings the engine fails to rule out reach a human reviewer \u2014 and when they do, VulnHunter delivers not just an alert but a full explanation of the exploit path and a proposed code fix ready for engineering review. The tool currently runs on Anthropic's  Claude Opus 4.8 model  inside a Claude Code environment, though Capital One says the framework has the potential to work across other foundation models and coding harnesses. Why Capital One is giving the tool away Asked why Capital One decided to open-source a tool this consequential, Nims pointed to the communal nature of the problem.  \"We felt an imperative to open-source VulnHunter because modern software supply chains are very connected, and the scale of the AI threat is larger than any single organization,\" Nims told VentureBeat. \"Securing software and our digital environments is a shared foundation that benefits developers, enterprises, and the people who depend on the systems we all build. The defensive tools to address this reality need to be just as widely distributed, tested, and improved as the codebases they protect.\"",
+    "published_at": "2026-07-17T20:51:30+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-07-18T18:50:41.227153+00:00",
+    "intelligence_score": 111.53,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 30,
+      "keyword_bonus": 1,
+      "recency_multiplier": 0.95,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-07-18T18:50:51.621753+00:00"
+}
