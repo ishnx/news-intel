@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "7305a90e14a25e33",
+    "title": "Delhi Police say no permission for CJP's Parliament march tomorrow, warns of action against violators",
+    "url": "https://www.livemint.com/news/india/delhi-police-sonam-wangchuk-no-permission-for-cjps-parliament-march-monday-violators-will-face-action-11784470372550.html",
+    "summary": "The Police statement comes a day before CJP's march to Parliament on the opening day of the Monsoon Session. Climate activist Sonam Wangchuk, who was taken away from Jantar Mantar during his indefinite hunger strike, has also supported the march to Parliament.",
+    "published_at": "2026-07-19T14:27:03+00:00",
+    "source_name": "Mint",
+    "source_url": "https://www.livemint.com/rss/news",
+    "category": "india",
+    "source_weight": 0.85,
+    "fetched_at": "2026-07-19T18:54:18.307461+00:00",
+    "intelligence_score": 120.12,
+    "rank": 1,
+    "category_weight": 1.3,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.1,
+      "entity_bonus": 0,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.3,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "regulation_policy"
+      ]
+    }
+  },
+  "timestamp": "2026-07-19T18:54:23.467700+00:00"
+}
