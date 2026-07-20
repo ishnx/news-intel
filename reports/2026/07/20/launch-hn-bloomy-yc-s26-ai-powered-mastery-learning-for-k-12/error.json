@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "585d5ce2d87c5262",
+    "title": "Launch HN: Bloomy (YC S26) \u2013 AI-powered mastery learning for K-12",
+    "url": "https://news.ycombinator.com/item?id=48981136",
+    "summary": "Hi HN, I\u2019m Alex Southmayd, the founder of Bloomy ( https://bloomylearning.com ) \u2013 an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and Writing). How it works: we diagnose students\u2019 skill gaps, place them on personalized learning paths, and give them standards-aligned lessons and a Socratic AI tutor that scaffolds their learning without just giving away the answer. The goal is to solve the Bloom 2-sigma problem ( https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem ) with AI. Short launch video:  https://tinyurl.com/bloomylearning Longer product demo:  https://youtu.be/XHvoKt6qMeo Families access for Bloomy:  https://bloomylearning.com/families I started as a teacher. I taught 7th-grade English and writing with Teach For America, and every day I struggled to deliver differentiated instruction to 30 students with 30 different sets of needs. Some students needed remediation, some needed acceleration, and many needed a tutor sitting next to them helping them reason through the next step.\nBenjamin Bloom\u2019s two-sigma result\u2014that one-on-one tutoring can produce much better outcomes than conventional classroom instruction\u2014always felt intuitively true to me. The hard part was making that kind of attention affordable and available to every child. Then AI changed the cost curve. When I saw schools such as Alpha organize academics around mastery rather than seat time, the model clicked. If you\u2019ve heard of Alpha School, that is directionally the kind of learning model that inspired us. But I kept thinking about the families and schools that already exist: homeschool families, microschools, hybrid schools, and regular classrooms where most children are today. Most students and teachers see learning gaps at the wrong resolution. They get a grade, percentile, benchmark score, or broad standard\u2014not \u201cthis is the next skill this student should learn.\u201d Existing personalized-learning products often feel like digital worksheets: they provide plenty of practice, but not much diagnosis or teaching. Very few have AI tutors providing the core instruction.\nBloomy starts with a diagnostic\u2014we integrate with third-party assessments and provide our own\u2014and creates a learning path for each student. Students work one skill at a time, receive a short lesson, practice at an adaptive difficulty, and only move forward after demonstrating at least 90% mastery. The learning path updates as the student works, based on their performance and our knowledge graph of skill prerequisites (built in collaboration with Learning Commons / Chan Zuckerberg Initiative). Each skill has three stages. Base Camp teaches the concept with worked examples. Climb provides guided practice and Socratic support. Summit is an independent ten-question mastery assessment with no hints or AI assistance. Students need to achieve 90% on the Summit to advance. If they struggle too much, they\u2019ll",
+    "published_at": "2026-07-20T16:32:10+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-07-20T19:27:18.121338+00:00",
+    "intelligence_score": 123.55,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 72.0,
+      "source_multiplier": 1.3,
+      "entity_bonus": 0,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "energy_transition",
+        "venture_capital",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-07-20T19:27:36.872303+00:00"
+}
