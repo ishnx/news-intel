@@ -2,36 +2,35 @@
   "metadata": {
     "date": "2026-07-22",
     "top_n": 1,
-    "selected_at": "2026-07-22T08:11:07.745924+00:00"
+    "selected_at": "2026-07-22T18:59:21.432238+00:00"
   },
   "stories": [
     {
-      "id": "cd89287b157b8193",
-      "title": "Poolside drops Laguna S 2.1, an open-weight coding model that beats rivals 10x its size",
-      "url": "https://venturebeat.com/infrastructure/poolside-drops-laguna-s-2-1-an-open-weight-coding-model-that-beats-rivals-10x-its-size",
-      "summary": "Poolside , the San Francisco AI lab that has spent most of its three-year existence quietly selling coding models to governments and defense agencies, released its most capable model to date on Tuesday \u2014 and made an unusually aggressive bet that radical transparency, not raw scale, is how a smaller lab competes at the frontier. The model,  Laguna S 2.1 , is a 118-billion-parameter  Mixture-of-Experts (MoE) system  that activates only 8 billion parameters per token, supports a context window of up to 1 million tokens, and \u2014 according to benchmarks published by the company \u2014 matches or beats open models several times its size on agentic coding tasks. The weights are  available immediately  on Hugging Face under the permissive OpenMDW-1.1 license. The headline numbers are striking for a model this small. Poolside reports that  Laguna S 2.1  scores 70.2% on  Terminal-Bench 2.1 , a benchmark of long-horizon terminal tasks, placing it 11th on the company's compiled leaderboard \u2014 ahead of  DeepSeek-V4-Pro-Max , a 1.6-trillion-parameter model that scored 64.0; Thinking Machines' 975-billion-parameter  Inkling , at 63.8; and Nvidia\u2019s 550-billion-parameter  Nemotron 3 Ultra , at 56.4. On  SWE-Bench Multilingual , it posts 78.5%, and on  SWE-Bench Pro 's public dataset, 59.4%. Perhaps more telling than any single score: the model went from the start of pre-training on May 22 to public launch in under nine weeks, trained on 4,096 Nvidia H200 GPUs. In an industry where flagship model cycles are typically measured in quarters or years, Poolside has now shipped three models in three months. Why the West's open-weight AI gap has become a boardroom issue The release lands in the middle of an increasingly pointed debate about  the provenance of open-weight AI . Over the past year, developer adoption has shifted decisively toward open-weight systems that companies can download, inspect, and run on their own infrastructure \u2014 and the leading options in that category have overwhelmingly come from Chinese labs.  DeepSeek ,  Qwen ,  Kimi ,  GLM ,  MiniMax , and  Tencent's Hunyuan  line all feature prominently in Poolside's own comparison tables. Poolside's accompanying press release frames  Laguna S 2.1  explicitly as a response, noting that the model occupies a size class into which no Western lab has released open weights in 11 months \u2014 since OpenAI's  gpt-oss-120b  last August. \"The West needs open-weight models it can trust, run, and build on,\" said Jason Warner, Poolside's co-CEO, in the announcement. Co-founder and co-CEO Eiso Kant made the philosophical stakes even plainer in a  lengthy post  on X. \"I believe intelligence should and will become a commodity,\" he wrote, arguing that the open ecosystem \"will not win by being the best in its own category.\" Users, he argued, simply want the best intelligence for the task at hand \u2014 so open models must be on par with, or better than, their closed equivalents. The strategic logic here is not charity. Poolside's core busi",
-      "published_at": "2026-07-21T21:49:43+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
+      "id": "6ca22fc6b2aead0a",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides/",
+      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There's no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn't need to fetch anything once you got it. Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn't see any of the data. Check it out at  https://bento.page/slides/  which takes you straight to the editor. Go to  https://bento.page/guestbook/  to try out the live guestbook to experience share editing / collab. There is also a gallery with some sample decks on the website -  https://bento.page/ All the code is MIT licensed and you can find it here -  https://github.com/nyblnet/bento  . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code. \n \n Comments URL:  https://news.ycombinator.com/item?id=49008211 \n Points: 417 \n # Comments: 85",
+      "published_at": "2026-07-22T15:19:23+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
       "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-07-22T08:10:45.879987+00:00",
-      "intelligence_score": 133.4,
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-22T18:59:11.660283+00:00",
+      "intelligence_score": 129.75,
       "rank": 1,
       "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 80,
-        "source_multiplier": 0.9,
-        "entity_bonus": 46,
-        "keyword_bonus": 1,
-        "recency_multiplier": 1.0,
+        "topic_score": 72.8,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
         "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
           "india",
-          "semiconductors",
           "energy_transition"
         ]
       }
