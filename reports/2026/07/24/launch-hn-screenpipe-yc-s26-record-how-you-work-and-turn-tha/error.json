@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "891e9f134768fec9",
+    "title": "Launch HN: Screenpipe (YC S26) \u2013 Record how you work and turn that into agents",
+    "url": "https://news.ycombinator.com/item?id=49024620",
+    "summary": "Hi Hacker News, I'm Louis. I built Screenpipe ( https://screenpipe.com ), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you've seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on. I made a HN-style demo video at  https://www.tella.tv/video/build-your-ai-second-brain-with-s...  and there\u2019s a marketing video at  https://www.youtube.com/watch?v=c1jV6E9pyug . I\u2019ve been obsessed with this for a long time. I\u2019ve been maintaining a \u201csecond brain\u201d since 2020, in which I would store journals, handwritten notes, music I listen to, projects I'm working on, conversations I have with people, personal CRM etc. I experimented a lot of RAG in the early days with ParlAI, hundreds of fine-tuned GPT2 models, and GPT3 ( https://forum.obsidian.md/t/fine-tuning-openai-api-gpt3-on-y... ). Later I built Ava, the first Obsidian AI plugin, which grew to a few thousands of users quickly. It then became Embedbase, an API to make it easier to build AI apps powered by RAG. What I learned from all this is how important it is for the models to have context about what you\u2019re doing on your computer, in order to get them to do what you want. In the early days there was fine tuning but it was too much pain, then there was tool calling so that AI can access software you use but still kinda not autonomous enough. needing micro management. Then MCP came, but it felt too static, and non technical users struggled to build and use MCP. Then we got skills. Most recently we\u2019ve seen Karpathy\u2019s LLM-maintained wiki, Garry's GBrain, etc., where an agent incrementally maintains a persistent collection of Markdown pages. New sources update entity pages, strengthen or contradict existing claims, and improve a synthesis that compounds over time. I like this pattern, but it still begins with someone selecting and importing the sources. There is still no way AI can know what you and your company are doing every day, across apps, not just inside of apps. Of course, not everyone wants this. But I do! I want AI to know what I'm doing and never lose memory ever again, and I want it to use the same software that humans do, without painful context switches. I started building Screenpipe for myself in 2024 - a CLI to record your screen and plug this context into AI. An HN user posted it in 2024 ( https://news.ycombinator.com/item?id=41695840 ) and that discussion influenced the product. The most useful criticism concerned recording consent, local security, CPU usage, signal-to-noise, and whether agents could act on top of the data. The naive implementation started from continuously recording video and running OCR over every frame. But that creates duplicate data, consumes substantial resources (it basically turns your computer into a space heater!), and discards structure the operating system already knows. Screenpipe now instead listens for events such as app ",
+    "published_at": "2026-07-23T16:48:38+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-07-24T08:10:10.238311+00:00",
+    "intelligence_score": 147.8,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.3,
+      "entity_bonus": 23,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "semiconductors",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-07-24T08:10:31.901388+00:00"
+}
