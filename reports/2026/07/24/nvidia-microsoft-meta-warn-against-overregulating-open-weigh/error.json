@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "51f89d378e2da760",
+    "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+    "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+    "summary": "Letter:  https://images.nvidia.com/pdf/Open-Weights-and-American-AI-L...  [pdf] https://x.com/JensenHuang/status/2080643682408321103 ,  https://xcancel.com/JensenHuang/status/2080643682408321103 https://www.wired.com/story/silicon-valley-is-completely-div... ,  https://archive.ph/LAkVI \n \n Comments URL:  https://news.ycombinator.com/item?id=49035303 \n Points: 136 \n # Comments: 105",
+    "published_at": "2026-07-24T13:32:30+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-07-24T19:14:01.192652+00:00",
+    "intelligence_score": 161.6,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 74.3,
+      "source_multiplier": 1.3,
+      "entity_bonus": 38,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "semiconductors"
+      ]
+    }
+  },
+  "timestamp": "2026-07-24T19:14:10.632154+00:00"
+}
