@@ -1,0 +1,2799 @@
+{
+  "metadata": {
+    "fetched_at": "2026-07-26T08:11:06.046729+00:00",
+    "cutoff_time": "2026-07-25T08:10:54.025273+00:00",
+    "total_articles": 101,
+    "date": "2026-07-26",
+    "ranked_at": "2026-07-26T08:11:06.132148+00:00",
+    "total_ranked": 101,
+    "top_n": 1
+  },
+  "articles": [
+    {
+      "id": "1648a86c7d739800",
+      "title": "'Symbol of Atmanirbhar Bharat': PM Modi highlights INS Mahendragiri in Mann Ki Baat",
+      "url": "https://www.livemint.com/news/india/symbol-of-atmanirbhar-bharat-pm-modi-highlights-ins-mahendragiri-in-mann-ki-baat-11785049771237.html",
+      "summary": "PM Narendra Modi hailed INS Mahendragiri as a symbol of 'Atmanirbhar Bharat' in Mann Ki Baat, saying the warship was designed and built in India with over 75% indigenous content. He also highlighted recent DRDO missile tests and India's growing defence capabilities.",
+      "published_at": "2026-07-26T07:15:50+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.213933+00:00",
+      "intelligence_score": 111.82,
+      "rank": 1,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 59.2,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "f25739ad83425e87",
+      "title": "US-Iran war: Tehran's Supreme Leader Mojtaba Khamenei open to pursue nuclear weapon? Here's what US intel suggests",
+      "url": "https://www.livemint.com/news/us-news/usiran-war-tehrans-supreme-leader-mojtaba-khamenei-open-to-pursue-nuclear-weapon-heres-what-us-intel-suggests-11785038780195.html",
+      "summary": "American intelligence believes Iran's new Supreme Leader, Ayatollah Mojtaba Khamenei, is more inclined to pursue nuclear weapons than his predecessor. The assessment comes as US President Donald Trump weighs expanding the military campaign against Tehran.",
+      "published_at": "2026-07-26T04:18:35+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214378+00:00",
+      "intelligence_score": 109.45,
+      "rank": 2,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 65.9,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "53475c49e2ff9012",
+      "title": "Sarnath becomes India's 45th entry in UNESCO World Heritage List: The place of first sermon of Gautama Buddha",
+      "url": "https://www.livemint.com/news/india/sarnath-becomes-indias-45th-entry-in-unesco-world-heritage-list-the-place-of-first-sermon-of-gautama-buddha-11785037561582.html",
+      "summary": "Sarnath becomes India's 45th entry in UNESCO World Heritage List: Prime Minister Narendra Modi called it a \u201cproud moment for every Indian!,\u201d and said, \u201cThis recognition celebrates India\u2019s profound civilisational and spiritual heritage.\u201d",
+      "published_at": "2026-07-26T03:56:43+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214434+00:00",
+      "intelligence_score": 100.73,
+      "rank": 3,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 56.6,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "719e63d03733035f",
+      "title": "What is happening to jobs? Separating AI hype from reality",
+      "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "summary": "Article URL:  https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality \n Comments URL:  https://news.ycombinator.com/item?id=49052570 \n Points: 74 \n # Comments: 80",
+      "published_at": "2026-07-25T22:51:10+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.995250+00:00",
+      "intelligence_score": 100.04,
+      "rank": 4,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 59.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "china",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "6e860f05dfb64d05",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "summary": "Article URL:  https://github.com/slvDev/esp32-ai \n Comments URL:  https://news.ycombinator.com/item?id=49050512 \n Points: 165 \n # Comments: 37",
+      "published_at": "2026-07-25T18:59:50+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.996544+00:00",
+      "intelligence_score": 88.18,
+      "rank": 5,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 51.4,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "f98451746f8a5031",
+      "title": "GrapheneOS protections against data extraction from locked devices",
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "summary": "Article URL:  https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices \n Comments URL:  https://news.ycombinator.com/item?id=49055169 \n Points: 9 \n # Comments: 0",
+      "published_at": "2026-07-26T05:57:22+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.992853+00:00",
+      "intelligence_score": 87.74,
+      "rank": 6,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "698ebaaadefd9e62",
+      "title": "Show HN: I mapped every US golf course",
+      "url": "https://golfcoursebrowser.com/",
+      "summary": "I got tired of Googling basic course info, so I made a free directory of every US course Google filters for golf course results are terrible so I built a better way to browse courses using OSM as the backbone....  https://golfcoursebrowser.com/ It's a work in progress and mostly US for now, but I want to expand to the rest of North America, the EU, and the rest of the world ASAP. It's free, no ads, no login, no bs. If you spot anything wrong (bad info, a missing course, wrong scorecard), you can flag it right on the course page. I actually read those and fix them. Still a lot of missing info, but I'm filling out more and more each day. The goal is the most complete, and current golf course directory in the world, verified and maintained by actual golfers. I think is attainable in the next few months.\nThe base layer is OpenStreetMap, cross-checked against course websites and enriched with scorecards, USGA rating/slope, and public/private status. User corrections from golfers who know their home course have beaten every commercial data source we check against. \n \n Comments URL:  https://news.ycombinator.com/item?id=49054010 \n Points: 109 \n # Comments: 57",
+      "published_at": "2026-07-26T02:22:26+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.993951+00:00",
+      "intelligence_score": 83.75,
+      "rank": 7,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "8d4d32bbffc45c3a",
+      "title": "China pours funding into green energy deals as Iran war hits oil demand",
+      "url": "https://www.ft.com/content/221aac60-807e-4bdd-b76d-dd451255e685?syn-25a6b1a6=1",
+      "summary": "Beijing\u2019s Belt and Road Initiative takes advantage of rise in appetite for renewables as Middle East conflict drags on",
+      "published_at": "2026-07-26T04:00:07+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-07-26T08:10:58.444158+00:00",
+      "intelligence_score": 81.98,
+      "rank": 8,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 50.7,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "83b0ca2dd05f6699",
+      "title": "Zelenskyy to meet Trump in White House next week, to renew efforts for negotiations with Russia as conflict escalates",
+      "url": "https://www.livemint.com/news/zelenskyy-to-meet-trump-in-white-house-next-week-to-renew-efforts-for-negotiations-with-russia-as-conflict-escalates-11785045115508.html",
+      "summary": "Ukrainian President Volodymyr Zelenskyy is expected to meet US President Donald Trump at the White House on July 28, amid renewed efforts to revive diplomatic negotiations aimed at ending the more than 4.5-year war with Russia.",
+      "published_at": "2026-07-26T06:07:59+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214141+00:00",
+      "intelligence_score": 79.44,
+      "rank": 9,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 50.5,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "3916f98354776d05",
+      "title": "Can Parliamentary Panel\u2019s Latest Recommendations Break Crypto Policy Deadlock?",
+      "url": "https://inc42.com/features/can-parliamentary-panels-latest-recommendations-break-crypto-policy-deadlock/",
+      "summary": "For years, India\u2019s approach towards cryptocurrencies has largely revolved around taxation, anti-money laundering (AML) compliance and transaction reporting, while a\u2026",
+      "published_at": "2026-07-25T11:43:19+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.776571+00:00",
+      "intelligence_score": 79.14,
+      "rank": 10,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 71.2,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "geopolitics",
+          "india",
+          "energy_transition",
+          "regulation_policy",
+          "crypto_defi"
+        ]
+      }
+    },
+    {
+      "id": "7d2d21f0d72920c5",
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "summary": "Article URL:  https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf \n Comments URL:  https://news.ycombinator.com/item?id=49052912 \n Points: 126 \n # Comments: 92",
+      "published_at": "2026-07-25T23:32:50+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.994922+00:00",
+      "intelligence_score": 78.2,
+      "rank": 11,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 45.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "916cba78de258a6b",
+      "title": "Petrol, diesel prices today \u2014 26 July: Fuel rates in Delhi, Mumbai, Bengaluru, Kolkata as US pauses strikes on Iran",
+      "url": "https://www.livemint.com/news/india/petrol-diesel-prices-today-26-july-fuel-rates-in-delhi-mumbai-bengaluru-kolkata-as-us-pauses-strikes-on-iran-11785036205554.html",
+      "summary": "Petrol, diesel prices today \u2014 26 July: Fuel rates remain stable following the last major revision on 25 May. Check fuel rates in Delhi, Mumbai, Bengaluru, Kolkata and other cities as US pauses its strikes on Iran.",
+      "published_at": "2026-07-26T04:35:44+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214298+00:00",
+      "intelligence_score": 77.78,
+      "rank": 12,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 51.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "3de9d2186d8d1548",
+      "title": "Modi Punctured as Awakened India Students Force Retreat",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/modi-punctured-as-awakened-india-students-force-swift-retreat",
+      "summary": "For much of Narendra Modi\u2019s 12 years ruling India, he\u2019s looked nearly unbeatable at the polls. This weekend he swiftly yielded to a group that didn\u2019t exist a few months ago, energizing opponents who have struggled to rattle one of the nation\u2019s most powerful leaders ever.",
+      "published_at": "2026-07-26T02:30:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429633+00:00",
+      "intelligence_score": 73.94,
+      "rank": 13,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 45.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "india",
+          "energy_transition",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "98a25d18f1b0b6e1",
+      "title": "Who is Ronaldo Laishram? Meet Manipuri astrophysicist PM Modi praised in Mann Ki Baat",
+      "url": "https://www.livemint.com/news/india/who-is-manipurs-ronaldo-laishram-the-story-behind-pm-modis-mann-ki-baat-mention-11785052214949.html",
+      "summary": "Prime Minister Narendra Modi said astrophysicist Dr Ronaldo Laishram works in Japan and has been part of the team that discovered a massive cluster of young galaxies. Here's how he hounoured his homeland, Manipur.",
+      "published_at": "2026-07-26T07:58:23+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.213746+00:00",
+      "intelligence_score": 69.98,
+      "rank": 14,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 34.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "1f5ae5aab6d15431",
+      "title": "Can an AI Black Box Be Trusted to Run a Nuclear Reactor?",
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Can-an-AI-Black-Box-Be-Trusted-to-Run-a-Nuclear-Reactor.html",
+      "summary": "China has unveiled a daring new plan to integrate artificial intelligence throughout the nuclear energy life cycle. This week, at the World Artificial Intelligence Conference (WAIC) in Shanghai, researchers at the Chinese Academy of Sciences (CAS) revealed a new plan for safely integrating artificial intelligence into the nuclear sector, called ADANES\u00a0 \u2013 the Accelerator-Driven Advanced Nuclear Energy System. The system \u201cfundamentally changes the safety logic that governs conventional nuclear reactors\u201d and marks a major turning\u2026",
+      "published_at": "2026-07-25T21:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-07-26T08:11:03.399158+00:00",
+      "intelligence_score": 65.88,
+      "rank": 15,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 74.5,
+        "source_multiplier": 0.75,
+        "entity_bonus": 8,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "energy_transition",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "c4b82016550874cf",
+      "title": "Vessel carrying four Indian seafarers attacked at Ukraine's Odesa port, days after 4 others were killed on Golden Leo",
+      "url": "https://www.livemint.com/news/india/vessel-carrying-four-indian-seafarers-attacked-at-ukraines-odesa-port-days-after-4-others-were-killed-on-golden-leo-11785053052537.html",
+      "summary": "The Indian Embassy in Ukraine's capital, Kyiv, on Sunday (local time) announced that a merchant vessel carrying four Indian nationals was targeted at the country's Odesa port, with only two crew members confirmed safe, as information about the other two is still awaited.",
+      "published_at": "2026-07-26T08:07:17+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.213673+00:00",
+      "intelligence_score": 61.03,
+      "rank": 16,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "c82a3ed9f76a5ce8",
+      "title": "The OpenAI Models That Hacked Hugging Face Were \u2018Active on the Internet\u2019 for Days",
+      "url": "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
+      "summary": "Plus: Russian hackers are trying to steal US nuclear scientists\u2019 emails, the State Department bans known scammers from entering the United States, and more.",
+      "published_at": "2026-07-25T10:30:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:55.344116+00:00",
+      "intelligence_score": 60.04,
+      "rank": 17,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 23,
+        "keyword_bonus": 3,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "f8da89e0b88ef4cc",
+      "title": "Quote of the day by Oscar winning actress Sandra Bullock on pursuit of happiness: 'Go find your joy. It's what you're\u2026.'",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-by-oscar-winning-actress-sandra-bullock-on-pursuit-of-happiness-go-find-your-joy-its-what-youre-11785049073780.html",
+      "summary": "Sandra Bullock's words encourage us to actively seek joy and make time for happiness, emphasizing that meaningful experiences define our lives. Her wisdom highlights the need to appreciate the present while pursuing fulfillment.",
+      "published_at": "2026-07-26T07:56:04+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.213799+00:00",
+      "intelligence_score": 59.77,
+      "rank": 18,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 38.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "regulation_policy",
+          "crypto_defi"
+        ]
+      }
+    },
+    {
+      "id": "37281e1df82078a4",
+      "title": "Clinical failure rates over the decades: yikes",
+      "url": "https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes",
+      "summary": "Article URL:  https://www.science.org/content/blog-post/clinical-failure-rates-over-decades-yikes \n Comments URL:  https://news.ycombinator.com/item?id=49052628 \n Points: 94 \n # Comments: 67",
+      "published_at": "2026-07-25T22:57:17+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.995090+00:00",
+      "intelligence_score": 59.48,
+      "rank": 19,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "c13d67073208cf10",
+      "title": "Cloudflare's new AI traffic options for customers",
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "summary": "Article URL:  https://blog.cloudflare.com/content-independence-day-ai-options/ \n Comments URL:  https://news.ycombinator.com/item?id=49052564 \n Points: 103 \n # Comments: 73",
+      "published_at": "2026-07-25T22:50:49+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.995431+00:00",
+      "intelligence_score": 59.48,
+      "rank": 20,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "9b29631a6a5adf30",
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "summary": "Article URL:  https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models \n Comments URL:  https://news.ycombinator.com/item?id=49051361 \n Points: 300 \n # Comments: 187",
+      "published_at": "2026-07-25T20:42:35+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.996065+00:00",
+      "intelligence_score": 59.48,
+      "rank": 21,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "c28024dfea702fee",
+      "title": "LLM Usage in Debian: Three Proposals",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "summary": "Article URL:  https://www.debian.org/vote/2026/vote_002 \n Comments URL:  https://news.ycombinator.com/item?id=49050859 \n Points: 140 \n # Comments: 119",
+      "published_at": "2026-07-25T19:44:39+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.996225+00:00",
+      "intelligence_score": 59.48,
+      "rank": 22,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "39dd863f3ac88790",
+      "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+      "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+      "summary": "Article URL:  https://spectrum.ieee.org/sodium-ion-battery-peak-energy \n Comments URL:  https://news.ycombinator.com/item?id=49051947 \n Points: 171 \n # Comments: 72",
+      "published_at": "2026-07-25T21:48:22+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.995743+00:00",
+      "intelligence_score": 57.76,
+      "rank": 23,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.9,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "42088a22fcb3bd04",
+      "title": "Kalshi demands Netflix take down trailer for \u2018Prediction Games\u2019 documentary",
+      "url": "https://techcrunch.com/2026/07/25/kalshi-demands-netflix-take-down-trailer-for-prediction-games-documentary/",
+      "summary": "Kalshi claims the trailer is \u201cdefamatory\u201d and contains \u201cboth fabricated documents and false and misleading statements.\u201d",
+      "published_at": "2026-07-25T16:46:46+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.324812+00:00",
+      "intelligence_score": 57.6,
+      "rank": 24,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 48.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "0be6f20673f2f308",
+      "title": "India's 'cockroach' protest called off after education minister quits",
+      "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
+      "summary": "The CJP protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years.",
+      "published_at": "2026-07-25T17:44:46+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853262+00:00",
+      "intelligence_score": 56.9,
+      "rank": 25,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "af9a7ac528fd7f78",
+      "title": "Humans haven't stopped evolving",
+      "url": "https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure",
+      "summary": "Article URL:  https://www.harvardmagazine.com/research/harvard-human-evolution-genes-selective-pressure \n Comments URL:  https://news.ycombinator.com/item?id=49054307 \n Points: 58 \n # Comments: 63",
+      "published_at": "2026-07-26T03:09:46+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.993292+00:00",
+      "intelligence_score": 54.26,
+      "rank": 26,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "7ed2be64870f0878",
+      "title": "Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut.",
+      "url": "https://www.nytimes.com/2026/07/25/business/dealbook/spacex-anthropic-philanthropy.html",
+      "summary": "As start-ups like Anthropic and OpenAI prepare to go public, nonprofits are hoping for a secondary giving windfall from the new tech ultrawealthy.",
+      "published_at": "2026-07-25T12:00:03+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:04.293647+00:00",
+      "intelligence_score": 53.53,
+      "rank": 27,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 30,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "ea6cfd68cdfdac8d",
+      "title": "\u2018Exercise utmost caution before accepting jobs on vessels': MEA to Indians amid highly volatile situation in Black Sea",
+      "url": "https://www.livemint.com/news/india/exercise-utmost-caution-before-accepting-jobs-on-vessels-mea-to-indians-amid-highly-volatile-situation-in-black-sea-11785047798001.html",
+      "summary": "India on Sunday advised its citizens to carefully evaluate security conditions before accepting jobs on commercial vessels operating in or passing through the Black Sea, as the region continues to witness heightened missile and drone attacks that have killed at least five Indians since April.",
+      "published_at": "2026-07-26T06:50:14+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.213973+00:00",
+      "intelligence_score": 53.17,
+      "rank": 28,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 33.8,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "d6ba9bdbb076ee77",
+      "title": "What Love Island tells us about the changing face of dating",
+      "url": "https://www.bbc.co.uk/news/articles/c935q2k6pxqo?at_medium=RSS&at_campaign=rss",
+      "summary": "From women making the first move to shifting relationship dynamics, Love Island has become a window into Britain's evolving dating culture",
+      "published_at": "2026-07-25T23:31:49+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853468+00:00",
+      "intelligence_score": 52.81,
+      "rank": 29,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 48.9,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "faa38b3e99b7f423",
+      "title": "Producing ammonia and fertiliser using wind power in Morris, Minnesota",
+      "url": "https://ammoniaenergy.org/articles/flexible-renewable-ammonia-demonstrator-now-operational-in-minnesota/",
+      "summary": "Article URL:  https://ammoniaenergy.org/articles/flexible-renewable-ammonia-demonstrator-now-operational-in-minnesota/ \n Comments URL:  https://news.ycombinator.com/item?id=49050735 \n Points: 117 \n # Comments: 85",
+      "published_at": "2026-07-25T19:30:24+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.996376+00:00",
+      "intelligence_score": 51.68,
+      "rank": 30,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "fd085ca135c7039d",
+      "title": "Indian Listed New-Age Tech Company Tracker: Market Cap, Revenue & More",
+      "url": "https://inc42.com/features/indian-listed-new-age-tech-company-tracker-market-cap-revenue-more/",
+      "summary": "For years, we at Inc42 have tracked the Indian tech startup ecosystem and seen it grow from a kid to\u2026",
+      "published_at": "2026-07-25T11:37:59+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.776662+00:00",
+      "intelligence_score": 50.91,
+      "rank": 31,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 45.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "energy_transition",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "6c96941fdb95c5c2",
+      "title": "'This is just the beginning': CJP founder Dipke thanks supporters for 'huge victory of youth'",
+      "url": "https://www.livemint.com/news/india/this-is-just-the-beginning-cjp-founder-dipke-thanks-supporters-for-huge-victory-of-youth-11785044351474.html",
+      "summary": "In a video message on Sunday, CJP founder Abhijeet Dipke thanked supporters for backing the outfit's 37-day agitation, calling it a huge victory of the youth. Saying this is just the beginning, he vowed the movement would continue while expressing gratitude to both supporters and critics.",
+      "published_at": "2026-07-26T05:50:14+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214179+00:00",
+      "intelligence_score": 49.39,
+      "rank": 32,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 30.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "a91234c30b915363",
+      "title": "Bitcoin stays near $64K, Ethereum underperforms as weak risk appetite keeps crypto markets under pressure",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-stays-near-64k-ethereum-underperforms-as-weak-risk-appetite-keeps-crypto-markets-under-pressure/articleshow/132621788.cms",
+      "summary": "Bitcoin traded near $64,000 and Ethereum underperformed as risk appetite weakened. The global crypto market capitalization edged down 2% to $2.19 trillion. Bitcoin's realized volatility is near multi-year lows, suggesting a coiled market. Ethereum remained comparatively weaker below key support levels. Market sentiment improved early on regulatory news but then pulled back.",
+      "published_at": "2026-07-25T08:19:27+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.069780+00:00",
+      "intelligence_score": 48.68,
+      "rank": 33,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 43.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition",
+          "crypto_defi"
+        ]
+      }
+    },
+    {
+      "id": "3d2247a8f45aacb1",
+      "title": "CJP protesters apologise to journalist allegedly heckled at Jantar Mantar: Social media reacts, \u2018Respect regained\u2019",
+      "url": "https://www.livemint.com/news/trends/cjp-protesters-apologise-to-journalist-allegedly-heckled-at-jantar-mantar-social-media-reacts-respect-regained-11785040664651.html",
+      "summary": "Student protesters apologised to journalist Kapil Raut for their previous conduct, marking a peaceful resolution after the protests concluded.",
+      "published_at": "2026-07-26T04:45:11+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214256+00:00",
+      "intelligence_score": 46.55,
+      "rank": 34,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "7a80cacb4e7782b1",
+      "title": "CJP Protest: \u2018Did you approve use of pellet guns,\u2019 Rahul Gandhi asks Amit Shah in letter",
+      "url": "https://www.livemint.com/news/india/cjp-protest-did-you-approve-use-of-pellet-guns-rahul-gandhi-asks-amit-shah-in-letter-11785047337518.html",
+      "summary": "CJP Protest: Congress leader Rahul Gandhi questioned Union Minister Amit Shah over \u201cbarbaric assault on students who were peacefully protesting in Delhi on July 20, 2026.\u201d",
+      "published_at": "2026-07-26T06:36:31+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214019+00:00",
+      "intelligence_score": 44.04,
+      "rank": 35,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "a2b8b62f16684421",
+      "title": "Over 250,000 People Flee Wildfires Ravaging France and Spain",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/bordeaux-suburbs-at-risk-as-200-000-flee-fires-in-france-spain",
+      "summary": "More than 250,000 people fled towns and villages in Spain and France as uncontrolled wildfires moved ever closer to Madrid and Bordeaux, metropolitan areas that are home to more than 8 million people combined.",
+      "published_at": "2026-07-25T08:49:50+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429838+00:00",
+      "intelligence_score": 43.74,
+      "rank": 36,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 36.4,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "202d2c4ea5739d9c",
+      "title": "China Has Come Through Trump\u2019s Trade War in a Good Position",
+      "url": "https://www.nytimes.com/2026/07/24/business/china-tariffs-trump.html",
+      "summary": "Despite threats from President Trump, the overall average weighted tariff on Chinese goods remained about the same.",
+      "published_at": "2026-07-25T20:12:30+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:04.293762+00:00",
+      "intelligence_score": 43.52,
+      "rank": 37,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 51.2,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "85662d6220cd8f4c",
+      "title": "Amid Cyclospora Outbreak Tied to Lettuce, America Skips Salads",
+      "url": "https://www.nytimes.com/2026/07/23/business/cyclospora-lettuce-salad.html",
+      "summary": "Foot traffic to chains such as Chopt and Chipotle fell in recent weeks after a recall from Taylor Farms and changing messages from the F.D.A.",
+      "published_at": "2026-07-26T02:45:53+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:04.293848+00:00",
+      "intelligence_score": 41.05,
+      "rank": 38,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 46.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "3aeff3fdc582de7d",
+      "title": "Australian Prime Minister Albanese to Press Trump on New Tariffs",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/australian-prime-minister-albanese-to-press-trump-on-new-tariffs",
+      "summary": "Australian Prime Minister Anthony Albanese said he will appeal directly to President Donald Trump over new tariffs announced by Washington, describing the levies as unjustified.",
+      "published_at": "2026-07-26T00:34:20+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429751+00:00",
+      "intelligence_score": 40.44,
+      "rank": 39,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "ca9dfae7476fdeab",
+      "title": "Heat Bakes Central US, Raising Energy Demand as East Stays Cool",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/heat-bakes-central-us-raising-energy-demand-as-east-stays-cool",
+      "summary": "Baking temperatures will sear the central US from the Rocky Mountains to the Mississippi River and eventually push down into the Gulf Coast for the rest of the month, putting regional power grids to the test.",
+      "published_at": "2026-07-25T11:41:32+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429960+00:00",
+      "intelligence_score": 40.12,
+      "rank": 40,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 34.9,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "102564d4308f8be4",
+      "title": "One fallen power line exposed a growing AI data center problem. Here\u2019s how to fix it.",
+      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+      "published_at": "2026-07-25T13:05:00+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.325007+00:00",
+      "intelligence_score": 39.79,
+      "rank": 41,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 34.9,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "8c6ba72f0c7d71ee",
+      "title": "Pralhad Joshi takes charge as Union education minister, vows to work with 'humility and honesty'",
+      "url": "https://www.livemint.com/news/india/pralhad-joshi-takes-charge-as-union-education-minister-vows-to-work-with-humility-and-honesty-11785039791189.html",
+      "summary": "Pralhad Joshi took charge as Union Education Minister after President Droupadi Murmu accepted Dharmendra Pradhan's resignation. Thanking PM Narendra Modi for the responsibility, Joshi pledged to work with humility and honesty under his leadership.",
+      "published_at": "2026-07-26T04:33:37+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214339+00:00",
+      "intelligence_score": 39.77,
+      "rank": 42,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "81a42d13a8693bd2",
+      "title": "Barrick Evacuates Chile Workers by Helicopter After Storm",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-26/barrick-evacuates-chile-workers-by-helicopter-after-storm",
+      "summary": "Barrick Mining Corp. said it safely evacuated workers who had been stranded in their Barriales camp in northern Chile after severe storms blocked road access.",
+      "published_at": "2026-07-26T01:52:13+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429702+00:00",
+      "intelligence_score": 39.39,
+      "rank": 43,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "cb61b6a2a5da5e6d",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs \u2014 here are 20 others",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "summary": "A running look \u2014 in reverse chronological order \u2014 at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "published_at": "2026-07-26T01:30:00+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.324537+00:00",
+      "intelligence_score": 39.06,
+      "rank": 44,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "3083d2270148ed21",
+      "title": "CJP protest: Dharmendra Pradhan offered to resign on first day of student agitation, says BJP's Kailash Vijayvargiya",
+      "url": "https://www.livemint.com/news/india/cjp-protest-dharmendra-pradhan-offered-to-resign-on-first-day-of-student-agitation-says-bjps-kailash-vijayvargiya-11785052224079.html",
+      "summary": "BJP leader Kailash Vijayvargiya claimed Dharmendra Pradhan had offered to resign as Union Education Minister on the first day of the student agitation but was asked by the party leadership to wait. He said Pradhan stepped down immediately after the BJP decided.",
+      "published_at": "2026-07-26T07:55:47+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.213844+00:00",
+      "intelligence_score": 39.01,
+      "rank": 45,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 23.4,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "7c8007a96b1b6b26",
+      "title": "Ukraine Seeks 30-Year Energy Pact With Canada, Minister Says",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/ukraine-seeks-30-year-energy-pact-with-canada-minister-says",
+      "summary": "Ukraine is looking to sign a 30-year strategic energy agreement with Canada and proposing an \u201cenergy security bridge\u201d focused on the supply of Canadian LNG, Energy Minister Denys Shmyhal said.",
+      "published_at": "2026-07-25T09:07:34+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.430042+00:00",
+      "intelligence_score": 37.73,
+      "rank": 46,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 32.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "151c67f3e6ec0c10",
+      "title": "Warner Bros. is suing Amazon for poaching employees",
+      "url": "https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees",
+      "summary": "Warner Bros. Discovery has filed suit against Amazon, accusing it of illegally poaching employees, including Pia Barlow, former senior VP for originals marketing. In the complaint, Warner says that \"Amazon has chosen to ride on the coattails of other well-established Hollywood mainstays,\" and that it engaged in a \"lawless employee shopping spree.\" Deadline reports that [\u2026]",
+      "published_at": "2026-07-25T14:05:12+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.567378+00:00",
+      "intelligence_score": 37.62,
+      "rank": 47,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 33.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "6ff7ad58e56b07c8",
+      "title": "The Carbon Capture Boom Is Starting to Crack",
+      "url": "https://oilprice.com/Energy/Energy-General/The-Carbon-Capture-Boom-Is-Starting-to-Crack.html",
+      "summary": "Carbon capture and storage (CCS) technology grew in popularity during the Covid-19 pandemic as several governments and private companies pledged to support a green transition. The use of CCS was expected to help decarbonise hard-to-abate industries until a long-term transition to clean energy could be achieved. However, in recent years, many have become more sceptical about the effectiveness of CCS technologies, as several projects have failed to perform. CCS technology is used to capture carbon dioxide at emission sources, so it can be transported\u2026",
+      "published_at": "2026-07-25T19:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-07-26T08:11:03.399220+00:00",
+      "intelligence_score": 37.35,
+      "rank": 48,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 49.8,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition",
+          "biotech_health"
+        ]
+      }
+    },
+    {
+      "id": "22d9f015cb4ac667",
+      "title": "Google basically confirms the Pixel 11 is getting a price hike",
+      "url": "https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike",
+      "summary": "Google's Vice President of Devices and Services, Shakil Barkat, all but confirmed in an interview with 9to5 Google that its next Pixel phone would cost more than the Pixel 10. Considering the ongoing RAM supply issues due to the explosion of AI data centers, the rumored price hike is not a complete surprise. Companies from [\u2026]",
+      "published_at": "2026-07-25T18:13:36+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.567186+00:00",
+      "intelligence_score": 37.2,
+      "rank": 49,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "abed215e7f5c3700",
+      "title": "Assam CM on minister's daughter joining NEET protest: 'Don't troll her father,' \u2018what she said was not right\u2019",
+      "url": "https://www.livemint.com/news/india/assam-cm-on-ministers-daughter-joining-neet-protest-dont-troll-her-father-what-she-said-was-not-right-11785042147569.html",
+      "summary": "A protest in Guwahati on Thursday against examination irregularities and demanding the resignation of Dharmendra Pradhan as Union education minister drew attention after Asom Gana Parishad (AGP) leader Keshab Mahanta's daughter Dibisa joined the demonstration.",
+      "published_at": "2026-07-26T05:15:51+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214217+00:00",
+      "intelligence_score": 37.11,
+      "rank": 50,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "2938b6456af213d3",
+      "title": "FY26 Financial Tracker: Tracking The Financial Performance Of Indian Startups",
+      "url": "https://inc42.com/features/fy26-financial-tracker-tracking-the-financial-performance-of-indian-startups/",
+      "summary": "The Indian startup ecosystem continued to mature in FY26, with 22 new-age tech companies making their public market debut as\u2026",
+      "published_at": "2026-07-25T11:35:38+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.776745+00:00",
+      "intelligence_score": 36.46,
+      "rank": 51,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 32.8,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india",
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "51786c8381d1ca5a",
+      "title": "Swiggy Plummets, BlueStone Soars Amid Bearish Week For New-Age Tech Stocks",
+      "url": "https://inc42.com/buzz/swiggy-plummets-bluestone-soars-amid-bearish-week-for-new-age-tech-stocks/",
+      "summary": "It was a bearish week for India\u2019s new-age tech stocks as renewed geopolitical tensions and a broad-based market selloff weighed\u2026",
+      "published_at": "2026-07-25T13:36:09+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.776448+00:00",
+      "intelligence_score": 34.46,
+      "rank": 52,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "geopolitics",
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "98c9b6065f1f8e13",
+      "title": "Violent crypto attacks rise as criminals hunt bigger payouts",
+      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/violent-crypto-attacks-rise-as-criminals-hunt-bigger-payouts/articleshow/132625026.cms",
+      "summary": "Physical attacks targeting cryptocurrency holders surged 33% globally in the first half of 2026, with losses soaring to $124 million. France emerged as the epicentre as criminals increasingly combined cyber intelligence, social engineering and violence to steal digital assets.",
+      "published_at": "2026-07-25T11:46:03+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.069574+00:00",
+      "intelligence_score": 34.28,
+      "rank": 53,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 24.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "semiconductors",
+          "crypto_defi"
+        ]
+      }
+    },
+    {
+      "id": "55c34d8a761e5617",
+      "title": "The notorious Cameroonian prison with its own record label",
+      "url": "https://www.bbc.co.uk/news/articles/czxqlkrlj7no?at_medium=RSS&at_campaign=rss",
+      "summary": "New Bell's inmates have become mini stars, recording songs and music videos from the confines of the jail.",
+      "published_at": "2026-07-26T00:24:30+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853368+00:00",
+      "intelligence_score": 34.02,
+      "rank": 54,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 30.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "regulation_policy"
+        ]
+      }
+    },
+    {
+      "id": "e427e2207a7b695f",
+      "title": "The hacker who humiliated spyware makers and was never caught",
+      "url": "https://techcrunch.com/2026/07/25/the-hacker-who-humiliated-spyware-makers-and-was-never-caught/",
+      "summary": "An awe-inspiring hacktivist who hacked two controversial government spyware makers may be the most prolific hacker to have never gotten caught. What do we know about Phineas Fisher?",
+      "published_at": "2026-07-25T20:24:14+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.324685+00:00",
+      "intelligence_score": 33.6,
+      "rank": 55,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 28.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "34f552dd97c65bd9",
+      "title": "W4ME Station \u2013 a WASM-4 runtime for Java ME phones",
+      "url": "https://github.com/mulfyx/w4me-station",
+      "summary": "Article URL:  https://github.com/mulfyx/w4me-station \n Comments URL:  https://news.ycombinator.com/item?id=49054697 \n Points: 15 \n # Comments: 2",
+      "published_at": "2026-07-26T04:19:59+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.993098+00:00",
+      "intelligence_score": 32.97,
+      "rank": 56,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "16818787a51d83e8",
+      "title": "JetZero",
+      "url": "https://www.jetzero.aero",
+      "summary": "Article URL:  https://www.jetzero.aero \n Comments URL:  https://news.ycombinator.com/item?id=49054224 \n Points: 181 \n # Comments: 142",
+      "published_at": "2026-07-26T02:55:50+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.993493+00:00",
+      "intelligence_score": 32.97,
+      "rank": 57,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "461018098e71f1bc",
+      "title": "An ESP32 based plane radar for my desk",
+      "url": "https://blog.ktz.me/esp32-plane-radar/",
+      "summary": "Article URL:  https://blog.ktz.me/esp32-plane-radar/ \n Comments URL:  https://news.ycombinator.com/item?id=49054107 \n Points: 116 \n # Comments: 21",
+      "published_at": "2026-07-26T02:35:43+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.993669+00:00",
+      "intelligence_score": 32.97,
+      "rank": 58,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "858d560c91992c9e",
+      "title": "Alien World Chemistry Found Inside Meteorite That Struck New Jersey Home",
+      "url": "https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite/",
+      "summary": "Article URL:  https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite/ \n Comments URL:  https://news.ycombinator.com/item?id=49053708 \n Points: 53 \n # Comments: 15",
+      "published_at": "2026-07-26T01:35:03+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.994133+00:00",
+      "intelligence_score": 32.97,
+      "rank": 59,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "9dc243de8f7a641a",
+      "title": "Git rebase -I is not that scary",
+      "url": "https://cachebag.sh/journal/interactive-rebasing/",
+      "summary": "Article URL:  https://cachebag.sh/journal/interactive-rebasing/ \n Comments URL:  https://news.ycombinator.com/item?id=49053385 \n Points: 52 \n # Comments: 51",
+      "published_at": "2026-07-26T00:37:54+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.994312+00:00",
+      "intelligence_score": 32.97,
+      "rank": 60,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "485da066e08ea5a7",
+      "title": "Systems and Delays",
+      "url": "https://martin.janiczek.cz/2026/07/24/systems-and-delays.html",
+      "summary": "Article URL:  https://martin.janiczek.cz/2026/07/24/systems-and-delays.html \n Comments URL:  https://news.ycombinator.com/item?id=49053382 \n Points: 59 \n # Comments: 14",
+      "published_at": "2026-07-26T00:37:30+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.994553+00:00",
+      "intelligence_score": 32.97,
+      "rank": 61,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "59618d4219cd59c1",
+      "title": "Inflect-Micro-v2: complete voice in 9.36M parameters",
+      "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+      "summary": "Article URL:  https://huggingface.co/owensong/Inflect-Micro-v2 \n Comments URL:  https://news.ycombinator.com/item?id=49053375 \n Points: 107 \n # Comments: 9",
+      "published_at": "2026-07-26T00:36:30+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.994742+00:00",
+      "intelligence_score": 32.97,
+      "rank": 62,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "cee127c2e10fdf80",
+      "title": "Oral GLP-1 drugs may quiet the brain\u2019s food craving circuit",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260724061439.htm",
+      "summary": "Newer oral drugs related to semaglutide medications such as Ozempic reduced pleasure-driven eating in mice by quieting a deep brain reward circuit. The finding could open new avenues for understanding food cravings and potentially treating substance use disorder.",
+      "published_at": "2026-07-25T11:34:04+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:05.799866+00:00",
+      "intelligence_score": 31.98,
+      "rank": 63,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 44.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "biotech_health"
+        ]
+      }
+    },
+    {
+      "id": "b1f84098f9462f27",
+      "title": "Quote of the Day by William Hazlitt: \u2018Life is a continued struggle to be what we are not.\u2026\u2019",
+      "url": "https://www.livemint.com/news/us-news/quote-of-the-day-26-july-2026-english-essayist-william-hazlitt-life-11785050473673.html",
+      "summary": "William Hazlitt's quote emphasizes the perpetual struggle of human ambition, indicating that striving for what we are not defines our lives. Acknowledging this continuous effort fosters genuine engagement with one's own existence.",
+      "published_at": "2026-07-26T07:39:11+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.213893+00:00",
+      "intelligence_score": 31.46,
+      "rank": 64,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 20.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "regulation_policy",
+          "crypto_defi"
+        ]
+      }
+    },
+    {
+      "id": "f9e81986282d8a2a",
+      "title": "Turn And Face The Strange",
+      "url": "https://fly.io/blog/kurt-scott-money-sprites/",
+      "summary": "Article URL:  https://fly.io/blog/kurt-scott-money-sprites/ \n Comments URL:  https://news.ycombinator.com/item?id=49051369 \n Points: 191 \n # Comments: 127",
+      "published_at": "2026-07-25T20:43:11+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:54.995906+00:00",
+      "intelligence_score": 31.4,
+      "rank": 65,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.3,
+        "entity_bonus": 8,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "7919f80beb8a8e0c",
+      "title": "Smash hit: How Alex Eala's Wimbledon run made everyday Filipinos fall in love with tennis",
+      "url": "https://www.bbc.co.uk/news/articles/c3v0lyrndn7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Formerly the preserve of the rich, tennis is booming in the basketball- and boxing-obsessed country.",
+      "published_at": "2026-07-25T22:15:14+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853551+00:00",
+      "intelligence_score": 31.32,
+      "rank": 66,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 29.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "india",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "a285d00822c23cf2",
+      "title": "GoPro Mission 1 Pro Review: The Best Action Camera You Can Buy",
+      "url": "https://www.wired.com/review/gopro-mission-1-pro/",
+      "summary": "GoPro\u2019s New Mission 1 cameras bring action cameras to a higher level with a larger sensor and more cinematic footage.",
+      "published_at": "2026-07-25T09:30:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:55.344252+00:00",
+      "intelligence_score": 30.78,
+      "rank": 67,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 27.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition",
+          "china"
+        ]
+      }
+    },
+    {
+      "id": "b20241f437967686",
+      "title": "UCLA Scientists Turn Plastic Waste Into Pure Hydrogen Fuel",
+      "url": "https://oilprice.com/Energy/Energy-General/UCLA-Scientists-Turn-Plastic-Waste-Into-Pure-Hydrogen-Fuel.html",
+      "summary": "Green hydrogen was supposed to be a silver bullet solution for decarbonizing hard-to-abate sectors like shipping and steelmaking. It was the buzziest technology out there \u2013 and then it fizzled out completely. But after years of languishing in labs without reaching any meaningful level of commercialization, hydrogen is making a roaring comeback thanks to back-to-back scientific breakthroughs and renewed interest in the fossil fuel alternative against the backdrop of the global oil and gas crisis brought on by the United States\u2019 and Israel\u2019s\u2026",
+      "published_at": "2026-07-25T17:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-07-26T08:11:03.399269+00:00",
+      "intelligence_score": 30.1,
+      "rank": 68,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 38.8,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "36b2c82ab9dd8593",
+      "title": "Watch: Students beaten up for taking part in CJP protest hours after Centre\u2019s promises; Akhilesh Yadav shares video",
+      "url": "https://www.livemint.com/news/trends/watch-students-beaten-up-for-taking-part-in-cjp-protest-hours-after-centre-s-promises-akhilesh-yadav-shares-video-11785045721207.html",
+      "summary": "Akhilesh Yadav shared a video allegedly showing a BJP leader abusing student protesters. The former UP CM criticised the saffron party for failing to uphold promises.",
+      "published_at": "2026-07-26T06:08:41+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214102+00:00",
+      "intelligence_score": 28.31,
+      "rank": 69,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "f2afd1e505cd333a",
+      "title": "Prince George won\u2019t have smartphone until he turns 18: William once explained why, \u2018Children can access too much stuff\u2019",
+      "url": "https://www.livemint.com/news/world/prince-george-won-t-have-smartphone-until-he-turns-18-william-once-explained-why-children-can-access-too-much-stuff-11785037303985.html",
+      "summary": "Prince George, who recently turned 13, will not have a smartphone any time soon, following his father Prince William's strict technology rules.",
+      "published_at": "2026-07-26T03:49:07+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214473+00:00",
+      "intelligence_score": 27.03,
+      "rank": 70,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "ee5d8b947082e7c5",
+      "title": "Clearance begins at Jantar Mantar as CJP protest ends; Delhi Metro, internet services fully restored",
+      "url": "https://www.livemint.com/news/india/clearance-begins-at-jantar-mantar-as-cjp-protest-ends-delhi-metro-internet-services-fully-restored-11785035856815.html",
+      "summary": "Clearance work began at Jantar Mantar on Sunday after the CJP called off its protest following Dharmendra Pradhan's resignation. Delhi Metro resumed normal services, internet restrictions were lifted, and authorities started removing barricades as normalcy returned to central Delhi.",
+      "published_at": "2026-07-26T03:26:08+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214511+00:00",
+      "intelligence_score": 24.02,
+      "rank": 71,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "ff581a00550f5a95",
+      "title": "Scientists put the \u201crecycling is a distraction\u201d claim to the test",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260724061437.htm",
+      "summary": "Recycling, greener diets, and other personal climate choices do not seem to distract people from supporting major environmental reforms. A four-year study of nearly 2,800 Australians found that these habits neither increased nor reduced later political engagement.",
+      "published_at": "2026-07-25T14:00:35+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:05.799914+00:00",
+      "intelligence_score": 22.53,
+      "rank": 72,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "325162988b757983",
+      "title": "Contagious Cancer Found in North American Catfish",
+      "url": "https://www.wired.com/story/contagious-cancer-found-in-north-american-catfish/",
+      "summary": "Scientists identified the first known cancer transmissible among freshwater fish in a lake that spans the US and Canada.",
+      "published_at": "2026-07-25T09:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:55.344295+00:00",
+      "intelligence_score": 22.42,
+      "rank": 73,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "039e84822d84afe0",
+      "title": "EU Backs Off Methane Rules as Energy Security Fears Mount",
+      "url": "https://oilprice.com/Energy/Energy-General/EU-Backs-Off-Methane-Rules-as-Energy-Security-Fears-Mount.html",
+      "summary": "The European Commission (EC) has informed EU governments that they should waive penalties for oil and gas companies that breach its methane emissions law for the next three years, owing to pressure from the United States government to scrap the rules. While the decision is not binding, many member states are expected to follow the EC\u2019s advice. The EC made the move after the U.S. and \u200cQatar, as well as oil and gas industry groups and most EU member states, voiced concerns about the strict rules and demanded change. Several states feared\u2026",
+      "published_at": "2026-07-25T15:00:00+00:00",
+      "source_name": "Oil Price",
+      "source_url": "https://oilprice.com/rss/main",
+      "category": "energy",
+      "source_weight": 0.75,
+      "fetched_at": "2026-07-26T08:11:03.399314+00:00",
+      "intelligence_score": 22.09,
+      "rank": 74,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 31.0,
+        "source_multiplier": 0.75,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence",
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "0932b3260fc24edf",
+      "title": "Big Tech Debt Flood Is Taking Over Risk In Market: Credit Weekly",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/big-tech-debt-flood-is-taking-over-risk-in-market-credit-weekly",
+      "summary": "Big Tech\u2019s insatiable appetite for AI investment is unleashing a relentless wave of bond sales \u2014 and having a bigger impact on the US corporate bond market than might be obvious.",
+      "published_at": "2026-07-25T11:00:00+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429999+00:00",
+      "intelligence_score": 20.69,
+      "rank": 75,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "57bb34548b951788",
+      "title": "NTPC board approves raising up to Rs 12,000 cr via NCD issue",
+      "url": "https://economictimes.indiatimes.com/markets/bonds/ntpc-board-approves-raising-up-to-rs-12000-cr-via-ncd-issue/articleshow/132621832.cms",
+      "summary": "NTPC's board approved raising Rs 12,000 crore via non-convertible debentures. The company's group installed capacity grew to 90,904 MW by June 2026. Commercial power generation rose to 93.63 billion units in the April-June quarter. Coal-based plant load factor improved to 76.71 percent during this period. The average tariff remained stable at Rs 4.86 per unit.",
+      "published_at": "2026-07-25T08:24:03+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.069735+00:00",
+      "intelligence_score": 20.01,
+      "rank": 76,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "0b7e282f239f6f18",
+      "title": "Defence giants provide record backing for military start-ups",
+      "url": "https://www.ft.com/content/fcb2bd34-b13f-4f4f-950d-92367d43d1f3?syn-25a6b1a6=1",
+      "summary": "As drones and autonomous systems transform the battlefield, traditional defence companies start to act more like venture capitalists",
+      "published_at": "2026-07-26T04:00:15+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-07-26T08:10:58.444317+00:00",
+      "intelligence_score": 19.4,
+      "rank": 77,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 12.0,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "venture_capital"
+        ]
+      }
+    },
+    {
+      "id": "854bd10990f01f29",
+      "title": "Warner Bros. lawsuit accuses Amazon of illegally poaching executives",
+      "url": "https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/",
+      "summary": "The lawsuit will likely renew debates about whether term employment agreements are enforceable under California. law",
+      "published_at": "2026-07-25T20:55:11+00:00",
+      "source_name": "TechCrunch",
+      "source_url": "https://techcrunch.com/feed/",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.324621+00:00",
+      "intelligence_score": 18.0,
+      "rank": 78,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 15.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "geopolitics"
+        ]
+      }
+    },
+    {
+      "id": "c0c020934a5d08a1",
+      "title": "Protesters celebrate resignation of India's education minister",
+      "url": "https://www.bbc.co.uk/news/videos/cly949k3g1do?at_medium=RSS&at_campaign=rss",
+      "summary": "The youth-led Cockroach Janta Party (CJP) has called off its protest, hours after the resignation of India's education minister",
+      "published_at": "2026-07-25T13:44:01+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853590+00:00",
+      "intelligence_score": 16.42,
+      "rank": 79,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 16.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "india"
+        ]
+      }
+    },
+    {
+      "id": "b2b9f8d0c294517f",
+      "title": "IDFC First Bank Q1 Results: Profit shoots up 132% YoY to record Rs 1,075 crore; NII jumps 21%",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/idfc-first-bank-q1-results-profit-shoots-up-132-yoy-to-record-rs-1075-crore-nii-jumps-21/articleshow/132624296.cms",
+      "summary": "IDFC First Bank Q1 Results: IDFC FIRST Bank on Saturday reported its highest-ever quarterly profit after tax (PAT) of Rs 1,075 crore for the quarter ended June 30, 2026, marking a 132.4% year-on-year increase from Rs 463 crore in the corresponding quarter last year.",
+      "published_at": "2026-07-25T11:14:49+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.069635+00:00",
+      "intelligence_score": 15.4,
+      "rank": 80,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "8f22c30b48bec44e",
+      "title": "Synth historian Oli Freke will spend big on a good bicycle",
+      "url": "https://www.theverge.com/entertainment/971013/oli-freke-bjooks-beat-gems-drum-machine-book-interview",
+      "summary": "Oli Freke is a musician and journalist whose works have appeared in Sound on Sound, The Quietus, and Mixmag. This has included using math to explore the melodic potential of the Western 12-tone scale and deep dives on effects plug-ins. He's even written a book tracing the evolution of the synthesizer from 1963 through 1995, [\u2026]",
+      "published_at": "2026-07-25T15:15:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.567263+00:00",
+      "intelligence_score": 14.82,
+      "rank": 81,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "e7aaafc81fe988bf",
+      "title": "Teenage Engineering\u2019s unique music machines are 30 percent off",
+      "url": "https://www.theverge.com/gadgets/970685/teenage-engineering-30-percent-deal-sale",
+      "summary": "With elements from synthesizers, loopers, and effects pedals, Teenage Engineering\u2019s devices lie somewhere between musical instrument and modern art. These grooveboxes, as they\u2019re often called, are capable of helping you produce songs in real time from a single unit, with an eye-catching design language. A wide swath of the brand\u2019s offerings are 30 percent off [\u2026]",
+      "published_at": "2026-07-25T15:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.567325+00:00",
+      "intelligence_score": 14.82,
+      "rank": 82,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "59b224f8e2a1babd",
+      "title": "Why Leatherology Makes Some of the Best Totes for Work (2026)",
+      "url": "https://www.wired.com/story/leatherology-totes-for-carrying-tech/",
+      "summary": "I packed these Leatherology totes with laptops, chargers, and everything else my workday demands. Months later, they\u2019re still the bags I keep reaching for.",
+      "published_at": "2026-07-25T10:38:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:55.344067+00:00",
+      "intelligence_score": 14.82,
+      "rank": 83,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "95d39fa2aa09f9d7",
+      "title": "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
+      "url": "https://www.wired.com/story/best-laptops/",
+      "summary": "I\u2019ve been reviewing laptops for over a decade, and here's my advice on how to find the right laptop for you.",
+      "published_at": "2026-07-25T10:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:55.344165+00:00",
+      "intelligence_score": 14.82,
+      "rank": 84,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "ec00f19e5152a495",
+      "title": "\u2018The Odyssey\u2019 Was Made for Imax 70mm. Good Luck Watching It That Way",
+      "url": "https://www.wired.com/story/the-odyssey-was-made-for-imax-70mm-good-luck-watching-it-that-way/",
+      "summary": "Over the last several years, the Imax format has taken on a few different forms\u2014but only a few dozen theaters are capable of screening it in its full glory.",
+      "published_at": "2026-07-25T10:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:55.344209+00:00",
+      "intelligence_score": 14.82,
+      "rank": 85,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "7d0960018c249318",
+      "title": "Tankers Sail Through Red Sea Despite Houthi Blockade",
+      "url": "https://www.nytimes.com/2026/07/25/business/energy-environment/houthi-blockade-red-sea-maps.html",
+      "summary": "Dozens of ships continued to traverse the Red Sea this week, but with scattered disruption, uncertainty about the passage grows by the hour.",
+      "published_at": "2026-07-25T09:02:11+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:04.293696+00:00",
+      "intelligence_score": 14.53,
+      "rank": 86,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 18.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": [
+          "artificial_intelligence"
+        ]
+      }
+    },
+    {
+      "id": "15d04845b1aefff8",
+      "title": "The Universe can outrun light without breaking Einstein\u2019s rules",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260724061444.htm",
+      "summary": "Cosmic expansion allows distant galaxies to move away faster than light, while still letting us see ancient light they emitted when they were much closer. Eventually, accelerating expansion will push nearly every galaxy beyond our Local Group out of sight, making the Universe appear almost empty.",
+      "published_at": "2026-07-25T13:17:03+00:00",
+      "source_name": "Science Daily",
+      "source_url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "category": "science",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:05.799804+00:00",
+      "intelligence_score": 9.45,
+      "rank": 87,
+      "category_weight": 0.9,
+      "score_breakdown": {
+        "topic_score": 13.0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 0.9,
+        "matched_topics": [
+          "energy_transition"
+        ]
+      }
+    },
+    {
+      "id": "5573cc0177a4a4a2",
+      "title": "Amid NEET exam row, doctor sparks debate on merit vs privilege \u2014 \u2018I just had better odds\u2019",
+      "url": "https://www.livemint.com/news/trends/amid-neet-exam-row-doctor-sparks-debate-on-merit-vs-privilege-i-just-had-better-odds-11785041154612.html",
+      "summary": "A doctor highlighted the impact of privilege on success, contrasting her own medical admission with her husband's struggles. She argued that life chances, shaped by background, often overshadow merit in determining outcomes.",
+      "published_at": "2026-07-26T06:23:22+00:00",
+      "source_name": "Mint",
+      "source_url": "https://www.livemint.com/rss/news",
+      "category": "india",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:02.214061+00:00",
+      "intelligence_score": 1.1,
+      "rank": 88,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "7f091d2eb0917ab7",
+      "title": "AU Small Finance Bank Q1 net profit jumps 37% to Rs 796 crore",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/au-small-finance-bank-q1-net-profit-jumps-37-to-rs-796-crore/articleshow/132623086.cms",
+      "summary": "AU Small Finance Bank recorded a 37% surge in Q1 net profit to Rs 796 crore, driven by robust loan growth and improved asset quality. Gross NPA dropped to 2.1%, while net interest income grew 32% to Rs 2,695 crore.",
+      "published_at": "2026-07-25T09:51:24+00:00",
+      "source_name": "Economic Times",
+      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.069692+00:00",
+      "intelligence_score": 0.95,
+      "rank": 89,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 1,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "ffe7b4876dd21c55",
+      "title": "Flipkart\u2019s Digital Mall Now Has A Food Court",
+      "url": "https://inc42.com/features/flipkarts-digital-mall-now-has-a-food-court/",
+      "summary": "When Flipkart entered quick commerce last year, many were sceptical of the move, as the ecommerce giant was seen as\u2026",
+      "published_at": "2026-07-26T05:30:23+00:00",
+      "source_name": "Inc42",
+      "source_url": "https://inc42.com/feed/",
+      "category": "india",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:11:02.776292+00:00",
+      "intelligence_score": 0.0,
+      "rank": 90,
+      "category_weight": 1.3,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.3,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "cc826d6ca71e003f",
+      "title": "Left-wing Democrats are on a winning run - but can they lure back crucial swing voters?",
+      "url": "https://www.bbc.co.uk/news/articles/c5y3rrd32jlo?at_medium=RSS&at_campaign=rss",
+      "summary": "They have seen a flurry of recent wins, but Michigan will test their ability to win back working-class voters in crucial states.",
+      "published_at": "2026-07-26T03:58:51+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853326+00:00",
+      "intelligence_score": 0.0,
+      "rank": 91,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "01e3cfd13a94079e",
+      "title": "Would you pay $58.5m to live in this iconic New York building?",
+      "url": "https://www.bbc.co.uk/news/articles/c20e5r1pvvdo?at_medium=RSS&at_campaign=rss",
+      "summary": "With its renovation nearly complete, the Flatiron is ready for its next - and most extravagant - phase of life.",
+      "published_at": "2026-07-26T00:05:03+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853425+00:00",
+      "intelligence_score": 0.0,
+      "rank": 92,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "ce0ac14afb838725",
+      "title": "Iraq to Sign Agreement with Syria on Building of Oil Pipelines",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/iraq-to-sign-agreement-with-syria-on-building-of-oil-pipelines",
+      "summary": "Iraq will sign an agreement with Syria on the construction of pipelines linking oil production sites to global export markets via the Mediterranean, according to a statement.",
+      "published_at": "2026-07-25T23:34:54+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429795+00:00",
+      "intelligence_score": 0.0,
+      "rank": 93,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "09581aa2cd587012",
+      "title": "Pizza, pasta, potatoes, protein - how Italian children became so overweight",
+      "url": "https://www.bbc.co.uk/news/articles/c33y3151vydo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Mediterranean diet was a blueprint for healthy living, yet Italian children are among the most overweight in Europe according to WHO.",
+      "published_at": "2026-07-25T23:30:07+00:00",
+      "source_name": "BBC World News",
+      "source_url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "geopolitics",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:00.853511+00:00",
+      "intelligence_score": 0.0,
+      "rank": 94,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.9,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "0ce5e41753e2d12a",
+      "title": "The \u2018Trump Trade\u2019 Is Turning Into a Loser in the Stock Market",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/the-trump-trade-is-turning-into-a-loser-in-the-stock-market",
+      "summary": "When Donald Trump was elected to a second term as president, amateur and professional traders alike rushed to identify which stocks would benefit from his aggressive economic policies.",
+      "published_at": "2026-07-25T13:00:01+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.429879+00:00",
+      "intelligence_score": 0.0,
+      "rank": 95,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "ad976b174d484fc0",
+      "title": "Is this e-reader case a gun?",
+      "url": "https://www.theverge.com/tech/970343/e-reader-case-3d-printed-gun",
+      "summary": "Is an e-reader case as dangerous as a Glock 19? Last month, Louisville, Kentucky-based creator Luke The Maker showed off a bizarre, 3D-printed, pistol-shaped case design for the popular minimalist Xteink X4 e-reader. The X4 lies vertically atop the plastic gun's slide, with a cutout on the side to access its buttons. Though the frame [\u2026]",
+      "published_at": "2026-07-25T13:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.567454+00:00",
+      "intelligence_score": 0.0,
+      "rank": 96,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "00ba48a77be6eee9",
+      "title": "Sell the Company for $400 Million? He\u2019s Giving It Away Instead.",
+      "url": "https://www.nytimes.com/2026/07/25/business/grady-white-boats-charity.html",
+      "summary": "After his sole heir died, Eddie Smith, the owner of Grady-White Boats, looked for a way to pass on his legacy. He was inspired by Patagonia to pledge future profits to charity.",
+      "published_at": "2026-07-25T12:00:10+00:00",
+      "source_name": "Dealbook (NYT)",
+      "source_url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+      "category": "finance",
+      "source_weight": 0.85,
+      "fetched_at": "2026-07-26T08:11:04.293583+00:00",
+      "intelligence_score": 0.0,
+      "rank": 97,
+      "category_weight": 1.0,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 0.85,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.0,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "8d35f1f6f7c667bd",
+      "title": "What Surrounds Us will make you think a lot about circles",
+      "url": "https://www.theverge.com/games/961183/what-surrounds-us-review-pc-steam",
+      "summary": "What Surrounds Us takes its title literally. You play as a circle surrounding a hole in its middle - it looks like a donut with frosting. You work together with other sentient moving circles, sometimes helping them joyfully meet with others. And you traverse a large map that's composed entirely of, you guessed it, a [\u2026]",
+      "published_at": "2026-07-25T12:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.567505+00:00",
+      "intelligence_score": 0.0,
+      "rank": 98,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "cebcc1344fe13a3d",
+      "title": "Folding and flipping phones are getting seriously good",
+      "url": "https://www.theverge.com/tech/971004/z-fold8-xteink-x4-light-flip-installer",
+      "summary": "Hi, friends! Welcome to Installer No. 137, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, happy phone season, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Google Zero and armored cars for rich people, watching a [\u2026]",
+      "published_at": "2026-07-25T12:00:00+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:54.567551+00:00",
+      "intelligence_score": 0.0,
+      "rank": 99,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "074d7d7c4b5e7317",
+      "title": "How Many Electrolytes Should You Be Taking, and Can You Have Too Many?",
+      "url": "https://www.wired.com/story/how-many-electrolytes-should-you-be-taking-and-can-you-have-too-many/",
+      "summary": "Electrolyte powders promise better hydration, energy, and recovery. But unless you\u2019re losing serious fluid, water and food probably have you covered.",
+      "published_at": "2026-07-25T09:00:00+00:00",
+      "source_name": "Wired",
+      "source_url": "https://www.wired.com/feed/rss",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-07-26T08:10:55.344342+00:00",
+      "intelligence_score": 0.0,
+      "rank": 100,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": []
+      }
+    },
+    {
+      "id": "19d5bc6c902f5235",
+      "title": "Saudi Arabia-Bound Supertanker U-Turns Before Houthi Chokepoint",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-25/chinese-supertanker-u-turns-to-shun-red-sea-amid-houthi-blockade",
+      "summary": "A Hong Kong-flagged supertanker bound for Saudi Arabia\u2019s Red Sea port of Yanbu has U-turned just before reaching the Bab el-Mandeb chokepoint, where recent attacks were launched by the Houthis as part of a blockade on ships linked to the kingdom.",
+      "published_at": "2026-07-25T08:53:45+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-07-26T08:10:59.430086+00:00",
+      "intelligence_score": 0.0,
+      "rank": 101,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": []
+      }
+    }
+  ]
+}
