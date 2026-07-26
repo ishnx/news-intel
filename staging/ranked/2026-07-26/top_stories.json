@@ -2,35 +2,36 @@
   "metadata": {
     "date": "2026-07-26",
     "top_n": 1,
-    "selected_at": "2026-07-26T08:11:06.135031+00:00"
+    "selected_at": "2026-07-26T18:58:54.616136+00:00"
   },
   "stories": [
     {
-      "id": "1648a86c7d739800",
-      "title": "'Symbol of Atmanirbhar Bharat': PM Modi highlights INS Mahendragiri in Mann Ki Baat",
-      "url": "https://www.livemint.com/news/india/symbol-of-atmanirbhar-bharat-pm-modi-highlights-ins-mahendragiri-in-mann-ki-baat-11785049771237.html",
-      "summary": "PM Narendra Modi hailed INS Mahendragiri as a symbol of 'Atmanirbhar Bharat' in Mann Ki Baat, saying the warship was designed and built in India with over 75% indigenous content. He also highlighted recent DRDO missile tests and India's growing defence capabilities.",
-      "published_at": "2026-07-26T07:15:50+00:00",
+      "id": "9fce2ee49315ec02",
+      "title": "CJP Protest: Surveillance notice sent to Jantar Mantar demonstrators? Delhi Police say it's 'fake and misleading\u2019",
+      "url": "https://www.livemint.com/news/india/cjp-protest-delhi-police-fact-checks-surveillance-notice-asking-people-to-appear-before-io-calls-it-fake-mislead-11785077173212.html",
+      "summary": "CJP protest: A fake notice claiming Delhi Police is using facial recognition to identify individuals in restricted areas has gone viral. The police have dismissed it as fabricated and urged the public to avoid spreading misinformation, emphasising the notice has no authenticity.",
+      "published_at": "2026-07-26T16:17:59+00:00",
       "source_name": "Mint",
       "source_url": "https://www.livemint.com/rss/news",
       "category": "india",
       "source_weight": 0.85,
-      "fetched_at": "2026-07-26T08:11:02.213933+00:00",
-      "intelligence_score": 111.82,
+      "fetched_at": "2026-07-26T18:58:51.279532+00:00",
+      "intelligence_score": 100.67,
       "rank": 1,
       "category_weight": 1.3,
       "score_breakdown": {
-        "topic_score": 59.2,
+        "topic_score": 64.0,
         "source_multiplier": 1.1,
-        "entity_bonus": 15,
-        "keyword_bonus": 2,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
         "recency_multiplier": 1.1,
         "novelty_multiplier": 1.0,
         "category_weight": 1.3,
         "matched_topics": [
           "artificial_intelligence",
-          "geopolitics",
-          "india"
+          "india",
+          "semiconductors",
+          "china"
         ]
       }
     }
