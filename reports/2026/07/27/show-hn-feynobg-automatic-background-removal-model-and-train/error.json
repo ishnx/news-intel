@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "9a0ea0eefda48824",
+    "title": "Show HN: FeyNoBg \u2013 Automatic background removal model and training library",
+    "url": "https://usefeyn.com/blog/feynobg/",
+    "summary": "Hey HN, I\u2019m Shreyash from Feyn. We help companies build custom models from their data. Today, we\u2019re releasing FeyNoBg, an automatic background removal model. Alongside it, we're open-sourcing NoBg, the Python library we built to train and run it. Try the model here:  https://huggingface.co/spaces/feyninc/feynobg . Check out the library here:  https://github.com/feyninc/nobg Some sample outputs: (1) Soccer Freekick:  https://drive.google.com/file/d/1MZkAGLwbhNVOZ0Oi7XvpCfSEu9Q... (2) Hair in wind:  https://drive.google.com/file/d/1Odc2m0XMVH9uZtvI_KjaRbXzhLL... (3) Bicycle with visible spokes:  https://drive.google.com/file/d/1h99ahjfrtS1MFQJJgiKE2fuM3HZ... (4) Live Demo video:  https://youtu.be/b1heHPvY8BM Background removal separates an image's subject from its surrounding. We've all tried it at some point. Often it is to reuse the subject in a different artifact. Nowadays, it is common to make chat stickers out of it. It is one of the most common but under-appreciated uses of AI. It is also surprisingly complex. Models can be easily confused by camouflage, motion blur, or fine structures like hair. The task requires two skills. First, a model has to identify the foreground. Second, it has to trace the foreground\u2019s boundary and estimate an opacity value for each pixel. Generally, these skills are taught with different datasets. That creates a failure point. A poor training mix can improve one skill at the expense of the other. We saw this in our controlled evaluation. A training run with just the MaskFactory dataset improved on the CAMO benchmark but regressed on DIS5K. For FeyNoBg, we took an interpretability-first approach to training. We first studied how BiRefNet\u2019s stages contribute to finding the foreground and reconstructing its boundary. We discovered that the third stage of it's feature extractor holds a lot of information. Both localization and boundary reconstruction depend heavily on the feature map produced here. This led us to expand this stage from 18 to 24 blocks while preserving the pre-trained weights. We then trained FeyNoBg on 26.1K diverse examples assembled from 10 datasets. The goal was to improve foreground identification and boundary precision without sacrificing either one. Across eight benchmarks, FeyNoBg achieves the best published score on four and comes within 2% of the leader on the rest. Building FeyNoBg also exposed a tooling problem. Image matting models are usually released as isolated repositories with incompatible preprocessing, training, and evaluation code. We built NoBg to solve this. NoBg puts these workflows behind one Python interface. It supports BiRefNet today, with more architectures coming. We hope you build something exciting with it! Happy to answer any questions! \n \n Comments URL:  https://news.ycombinator.com/item?id=49072462 \n Points: 36 \n # Comments: 12",
+    "published_at": "2026-07-27T16:59:08+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-07-27T19:14:49.852948+00:00",
+    "intelligence_score": 142.48,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 77.9,
+      "source_multiplier": 1.3,
+      "entity_bonus": 8,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "regulation_policy"
+      ]
+    }
+  },
+  "timestamp": "2026-07-27T19:14:59.003015+00:00"
+}
