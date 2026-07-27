@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-07-27",
+    "top_n": 1,
+    "selected_at": "2026-07-27T09:34:20.210783+00:00"
+  },
+  "stories": [
+    {
+      "id": "b150af2c21b6ad78",
+      "title": "Chinese chip champion CXMT soars 466% in market debut",
+      "url": "https://www.ft.com/content/8e82e939-908b-42bf-a314-0bb02a3f1b07?syn-25a6b1a6=1",
+      "summary": "Tech group briefly becomes China\u2019s most valuable listed company in mainland\u2019s biggest IPO since 2010",
+      "published_at": "2026-07-27T07:29:15+00:00",
+      "source_name": "Financial Times",
+      "source_url": "https://www.ft.com/rss/home",
+      "category": "macro",
+      "source_weight": 0.95,
+      "fetched_at": "2026-07-27T09:34:13.930093+00:00",
+      "intelligence_score": 115.87,
+      "rank": 1,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 68.4,
+        "source_multiplier": 1.4,
+        "entity_bonus": 0,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.1,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "semiconductors",
+          "venture_capital",
+          "china"
+        ]
+      }
+    }
+  ]
+}
