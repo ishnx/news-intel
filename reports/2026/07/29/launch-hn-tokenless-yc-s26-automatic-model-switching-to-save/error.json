@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "5f61daa2cf4a1ed0",
+    "title": "Launch HN: Tokenless (YC S26) \u2013 Automatic model switching to save money",
+    "url": "https://usetokenless.com/",
+    "summary": "Hi HN, Rohit here from Tokenless ( https://usetokenless.com/ ), which I\u2019m building alongside co-founders Andrew and Kev. We\u2019re building an API gateway which routes agent traffic dynamically turn-by-turn between different models to save on AI spend. The cost of AI tokens is top-of-mind for many. Companies like Uber and Salesforce have been complaining about blowing their yearly AI spend faster than expected. Frontier models are amazing for dev work, but are so expensive. Open-source models are cheap and rapidly improving, closing the gap with frontier models, but aren\u2019t quite there yet. Tokenless gets you the best of both worlds\u2013routing harder turns to smarter models only when needed, which keeps costs low. Before Tokenless, I was doing a PhD at Princeton. While using coding/other agents, I constantly agonized over model choice, to make sure my AI spend was going as far as possible on my academic Cursor account. At the same time, I was doing LLM research, and a small technique I developed while in recovery from NeurIPS submission season seemed to hit SOTA pretty fast. I was surprised that such simple ideas could do routing well. We\u2019ve been able to develop a version of the router that matches the performance of Claude Fable 5 at half the cost. The blog post on our website explores the technical details on how we did this ( https://usetokenless.com/blog/building-tokenless/ ). Highlights:\n- Our approach queries multiple models at once and uses their progress to make decisions (this technique is novel AFAIK, let us know if you know anyone else doing this).\n- Switching models doesn\u2019t destroy the cache if the routing algorithm is aware of when the cache is hot/cold. To come:\n- Adding Kimi K3, all other GPT efforts and more to the router Go ahead and sign up on usetokenless.com and try using Tokenless with your agent, you\u2019ll get $20 of free credit. Here\u2019s a demo on how to use it:  https://youtu.be/sjZWriclcls Tokenless provides frontier-level intelligence for cheaper, so we\u2019d love some feedback on how it feels to use, any corner cases that the router routes incorrectly, and whether you find the routing problem interesting! \n \n Comments URL:  https://news.ycombinator.com/item?id=49099143 \n Points: 36 \n # Comments: 36",
+    "published_at": "2026-07-29T15:55:27+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-07-29T18:59:53.504551+00:00",
+    "intelligence_score": 147.84,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.3,
+      "entity_bonus": 16,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "semiconductors",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-07-29T19:00:02.801136+00:00"
+}
