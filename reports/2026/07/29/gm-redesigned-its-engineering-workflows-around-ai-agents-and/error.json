@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "67958797bb06e905",
+    "title": "GM redesigned its engineering workflows around AI agents \u2014 and tripled its merged pull requests",
+    "url": "https://venturebeat.com/orchestration/gm-redesigned-its-engineering-workflows-around-ai-agents-and-tripled-its-merged-pull-requests",
+    "summary": "Software engineers at  General Motors' (GM's) autonomous driving division  spend only 15% of their time writing code, according to Rashed Haq, GM's VP of autonomous vehicles, in a recent onstage interview at  VB Transform 2026. GM is now using AI agents to accelerate much of the other 85%\u2014including analyzing vehicle data, triaging problems, running experiments and testing potential fixes. The result, Haq said, is roughly three times as many merged pull requests across GM\u2019s autonomous vehicle engineering organization, faster releases and fewer defects escaping into later stages of development. Haq said GM achieved those gains by redesigning complete engineering workflows around agents \u2014 not merely adding an AI coding assistant. \u201cIf you give somebody just a chatbot which can do coding, there\u2019s still a lot of inefficiency built into that process,\u201d Haq said during a main-stage fireside chat at the luxurious Hotel Nia in Menlo Park, California. Engineers spent most of their time outside the code editor before agentic AI GM\u2019s 15% figure may sound strikingly low, but research conducted before the rise of generative and agentic AI reached a similar conclusion. A  2019 Microsoft study  based on responses from 5,971 professional developers found that they spent an average of 96 minutes writing code on good workdays and 66 minutes on bad ones. That equals roughly 20% and 14% of an eight-hour day, respectively. A  2018 Stripe survey  found that the average developer spent more than 17 hours each week on maintenance work such as debugging and refactoring. There is no single industry benchmark: the Microsoft researchers noted that earlier studies placed coding anywhere from 9% to 61% of developers\u2019 time, depending on how researchers defined and measured the work. But the findings reinforce Haq\u2019s central argument. Long before agents arrived, writing code represented only one part of software engineering. Accelerating that step alone leaves much of the development process untouched. \u201cDoing it by loop became really important,\u201d Haq said. GM divided its autonomous vehicle work into several loops: developing and testing software in simulation, testing vehicles on public roads and monitoring vehicles after they reach customers. It then looked for the longest bottleneck in each loop, automated it and repeated the process. GM gave agents access to internal tools and data GM connected agents to internal tools and petabytes of company data through customized Model Context Protocol (MCP) servers. It also created version-controlled \u201cskills,\u201d or instruction documents that tell agents how to perform specific tasks. One high-value application involves telemetry collected from vehicles on public roads. Agents can analyze that data, conduct an initial triage and create issues for engineers to investigate. Through MCP connections, they can also call the underlying tools used by WebViz, GM\u2019s system for visualizing vehicle telemetry, rather than relying on the same graphical inter",
+    "published_at": "2026-07-28T17:29:58+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-07-29T08:23:49.217194+00:00",
+    "intelligence_score": 118.4,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 30,
+      "keyword_bonus": 2,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "regulation_policy"
+      ]
+    }
+  },
+  "timestamp": "2026-07-29T08:23:59.355214+00:00"
+}
