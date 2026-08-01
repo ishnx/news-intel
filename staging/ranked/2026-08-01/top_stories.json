@@ -2,37 +2,37 @@
   "metadata": {
     "date": "2026-08-01",
     "top_n": 1,
-    "selected_at": "2026-08-01T08:06:24.142986+00:00"
+    "selected_at": "2026-08-01T18:56:56.354159+00:00"
   },
   "stories": [
     {
-      "id": "7236af0260331d94",
-      "title": "How is your enterprise tracking AI agent telemetry? Groundcover thinks it should never leave your cloud",
-      "url": "https://venturebeat.com/data/how-is-your-enterprise-tracking-ai-agent-telemetry-groundcover-thinks-it-should-never-leave-your-cloud",
-      "summary": "The AI agent observability space is taking off \u2014 but how can enterprises be sure what observability products and solutions they need? Observability startup groudcover (lower case \"g\" intentional)  announced this week  that it raised $100 million in a round led by One Peak, bringing its total funding to $160 million.  The company says it has more than 250 paying customers, tripled annual recurring revenue over the past year and is increasingly replacing established observability platforms inside enterprise environments. Those are company-reported figures, but together they point to growing momentum in one of enterprise software's most competitive markets. That market has long been dominated by companies including Datadog, Dynatrace, New Relic, Splunk and Grafana. Between them, they represent billions of dollars in annual revenue and years of product maturity. Breaking into that group has never been easy. groundcover's argument is that artificial intelligence has fundamentally changed the assumptions those platforms were built on. Rather than competing feature for feature, the four-year-old company is trying to convince enterprises that the architecture underpinning observability itself needs to change as AI systems become more autonomous, produce vastly more telemetry and increasingly participate in software operations. Whether that thesis proves correct remains an open question, but it offers a compelling lens through which to examine how observability is evolving alongside enterprise AI. AI is turning telemetry into an infrastructure problem Observability has traditionally been viewed as a post-production discipline. Engineers deploy applications, monitor logs, metrics and traces, investigate incidents, and improve reliability over time. That workflow is changing. AI-assisted software development has dramatically accelerated deployment cycles. Coding assistants generate more code, infrastructure evolves more rapidly, and organizations are deploying increasingly complex distributed systems that combine microservices, Kubernetes clusters, APIs and large language models. At the same time, enterprises are beginning to operate AI agents that execute multi-step workflows, call external tools and interact with production systems. Each of those activities generates telemetry. The result is an explosion of operational data that organizations increasingly want to retain rather than discard. AI applications introduce additional layers of observability beyond traditional infrastructure monitoring, including prompt execution, model latency, token consumption, retrieval pipelines, tool invocations and agent behavior. As enterprises experiment with autonomous systems, that telemetry becomes increasingly valuable because it provides the context needed to understand what an AI system actually did and why. For many organizations, this creates tension with pricing models that charge according to the amount of data ingested. Historically, engineers have often respo",
-      "published_at": "2026-07-31T19:20:00+00:00",
-      "source_name": "VentureBeat",
-      "source_url": "https://venturebeat.com/feed/",
-      "category": "technology",
-      "source_weight": 0.7,
-      "fetched_at": "2026-08-01T08:06:12.561918+00:00",
-      "intelligence_score": 109.4,
+      "id": "69ffd8be7b0644b3",
+      "title": "Fewer Fed Meetings Could Fuel Market Volatility",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-01/fewer-fed-meetings-could-fuel-market-volatility-video",
+      "summary": "Federal Reserve Chairman Kevin Warsh is considering reducing the number of Federal Reserve policy meetings, which drew concern from economists and market strategists, who say fewer scheduled decisions could increase uncertainty and make policy moves more disruptive. Bloomberg News International Economics & Policy Correspondent Mike McKee and Seaport Research Partners and Chief Equity Strategist Jonathan Golub join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss these concerns and strong corporate earnings, widening credit spreads and debate over the economic impact of artificial intelligence. (Source: Bloomberg)",
+      "published_at": "2026-08-01T11:57:14+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-08-01T18:56:45.281449+00:00",
+      "intelligence_score": 107.94,
       "rank": 1,
-      "category_weight": 1.2,
+      "category_weight": 1.1,
       "score_breakdown": {
         "topic_score": 80,
-        "source_multiplier": 0.9,
-        "entity_bonus": 23,
-        "keyword_bonus": 0,
-        "recency_multiplier": 1.0,
+        "source_multiplier": 1.1,
+        "entity_bonus": 8,
+        "keyword_bonus": -2,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.2,
+        "category_weight": 1.1,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
-          "india",
           "semiconductors",
-          "energy_transition"
+          "energy_transition",
+          "central_banks"
         ]
       }
     }

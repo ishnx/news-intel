@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "69ffd8be7b0644b3",
+    "title": "Fewer Fed Meetings Could Fuel Market Volatility",
+    "url": "https://www.bloomberg.com/news/videos/2026-08-01/fewer-fed-meetings-could-fuel-market-volatility-video",
+    "summary": "Federal Reserve Chairman Kevin Warsh is considering reducing the number of Federal Reserve policy meetings, which drew concern from economists and market strategists, who say fewer scheduled decisions could increase uncertainty and make policy moves more disruptive. Bloomberg News International Economics & Policy Correspondent Mike McKee and Seaport Research Partners and Chief Equity Strategist Jonathan Golub join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss these concerns and strong corporate earnings, widening credit spreads and debate over the economic impact of artificial intelligence. (Source: Bloomberg)",
+    "published_at": "2026-08-01T11:57:14+00:00",
+    "source_name": "Bloomberg Markets (via RSS)",
+    "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "macro",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-01T18:56:45.281449+00:00",
+    "intelligence_score": 107.94,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.1,
+      "entity_bonus": 8,
+      "keyword_bonus": -2,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "semiconductors",
+        "energy_transition",
+        "central_banks"
+      ]
+    }
+  },
+  "timestamp": "2026-08-01T18:56:57.278930+00:00"
+}
