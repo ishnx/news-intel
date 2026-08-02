@@ -2,36 +2,37 @@
   "metadata": {
     "date": "2026-08-02",
     "top_n": 1,
-    "selected_at": "2026-08-02T08:08:01.159682+00:00"
+    "selected_at": "2026-08-02T18:58:04.561425+00:00"
   },
   "stories": [
     {
-      "id": "2c6de0044d0da088",
-      "title": "\u2018GenZ against addiction\u2019: PM Modi launches 'Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan' \u2014 Explained",
-      "url": "https://www.livemint.com/news/india/pm-modi-genz-nasha-mukt-yuva-for-viksit-bharat-sankalp-abhiyan-govt-nationwide-initiative-to-build-drug-free-india-11785654467072.html",
-      "summary": "PM Modi launched the \u2018Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan\u2019 at 11 am on August 2, 2026. He called upon young Indians to take the pledge against substance abuse and participate in 100 weeks of awareness and community activities to build a drug-free India.",
-      "published_at": "2026-08-02T07:49:33+00:00",
-      "source_name": "Mint",
-      "source_url": "https://www.livemint.com/rss/news",
-      "category": "india",
-      "source_weight": 0.85,
-      "fetched_at": "2026-08-02T08:07:57.879071+00:00",
-      "intelligence_score": 109.48,
+      "id": "6afb0054aeba79e2",
+      "title": "Show HN: Bor \u2013 Open-source policy management for Linux desktops",
+      "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+      "summary": "Hi HN! I've been working on Bor, an open-source system for centralized Linux desktop management. Bor consists of a lightweight Go agent and a central server. Policies are streamed to clients over mTLS/gRPC in real time\u2014no polling\u2014and currently support Firefox, Chrome, KDE, dconf, polkit and package management, with more coming. Version 0.8 introduces several new policy types - Thunderbird, Microsoft Edge for Business and FirewallD zones, along with a number of improvements and fixes. I'd love feedback on the architecture, policy model, and whether this is something you'd consider for managing Linux workstations. \n \n Comments URL:  https://news.ycombinator.com/item?id=49142569 \n Points: 142 \n # Comments: 19",
+      "published_at": "2026-08-02T09:06:33+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-08-02T18:57:46.569957+00:00",
+      "intelligence_score": 149.8,
       "rank": 1,
-      "category_weight": 1.3,
+      "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 69.6,
-        "source_multiplier": 1.1,
-        "entity_bonus": 0,
-        "keyword_bonus": 0,
-        "recency_multiplier": 1.1,
+        "topic_score": 80,
+        "source_multiplier": 1.3,
+        "entity_bonus": 23,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.0,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.3,
+        "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
           "geopolitics",
           "india",
-          "biotech_health"
+          "energy_transition",
+          "central_banks"
         ]
       }
     }

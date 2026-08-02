@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "6afb0054aeba79e2",
+    "title": "Show HN: Bor \u2013 Open-source policy management for Linux desktops",
+    "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+    "summary": "Hi HN! I've been working on Bor, an open-source system for centralized Linux desktop management. Bor consists of a lightweight Go agent and a central server. Policies are streamed to clients over mTLS/gRPC in real time\u2014no polling\u2014and currently support Firefox, Chrome, KDE, dconf, polkit and package management, with more coming. Version 0.8 introduces several new policy types - Thunderbird, Microsoft Edge for Business and FirewallD zones, along with a number of improvements and fixes. I'd love feedback on the architecture, policy model, and whether this is something you'd consider for managing Linux workstations. \n \n Comments URL:  https://news.ycombinator.com/item?id=49142569 \n Points: 142 \n # Comments: 19",
+    "published_at": "2026-08-02T09:06:33+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-02T18:57:46.569957+00:00",
+    "intelligence_score": 149.8,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.3,
+      "entity_bonus": 23,
+      "keyword_bonus": 2,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "central_banks"
+      ]
+    }
+  },
+  "timestamp": "2026-08-02T18:58:05.305447+00:00"
+}
