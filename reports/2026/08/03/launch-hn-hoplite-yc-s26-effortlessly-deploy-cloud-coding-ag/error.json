@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "82ebd7de37f2b400",
+    "title": "Launch HN: Hoplite (YC S26) \u2013 Effortlessly deploy cloud coding agents",
+    "url": "https://hoplite.sh",
+    "summary": "Hi HN, we\u2019re Bence and Ryan, founders of Hoplite ( https://hoplite.sh ). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MCP servers, and get your projects ready to run in the cloud. Here\u2019s a demo:  https://youtu.be/bnyktZ_9pjE We got here after pivoting away from the idea we applied to YC with; AI for retail investing. It ultimately wasn\u2019t a product that we ourselves would use, nor served a customer base that we felt connected to. In reflecting on what we really wanted to do, we realised that we loved talking to founders and developers, and were really opinionated about the specific area of cloud agents. We tried out all the existing solutions, and didn\u2019t find one that A) took good advantage of being in the cloud, and B) was performant and felt good to use. We\u2019re building a product that we feel reflects what mainstream development will look like in 6-12 months. As models improve, developers will end up reviewing less and less code, and will instead focus on reviewing the product output. That means evaluating new user flows, visually verifying that new features look good, that the API works as expected, that the CLI works on Windows, etc. And doing it while running hundreds of agents concurrently. On the agent side, we\u2019ve created a custom harness. We spent a lot of time deciding on whether we should use an off the shelf solution like Codex/Claude Code, but ultimately wanted the independence and freedom that came with building it in house. It also means that we can test out completely new features without relying on Anthropic and OpenAI to catch up. Everything is hosted on AWS, with the exception of: Temporal for durable workflows, Modal for sandboxes, and Planetscale for our database. Our infra decisions were driven by a strong belief that agents are becoming a tier 0 piece of infrastructure, and they need the reliability and security to match that. You can try it now for free with the code \u2018HACKERNEWS\u2019 - we\u2019ve included $100 in free credits, plus you can connect your Codex subscription and use OpenAI models via it. You can see some more details around our pricing at  https://hoplite.sh/pricing . At the moment we\u2019re focusing on optimising two key experiences: onboarding and previews, and would love to hear your feedback on them. And if you find that the agent's performance in certain tasks doesn\u2019t match your expectations, please let us know! \n \n Comments URL:  https://news.ycombinator.com/item?id=49157997 \n Points: 24 \n # Comments: 28",
+    "published_at": "2026-08-03T16:32:06+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-03T19:20:59.653501+00:00",
+    "intelligence_score": 155.09,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 67.3,
+      "source_multiplier": 1.3,
+      "entity_bonus": 38,
+      "keyword_bonus": -2,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "energy_transition",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-08-03T19:21:10.069376+00:00"
+}
