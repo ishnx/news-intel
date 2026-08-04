@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "f02530548f0bfcad",
+    "title": "Bloomberg News Now",
+    "url": "https://www.bloomberg.com/news/videos/2026-08-04/bloomberg-news-now-video-mseykvsn",
+    "summary": "Bloomberg News Now \n-u.s. says strait of hormuz deal could come within days\n-oil drops on besant comments as markets rally\n-semiconductor stocks surge, palantir jumps 25%\n-white house hosts ai firms on voluntary safety tests\n-anthropic signs $10b compute deal with volta infra\n-polymarket seeks $20b valuation in new funding round\n-spacex set to report first post\u2011ipo earnings\n-senate panel advances blanchard for attorney general\n-trade deficit widens as imports fall\n-fed\u2019s paulson keeps open mind on rate path\n-doj monitors polling sites in michigan primary (Source: Bloomberg)",
+    "published_at": "2026-08-04T17:55:21+00:00",
+    "source_name": "Bloomberg Markets (via RSS)",
+    "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "macro",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-04T19:20:01.330126+00:00",
+    "intelligence_score": 127.79,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 77.0,
+      "source_multiplier": 1.1,
+      "entity_bonus": 23,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "artificial_intelligence",
+        "semiconductors",
+        "venture_capital",
+        "central_banks",
+        "space"
+      ]
+    }
+  },
+  "timestamp": "2026-08-04T19:21:44.875322+00:00"
+}
