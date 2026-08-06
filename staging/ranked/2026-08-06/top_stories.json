@@ -2,35 +2,36 @@
   "metadata": {
     "date": "2026-08-06",
     "top_n": 1,
-    "selected_at": "2026-08-06T08:18:30.627803+00:00"
+    "selected_at": "2026-08-06T23:51:14.816573+00:00"
   },
   "stories": [
     {
-      "id": "4e7399188b594251",
-      "title": "Inside Intel: how America\u2019s chip champion came back from the brink",
-      "url": "https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f?syn-25a6b1a6=1",
-      "summary": "The group\u2019s shares have quadrupled, but it has yet to prove itself a serious manufacturing competitor to Taiwan\u2019s TSMC",
-      "published_at": "2026-08-06T04:00:15+00:00",
-      "source_name": "Financial Times",
-      "source_url": "https://www.ft.com/rss/home",
-      "category": "macro",
-      "source_weight": 0.95,
-      "fetched_at": "2026-08-06T08:18:23.758089+00:00",
-      "intelligence_score": 126.18,
+      "id": "dac781ad7a574503",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "summary": "https://ir.amd.com/news-events/press-releases/detail/1296/am... https://chatjimmy.ai/ \n \n Comments URL:  https://news.ycombinator.com/item?id=49201970 \n Points: 275 \n # Comments: 214",
+      "published_at": "2026-08-06T20:23:11+00:00",
+      "source_name": "Hacker News (Top Stories)",
+      "source_url": "https://hnrss.org/frontpage",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-08-06T23:51:03.470254+00:00",
+      "intelligence_score": 126.22,
       "rank": 1,
-      "category_weight": 1.1,
+      "category_weight": 1.2,
       "score_breakdown": {
-        "topic_score": 61.8,
-        "source_multiplier": 1.4,
-        "entity_bonus": 23,
-        "keyword_bonus": 2,
+        "topic_score": 66.8,
+        "source_multiplier": 1.3,
+        "entity_bonus": 16,
+        "keyword_bonus": 0,
         "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.1,
+        "category_weight": 1.2,
         "matched_topics": [
           "artificial_intelligence",
+          "geopolitics",
           "semiconductors",
-          "china"
+          "energy_transition"
         ]
       }
     }
