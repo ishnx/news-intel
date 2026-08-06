@@ -1,0 +1,33 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "4e7399188b594251",
+    "title": "Inside Intel: how America\u2019s chip champion came back from the brink",
+    "url": "https://www.ft.com/content/77ece212-2768-4abe-9af1-b40a0db27c8f?syn-25a6b1a6=1",
+    "summary": "The group\u2019s shares have quadrupled, but it has yet to prove itself a serious manufacturing competitor to Taiwan\u2019s TSMC",
+    "published_at": "2026-08-06T04:00:15+00:00",
+    "source_name": "Financial Times",
+    "source_url": "https://www.ft.com/rss/home",
+    "category": "macro",
+    "source_weight": 0.95,
+    "fetched_at": "2026-08-06T08:18:23.758089+00:00",
+    "intelligence_score": 126.18,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 61.8,
+      "source_multiplier": 1.4,
+      "entity_bonus": 23,
+      "keyword_bonus": 2,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "artificial_intelligence",
+        "semiconductors",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-08-06T08:18:31.521289+00:00"
+}
