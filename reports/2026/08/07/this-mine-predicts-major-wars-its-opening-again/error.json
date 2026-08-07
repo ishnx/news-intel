@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "147f8205a9983aa6",
+    "title": "This Mine Predicts Major Wars. It's Opening Again",
+    "url": "https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china/",
+    "summary": "Article URL:  https://www.bloomberg.com/graphics/2026-opinion-australia-tungsten-mine-us-war-defense-china/ \n Comments URL:  https://news.ycombinator.com/item?id=49212698 \n Points: 40 \n # Comments: 12",
+    "published_at": "2026-08-07T16:14:37+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-07T18:41:42.207290+00:00",
+    "intelligence_score": 124.63,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 67.5,
+      "source_multiplier": 1.3,
+      "entity_bonus": 8,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-08-07T18:41:53.166209+00:00"
+}
