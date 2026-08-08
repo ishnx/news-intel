@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "42fa8a18ba09894f",
+    "title": "Wall Street Week Ahead: Inflation data to test record-setting US stocks, Fed rate views",
+    "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-inflation-data-to-test-record-setting-us-stocks-fed-rate-views/articleshow/133046458.cms",
+    "summary": "Upcoming inflation data poses a challenge to the stock market's recent technology-driven surge. Analysts predict a rise in consumer prices, which might sway the Federal Reserve\u2019s monetary policy. Meanwhile, easing geopolitical concerns and dipping oil prices have provided some reprieve to investors. Strong corporate earnings are exceeding forecasts, fostering a positive outlook for stocks, while fluctuations in yields and oil prices are being meticulously observed.",
+    "published_at": "2026-08-08T04:26:57+00:00",
+    "source_name": "Economic Times",
+    "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
+    "category": "india",
+    "source_weight": 0.8,
+    "fetched_at": "2026-08-08T06:36:40.468535+00:00",
+    "intelligence_score": 102.96,
+    "rank": 1,
+    "category_weight": 1.3,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 0,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.3,
+      "matched_topics": [
+        "geopolitics",
+        "india",
+        "energy_transition",
+        "central_banks",
+        "regulation_policy"
+      ]
+    }
+  },
+  "timestamp": "2026-08-08T06:36:45.825075+00:00"
+}
