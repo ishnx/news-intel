@@ -2,36 +2,36 @@
   "metadata": {
     "date": "2026-08-08",
     "top_n": 1,
-    "selected_at": "2026-08-08T06:36:44.850980+00:00"
+    "selected_at": "2026-08-08T18:24:30.900218+00:00"
   },
   "stories": [
     {
-      "id": "42fa8a18ba09894f",
-      "title": "Wall Street Week Ahead: Inflation data to test record-setting US stocks, Fed rate views",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-inflation-data-to-test-record-setting-us-stocks-fed-rate-views/articleshow/133046458.cms",
-      "summary": "Upcoming inflation data poses a challenge to the stock market's recent technology-driven surge. Analysts predict a rise in consumer prices, which might sway the Federal Reserve\u2019s monetary policy. Meanwhile, easing geopolitical concerns and dipping oil prices have provided some reprieve to investors. Strong corporate earnings are exceeding forecasts, fostering a positive outlook for stocks, while fluctuations in yields and oil prices are being meticulously observed.",
-      "published_at": "2026-08-08T04:26:57+00:00",
-      "source_name": "Economic Times",
-      "source_url": "https://economictimes.indiatimes.com/rssfeedsdefault.cms",
-      "category": "india",
-      "source_weight": 0.8,
-      "fetched_at": "2026-08-08T06:36:40.468535+00:00",
-      "intelligence_score": 102.96,
+      "id": "05dc5bb9cfc7383c",
+      "title": "University of California Faculty Push to Bring Back SAT and ACT Score Consideration",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-08/uc-faculty-push-to-bring-back-sat-and-act-video",
+      "summary": "Thousands of University of California faculty members are pushing the system to reconsider its test free admissions policy, arguing that SAT and ACT scores could help identify students prepared for college-level work as concerns grow about grade inflation and AI use. Bloomberg News Education Policy Reporter Liam Knox explains to hosts David Gura and Christina Ruffini that the university has launched a faculty-led review, but opponents argue standardized tests can reinforce socioeconomic disparities, and UC says no change will affect students applying for fall 2027 admission. (Source: Bloomberg)",
+      "published_at": "2026-08-08T13:41:04+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-08-08T18:24:25.599665+00:00",
+      "intelligence_score": 88.94,
       "rank": 1,
-      "category_weight": 1.3,
+      "category_weight": 1.1,
       "score_breakdown": {
-        "topic_score": 80,
-        "source_multiplier": 0.9,
+        "topic_score": 70.0,
+        "source_multiplier": 1.1,
         "entity_bonus": 0,
         "keyword_bonus": 0,
-        "recency_multiplier": 1.1,
+        "recency_multiplier": 1.05,
         "novelty_multiplier": 1.0,
-        "category_weight": 1.3,
+        "category_weight": 1.1,
         "matched_topics": [
-          "geopolitics",
-          "india",
+          "artificial_intelligence",
           "energy_transition",
           "central_banks",
+          "china",
           "regulation_policy"
         ]
       }
