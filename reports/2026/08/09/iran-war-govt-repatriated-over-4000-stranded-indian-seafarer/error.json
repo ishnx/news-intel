@@ -1,0 +1,34 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "32ec156ee592e2cd",
+    "title": "Iran war: Govt repatriated over 4000 stranded Indian seafarers, says minister Sarbananda Sonowal",
+    "url": "https://www.livemint.com/news/india/iran-war-govt-repatriated-over-4000-stranded-indian-seafarers-says-minister-sarbananda-sonowal-11786236076891.html",
+    "summary": "\u201cIt is not easy to bring back more than 4000 seafarers to the nation safely\u2026,\u201d Union Shipping Minister Sarbananda Sonowal said while speaking at the Stakeholders' Interaction organised on the \u201csafety, security and welfare of seafarers\u201d on Saturday.",
+    "published_at": "2026-08-09T01:03:59+00:00",
+    "source_name": "Mint",
+    "source_url": "https://www.livemint.com/rss/news",
+    "category": "india",
+    "source_weight": 0.85,
+    "fetched_at": "2026-08-09T06:40:15.971634+00:00",
+    "intelligence_score": 102.85,
+    "rank": 1,
+    "category_weight": 1.3,
+    "score_breakdown": {
+      "topic_score": 67.8,
+      "source_multiplier": 1.1,
+      "entity_bonus": 0,
+      "keyword_bonus": 1,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.3,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "china"
+      ]
+    }
+  },
+  "timestamp": "2026-08-09T06:40:20.793971+00:00"
+}
