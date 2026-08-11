@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "798c9903cd4ce29a",
+    "title": "Launch HN: Keet (YC S24) \u2013 An app to create video courses on anything",
+    "url": "https://www.trykeet.com/",
+    "summary": "Hi HN! We\u2019re Zack and Tommy the Co-Founders of Keet ( https://trykeet.com ). We are building a mobile app that generates courses on any topic, with short videos for explanation and games for reinforcement. Courses mirror a real curriculum to help you learn over an extended period of time. Tommy and I met in linear algebra class in college and spent the next 4 years taking classes together. Our friendship was formed around learning new things. In school, someone else designs the curriculum, delivers the content, and writes the assessments. All you have to do is show up. Learning without this structure was frustrating, and there was a lot of friction to get started. Zack has a coffee obsession and struggled to assemble youtube videos, conversations with ChatGPT, and the books he was reading into a coherent understanding of all of the different variables that go into brewing a cup of coffee. His attempts gave him the freedom to follow his curiosity, but the instructional design was difficult. Every piece of content either presumed some prerequisite knowledge or none at all. Keet is our attempt at providing the autonomy to teach yourself anything while adding a structure conducive to learning. It finds a custom starting point and sequences lessons in a logical order. We have found Keet most useful in the following scenarios: - You have a subject matter interest that you enjoy passively learning about. (i.e. you really enjoy learning about medieval history and generate courses on medieval engineering) - You want to explore a niche topic of a subject area you already know a lot about. (i.e. You know a lot about biology but want to explore how migratory animals sense Earth\u2019s magnetic field.) - You see a really niche topic get mentioned somewhere you want to explore more (i.e History of Penny Universities, Double Entry Book keeping or Robert Moses and the creation of the BQE) When you create a course we ask some questions about how difficult it should be, how much depth the course should go into, and a few optional intent questions to understand what content you want to learn about. In the future, we\u2019d like to have a global prerequisite map so that we can understand what each user already knows, so we can generate tailored courses to someone\u2019s prerequisite knowledge. If someone majored in Computer Science, for example, their course should look pretty different to someone who might have no background in STEM. After understanding your goals and intent, we categorize the course based on Biglan categories. Biglan categories have four quadrants: - Hard\u2013Pure (e.g., mathematics, theoretical physics) - Hard-Applied (e.g., engineering, and applied sciences) - Soft\u2013Pure (e.g., history, literature, philosophy) - Soft-Applied (e.g., policy, management, education, social work) We use these categories to adjust instructions to better suit the topic. One instance of this is when searching for examples. A hard-pure course will look for worked problems, proofs, and real ",
+    "published_at": "2026-08-11T14:48:37+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-11T18:49:46.540356+00:00",
+    "intelligence_score": 139.44,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.3,
+      "entity_bonus": 8,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.05,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "india",
+        "energy_transition",
+        "venture_capital",
+        "regulation_policy"
+      ]
+    }
+  },
+  "timestamp": "2026-08-11T18:49:58.206638+00:00"
+}
