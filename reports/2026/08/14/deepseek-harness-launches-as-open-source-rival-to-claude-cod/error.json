@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "67f8cdb12ca6eaee",
+    "title": "DeepSeek Harness launches as open source rival to Claude Code, alongside V4-Pro on API with higher prices",
+    "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices",
+    "summary": "DeepSeek is expanding beyond the model layer and deeper into the software developers use to put AI agents to work. The Chinese AI lab on Thursday  launched the official version of DeepSeek-V4-Pro , an updated flagship model focused heavily on agentic workloads, alongside  DeepSeek Harness v0.1 , a new open-source agent harness that gives developers an alternative to integrated coding-agent environments such as Anthropic\u2019s Claude Code. Together, the releases amount to a broader developer push from DeepSeek. V4-Pro is now available across DeepSeek\u2019s web interface, mobile app and API, with native support for the OpenAI Responses API and integration with Codex.  DeepSeek Harness, meanwhile, is entering developer preview under the MIT license and the c ode is available now for download and use on GitHub . It's built around an unusually modular premise: practically every part of the agent runtime can be swapped out as a plugin. But developers accessing V4 through DeepSeek\u2019s API will soon pay considerably more for it. DeepSeek is simultaneously  abandoning its existing flat API pricing  in favor of peak and off-peak rates beginning at 16:00 UTC on Sunday, Aug. 16 (2 am ET).  Even the discounted off-peak cache-miss and output prices will be substantially higher than the prices available today. The combination is significant because DeepSeek is no longer competing solely over model intelligence and token prices. With Harness, it is moving into the layer that determines how models use tools, manipulate files, maintain sessions and execute long-running agent workflows \u2014 territory where Anthropic\u2019s Claude Code and other coding agents have become increasingly important developer products. DeepSeek builds its own agent harness DeepSeek describes Harness, or  dsh , as an open-source agent harness built on Cordis, a framework designed around composable plugins. Its guiding principle is simple:  \u201cEverything is a plugin.\u201d That extends to models, tools, skills, sessions, sandboxes, filesystems, loops, orchestration and user interfaces, according to DeepSeek. Rather than making those components fixed pieces of a single coding agent, Harness is designed to let developers mix, replace and extend them. The project is available under the MIT license and can currently be launched from npm with  npx @deepseek-ai/dsh web . DeepSeek also provides instructions for building it directly from source. The repository describes the software explicitly as a developer preview and warns that \u201cTHERE WILL BE COMPATIBILITY-BREAKING CHANGES.\u201d That caveat matters for enterprise developers. Harness is not yet being presented as a stable drop-in production platform. But its architecture points toward a potentially important strategy: DeepSeek can now offer developers not only models but an open framework for assembling the systems that surround them. That makes Anthropic's Claude Code and OpenAI's Codex useful competitive references, although the products should not be treated as functional",
+    "published_at": "2026-08-13T16:47:55+00:00",
+    "source_name": "VentureBeat",
+    "source_url": "https://venturebeat.com/feed/",
+    "category": "technology",
+    "source_weight": 0.7,
+    "fetched_at": "2026-08-14T07:11:43.571124+00:00",
+    "intelligence_score": 125.4,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 0.9,
+      "entity_bonus": 38,
+      "keyword_bonus": 1,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "india",
+        "semiconductors",
+        "energy_transition"
+      ]
+    }
+  },
+  "timestamp": "2026-08-14T07:11:56.030446+00:00"
+}
