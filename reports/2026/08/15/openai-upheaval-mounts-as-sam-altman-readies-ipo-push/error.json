@@ -1,0 +1,33 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "0e406fdc24456576",
+    "title": "OpenAI upheaval mounts as Sam Altman readies IPO push",
+    "url": "https://www.ft.com/content/53082739-7714-4aae-9816-e55ab423cbee?syn-25a6b1a6=1",
+    "summary": "Executive exits and safety team changes unsettle staff as the ChatGPT maker prepares for a blockbuster listing",
+    "published_at": "2026-08-15T04:00:31+00:00",
+    "source_name": "Financial Times",
+    "source_url": "https://www.ft.com/rss/home",
+    "category": "macro",
+    "source_weight": 0.95,
+    "fetched_at": "2026-08-15T06:22:54.380266+00:00",
+    "intelligence_score": 120.07,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 51.4,
+      "source_multiplier": 1.4,
+      "entity_bonus": 30,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "artificial_intelligence",
+        "india",
+        "venture_capital"
+      ]
+    }
+  },
+  "timestamp": "2026-08-15T06:23:04.019328+00:00"
+}
