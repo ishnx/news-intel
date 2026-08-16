@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-08-16",
+    "top_n": 1,
+    "selected_at": "2026-08-16T06:24:56.618122+00:00"
+  },
+  "stories": [
+    {
+      "id": "9c23112aec3236da",
+      "title": "Modi Puts Chips, Nuclear Power at Heart of India Push",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-15/modi-puts-chips-nuclear-power-at-heart-of-india-push",
+      "summary": "Prime Minister Narendra Modi used his Independence Day address to lay out an ambitious path toward making India a developed economy by 2047, emphasizing self-reliance, semiconductor manufacturing, AI and nuclear power. Joining hosts Joe Mathieu and Carol Massar on Bloomberg This Weekend to discuss the Prime Ministers speech is Bloomberg News Senior Reporter Dan Strumpf. (Source: Bloomberg)",
+      "published_at": "2026-08-15T12:21:43+00:00",
+      "source_name": "Bloomberg Markets (via RSS)",
+      "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+      "category": "macro",
+      "source_weight": 0.9,
+      "fetched_at": "2026-08-16T06:24:43.569544+00:00",
+      "intelligence_score": 108.11,
+      "rank": 1,
+      "category_weight": 1.1,
+      "score_breakdown": {
+        "topic_score": 80,
+        "source_multiplier": 1.1,
+        "entity_bonus": 15,
+        "keyword_bonus": 2,
+        "recency_multiplier": 0.95,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.1,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "india",
+          "semiconductors",
+          "energy_transition"
+        ]
+      }
+    }
+  ]
+}
