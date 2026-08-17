@@ -1,0 +1,33 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "e885f682146a5c72",
+    "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+    "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+    "summary": "Article URL:  https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/ \n Comments URL:  https://news.ycombinator.com/item?id=49323686 \n Points: 183 \n # Comments: 84",
+    "published_at": "2026-08-16T21:07:10+00:00",
+    "source_name": "Hacker News (Top Stories)",
+    "source_url": "https://hnrss.org/frontpage",
+    "category": "technology",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-17T06:35:50.999206+00:00",
+    "intelligence_score": 114.44,
+    "rank": 1,
+    "category_weight": 1.2,
+    "score_breakdown": {
+      "topic_score": 49.0,
+      "source_multiplier": 1.3,
+      "entity_bonus": 38,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.0,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.2,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "semiconductors"
+      ]
+    }
+  },
+  "timestamp": "2026-08-17T06:36:01.120064+00:00"
+}
