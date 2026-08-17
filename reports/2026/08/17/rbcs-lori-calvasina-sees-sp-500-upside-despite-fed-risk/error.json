@@ -1,0 +1,35 @@
+{
+  "error": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}",
+  "story": {
+    "id": "758c5d62c0b24076",
+    "title": "RBC's Lori Calvasina Sees S&P 500 Upside Despite Fed Risk",
+    "url": "https://www.bloomberg.com/news/videos/2026-08-17/rbc-s-calvasina-sees-s-p-500-upside-despite-fed-risk-video",
+    "summary": "Wall Street traders sent\u00a0stocks\u00a0and\u00a0bonds\u00a0wavering in the Monday session as fresh Middle East violence stoked concerns about an escalation of the war that has jolted global markets. Following the\u00a0S&P 500\u2019s longest weekly advance since May, the gauge fluctuated.\u00a0Chipmakers\u00a0rallied as\u00a0Anthropic PBC\u2019s revenue surge bolstered bets on the artificial-intelligence trade.\u00a0Brent crude\u00a0rose to around $89, leaving traders wary about inflationary pressures that could make the\u00a0Federal Reserve\u00a0raise rates. Treasury\u00a030-year yields\u00a0hit the highest since 2007.\n\nLori Calvasina, Head of US Equity Strategy at RBC Capital Markets, explains why Fed policy uncertainty, potential rate hikes and valuation concerns may not be enough to derail the equity rally. She speaks to hosts Tom Keene and Paul Sweeney on Surveillance Radio. (Source: Bloomberg)",
+    "published_at": "2026-08-17T16:24:29+00:00",
+    "source_name": "Bloomberg Markets (via RSS)",
+    "source_url": "https://feeds.bloomberg.com/markets/news.rss",
+    "category": "macro",
+    "source_weight": 0.9,
+    "fetched_at": "2026-08-17T18:25:10.801186+00:00",
+    "intelligence_score": 131.78,
+    "rank": 1,
+    "category_weight": 1.1,
+    "score_breakdown": {
+      "topic_score": 80,
+      "source_multiplier": 1.1,
+      "entity_bonus": 23,
+      "keyword_bonus": 0,
+      "recency_multiplier": 1.1,
+      "novelty_multiplier": 1.0,
+      "category_weight": 1.1,
+      "matched_topics": [
+        "artificial_intelligence",
+        "geopolitics",
+        "semiconductors",
+        "energy_transition",
+        "central_banks"
+      ]
+    }
+  },
+  "timestamp": "2026-08-17T18:25:16.797209+00:00"
+}
