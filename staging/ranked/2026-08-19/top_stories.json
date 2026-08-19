@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-08-19",
+    "top_n": 1,
+    "selected_at": "2026-08-19T06:28:28.117460+00:00"
+  },
+  "stories": [
+    {
+      "id": "8938f3f35e3b9227",
+      "title": "Block\u2019s new Apache 2.0 agent workspace Berd works across models and harnesses, stores conversation history locally",
+      "url": "https://venturebeat.com/orchestration/blocks-new-apache-2-0-agent-workspace-berd-works-across-models-and-harnesses-stores-conversation-history-locally",
+      "summary": "Block , the technology company founded by former Twitter CEO Jack Dorsey that owns Square, Cash App and the music streaming service Tidal, is open-sourcing  Berd , a desktop application it originally built to give its own employees a single environment for working with AI agents across different models, tools and projects. Berd is a locally installed graphical desktop application rather than a browser-based workspace. It is  available now on GitHub  under a permissive Apache 2.0 license \u2014 meaning anyone can use, modify and redistribute it, including commercially \u2014 with free downloadable builds for macOS, Windows and Linux. The repository reached version 0.6.2 on Aug. 18, its seventh public release, and lists 91 contributors. \u201cBerd is desktop-first because much of its value comes from working directly with projects, local files, tools, repositories, and agents running on or connected to the user\u2019s computer,\u201d Brad Axen, Head of AI Capabilities at Block, told VentureBeat in emailed responses. A daily work surface for AI agents Block positions Berd as a \u201cdaily AI work surface\u201d: a single place where users can start chats, attach files or folders, choose agents and models, work inside persistent projects, configure AI providers, manage skills and extensions, review session history and build automations. The design goal is not merely convenience. According to Berd\u2019s product specification, users should always be able to tell which project, files, agent, model, provider and session state are actively shaping a conversation. That emphasis on visible operational state is what Block says separates Berd from a generic chatbot wrapper. Configuration \u2014 providers, extensions, skills, automations, projects \u2014 is treated as part of the workflow rather than buried in an administrative layer, and the interface is designed to expose failures, unavailable providers, and loading and streaming states plainly rather than smoothing them over with assistant-style friendliness. Berd grew out of a practical problem inside Block. Employees were already working with capable agents \u2014 Block\u2019s own Goose, Anthropic\u2019s Claude Code and OpenAI\u2019s Codex \u2014 but the experience around them had become fragmented. \u201cWe had capable agents through goose, Claude Code, and Codex, but working across them meant navigating different interfaces, configuration systems, and ways of managing context,\u201d Lucinda Bell, Technology Communications at Block, said in an email. Berd, she said, gives Block teams \u201cone consistent desktop application across models and harnesses.\u201d For enterprises, that layer may matter as much as another incremental gain in model capability. Persistent projects mean users can return to an established collection of files, instructions and agent configurations instead of reconstructing context for each task. Block also explicitly designed Berd to make agentic work accessible beyond engineering, letting people start with a conversation and add tools, context and structure as the work requi",
+      "published_at": "2026-08-18T23:23:22+00:00",
+      "source_name": "VentureBeat",
+      "source_url": "https://venturebeat.com/feed/",
+      "category": "technology",
+      "source_weight": 0.7,
+      "fetched_at": "2026-08-19T06:28:19.459868+00:00",
+      "intelligence_score": 122.62,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 78.5,
+        "source_multiplier": 0.9,
+        "entity_bonus": 30,
+        "keyword_bonus": 2,
+        "recency_multiplier": 1.05,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition",
+          "venture_capital"
+        ]
+      }
+    }
+  ]
+}
