@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "date": "2026-08-20",
+    "top_n": 1,
+    "selected_at": "2026-08-20T06:29:58.260345+00:00"
+  },
+  "stories": [
+    {
+      "id": "b7c2fec452c0837e",
+      "title": "OpenAI hit the brakes. Now what?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause [\u2026]",
+      "published_at": "2026-08-19T17:10:09+00:00",
+      "source_name": "The Verge",
+      "source_url": "https://www.theverge.com/rss/index.xml",
+      "category": "technology",
+      "source_weight": 0.8,
+      "fetched_at": "2026-08-20T06:29:47.833116+00:00",
+      "intelligence_score": 117.6,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 73.0,
+        "source_multiplier": 1.0,
+        "entity_bonus": 30,
+        "keyword_bonus": 0,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "india",
+          "energy_transition",
+          "venture_capital",
+          "china"
+        ]
+      }
+    }
+  ]
+}
