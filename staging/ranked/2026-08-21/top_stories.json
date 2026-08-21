@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "date": "2026-08-21",
+    "top_n": 1,
+    "selected_at": "2026-08-21T06:31:38.777673+00:00"
+  },
+  "stories": [
+    {
+      "id": "5e86b723ff64bcfe",
+      "title": "Debates over AI consciousness are a trap",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "summary": "\u201cRunaway\u201d AI, \u201crogue\u201d agents, and \u201cautonomous\u201d actors\u2014the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly \u201csuperhuman\u201d systems, while a separate faction, led by policy organizations\u2026",
+      "published_at": "2026-08-20T15:42:39+00:00",
+      "source_name": "MIT Technology Review",
+      "source_url": "https://www.technologyreview.com/feed/",
+      "category": "technology",
+      "source_weight": 0.9,
+      "fetched_at": "2026-08-21T06:31:27.693895+00:00",
+      "intelligence_score": 135.1,
+      "rank": 1,
+      "category_weight": 1.2,
+      "score_breakdown": {
+        "topic_score": 61.6,
+        "source_multiplier": 1.3,
+        "entity_bonus": 38,
+        "keyword_bonus": 1,
+        "recency_multiplier": 1.0,
+        "novelty_multiplier": 1.0,
+        "category_weight": 1.2,
+        "matched_topics": [
+          "artificial_intelligence",
+          "geopolitics",
+          "energy_transition",
+          "regulation_policy"
+        ]
+      }
+    }
+  ]
+}
